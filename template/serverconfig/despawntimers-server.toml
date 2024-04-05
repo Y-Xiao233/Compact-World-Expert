@@ -1,0 +1,4 @@
+#The time, in ticks, that a mob may not despawn for after spawning.
+#Range: 0 ~ 9223372036854775807
+despawn_delay = 600
+

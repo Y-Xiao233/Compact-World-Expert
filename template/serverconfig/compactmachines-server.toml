@@ -1,0 +1,34 @@
+
+#Machines
+[machines]
+	#Specifies machine breakability while players are inside.
+	# 'unbreakable' = Nobody can break while players are inside.
+	# 'owner' = Only the owner can break while players are inside.
+	# 'anyone' = Anyone can break while players are inside.
+	#Allowed Values: UNBREAKABLE, OWNER, ANYONE
+	breakHandling = "UNBREAKABLE"
+	#The Y-dimension to spawn machine floors at.
+	#Range: 10 ~ 200
+	floor = 40
+	#Specify if we want to damage player's that managed to escape the boundries
+	#default: false
+	allowOutside = false
+
+[commands]
+
+	[commands.permLevels]
+		#Specifies requirements for running administrative commands. Requires a server restart to take effect.
+		#0 = ALL, 1 = ADMIN, 2 = OP, 4 = OWNER
+		#Command level required for using the rebind and unbind commands.
+		#Range: 0 ~ 4
+		rebind = 2
+		#Command level required for giving new machines to players.
+		#Range: 0 ~ 4
+		give = 2
+		#Command level required for changing room spawn information.
+		#Range: 0 ~ 4
+		spawn = 2
+		#Command level required for changing room upgrades.
+		#Range: 0 ~ 4
+		upgrades = 2
+

@@ -1,0 +1,1169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "354FF9E33E408A04"
+	group: "6BC88FEED10015D3"
+	icon: "naturesaura:wood_stand"
+	id: "354FF9E33E408A04"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "farmersdelight:block/stove_front_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 18.0d
+			hover: [ ]
+			image: "botania:block/enchanter"
+			order: -1
+			rotation: 0.0d
+			width: 18.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "elementalcraft:elementalcraft/jewels/water_strider"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -4.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5CC8E12A86F03069"]
+			description: [
+				"&b修复方式为下图所示"
+				"用&c魔源宝石&f在工作台内合成的方式&a修复&c(在使用时不会被彻底破坏)"
+				"{image:kubejs:textures/ftbquests/repair_psiknife.png width:100 height:60 align:1 fit:true}"
+			]
+			id: "1B80D35438CA7772"
+			tasks: [{
+				id: "0EFC61A5E0C16C18"
+				item: {
+					Count: 1b
+					id: "kubejs:psiknife"
+					tag: {
+						Damage: 31
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["234E3AE5A24923D3"]
+			id: "5CC8E12A86F03069"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "70FB9A90F6765307"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62BFB1D7E804CE4C"]
+			id: "370038C9EF107DE8"
+			tasks: [{
+				id: "79BDCF7C1731441F"
+				item: "kubejs:source_fiber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62BFB1D7E804CE4C"]
+			id: "4F7D2ABA14E5218E"
+			tasks: [{
+				id: "37401F02AA5ACD08"
+				item: "psi:cad_assembly_psimetal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4F7D2ABA14E5218E"
+				"370038C9EF107DE8"
+			]
+			description: [
+				"&a要合成这个物品"
+				"&d你的CAD至少需要以下配置"
+				"&c[基础CAD核心]&a[Psi金属CAD机体]&c[基础CAD弹夹]"
+				"{image:kubejs:textures/ftbquests/gold_fiber.png width:100 height:140 align:1 fit:true}"
+			]
+			id: "6837E73B047AC233"
+			tasks: [{
+				id: "0C375DD995B5AF0D"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6837E73B047AC233"
+				"443D5E6FE11BBE62"
+			]
+			id: "4FF625CF06DD7F54"
+			tasks: [{
+				id: "28588376A83C3965"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6837E73B047AC233"]
+			id: "443D5E6FE11BBE62"
+			tasks: [{
+				id: "68EB837E3030161C"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F7D2ABA14E5218E"]
+			description: [
+				"&a要合成这个物品"
+				"&d你的CAD至少需要以下配置"
+				"&c[基础CAD核心]&a[Psi金属CAD机体]&c[基础CAD弹夹]"
+				"{image:kubejs:textures/ftbquests/gold_fiber.png width:100 height:140 align:1 fit:true}"
+			]
+			id: "1260C3167DDB93DA"
+			tasks: [{
+				id: "1942B3F16C097524"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["234E3AE5A24923D3"]
+			id: "2396E832E8261A7A"
+			tasks: [{
+				id: "1C77A4D0A800CFC7"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1260C3167DDB93DA"
+				"2396E832E8261A7A"
+			]
+			id: "4F26485ACC9ACE93"
+			tasks: [{
+				id: "6759A59F3370998B"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2396E832E8261A7A"
+				"4FF625CF06DD7F54"
+				"4F26485ACC9ACE93"
+			]
+			id: "68B9480C8ED8DCDA"
+			tasks: [{
+				id: "47D46569AF0AA0DF"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4F26485ACC9ACE93"
+				"68B9480C8ED8DCDA"
+			]
+			id: "559D06F47006224A"
+			tasks: [{
+				id: "1173E765E6B53EAE"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["559D06F47006224A"]
+			id: "554CFBD29F0B694A"
+			rewards: [
+				{
+					id: "22E2779D17F81743"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76B8F7C82BDFDE8F"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14E9B8903727F3C8"
+				item: "kubejs:gold_rich_compact_wall"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["554CFBD29F0B694A"]
+			description: ["挖掘此方块&c不会掉落&a原本的掉落物"]
+			id: "0AE3835D21BEF693"
+			rewards: [{
+				id: "61D0882A47C83A17"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5533DC3EC008918A"
+				item: "minecraft:gold_ore"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"559D06F47006224A"
+				"20C2D92E888636AA"
+			]
+			id: "01C9C2A8ADDD71D6"
+			tasks: [
+				{
+					id: "651320E8BE2AD6B0"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "205DB5FE8B11288B"
+					item: "kubejs:functionalstorage_upgrade_base"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"01C9C2A8ADDD71D6"
+				"443D5E6FE11BBE62"
+			]
+			id: "5106542DCFB0A8CA"
+			tasks: [
+				{
+					id: "13EAE1DACAD8F513"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:oak_4"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:oak_2"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:oak_1"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36EB095172D6B383"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:pusher_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:collector_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:puller_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "抽屉"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["234E3AE5A24923D3"]
+			id: "2E2119F5644FB72E"
+			tasks: [
+				{
+					id: "0FE0D12FDAA0EA5D"
+					item: "hexerei:belladonna_flower"
+					type: "item"
+				}
+				{
+					id: "78C298A2A028030C"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "4A712808CF2353D0"
+					item: "hexerei:belladonna_berries"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["234E3AE5A24923D3"]
+			id: "0B0DB2B720F1D0C7"
+			tasks: [
+				{
+					id: "6FB9F1A934678DDF"
+					item: "hexerei:sage_seed"
+					type: "item"
+				}
+				{
+					id: "18DAC793F3C57866"
+					item: "hexerei:sage"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E2119F5644FB72E"
+				"0B0DB2B720F1D0C7"
+			]
+			id: "091F3E1EDD13641E"
+			rewards: [{
+				count: 8
+				id: "410BCDE28DA93C4A"
+				item: "hexerei:mindful_trance_blend"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B0D7F1B4BE0F2A8"
+				item: "hexerei:mindful_trance_blend"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["565C6267F7BE78BA"]
+			id: "206DE33B7D1DBF47"
+			rewards: [{
+				count: 16
+				id: "5E4A9D367F8C7EF8"
+				item: "kubejs:source_psicoal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42ED7D992474FB5F"
+				item: "botania:floating_endoflame"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["091F3E1EDD13641E"]
+			id: "565C6267F7BE78BA"
+			rewards: [{
+				count: 16
+				id: "7D0BFA7F7EBA380D"
+				item: "hexerei:moon_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A150D4C47B1B97F"
+				item: "hexerei:moon_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4FF625CF06DD7F54"
+				"565C6267F7BE78BA"
+			]
+			id: "2EB1962BEB28AA4E"
+			tasks: [{
+				id: "02A6953A3EA1E505"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2EB1962BEB28AA4E"]
+			id: "14ECCABE87D4576C"
+			tasks: [{
+				id: "7A5E9A305DE001CD"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["559D06F47006224A"]
+			id: "20C2D92E888636AA"
+			tasks: [
+				{
+					id: "675D01587925AB60"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "6A5374D77DBC80AF"
+					item: "hexerei:pestle_and_mortar"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["565C6267F7BE78BA"]
+			id: "543761F9708EC621"
+			tasks: [{
+				id: "26DB5050B1E04E8C"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"543761F9708EC621"
+				"14ECCABE87D4576C"
+			]
+			id: "605DC59B597852A1"
+			rewards: [{
+				count: 16
+				id: "2ACD46618EA17404"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6711A51BF7B30333"
+				item: "minecraft:polished_andesite"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["605DC59B597852A1"]
+			id: "7A4CFB1C41D6F40B"
+			tasks: [{
+				id: "4D735003E49BC525"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A4CFB1C41D6F40B"]
+			id: "5CCAC8121FBDC339"
+			tasks: [{
+				id: "26A34B628865ABA2"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CCAC8121FBDC339"]
+			id: "25CC723A3292FE39"
+			rewards: [{
+				count: 4
+				id: "768EC16A4E26F7F4"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42AC5C5236E0BDDA"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["25CC723A3292FE39"]
+			id: "504B361D6059FEFD"
+			tasks: [{
+				id: "0C07F2BE6756435B"
+				item: "cwe:mana_crush_machine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"504B361D6059FEFD"
+				"0AE3835D21BEF693"
+			]
+			id: "07DAE1E9DAFFBB22"
+			tasks: [
+				{
+					id: "3D84333A41FA7B69"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "6F08AF3E96769DDC"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["770151A578433280"]
+			id: "3C659BB5A50BED9A"
+			tasks: [{
+				id: "0B2DE78A51FC49B7"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["20C2D92E888636AA"]
+			id: "164707345CBA50ED"
+			tasks: [{
+				id: "107E4801AAC99F22"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["164707345CBA50ED"]
+			description: [
+				"虽然&a精致存储&f的各类&c高级箱子&4&l无法合成&r"
+				"&d但是&f你可以通过&e基础->金升级&f来升级你的&d箱子"
+			]
+			id: "1BFA49D01F986413"
+			tasks: [
+				{
+					id: "59234AC11D535E31"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "2FB9BA642725BEB1"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "519FDCE4A96CFEA9"
+					item: "sophisticatedstorage:stack_upgrade_tier_3"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["504B361D6059FEFD"]
+			id: "5D13BA1EC2F45489"
+			tasks: [{
+				id: "6499946FAF829382"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07DAE1E9DAFFBB22"]
+			id: "344C52A84FB55CDF"
+			tasks: [{
+				id: "60014DECFF2AADF0"
+				item: "elementalcraft:whiterock"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["07DAE1E9DAFFBB22"]
+			id: "69BAEC21C63C7419"
+			tasks: [{
+				id: "395C4C678BD91620"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["504B361D6059FEFD"]
+			id: "6203E43BBDCBE289"
+			tasks: [{
+				id: "416304546C522D93"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6203E43BBDCBE289"
+				"1271B6DBFA1C0F74"
+			]
+			id: "71FB34748500080D"
+			tasks: [{
+				id: "41E46115E42EFE85"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69BAEC21C63C7419"]
+			id: "50C717B9943ECB3D"
+			tasks: [{
+				id: "7BB60C964FD62C34"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E0AEF51622BF4DD"]
+			id: "5AA0B5F0EFEF2E75"
+			tasks: [{
+				id: "136CF21A23F313BF"
+				item: "elementalcraft:extractor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"71FB34748500080D"
+				"50C717B9943ECB3D"
+				"0E0AEF51622BF4DD"
+			]
+			id: "29008D3CCD00EBBF"
+			rewards: [{
+				id: "6BC66031EE26A6E5"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE026E39563971C"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4586578D6CA31C45"]
+			id: "3C5857AC16D1C449"
+			tasks: [{
+				id: "5FEB0C7430D3247F"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						contentsUuid: [I;
+							1666483754
+							-777763829
+							-2041857422
+							1858775116
+						]
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6203E43BBDCBE289"]
+			id: "1271B6DBFA1C0F74"
+			tasks: [{
+				id: "2202F934F9C9B8AD"
+				item: "kubejs:imperfect_andesite_alloy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1271B6DBFA1C0F74"]
+			id: "001E308FD2BA1F2F"
+			tasks: [{
+				id: "62DDEC87683047E1"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BAEC21C63C7419"]
+			id: "7C2C4064AE68FE0A"
+			tasks: [
+				{
+					id: "5D2F12BCEA475238"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "182C7B7E9CF2758F"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["344C52A84FB55CDF"]
+			id: "0E0AEF51622BF4DD"
+			rewards: [{
+				count: 16
+				id: "7FE9ADA81B1F05EE"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			tasks: [{
+				id: "259F5DB9D62932E9"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["71FB34748500080D"]
+			id: "7DF7856A336F7748"
+			tasks: [{
+				id: "35340317179D2AC7"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"313300C22FA9CF55"
+				"3BF9078FCECAD704"
+			]
+			description: [
+				"&d可以利用下图方式自动化熔岩"
+				"{image:kubejs:textures/ftbquests/lava_1.png width:100 height:120 align:1 fit:true}"
+				"{image:kubejs:textures/ftbquests/lava_2.png width:100 height:60 align:1 fit:true}"
+			]
+			id: "770151A578433280"
+			tasks: [{
+				id: "4E92A12DE81F7EB4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["25CC723A3292FE39"]
+			id: "7DC802EA6EB1236B"
+			tasks: [{
+				id: "53DEB57C42AEF097"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7DF7856A336F7748"]
+			id: "313300C22FA9CF55"
+			tasks: [{
+				id: "7B49BD599A92C106"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DF7856A336F7748"]
+			id: "0C4DDAD7C14A1777"
+			tasks: [{
+				id: "4691C43A7F9EF588"
+				item: "elementalcraft:whiterock_burnt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C4DDAD7C14A1777"]
+			id: "3BF9078FCECAD704"
+			tasks: [{
+				id: "2B5660F5EFAF2456"
+				item: "elementalcraft:lavashrine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B0DB2B720F1D0C7"]
+			description: ["&a在砧板上切鼠尾草"]
+			id: "7DD97A44CA5F06B4"
+			tasks: [{
+				id: "18F17A47549F0DDD"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7DD97A44CA5F06B4"
+				"0B0DB2B720F1D0C7"
+			]
+			id: "24E477A417D2F569"
+			tasks: [{
+				id: "690A201CB751F708"
+				item: "hexerei:sage_bundle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DD97A44CA5F06B4"]
+			id: "12B171EAD9B6605E"
+			tasks: [{
+				id: "21780965C9F45A6F"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12B171EAD9B6605E"
+				"24E477A417D2F569"
+			]
+			id: "50DC6A29CC8F6920"
+			tasks: [{
+				id: "42FC06765FF7C5BF"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50DC6A29CC8F6920"]
+			description: ["&a在砧板上切干燥的鼠尾草捆"]
+			id: "4586578D6CA31C45"
+			tasks: [{
+				id: "416F6BE03550C38A"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C5857AC16D1C449"]
+			id: "5221F0B7D8C4AF99"
+			tasks: [{
+				id: "65A48D9323BA5966"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						contentsUuid: [I;
+							1012134346
+							-1050195250
+							-1516684975
+							-276305913
+						]
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4586578D6CA31C45"]
+			id: "6AF60428A37FF23D"
+			tasks: [{
+				id: "1964374713B4DB69"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AF60428A37FF23D"]
+			id: "6BF012E9BBFC5731"
+			rewards: [{
+				id: "62C72C99DE9A0C99"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF0AE6F50080F27"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["443D5E6FE11BBE62"]
+			id: "1618E6A6FCA0864D"
+			tasks: [{
+				id: "47916B561F7864CE"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1618E6A6FCA0864D"]
+			id: "417793515F34EF55"
+			tasks: [{
+				id: "177C60071059A8AB"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["770151A578433280"]
+			id: "3FC73DD0AD0927ED"
+			rewards: [
+				{
+					id: "1610D8D68D90C17F"
+					item: "compactmachines:machine_maximum"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "50109E8FFC8AE652"
+					item: "ringsofascension:ring_hungerless"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "20B1D6B9DCCD53A5"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B80D35438CA7772"]
+			id: "62BFB1D7E804CE4C"
+			tasks: [{
+				id: "4EC8DFEF0F2D552D"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["091F3E1EDD13641E"]
+			id: "0D2052AF10CDCB24"
+			tasks: [{
+				id: "34429054D975AA46"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "apotheosis:natures_blessing"
+							lvl: 7s
+						}]
+						RepairCost: 1
+						Unbreakable: 1b
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55B4E791CDAFCAAD"]
+			id: "555A01BA82D7D9B7"
+			tasks: [{
+				id: "6F3C7CA6C2A95C73"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4A9A332C7773143F"]
+			id: "55B4E791CDAFCAAD"
+			tasks: [{
+				id: "6FAA069B64ADB3E8"
+				item: "kubejs:shining_gold_mix"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["07DAE1E9DAFFBB22"]
+			id: "4A9A332C7773143F"
+			tasks: [{
+				id: "0CF765FAC6360128"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71FB34748500080D"]
+			id: "45F5C47ED6231F36"
+			tasks: [{
+				id: "2D9C2D02001FDC81"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3C659BB5A50BED9A"]
+			id: "2189882BA4020BB6"
+			tasks: [{
+				id: "5BE3D341FA944B5C"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+	]
+	title: "原初魔法"
+}

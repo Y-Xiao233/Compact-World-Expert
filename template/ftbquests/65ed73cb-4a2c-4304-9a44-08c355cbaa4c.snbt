@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "65ed73cb4a2c43049a4408c355cbaa4c"
+	name: "Y_Xiao233"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

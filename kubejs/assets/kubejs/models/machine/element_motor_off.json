@@ -1,0 +1,53 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "kubejs:block/custom_machinery/element_motor/element_motor_shaft",
+		"1": "kubejs:block/custom_machinery/element_motor/element_motot_main",
+		"particle": "kubejs:block/custom_machinery/element_motor/element_motot_main"
+	},
+	"elements": [
+		{
+			"name": "coil",
+			"from": [0, 0, 3],
+			"to": [16, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"east": {"uv": [1.5, 0, 6.5, 8], "rotation": 180, "texture": "#1", "cullface": "east"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#1"},
+				"west": {"uv": [1.5, 0, 6.5, 8], "texture": "#1", "cullface": "west"},
+				"up": {"uv": [1.5, 0, 6.5, 8], "rotation": 90, "texture": "#1", "cullface": "up"},
+				"down": {"uv": [1.5, 0, 6.5, 8], "rotation": 270, "texture": "#1", "cullface": "down"}
+			}
+		},
+		{
+			"name": "housing",
+			"from": [2, 2, 0],
+			"to": [14, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"faces": {
+				"north": {"uv": [9, 1, 15, 7], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [9, 1, 16, 7], "texture": "#1"},
+				"south": {"uv": [1, 9, 7, 15], "texture": "#1"},
+				"west": {"uv": [8, 1, 15, 7], "texture": "#1"},
+				"up": {"uv": [9, 0, 15, 7], "texture": "#1"},
+				"down": {"uv": [9, 1, 15, 8], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Axis",
+			"from": [6, 6, 6],
+			"to": [10, 10, 16],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [6, 6, 10, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [6, 6, 10, 10], "texture": "#0"},
+				"west": {"uv": [6, 6, 10, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [6, 6, 10, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [6, 6, 10, 16], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,704 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "425939884D3DD947"
+	group: "6BC88FEED10015D3"
+	icon: "psi:psimetal"
+	id: "425939884D3DD947"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "psi:textures/gui/signs/sign5.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ars_nouveau:textures/sounds/fire_family.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "botania:block/alfheim_portal_swirl"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:item/corporea_spark"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["284C737C09134719"]
+			description: ["&ashift+空手&c右键&f紧实型压缩空间壁&c获得"]
+			id: "20E673E14865AC24"
+			rewards: [{
+				id: "108F191D5848E59A"
+				item: "ringsofascension:ring_night_vision"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "37182489695F2030"
+				item: "kubejs:compact_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["20E673E14865AC24"]
+			id: "50C3467F414075DB"
+			tasks: [{
+				id: "2DF1FAE640FB54DA"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["50C3467F414075DB"]
+			id: "6D3F1E3D704AEDBE"
+			rewards: [{
+				id: "340E59DBA2715405"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7623F1F847354220"
+				item: "kubejs:cad_assembly_compact"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50C3467F414075DB"]
+			id: "43F327E70AA05075"
+			tasks: [{
+				id: "3D55566F4A92413F"
+				item: "kubejs:compact_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D3F1E3D704AEDBE"]
+			id: "12D59D8DAD83CF76"
+			tasks: [{
+				id: "3CB092AEDDB9EF78"
+				item: "psi:cad_assembly_iron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50C3467F414075DB"]
+			id: "554ABFF8D638AEE5"
+			tasks: [{
+				id: "79EB4B385802DEE9"
+				item: "psi:cad_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"12D59D8DAD83CF76"
+				"554ABFF8D638AEE5"
+			]
+			id: "3415042D883837B7"
+			tasks: [{
+				id: "440357B64EE88DDC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Battery: 0
+							Memory: [ ]
+							Time: 10337
+						}
+					}
+					id: "psi:cad"
+					tag: {
+						CapabilityData: {
+							Battery: 0
+							Memory: [ ]
+							Time: 10336
+						}
+						componentASSEMBLY: {
+							Count: 1b
+							id: "psi:cad_assembly_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3415042D883837B7"]
+			id: "54688761AC0C9662"
+			tasks: [{
+				id: "2F8522F931654D98"
+				item: "psi:psidust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50C3467F414075DB"]
+			id: "0F12FBB536E5461D"
+			tasks: [{
+				id: "547817BF208480D2"
+				item: "cyclic:workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"54688761AC0C9662"
+				"0F12FBB536E5461D"
+			]
+			id: "056C197BA6FD0B45"
+			tasks: [{
+				id: "70FFF236C4C900C6"
+				item: "kubejs:highly_rough_psimetal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["056C197BA6FD0B45"]
+			id: "5A76A0897969FF56"
+			tasks: [{
+				id: "0A68A17F743D4598"
+				item: "psi:programmer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5A76A0897969FF56"
+				"4AB6262F17A4EAF3"
+			]
+			id: "48A1C014CD60C106"
+			tasks: [{
+				id: "43254F3A08DD190C"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["78DF124E7913661C"]
+			id: "1CEEA6210D4F17B2"
+			tasks: [{
+				id: "7555BF700B036A0F"
+				item: "botania:floating_pure_daisy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1CEEA6210D4F17B2"]
+			description: ["&a利用奖励物品以及方块放置器来做自动化吧！"]
+			id: "478DBE88504156E5"
+			rewards: [
+				{
+					count: 2
+					id: "5DC536052BEBC6FE"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F4FE83875AC1A49"
+					item: {
+						Count: 1b
+						id: "modularrouters:breaker_module"
+						tag: {
+							modularrouters: {
+								Direction: "NONE"
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19A147668EC424FF"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["056C197BA6FD0B45"]
+			id: "724D4089A101001B"
+			tasks: [{
+				id: "68B2514376673325"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["724D4089A101001B"]
+			id: "105AA6AEC3E26238"
+			rewards: [
+				{
+					count: 8
+					id: "231311C0EF29EBBB"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0BCA652C2A7ABCB5"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65E13E5CBC2F6F12"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "328C719F92A660A4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:source_gem_block"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:source_gem"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "魔源宝石"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["105AA6AEC3E26238"]
+			id: "44CC50FE50F79BEA"
+			tasks: [{
+				id: "5F199A6F4523F6D6"
+				item: "kubejs:source_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44CC50FE50F79BEA"]
+			id: "4AB6262F17A4EAF3"
+			tasks: [
+				{
+					id: "00C698A58A346BDB"
+					item: "psi:cad_socket_basic"
+					type: "item"
+				}
+				{
+					id: "16A2DAB473E0EBB2"
+					item: {
+						Count: 1b
+						id: "psi:spell_bullet"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44CC50FE50F79BEA"]
+			description: ["&c不会消耗右键的方块"]
+			id: "529FEEB650A43FAE"
+			tasks: [{
+				id: "1239EC95F3F4C58D"
+				item: "kubejs:source_clay_ball"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["529FEEB650A43FAE"]
+			description: [
+				"&b[水滴右键泥土可以转化出水]"
+				"&a将魔源粘土球扔到水中有20%概率转化为粘土球"
+			]
+			id: "3B92022C6A8BC415"
+			tasks: [{
+				id: "369E478A524C73F4"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48A1C014CD60C106"]
+			description: ["&ashift+空手&c右键&f草方块&a有2%的概率&c获得"]
+			id: "0629CB8B857BE07A"
+			tasks: [{
+				id: "58CFEBE6BDBA84D1"
+				item: "kubejs:water_droplet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"28A5A617A0CB1DA0"
+				"3B92022C6A8BC415"
+			]
+			id: "1DB669254C3FB079"
+			tasks: [{
+				id: "37CCF90CA0D338A0"
+				item: "ceramicbucket:ceramic_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44CC50FE50F79BEA"]
+			description: ["&a可以燃烧4个物品"]
+			id: "2D3418AFB4E418AF"
+			tasks: [{
+				id: "5E60826207115A9F"
+				item: "kubejs:source_psicoal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D3418AFB4E418AF"]
+			id: "28A5A617A0CB1DA0"
+			tasks: [{
+				id: "7E587266007772E8"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0629CB8B857BE07A"
+				"1DB669254C3FB079"
+			]
+			description: ["&a水滴右键泥土转化出水"]
+			id: "3317803D41593B4A"
+			tasks: [{
+				id: "7E5B61C5B21CBD0F"
+				item: {
+					Count: 1b
+					id: "ceramicbucket:ceramic_bucket"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3317803D41593B4A"]
+			id: "521DB09EF601C482"
+			tasks: [{
+				id: "669475FDF09484BD"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"521DB09EF601C482"
+				"3317803D41593B4A"
+			]
+			description: [""]
+			id: "78DF124E7913661C"
+			tasks: [{
+				id: "604B745A5154A4A7"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["478DBE88504156E5"]
+			id: "06C10902CC8061C0"
+			tasks: [{
+				id: "7BF5ECCF2294C95C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["478DBE88504156E5"]
+			id: "28E21742DA8A91C2"
+			tasks: [{
+				id: "060A76B32AA1794C"
+				item: "botania:livingwood_twig"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28E21742DA8A91C2"]
+			id: "27297818E0C7415A"
+			tasks: [
+				{
+					id: "22C545E8E9C940ED"
+					item: {
+						Count: 1b
+						id: "kubejs:highly_rough_psimetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BF38C9487A0C9A4"
+					item: {
+						Count: 1b
+						id: "kubejs:highly_rough_psimetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D760FEB85599472"
+					item: {
+						Count: 1b
+						id: "kubejs:highly_rough_psimetal_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B9A4381D92E920B"
+					item: {
+						Count: 1b
+						id: "kubejs:highly_rough_psimetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28E21742DA8A91C2"]
+			id: "1A05DCB4D2E5FA80"
+			tasks: [{
+				id: "2BA6069CA3B6D2A4"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F37B4804F64B606"
+				"28E21742DA8A91C2"
+			]
+			description: [
+				"&c你需要把&a基础CAD核心&c和&a基础CAD弹夹&c一起放入CAD装配台中才能使用爆炸式"
+				"&d基础CAD电池是可选的"
+				"{image:kubejs:textures/ftbquests/cad_core.png width:110 height:160 align:1}"
+			]
+			id: "6075F3A979BD0064"
+			tasks: [
+				{
+					id: "534005828B3D9F37"
+					item: "psi:cad_core_basic"
+					type: "item"
+				}
+				{
+					id: "56FDDF85F357C407"
+					item: "psi:cad_battery_basic"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3317803D41593B4A"]
+			id: "7F37B4804F64B606"
+			tasks: [{
+				id: "7BC5D4B634E78B5A"
+				item: "kubejs:rough_psimetal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6075F3A979BD0064"]
+			description: [
+				"&d下面第一张图片是一个已经编辑好的爆炸式"
+				"[在&6术式编写台&f中编写]&b顺序依次是:"
+				""
+				""
+				"&l&a[启动式:爆炸]   &c[运算符:矢量追踪]    &a[运算符:实体视线]"
+				"&l&c[常数:数值]        &a[运算符:实体位置]    &c[选择符:施术者]"
+				""
+				""
+				"&b需要特别注意的是:"
+				"&c运算符:矢量追踪&f的&a&l位置&f和&a&l射线&4必须&f如下方第二张图所示"
+				"{image:kubejs:textures/ftbquests/explode.png width:160 height:110 align:1 fit:true}"
+				""
+				""
+				"{image:kubejs:textures/ftbquests/vector_note.png width:160 height:80 align:1 fit:true}"
+			]
+			id: "234E3AE5A24923D3"
+			rewards: [
+				{
+					id: "1FD9E98E773A5500"
+					item: "compactmachines:machine_maximum"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0D33A3F190C1415A"
+					item: "ringsofascension:ring_speed"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6517B4DDF862CD34"
+				item: "psi:psimetal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F37B4804F64B606"]
+			id: "3AC34D27D80CDE85"
+			tasks: [{
+				id: "18504E656C0B6E42"
+				item: "cyclic:placer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+	title: "开始"
+}

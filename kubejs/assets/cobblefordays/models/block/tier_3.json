@@ -1,0 +1,6 @@
+{
+  "parent": "cobblefordays:block/generator",
+  "textures": {
+    "material": "create:block/andesite_block"
+  }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "元素马达",
+    "appearance": {
+        "block": "kubejs:machine/element_motor_off",
+        "light":15,
+        "hardness": 1,
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "mining_level": "minecraft:needs_stone_tool",
+        "running": {
+            "block": "kubejs:machine/element_motor_on"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "id": "input1",
+        "x": 87,
+        "y": 30,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 116,
+        "y": 30,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "元素马达",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+        {
+            "mode": "input",
+            "id": "input1",
+            "type": "custommachinery:item"
+          },
+          {
+              "type": "custommachinery:redstone",
+              "poweroutput": 15
+          },
+          {
+            "type": "custommachinery:contraption",
+            "mode": "output",
+            "speed": 64,
+            "stress": 256
+          }
+    ],
+    "catalysts": []
+  }

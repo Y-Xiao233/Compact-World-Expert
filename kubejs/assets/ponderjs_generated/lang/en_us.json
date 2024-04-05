@@ -1,0 +1,9 @@
+{
+  "kubejs.ponder.fluid_tank.header": "世界合成",
+  "kubejs.ponder.fluid_tank.text_1": "空手+shift对着流体罐(并非伪造流体罐)右键",
+  "kubejs.ponder.fluid_tank.text_2": "在这些冒红色粒子效果的地方放置物台",
+  "kubejs.ponder.fluid_tank.text_3": "拿着对应物品右键置物台把物品放上去",
+  "kubejs.ponder.fluid_tank.text_4": "然后在中间的流体储罐内倒入对应流体",
+  "kubejs.ponder.fluid_tank.text_5": "最后拿着对应的物品右键流体储罐",
+  "kubejs.ponder.fluid_tank.text_6": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了"
+}

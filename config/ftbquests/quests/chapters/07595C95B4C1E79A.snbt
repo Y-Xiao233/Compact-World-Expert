@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "07595C95B4C1E79A"
+	group: "1FC04254FBE7C665"
+	icon: "create:goggles"
+	id: "07595C95B4C1E79A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "&c本章节可以制作的辅助物品"
+}

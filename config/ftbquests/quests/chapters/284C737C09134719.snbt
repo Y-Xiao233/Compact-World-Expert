@@ -1,0 +1,507 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "284C737C09134719"
+	group: ""
+	icon: "compactmachines:wall"
+	id: "284C737C09134719"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&a请认真查看本章内容！！！"]
+			icon: "compactmachines:machine_maximum"
+			id: "1FDCB826EB03CF3C"
+			rewards: [
+				{
+					id: "5236DD6F2E7755BF"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								apotheosis: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								cyclic: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "cyclic:cyclic_guide_book"
+									}
+								}
+								elementalcraft: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+								laserio: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+								}
+								modularrouters: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+								naturesaura: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+								psi: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "psi:encyclopaedia_psionica"
+									}
+								}
+								thermal: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0698AD0CF97E3394"
+					item: {
+						Count: 1b
+						id: "morphtool:tool"
+						tag: {
+							"morphtool:data": {
+								ae2: {
+									Count: 1b
+									id: "ae2:nether_quartz_wrench"
+								}
+								create: {
+									Count: 1b
+									id: "create:wrench"
+								}
+								cyclic: {
+									Count: 1b
+									id: "cyclic:cable_wrench"
+								}
+								fluxnetworks: {
+									Count: 1b
+									id: "fluxnetworks:admin_configurator"
+								}
+								framedblocks: {
+									Count: 1b
+									id: "framedblocks:framed_wrench"
+								}
+								hammerlib: {
+									Count: 1b
+									id: "hammerlib:wrench"
+								}
+								laserio: {
+									Count: 1b
+									id: "laserio:laser_wrench"
+								}
+								mekanism: {
+									Count: 1b
+									id: "mekanism:configurator"
+								}
+								pipez: {
+									Count: 1b
+									id: "pipez:wrench"
+								}
+								powah: {
+									Count: 1b
+									id: "powah:wrench"
+									tag: {
+										PowahWrenchNBT: { }
+									}
+								}
+								refinedstorage: {
+									Count: 1b
+									id: "refinedstorage:wrench"
+								}
+								rftoolsbase: {
+									Count: 1b
+									id: "rftoolsbase:smartwrench_select"
+								}
+								thermal: {
+									Count: 1b
+									id: "thermal:wrench"
+									tag: { }
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15A94AD2479BE830"
+				title: "欢迎"
+				type: "checkmark"
+			}]
+			title: "欢迎来到Compact World"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&a若物品在rei中有信息这一栏"
+				"&c请务必仔细查看"
+				"&d若有一些不属于Create的物品有思索"
+				"&c请务必仔细查看"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/info.png"
+				}
+			}
+			id: "06E0BFF667E68E71"
+			tasks: [{
+				id: "279DB321873DBA4E"
+				title: "关于信息"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&a所有多方块结构均有蓝图，可以在蓝图桌找到对应的结构并在世界中预览"
+				"&cps:请勿对着蓝图按&4&lshift+右键&r&c，导致崩端概不负责"
+			]
+			icon: "create:schematic"
+			id: "4A38C173C13B34F6"
+			rewards: [
+				{
+					id: "1AA0C876E0881DA4"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "32FFA2F6277E01F7"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "56643A88073C8628"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2E70B30AB02A841B"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "25B7B129ACBE8FD3"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5989A50FF1CD361F"
+				title: "关于多方块结构"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&a它属于专家包（&c也许"
+				"&d非专家慎入"
+			]
+			icon: "compactmachines:personal_shrinking_device"
+			id: "4F67D961CD101ADE"
+			rewards: [{
+				id: "2CBE23B02538795F"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CE167BE1B34C5BA"
+				title: "关于难度"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&a我强制禁用了许多规则，具体如下："
+				"1.doTraderSpawning(禁止流浪商人生成)"
+				"2.doMobSpawning(禁止生物自然生成)"
+				"3.mobGriefing(防爆)"
+				"4.doWeatherCycle(禁止天气变化)"
+				""
+				"&a我强制启用了两个规则："
+				"1.keepInventory(死亡不掉落)"
+				"2.doMobLoot(生物掉落物)"
+			]
+			icon: "minecraft:chain"
+			id: "4D8EE2598E08F030"
+			tasks: [{
+				id: "2842A61730AF57A0"
+				title: "关于游戏"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&l&o&n&d作者：Y_Xiao233"
+				""
+				"&a特别感谢："
+				"Red_Tea_Co"
+				""
+				"&d感谢以下对整合包开发做出贡献的："
+				"落秋FalAut"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1710060491
+							1244414724
+							-1706817341
+							1439410764
+						]
+						Name: "Y_Xiao233"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ4OTM3NDI0OCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "658E3E99A8B99C0B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "4B1A4922DC27D68F"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1710060491
+									1244414724
+									-1706817341
+									1439410764
+								]
+								Name: "Y_Xiao233"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ4OTM3NDI0OCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "05B7A9C0028F129C"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-803157436
+									-1374270028
+									-1142197095
+									418052210
+								]
+								Name: "Red_Tea_co"
+								Properties: {
+									textures: [{
+										Signature: "JN6GRtEB/gGTQHbq8yg6+h4hFzH0wHKfP5AsTNm8elWX6jpAaV9kDGYCI/8WGiDCe+g1L2EeU8I1fpSwZhnyFd0gKXKWLwz+HjdbcJd/6F4AYsXThFX6RWL0LIC30tX3c2SzndlBh+mVsKpw3R6D/Ot/+j0IZG5FzElqfTAsI29XIYkR750/hIL76SgPXNABiD+9ZO7mN7vVIb5O1vPpP9kDsuxiKSQhOL+wCKY+2UbKmJy/qECgvpjiG4WwdCr3cezDrYDo1DaqmIEB1g20oSagGDub2PTeFWKTqINYjHLCHydRdmDTcW6CW84OdbOEfPZI++NyDJLxpBRrZKsuWBKRDw3FjQ710CwhNkIW8Hq48Y2DflRT0824lu5y7aF1wS7181aVPP0CecaTm8iMEWLFPO1JzjFIiPS6P7NabWmYOSt7GPpC4KjQf/MuiCxCaBEAtnKiL88iNVAuSAm8LTTT2+EysDzWkR380+rTlifoAuil2YBwXIL5v2A+hDFQLkMnig7wKRFoyPDVmKpiXmLIGFZ9VU3EM9YVQvr2udI2XqE3c++9bh29TUttQNmERGSGeFvJYOOJKb/sarZu+NIMDPToH4hoxa6INPz8bgTdfpTn90mbE0Z5T68FzvHBV4RdWJZ5hvWSrCSbNVN5TfuWj6GsCT59r0kGvQ+G0/E="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NTUzMDM0OSwKICAicHJvZmlsZUlkIiA6ICJkMDIwY2E0NGFlMTY0ZGI0YmJlYjc0OTkxOGVhZjg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRfVGVhX2NvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMzMzYWMxNmRkZTZkZGQ4MTFhMzY4ZDQ0YjA3NTNiN2Q5NGE2NTc5YWMyNzI0YWIyZTA1MDRjZTM0MGZlNzYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"点击前往作者的b站主页\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/451025800\"}}"
+					id: "60A172CB548D77A9"
+					title: "&e作者的b站主页"
+					type: "command"
+				}
+			]
+			subtitle: "&d&l&o作者：Y_Xiao233"
+			tasks: [{
+				id: "37088664BB36827F"
+				title: "关于作者"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&d感谢秋明的直播以及视频宣传"
+				"&a秋明虎牙直播：秋明-黑桃A"
+				"&a秋明b站：Sweet秋明"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							584541818
+							1661160081
+							-1425719069
+							-1721764358
+						]
+						Name: "Tyumen_"
+						Properties: {
+							textures: [{
+								Signature: "c/pCdMv2GY8JSrFvS03yU83CT5Zh2pGL9LOP1cqo9J7pHWRQDkun6cEvmboLM9w0r1OCr8YyVcQOBtn9e179sF2aRLnWDz8QCLTZND0KQv6SO1M97MOju2ULCdnIYAfK/kJ4iZ+xJD28HJY7L4OKltiCGwWpd81PiWZjR1eFYzN03RR5C4GLOeaoUr7D3mS2us1PvPLfd6JFq0kXZM261XUnYtcklw2LvyHf6sXtShNAnP5bgJy9ANOvNfUYI7/0r5YSmu9N2TADQU/23eGVGN1uac4k6SixajtQnch6wkZsjwHuJVwHiC0BRIzM6aGZuEm6VdmhdFgnaoBzUFnhZAoAuLBB5yA0BWBYOhITYCzIrstrxMsyweDNEU4L356DWTbToV55eHr+hgIOiIvH+CGyGXvymh3P6Kf3VvNa5DE3mjG2RMKlMIc/2AOgxHwwd+m4Gh6t63CE8qWeGbAY6qAMw12c5mfycM0oFmWZ+8UIApcGWTsQFU1+nwz5PgvrmH4mWtkC6dIuGU0JkY+IqGpbkUWQ4LhOOGcWo5Xt01F+xYIE8PQ1Uzs3yhosnYn5JD36BnrONvV2SuSKc7DIjvsU5caU70NYJOEhxYCIxH5WngoNoRnrskiuddWu5KzIzb3dGeaYMJs7NVpD4drzjRV2bnVrEXhYo5vU8JEa5s0="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQyNDIwOTc3MiwKICAicHJvZmlsZUlkIiA6ICIyMmQ3NjY3YTYzMDM0YTkxYWIwNTQwZTM5OTVmZjVmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXVtZW5fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNTE4MWQ5Mjg1MTYyNmVmYTk0MDc5ZWVhNDgzYzM2NmQwZThhYzUwNDMwZTYzNDcwNjJmZjk5YjdhMmZmYjAiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "7B3D001CD0D9D794"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"点击前往Sweet秋明的b站主页\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/32796946?spm_id_from=333.337.0.0\"}}"
+					id: "37DB732992173DC4"
+					title: "&eSweet秋明的b站主页"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/tellraw @a {\"text\":\"点击前往Sweet秋明的虎牙主页\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.huya.com/raini\"}}"
+					id: "0EC42AD5EA323A2D"
+					title: "&eSweet秋明的虎牙主页"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "4E7502B11019C4DE"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									584541818
+									1661160081
+									-1425719069
+									-1721764358
+								]
+								Name: "Tyumen_"
+								Properties: {
+									textures: [{
+										Signature: "c/pCdMv2GY8JSrFvS03yU83CT5Zh2pGL9LOP1cqo9J7pHWRQDkun6cEvmboLM9w0r1OCr8YyVcQOBtn9e179sF2aRLnWDz8QCLTZND0KQv6SO1M97MOju2ULCdnIYAfK/kJ4iZ+xJD28HJY7L4OKltiCGwWpd81PiWZjR1eFYzN03RR5C4GLOeaoUr7D3mS2us1PvPLfd6JFq0kXZM261XUnYtcklw2LvyHf6sXtShNAnP5bgJy9ANOvNfUYI7/0r5YSmu9N2TADQU/23eGVGN1uac4k6SixajtQnch6wkZsjwHuJVwHiC0BRIzM6aGZuEm6VdmhdFgnaoBzUFnhZAoAuLBB5yA0BWBYOhITYCzIrstrxMsyweDNEU4L356DWTbToV55eHr+hgIOiIvH+CGyGXvymh3P6Kf3VvNa5DE3mjG2RMKlMIc/2AOgxHwwd+m4Gh6t63CE8qWeGbAY6qAMw12c5mfycM0oFmWZ+8UIApcGWTsQFU1+nwz5PgvrmH4mWtkC6dIuGU0JkY+IqGpbkUWQ4LhOOGcWo5Xt01F+xYIE8PQ1Uzs3yhosnYn5JD36BnrONvV2SuSKc7DIjvsU5caU70NYJOEhxYCIxH5WngoNoRnrskiuddWu5KzIzb3dGeaYMJs7NVpD4drzjRV2bnVrEXhYo5vU8JEa5s0="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQyNDIwOTc3MiwKICAicHJvZmlsZUlkIiA6ICIyMmQ3NjY3YTYzMDM0YTkxYWIwNTQwZTM5OTVmZjVmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXVtZW5fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNTE4MWQ5Mjg1MTYyNmVmYTk0MDc5ZWVhNDgzYzM2NmQwZThhYzUwNDMwZTYzNDcwNjJmZjk5YjdhMmZmYjAiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C8F9F4D2A425D63"
+				title: "鸣谢"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&a我使用LockDown强制锁定了生成的地图"
+				"&d你只能在这个地图中进行游玩"
+				"&c开局所处的空间并非压缩空间生成，而是手动搭建的，所以别想着出去了"
+			]
+			icon: "compactmachines:wall"
+			id: "46CB645E3DB174FC"
+			tasks: [{
+				id: "504A9860C5189A5C"
+				title: "关于世界类型"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"&c1.仅为测试版本，并不代表最终品质"
+				"&c2.在未发布正式版前以任何形式传播将追究责任，该版本仅在我的群中进行测试"
+				""
+				""
+				"&a若有建议及bug，欢迎加群"
+				"&a一群群号：814125336"
+				"&a二群群号：902264428"
+			]
+			icon: "ae2:creative_item_cell"
+			id: "473617B13C681BA5"
+			tasks: [{
+				id: "74815D5C7F8F81A6"
+				title: "关于整合包"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: ["&a请勿直接将两个&d合成/产出&e魔源/魔力&a的自定义机器使用&5支配之杖&a相连接"]
+			icon: "cwe:source_craftingtable"
+			id: "6E230EDD09351327"
+			tasks: [{
+				id: "517B60756FFABE4A"
+				type: "checkmark"
+			}]
+			title: "关于自定义机器"
+			x: -2.0d
+			y: -2.0d
+		}
+	]
+	title: "欢迎"
+}

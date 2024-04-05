@@ -1,0 +1,1551 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0CCB7C52D9D7412E"
+	group: "6BC88FEED10015D3"
+	icon: "ars_nouveau:source_jar"
+	id: "0CCB7C52D9D7412E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 25.0d
+			hover: [ ]
+			image: "create:block/andesite_casing"
+			rotation: 0.0d
+			width: 25.0d
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: [ ]
+			image: "apotheosis:blocks/salvaging_table_side"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.8d
+			hover: [ ]
+			image: "ars_nouveau:blocks/purple_archwood_sapling"
+			rotation: 0.0d
+			width: 1.8d
+			x: 4.9d
+			y: 1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "naturesaura:block/nature_altar_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "botania:block/alchemy_catalyst_overlay"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.0d
+			y: -5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			id: "30782F4DFAA15B61"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "430075FCD3FD718D"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30782F4DFAA15B61"]
+			hide_dependency_lines: true
+			id: "4D7465B820A9F8DD"
+			tasks: [{
+				id: "4780CC222D151F6C"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D7465B820A9F8DD"
+				"271D2CE91F03E4EE"
+			]
+			id: "2CCDDA6472CB9380"
+			tasks: [{
+				id: "73CD8E84BE53DBB9"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30782F4DFAA15B61"]
+			id: "271D2CE91F03E4EE"
+			tasks: [{
+				id: "5D57F9F823C73620"
+				item: "elementalcraft:swift_alloy_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30782F4DFAA15B61"]
+			hide_dependency_lines: true
+			id: "22BF8111E83F6FB9"
+			tasks: [{
+				id: "7021429184CCE41B"
+				item: "kubejs:spherical_mold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2CCDDA6472CB9380"
+				"22BF8111E83F6FB9"
+			]
+			id: "041B45EF72DEA92C"
+			tasks: [{
+				id: "1B111E30855FBBDE"
+				item: "kubejs:blank_element_ball"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["041B45EF72DEA92C"]
+			id: "436DABD2CAF143B5"
+			tasks: [{
+				id: "55F43E7710D1C022"
+				item: "kubejs:trace_fire_element_ball"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["436DABD2CAF143B5"]
+			description: [
+				"&d可以燃烧32个物品"
+				"&a或许是给火红莲提供燃料的不错方法"
+			]
+			id: "0273EC7435D10E5B"
+			tasks: [{
+				id: "5FE0ED68ECA4AB92"
+				item: "elementalcraft:firecrystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			id: "6360945D2308F3CB"
+			tasks: [{
+				id: "5543BBAE91BCCF2E"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["647498AAA86951CB"]
+			id: "43DAFCDB3DC484E0"
+			tasks: [{
+				id: "22A4FEAEC39D0350"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["206DAD752F47346A"]
+			id: "647498AAA86951CB"
+			tasks: [{
+				id: "7A1F0EF3F7309E07"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["319EE4985EF9E3D5"]
+			id: "206DAD752F47346A"
+			tasks: [{
+				id: "08AAB05FF7E3F794"
+				item: {
+					Count: 1b
+					id: "kubejs:swift_alloy_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0273EC7435D10E5B"]
+			id: "12D85D3B4D0DE1F8"
+			tasks: [{
+				id: "2B7C1D26E320AA21"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12D85D3B4D0DE1F8"]
+			id: "319EE4985EF9E3D5"
+			tasks: [{
+				id: "54EC01FBABCBB7CE"
+				item: "kubejs:archwood_stick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"43DAFCDB3DC484E0"
+				"7014F2A9FF5CF3C8"
+				"6360945D2308F3CB"
+			]
+			id: "7C711695E360075C"
+			tasks: [{
+				id: "08AFEAF6C40FB1C9"
+				item: "compactcrafting:field_projector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			id: "7014F2A9FF5CF3C8"
+			tasks: [{
+				id: "3C5556EB5C29CFB2"
+				item: "kubejs:projector_dish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7C711695E360075C"
+				"5AA10F217E6C1A0B"
+			]
+			description: ["&d你必须制作钥匙去往主世界的其他房间，不然没有足够的位置摆放制作奥数核心的结构"]
+			id: "037EAE7E4CE963B9"
+			rewards: [
+				{
+					id: "1755BEB03F1A324D"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								5
+								5
+								5
+							]
+							Deployed: 0b
+							File: "魔源罐.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "526D49E4A08F4855"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								7
+								7
+								7
+							]
+							Deployed: 0b
+							File: "附魔装置.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3594EC31D33631F8"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								9
+								9
+								9
+							]
+							Deployed: 0b
+							File: "奥数核心.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3718127F84D518C6"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "6B4854B2FAA25CEC"
+					item: "ars_nouveau:source_jar"
+					type: "item"
+				}
+				{
+					id: "0086CA9E191B2F3D"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			id: "5AA10F217E6C1A0B"
+			tasks: [{
+				id: "5FF0AAD928C2BF24"
+				item: "kubejs:swift_alloy_key"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["36A7BFFC2F569895"]
+			description: [
+				"&d下面第一张图片是一个已经编辑好的雷击式"
+				"[在&6术式编写台&f中编写]&b顺序依次是:"
+				""
+				""
+				"&l&a[启动式:雷击]   &c[运算符:矢量追踪]    &a[运算符:实体视线]"
+				"&l                                &a[运算符:实体位置]    &c[选择符:施术者]"
+				""
+				""
+				"&b需要特别注意的是:"
+				"&c运算符:矢量追踪&f的&a&l位置&f和&a&l射线&4必须&f如下方第二张图所示"
+				""
+				""
+				"{image:kubejs:textures/ftbquests/lightning.png width:160 height:110 align:1 fit:true}"
+				"{image:kubejs:textures/ftbquests/vector_note.png width:160 height:80 align:1 fit:true}"
+			]
+			id: "7197FE9E6650B34F"
+			tasks: [
+				{
+					id: "0352BD54CAAE8A50"
+					item: "cwe:mana_sourcelink"
+					type: "item"
+				}
+				{
+					id: "4FE6463C4B0E0906"
+					item: "ars_nouveau:relay"
+					type: "item"
+				}
+				{
+					id: "1FC2E8449A176211"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:dominion_wand"
+						tag: {
+							an_dominion_wand: {
+								entityID: -1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"647498AAA86951CB"
+				"43DAFCDB3DC484E0"
+			]
+			id: "40070201EB30760D"
+			tasks: [{
+				id: "5910649F05D08610"
+				item: "spirit:soul_powder"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40070201EB30760D"]
+			id: "36A7BFFC2F569895"
+			tasks: [{
+				id: "2D6D94BFFA013953"
+				item: "spirit:soul_powder_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"623AF83FA2654D18"
+				"037EAE7E4CE963B9"
+				"7197FE9E6650B34F"
+			]
+			description: [
+				"&a消耗火元素水晶产生应力"
+				"&c(&m没有水车)"
+			]
+			id: "09696F0434E21B52"
+			tasks: [{
+				id: "36DE4D7626AA83BA"
+				item: "cwe:element_motor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7197FE9E6650B34F"]
+			id: "623AF83FA2654D18"
+			tasks: [{
+				id: "5890320C3EDA0389"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3BB7116A5F16D8DB"
+				"623AF83FA2654D18"
+			]
+			id: "35AC84A039B7744C"
+			tasks: [{
+				id: "7627D4BF2C64B66F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40B1C96A393E0D9B"]
+			id: "3BB7116A5F16D8DB"
+			tasks: [{
+				id: "441D613637F15731"
+				item: "quark:smooth_soul_sandstone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40070201EB30760D"]
+			id: "40B1C96A393E0D9B"
+			tasks: [{
+				id: "56F891A82B58180B"
+				item: "quark:soul_sandstone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["037EAE7E4CE963B9"]
+			description: [
+				"&d在为其设置魔源输入时,"
+				"&c只可接收来自魔源罐的魔源，"
+				"&4而不能接收来自魔源中继器的魔源"
+				"&a简而言之，在为其设置魔源输入时:"
+				"&a先用&d支配之杖&e右键&a魔源罐,"
+				"&a再用&d支配之杖&e右键&a魔源工作台"
+			]
+			id: "036D07A9E9412ABA"
+			tasks: [{
+				id: "68637AC0E8E1EDB6"
+				item: "cwe:source_craftingtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["036D07A9E9412ABA"]
+			id: "008C78D564D83FF3"
+			tasks: [
+				{
+					id: "3AE9516BF4DA44CE"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "2ABDD8437CB6F21F"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["036D07A9E9412ABA"]
+			id: "2D11930B738E7C68"
+			tasks: [{
+				id: "6500BE8B6CB1C30E"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"008C78D564D83FF3"
+				"2D11930B738E7C68"
+			]
+			id: "426C64EBEE0D6720"
+			tasks: [{
+				id: "74F7E06D4577F367"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12D85D3B4D0DE1F8"]
+			id: "3F506CD3427E4F6F"
+			tasks: [{
+				id: "40CE146A27B5ED96"
+				item: "kubejs:gem_earth"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3F506CD3427E4F6F"
+				"40070201EB30760D"
+			]
+			id: "6FBF244E0B45E32B"
+			tasks: [
+				{
+					id: "622F6F24A7110169"
+					item: "elementalcraft:extractor_improved"
+					type: "item"
+				}
+				{
+					id: "1F36C2D1CC934BE9"
+					item: "elementalcraft:container"
+					type: "item"
+				}
+				{
+					id: "70E2DDA6F21EB428"
+					item: "elementalcraft:elementpipe"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FBF244E0B45E32B"]
+			id: "1E761AE1EA8263B1"
+			tasks: [{
+				id: "12A7933AC6FF8BD5"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"69BAEC21C63C7419"
+				"3FC73DD0AD0927ED"
+			]
+			id: "29897069407688D7"
+			tasks: [{
+				id: "4EAECF70E61E77FC"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29897069407688D7"]
+			id: "390CEBEB530D0F00"
+			tasks: [{
+				id: "426159DA7C47043F"
+				item: "kubejs:bottle_water"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1E761AE1EA8263B1"
+				"390CEBEB530D0F00"
+			]
+			id: "1EFB694616692836"
+			tasks: [{
+				id: "6905D26A13173D21"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["390CEBEB530D0F00"]
+			hide_dependency_lines: true
+			id: "3A85785C97BC6056"
+			tasks: [{
+				id: "434DF2B0918145EC"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A85785C97BC6056"]
+			id: "1165D941E26A7D13"
+			tasks: [{
+				id: "56DBD1DEEFA71174"
+				item: "minecraft:grass"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1165D941E26A7D13"]
+			id: "7217BB7EA4749193"
+			tasks: [{
+				id: "10CEEF9B471CC5FB"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7217BB7EA4749193"]
+			id: "436EAEE67ACE65B1"
+			tasks: [{
+				id: "7FE72F3F6908011C"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1EFB694616692836"
+				"436EAEE67ACE65B1"
+			]
+			id: "37858A5885BCDEEE"
+			tasks: [{
+				id: "49DEDE1FEF8B93C5"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			id: "31A243DA740F9B31"
+			tasks: [{
+				id: "7E63FF896159854F"
+				item: "minecraft:purple_dye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"31A243DA740F9B31"
+				"37858A5885BCDEEE"
+			]
+			id: "5EB183BD9934D73C"
+			tasks: [{
+				id: "669DEFDBEF2F70AF"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["436EAEE67ACE65B1"]
+			id: "344B3E5DD7292E8E"
+			tasks: [{
+				id: "6FD30BFC492D43E8"
+				item: "ars_nouveau:blank_glyph"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"344B3E5DD7292E8E"
+				"5EB183BD9934D73C"
+			]
+			id: "2FB82E3B932237C5"
+			tasks: [
+				{
+					id: "6FBB17B5AF2B9570"
+					item: "ars_nouveau:glyph_sensitive"
+					type: "item"
+				}
+				{
+					id: "0E708309901E3881"
+					item: "ars_nouveau:glyph_crush"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FB82E3B932237C5"]
+			id: "1C17E1E054A98CBE"
+			tasks: [{
+				id: "4BEDFA8FD61CD6CD"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2FB82E3B932237C5"]
+			id: "0E94233A1174C65C"
+			tasks: [{
+				id: "0BC0913DDBFF73EA"
+				item: "thermal:gold_dust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C17E1E054A98CBE"
+				"3F694B647457FF29"
+			]
+			id: "782A5D42E978EAB6"
+			tasks: [{
+				id: "71BAACC4307BC82C"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E94233A1174C65C"]
+			id: "3F694B647457FF29"
+			tasks: [
+				{
+					id: "2076EA3B99A0EBDC"
+					item: {
+						Count: 1b
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B8C39FF68F9FC3B"
+					item: "kubejs:mana_powder"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["782A5D42E978EAB6"]
+			id: "54FE74611E08BF8B"
+			tasks: [{
+				id: "71569AD7ED4015BB"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54FE74611E08BF8B"]
+			id: "1CAA6E76CD01D8D9"
+			tasks: [{
+				id: "73A3955704D1E94C"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F694B647457FF29"]
+			id: "61FD444489EF09E8"
+			tasks: [{
+				id: "53590115298EDEB5"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"61FD444489EF09E8"
+				"54FE74611E08BF8B"
+			]
+			id: "153995065B88F356"
+			tasks: [{
+				id: "798F693E246F4AE9"
+				item: "naturesaura:calling_spirit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"153995065B88F356"
+				"1CAA6E76CD01D8D9"
+				"2BF8F6C967EC873B"
+			]
+			description: [
+				"&c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!"
+				"&a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来"
+				"&d因此你需要制作物品收集器将其收集进来"
+			]
+			id: "69AE8E795DE7E41C"
+			tasks: [{
+				id: "1F395749A30C287F"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			id: "3AE88605CB1F265B"
+			tasks: [{
+				id: "3F3DF38B7B699990"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54FE74611E08BF8B"]
+			description: [
+				"&c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!"
+				"&a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来"
+				"&d因此你需要制作物品收集器将其收集进来"
+			]
+			hide_dependency_lines: true
+			id: "2BF8F6C967EC873B"
+			rewards: [{
+				id: "2BCFF944B662F385"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "385ED6F6D9C18FF3"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			description: [""]
+			id: "0D35EB7522B4C4A8"
+			tasks: [{
+				id: "506F671D3FEE165D"
+				item: "botania:fabulous_pool"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			id: "5B84F68E9759450F"
+			tasks: [{
+				id: "6C5ACFA2E805AA54"
+				item: "botania:bifrost_perm"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3AE88605CB1F265B"
+				"5B84F68E9759450F"
+				"0D35EB7522B4C4A8"
+			]
+			id: "097A7E59CD28064A"
+			tasks: [{
+				id: "134734031DABB356"
+				item: "cwe:mana_booster"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			id: "78D93C3568302D91"
+			tasks: [
+				{
+					id: "661C13A8CCAD1E50"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "25E9C93654836997"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_isolated"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_recessive"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dominant"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dispersive"
+								}
+								{
+									Count: 1b
+									id: "kubejs:spark_upgrade_base"
+								}
+							]
+						}
+					}
+					title: "火花升级"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"623AF83FA2654D18"
+				"4060D343A7FA205B"
+			]
+			id: "474BDD9BAA2E77F4"
+			tasks: [{
+				id: "0308AF41A8AA89FB"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["008C78D564D83FF3"]
+			id: "0BABBBFE12BB6A57"
+			tasks: [
+				{
+					id: "54453256000EF8F0"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "0BF94FF957A1894F"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["008C78D564D83FF3"]
+			id: "0786D9F59925F566"
+			tasks: [{
+				id: "1B0495A0A5ACCEB5"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"0786D9F59925F566"
+				"0BABBBFE12BB6A57"
+			]
+			description: [
+				"&a从左往右分别给抽屉加入输出/抽取升级"
+				"&d放入对应材料即可实现自动"
+				"{image:kubejs:textures/ftbquests/salvaging.png width:240 height:80 align:1 fit:true}"
+			]
+			id: "23367A1087968291"
+			tasks: [{
+				id: "4A090544168457F3"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2FB82E3B932237C5"]
+			id: "38CDE1989DAC9DE6"
+			tasks: [
+				{
+					id: "38969FC4E8E5A253"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "LOCKING"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55A1F15FF9A2744B"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23367A1087968291"]
+			id: "4060D343A7FA205B"
+			tasks: [
+				{
+					id: "7384A87EB47BA459"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "0E395164E160E498"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					id: "032B66D1A97C9112"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "683D606AC7C11B7F"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					id: "350DE3157F540939"
+					item: "apotheosis:common_material"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35AC84A039B7744C"]
+			id: "686049150D5FDE64"
+			tasks: [{
+				id: "5A5AB17E0D772458"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"686049150D5FDE64"
+				"4060D343A7FA205B"
+			]
+			id: "7674D8A6A729B426"
+			tasks: [{
+				id: "2A6F0AF1932F51D0"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0786D9F59925F566"]
+			id: "19E5C17FA0175729"
+			tasks: [{
+				id: "54B0DE9C20D793F0"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["19E5C17FA0175729"]
+			id: "5404A1CBB6E94448"
+			tasks: [{
+				id: "37A77D145C31C6B7"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5404A1CBB6E94448"]
+			id: "2002579A48F0086C"
+			tasks: [{
+				id: "0F5934E4B0ABE20B"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2002579A48F0086C"
+				"3B72F37AE7B70FA4"
+			]
+			id: "4DDBCCEF5B2DB0B0"
+			rewards: [{
+				count: 2
+				id: "44CEAF31C074ABF3"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EDFC773B73613D5"
+					item: "ae2:quartz_growth_accelerator"
+					type: "item"
+				}
+				{
+					id: "5B3AE107EF1F06F9"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7674D8A6A729B426"]
+			id: "02BD0976C6B33199"
+			tasks: [
+				{
+					id: "73E7457F17E378AC"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "64B6133C744C1667"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2691724277AFE083"]
+			id: "1463B376F05A9201"
+			tasks: [{
+				id: "5E275EB0629BB274"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1463B376F05A9201"]
+			id: "3B72F37AE7B70FA4"
+			tasks: [{
+				id: "1C35DCAE53828C6F"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1463B376F05A9201"]
+			id: "1F2887CF4078E3CC"
+			tasks: [{
+				id: "1365473C29251F89"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"02BD0976C6B33199"
+				"5404A1CBB6E94448"
+			]
+			id: "2691724277AFE083"
+			tasks: [{
+				id: "18C66C849C8F818F"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B72F37AE7B70FA4"]
+			id: "13C112DEBE192F58"
+			tasks: [{
+				id: "017659524646A88C"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"02BD0976C6B33199"
+				"1463B376F05A9201"
+			]
+			id: "5ABFF3677A40EB84"
+			tasks: [
+				{
+					id: "05A9505B19FD4F31"
+					item: "ae2:energy_acceptor"
+					type: "item"
+				}
+				{
+					id: "4DC56884437031E9"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1463B376F05A9201"]
+			id: "521CF3AF4E790C74"
+			tasks: [{
+				id: "3A286BC7291F6CCE"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["21AD36E5537CF915"]
+			id: "7F673EB4780D4C9F"
+			tasks: [{
+				id: "3867290835AC06C4"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1463B376F05A9201"]
+			id: "21AD36E5537CF915"
+			tasks: [{
+				id: "2D91893DB6FB0C3F"
+				item: "ae2:fluix_block"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F673EB4780D4C9F"]
+			id: "597D2BC700651C3E"
+			tasks: [{
+				id: "22440D30DF0036DE"
+				item: "kubejs:rune_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F673EB4780D4C9F"]
+			id: "6A12A83E3ECD38F5"
+			tasks: [{
+				id: "1C42E4033566562E"
+				item: "kubejs:rune_blank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"597D2BC700651C3E"
+				"6A12A83E3ECD38F5"
+			]
+			id: "65B3B67A36F842F7"
+			tasks: [{
+				id: "1F627F78717028A5"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65B3B67A36F842F7"]
+			id: "17D608EBFF1BBD23"
+			tasks: [{
+				id: "42E840B4ECBF00AC"
+				item: "mythicbotany:gjallar_horn_empty"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["65B3B67A36F842F7"]
+			id: "3208DB754D645C86"
+			tasks: [{
+				id: "0A29E8FD6A802A54"
+				item: "mythicbotany:yggdrasil_branch"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"17D608EBFF1BBD23"
+				"3208DB754D645C86"
+			]
+			description: [
+				"&a你必须喝下这个才能进行符文仪式"
+				"{image:kubejs:textures/ftbquests/nygjallar_horn_full.png width:180 height:80 align:1}"
+			]
+			id: "156A4D964C9F03B0"
+			tasks: [{
+				id: "60568CD8AC06F03D"
+				item: "mythicbotany:gjallar_horn_full"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["65B3B67A36F842F7"]
+			hide_dependency_lines: true
+			id: "03F6D1EC8B961C7F"
+			tasks: [
+				{
+					id: "7F1C1BF71267C790"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "5118597BF3804D72"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["40070201EB30760D"]
+			description: [
+				"&a符文仪式所消耗的魔力必须来自"
+				"&d[玩家背包中的(高级/终极)魔力之戒]/&e[(浮空)符文矮牵牛]"
+			]
+			hide_dependency_lines: true
+			id: "23CB968ED1AB9DFA"
+			tasks: [{
+				id: "43EE4FCB35893929"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"03F6D1EC8B961C7F"
+				"156A4D964C9F03B0"
+				"23CB968ED1AB9DFA"
+			]
+			description: [
+				"1.&a符文仪式所消耗的魔力必须来自"
+				"&d[玩家背包中的(高级/终极)魔力之戒]/&e[(浮空)符文矮牵牛]"
+				""
+				"2.&a你必须喝下&d装有密米尔之泉水的加拉尔号角&a才能进行符文仪式"
+				""
+				"3.&b如果附近有足够魔力,&e(浮空)符文矮牵牛可以自动激活仪式"
+			]
+			icon: "spirit:soul_steel_block"
+			id: "0BF4E0A71E17AC31"
+			tasks: [
+				{
+					id: "7901F80E973B8572"
+					item: "spirit:soul_steel_block"
+					type: "item"
+				}
+				{
+					id: "4E8A212C1F639452"
+					item: "mythicbotany:petrunia_floating"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0BF4E0A71E17AC31"]
+			id: "2FB3DF89E9D0122A"
+			rewards: [{
+				id: "05CCC782734D492A"
+				item: "compactmachines:machine_maximum"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "10231E449FF30F67"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+	]
+	title: "魔法进阶"
+}

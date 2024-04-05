@@ -1,0 +1,182 @@
+
+["Non reloadable configs"]
+	#These configs require a game restart
+	#Should jade show how much mana the pool has?
+	"Should show mana tooltip" = true
+	#Should jade show advanced configs?
+	#For example how much mana does a spreader pass each burst
+	#This config is useless if [Should Show Mana Tooltip] is false
+	"Should show advanced tooltip" = true
+
+["Reloadable configs"]
+	#These configs require the /reload command to be executed
+	#Production of endoflame
+	#This is mana each tick, to know how much mana/sec multiply by 20 [5]
+	#Range: 1 ~ 100
+	"Endoflame production" = 5
+	#Hydroangeas duration
+	#How many ticks should hydroangeas last [72000]
+	#Put a value equal or below 0 to disable it
+	"Hydroangeas Ticks" = 72000
+	#Mana each black lotus
+	#How much mana should the black lotus give [8000]
+	"Black Lotus Mana" = 8000
+	#Mana each blacker lotus
+	#How much mana should the black lotus give [100000]
+	"Blacker Lotus Mana" = 100000
+	#Mana pool mana
+	#How much mana can a mana pool contain [1000000]
+	#This only affects mana pools placed after the configs is changed!
+	"Mana Pool Max Mana" = 1000000
+	#Diluted mana pool mana
+	#How much mana can a diluted mana pool contain [10000]
+	#This only affects mana pools placed after the configs is changed!
+	"Diluted Mana Pool Max Mana" = 10000
+	#Cost of orechid each block
+	#How much mana should orechid consume each block [17500]
+	#Range: 1 ~ 100000000
+	"Orechid cost" = 5
+	#Cost of orechid each block in garden of glass
+	#How much mana should orechid consume each block, when in a garden of glass word [700]
+	#Usually this cost is lower than the normal, but it's not a rule
+	#Range: 1 ~ 100000000
+	"Orechid cost GOG" = 700
+	#Ticks between a block conversion and the other
+	#How much time should the orechid wait before attempting to convert another block [100]
+	#This affects both orechid and orechid ignem
+	#Range: 1 ~ 100000000
+	"Orechid delay" = 2
+	#Ticks between a block conversion and the other in garden of glass
+	#How much time should the orechid wait before attempting to convert another block, when in a garden of glass word [2]
+	#Usually this delay is lower than the normal, but it's not a rule
+	#Range: 1 ~ 100000000
+	"Orechid delay GOG" = 2
+	#Horizontal range of orechid
+	#The range of the square where the orechid checks if there are convertible blocks [5]
+	#Increasing this too much could cause lag since a lot of blocks are being checked
+	#This affects both orechid and orechid ignem
+	#Range: 1 ~ 100
+	"Orechid range" = 5
+	#Vertical range of orechid
+	#The height of the cube where the orechid checks if there are convertible blocks [3]
+	#Increasing this too much could cause lag since a lot of blocks are being checked
+	#This affects both orechid and orechid ignem
+	#Range: 1 ~ 100
+	"Orechid range Y" = 3
+	#Cost of orechid ignem each block
+	#How much mana should orechid ignem consume each block [20000]
+	#Range: 1 ~ 100000000
+	"Orechid ignem Cost" = 20000
+
+	["Reloadable configs"."Mana Spreader Config"]
+		#How much mana should the spreader pass each burst
+		#Default [160]
+		"Mana each burst" = 160
+		#How much mana can the spreader contain
+		#Default [1000]
+		"Max mana" = 1000
+		#The hexadecimal color of the mana burst
+		#Putting an invalid color can, and will, break stuff :)
+		#From what I know it doesn't support opacity
+		#Default [#20FF20]
+		"Burst color" = "#20FF20"
+		#The hexadecimal color of the mana in the hud
+		#Same as the burst color, be sure the color is valid
+		#Default [#00FF00]
+		"HUD color" = "#00FF00"
+		#How much tick should pass before the burst starts losing mana
+		#As always 20 ticks => 1 second
+		#Default [60]
+		"Pre loss tick" = 60
+		#How much mana should be loss each tick after the PreLossTick expires
+		#Default [4.0]
+		"Loss tick" = 4.0
+		#The speed of the mana burst
+		#Values to high can break stuff
+		#Default [1.0]
+		"Burst speed" = 1.0
+
+	["Reloadable configs"."Redstone Mana Spreader Config"]
+		#How much mana should the spreader pass each burst
+		#Default [160]
+		"Mana each burst" = 160
+		#How much mana can the spreader contain
+		#Default [1000]
+		"Max mana" = 1000
+		#The hexadecimal color of the mana burst
+		#Putting an invalid color can, and will, break stuff :)
+		#From what I know it doesn't support opacity
+		#Default [#FF2020]
+		"Burst color" = "#FF2020"
+		#The hexadecimal color of the mana in the hud
+		#Same as the burst color, be sure the color is valid
+		#Default [#FF0000]
+		"HUD color" = "#FF0000"
+		#How much tick should pass before the burst starts losing mana
+		#As always 20 ticks => 1 second
+		#Default [60]
+		"Pre loss tick" = 60
+		#How much mana should be loss each tick after the PreLossTick expires
+		#Default [4.0]
+		"Loss tick" = 4.0
+		#The speed of the mana burst
+		#Values to high can break stuff
+		#Default [1.0]
+		"Burst speed" = 1.0
+
+	["Reloadable configs"."Elven Mana Spreader Config"]
+		#How much mana should the spreader pass each burst
+		#Default [240]
+		"Mana each burst" = 240
+		#How much mana can the spreader contain
+		#Default [1000]
+		"Max mana" = 1000
+		#The hexadecimal color of the mana burst
+		#Putting an invalid color can, and will, break stuff :)
+		#From what I know it doesn't support opacity
+		#Default [#FF45C4]
+		"Burst color" = "#FF45C4"
+		#The hexadecimal color of the mana in the hud
+		#Same as the burst color, be sure the color is valid
+		#Default [#FF00AE]
+		"HUD color" = "#FF00AE"
+		#How much tick should pass before the burst starts losing mana
+		#As always 20 ticks => 1 second
+		#Default [80]
+		"Pre loss tick" = 80
+		#How much mana should be loss each tick after the PreLossTick expires
+		#Default [4.0]
+		"Loss tick" = 4.0
+		#The speed of the mana burst
+		#Values to high can break stuff
+		#Default [1.0]
+		"Burst speed" = 1.25
+
+	["Reloadable configs"."Gaia Mana Spreader Config"]
+		#How much mana should the spreader pass each burst
+		#Default [640]
+		"Mana each burst" = 640
+		#How much mana can the spreader contain
+		#Default [6400]
+		"Max mana" = 6400
+		#The hexadecimal color of the mana burst
+		#Putting an invalid color can, and will, break stuff :)
+		#From what I know it doesn't support opacity
+		#Default [#20FF20]
+		"Burst color" = "#20FF20"
+		#The hexadecimal color of the mana in the hud
+		#Same as the burst color, be sure the color is valid
+		#Default [#00FF00]
+		"HUD color" = "#00FF00"
+		#How much tick should pass before the burst starts losing mana
+		#As always 20 ticks => 1 second
+		#Default [120]
+		"Pre loss tick" = 120
+		#How much mana should be loss each tick after the PreLossTick expires
+		#Default [20.0]
+		"Loss tick" = 20.0
+		#The speed of the mana burst
+		#Values to high can break stuff
+		#Default [1.0]
+		"Burst speed" = 2.0
+

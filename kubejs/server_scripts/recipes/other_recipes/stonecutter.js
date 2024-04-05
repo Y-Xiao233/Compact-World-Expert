@@ -1,0 +1,60 @@
+ServerEvents.recipes(event =>{
+    const id_prefix = 'compact_world:recipes/other_recipes/stonecutter/'
+    /**
+    {
+     input:,
+     output:,
+     id:`${id_prefix}`
+    }
+    */
+    const recipes = [
+        {
+            input:'kubejs:functionalstorage_upgrade_base',
+            output:'functionalstorage:pusher_upgrade',
+            id:`${id_prefix}pusher_upgrade`
+        },
+        {
+            input:'kubejs:functionalstorage_upgrade_base',
+            output:'functionalstorage:puller_upgrade',
+            id:`${id_prefix}puller_upgrade`
+        },
+        {
+            input:'kubejs:functionalstorage_upgrade_base',
+            output:'functionalstorage:collector_upgrade',
+            id:`${id_prefix}collector_upgrade`
+        },
+        {
+            input:'kubejs:spark_upgrade_base',
+            output:'botania:spark_upgrade_dispersive',
+            id:`${id_prefix}spark_upgrade_dispersive`
+        },
+        {
+            input:'kubejs:spark_upgrade_base',
+            output:'botania:spark_upgrade_dominant',
+            id:`${id_prefix}spark_upgrade_dominant`
+        },
+        {
+            input:'kubejs:spark_upgrade_base',
+            output:'botania:spark_upgrade_recessive',
+            id:`${id_prefix}spark_upgrade_recessive`
+        },
+        {
+            input:'kubejs:spark_upgrade_base',
+            output:'botania:spark_upgrade_isolated',
+            id:`${id_prefix}spark_upgrade_isolated`
+        },
+        {
+            input:'modularrouters:blank_upgrade',
+            output:'modularrouters:security_upgrade',
+            id:`${id_prefix}security_upgrade`
+        },
+        {
+            input:'modularrouters:blank_upgrade',
+            output:'modularrouters:camouflage_upgrade',
+            id:`${id_prefix}camouflage_upgrade`
+        }]
+
+    recipes.forEach(recipe =>{
+        event.recipes.minecraft.stonecutting(recipe.output,recipe.input).id(recipe.id)
+    })
+})

@@ -1,0 +1,20 @@
+{
+    "block.create_compressed.brass_sheet_block": "黄铜板块",
+    "block.create_compressed.crushed_zinc_pile": "粉碎锌矿堆",
+    "block.create_compressed.mechanism_block": "精密构建块",
+    "block.create_compressed.crushed_copper_pile": "粉碎铜矿堆",
+    "block.create_compressed.cogwheel_block": "齿轮板条箱",
+    "block.create_compressed.shaft_bundle": "传动杆捆",
+    "block.create_compressed.belt_block": "传送带板条箱",
+    "block.create_compressed.iron_sheet_block": "铁板块",
+    "block.create_compressed.copper_sheet_block": "铜板块",
+    "block.create_compressed.wheat_flour_pile": "小麦粉堆",
+    "block.create_compressed.crushed_gold_pile": "粉碎金矿堆",
+    "block.create_compressed.powdered_obsidian_pile": "黑曜石粉末堆",
+    "block.create_compressed.cinder_flour_pile": "余烬面粉堆",
+    "block.create_compressed.large_cogwheel_block": "大齿轮板条箱",
+    "block.create_compressed.gold_sheet_block": "金板块",
+    "block.create_compressed.sturdy_sheet_block": "坚固板块",
+    "block.create_compressed.crushed_iron_pile": "粉碎铁矿堆",
+    "block.create_compressed.dough_block": "面团块"
+  }

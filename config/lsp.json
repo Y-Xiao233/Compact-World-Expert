@@ -1,0 +1,12 @@
+{
+  "enablePreference": true,
+  "gameMode": "SURVIVAL",
+  "allowCheat": false,
+  "onlineMode": false,
+  "fixUUID": true,
+  "allowPVP": true,
+  "defaultPort": 25565,
+  "maxPlayer": 8,
+  "enableCustomUUIDMap": false,
+  "customUUIDMap": {}
+}

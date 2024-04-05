@@ -1,0 +1,7 @@
+#This is the list of crops which are either allowed or denied, depending on the Allow List configuration.
+Crops = []
+#If TRUE, the configuration list is an ALLOW list. If FALSE, it is a DENY list.
+"Allow List" = false
+#If TRUE, crops will be replanted when harvested via right click. This requires a seed to drop, and is removed from the drop list.
+"Attempt Replant" = true
+

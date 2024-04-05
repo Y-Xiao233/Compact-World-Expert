@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "kubejs:block/custom_machinery/source_craftingtable/crafting_table_top",
+		"1": "kubejs:block/custom_machinery/source_craftingtable/crafting_table_front",
+		"2": "kubejs:block/custom_machinery/source_craftingtable/crafting_table_side",
+		"3": "kubejs:block/custom_machinery/source_craftingtable/source_still",
+		"4": "kubejs:block/custom_machinery/source_craftingtable/crafting_table_bottom",
+		"particle": "kubejs:block/custom_machinery/source_craftingtable/crafting_table_top"
+	},
+	"elements": [
+		{
+			"from": [1, 1, 1],
+			"to": [15, 15, 15],
+			"faces": {
+				"north": {"uv": [0, 0, 14, 14], "texture": "#3"},
+				"east": {"uv": [0, 0, 14, 14], "texture": "#3"},
+				"south": {"uv": [0, 0, 14, 14], "texture": "#3"},
+				"west": {"uv": [0, 0, 14, 14], "texture": "#3"},
+				"up": {"uv": [0, 0, 14, 14], "texture": "#3"},
+				"down": {"uv": [0, 0, 14, 14], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	]
+}

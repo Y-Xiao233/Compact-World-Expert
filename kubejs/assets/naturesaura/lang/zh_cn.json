@@ -1,0 +1,16 @@
+{
+    "block.naturesaura.lower_limiter":"灵气失衡保护者",
+    "block.naturesaura.sky_ingot_block":"苍穹块",
+    "block.naturesaura.depth_ingot_block":"暗黑铸块",
+    "item.naturesaura.depth_ingot":"暗黑铸锭",
+    "item.naturesaura.vacuum_bottle":"瓶装真空",
+    "item.naturesaura.depth_helmet":"暗黑头盔",
+    "item.naturesaura.depth_chest":"暗黑胸甲",
+    "item.naturesaura.depth_pants":"暗黑护腿",
+    "item.naturesaura.depth_shoes":"暗黑靴子",
+    "item.naturesaura.depth_sword":"暗黑剑",
+    "item.naturesaura.depth_pickaxe":"暗黑镐",
+    "item.naturesaura.depth_axe":"暗黑斧",
+    "item.naturesaura.depth_shovel":"暗黑锹",
+    "item.naturesaura.depth_hoe":"暗黑锄"
+}

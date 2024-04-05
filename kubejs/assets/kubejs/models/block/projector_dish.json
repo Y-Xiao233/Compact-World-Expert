@@ -1,0 +1,37 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "kubejs:block/projector_dish/projector_dish_front",
+		"1": "kubejs:block/projector_dish/projector_dish_front_sides",
+		"2": "kubejs:block/projector_dish/projector_pole",
+		"particle": "kubejs:block/projector_dish/projector_dish_front"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 6],
+			"to": [10, 12, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"east": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"south": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"west": {"uv": [0, 0, 4, 12], "texture": "#2"},
+				"up": {"uv": [0, 0, 4, 3], "texture": "#2"},
+				"down": {"uv": [0, 6, 4, 10], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 3, 5],
+			"to": [16, 15, 7],
+			"faces": {
+				"north": {"uv": [0, 1, 16, 13], "texture": "#0"},
+				"east": {"uv": [0, 1, 2, 9], "texture": "#1"},
+				"south": {"uv": [0, 1, 16, 13], "texture": "#0"},
+				"west": {"uv": [10, 1, 12, 9], "texture": "#1"},
+				"up": {"uv": [1, 0, 11, 1], "texture": "#1"},
+				"down": {"uv": [1, 8, 11, 10], "texture": "#1"}
+			}
+		}
+	]
+}

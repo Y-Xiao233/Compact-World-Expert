@@ -1,0 +1,872 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2E4E3A3EDC19101F"
+	group: "6BC88FEED10015D3"
+	icon: {
+		Count: 1b
+		id: "tiab:time_in_a_bottle"
+		tag: { }
+	}
+	id: "2E4E3A3EDC19101F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["234E3AE5A24923D3"]
+			icon: "naturesaura:wood_stand"
+			id: "40FB21162E354800"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "77D526B82DE57184"
+				title: "原初魔法"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"443D5E6FE11BBE62"
+			]
+			description: ["&d便携工作台！"]
+			id: "4300724067E76872"
+			tasks: [{
+				id: "2520F6B17F5982BD"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"01C9C2A8ADDD71D6"
+				"40FB21162E354800"
+			]
+			description: ["&d可以大量存储一种/两种/四种物品"]
+			id: "16AFFC7DE7A558BC"
+			tasks: [
+				{
+					id: "490E1041D05EEBD1"
+					item: "functionalstorage:oak_1"
+					type: "item"
+				}
+				{
+					id: "3B741BA33387CF44"
+					item: "functionalstorage:oak_2"
+					type: "item"
+				}
+				{
+					id: "097E2FC7489B4FF3"
+					item: "functionalstorage:oak_4"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"01C9C2A8ADDD71D6"
+				"40FB21162E354800"
+			]
+			description: ["&d可以自动收集/输入/输出"]
+			id: "0D66CFB9473E0B5E"
+			tasks: [
+				{
+					id: "3D7CF3055179BC20"
+					item: {
+						Count: 1b
+						id: "functionalstorage:collector_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C9ADD79EF52B0DE"
+					item: {
+						Count: 1b
+						id: "functionalstorage:puller_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "316D7663AF73C9C7"
+					item: {
+						Count: 1b
+						id: "functionalstorage:pusher_upgrade"
+						tag: {
+							Direction: "down"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"1271B6DBFA1C0F74"
+			]
+			description: [
+				"&d可以将物品漏到世界中"
+				"&c底下有物品就不会漏"
+			]
+			id: "17A50085F166F289"
+			tasks: [{
+				id: "6F557C3C92481352"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40FB21162E354800"]
+			description: [
+				"虽然&a精致存储&f的各类&c高级箱子&4&l无法合成&r"
+				"&d但是&f你可以通过&e基础->金升级&f来升级你的&d箱子"
+			]
+			id: "5A1FE0EDD9443CB2"
+			tasks: [
+				{
+					id: "1939FCE6563CEF01"
+					item: "sophisticatedstorage:basic_to_gold_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "53DF9A50B8E9BAE4"
+					item: "sophisticatedstorage:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "6A3B1C2B3286AC69"
+					item: "functionalstorage:gold_upgrade"
+					type: "item"
+				}
+				{
+					id: "719BCD208EE17789"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"770151A578433280"
+			]
+			id: "32F5742A5E12986B"
+			tasks: [{
+				id: "5014D12EB346AC06"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cobblefordays:tier_1"
+							}
+							{
+								Count: 1b
+								id: "cobblefordays:tier_2"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "圆石制造机"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"4586578D6CA31C45"
+			]
+			id: "3CE06C98DBC2D4C3"
+			tasks: [{
+				id: "2E399923FF538DA3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+								tag: {
+									contentsUuid: [I;
+										-1424957360
+										481444293
+										-1648490673
+										-13651752
+									]
+									inventorySlots: 27
+									renderInfo: {
+										upgradeItems: [{
+											Count: 1b
+											id: "minecraft:air"
+											tag: {
+												"quark:RuneColor": {
+													Count: 1b
+													id: "quark:blank_rune"
+												}
+											}
+										}]
+									}
+									upgradeSlots: 1
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "背包"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"091F3E1EDD13641E"
+			]
+			id: "695BD722AADD190A"
+			tasks: [{
+				id: "7D63F732A797D11C"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "apotheosis:natures_blessing"
+							lvl: 7s
+						}]
+						RepairCost: 1
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"71FB34748500080D"
+			]
+			id: "093FE441E5F9D5B7"
+			tasks: [{
+				id: "2F4AD7E4B0E96841"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20E673E14865AC24"]
+			icon: "psi:psimetal"
+			id: "3590FCA754C646B9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "46192F5E53DDBA43"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "开始"
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"7F37B4804F64B606"
+				"3590FCA754C646B9"
+			]
+			hide_dependency_lines: false
+			id: "46A3CE3FD95C73D4"
+			tasks: [{
+				id: "49EC3D9AFFB6B6CD"
+				item: "cyclic:placer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3FC73DD0AD0927ED"]
+			hide: false
+			icon: "ars_nouveau:source_jar"
+			id: "275667457EA76B73"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "792D8BFC7575F175"
+				title: "魔法进阶"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"54FE74611E08BF8B"
+			]
+			id: "346EAB4C7B63F9D9"
+			tasks: [{
+				id: "34D6017F169B61BB"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"623AF83FA2654D18"
+			]
+			id: "277E132844CD7602"
+			tasks: [{
+				id: "69F9EEE78D0E963E"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"69AE8E795DE7E41C"
+			]
+			id: "6769ACA1D372DD7F"
+			tasks: [
+				{
+					id: "5FAE5343EC1B316A"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "4943AE971DD72969"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "kubejs:spark_upgrade_base"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_isolated"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_recessive"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dominant"
+								}
+								{
+									Count: 1b
+									id: "botania:spark_upgrade_dispersive"
+								}
+							]
+						}
+					}
+					title: "火花升级"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2FB82E3B932237C5"
+				"275667457EA76B73"
+			]
+			id: "340E93A2D092D507"
+			tasks: [
+				{
+					id: "1807108355637464"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "MULTIPLE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "182D221CEA54440C"
+					item: {
+						Count: 1b
+						id: "functionalstorage:configuration_tool"
+						tag: {
+							Mode: "TOGGLE_NUMBERS"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"0BF4E0A71E17AC31"
+			]
+			id: "03C39E54F27206BF"
+			tasks: [{
+				id: "4D16300A8FFF0046"
+				item: "ae2things:advanced_inscriber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"0BF4E0A71E17AC31"
+			]
+			id: "0850A3BB5FBE8EA5"
+			tasks: [{
+				id: "3D855D9F939EF891"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"0BF4E0A71E17AC31"
+			]
+			id: "7CED97BBB457C9AE"
+			tasks: [{
+				id: "3257F593F567AC8C"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"40FB21162E354800"
+				"5CC8E12A86F03069"
+			]
+			id: "137CAF9A75F09243"
+			tasks: [
+				{
+					id: "269D7243DA8DE0C1"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "603767D5D5F93D24"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"2FB3DF89E9D0122A"
+			]
+			id: "3F31F190180E494F"
+			tasks: [{
+				id: "115688EFFE51B71F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "spirit:soul_steel_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spirit:soul_steel_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spirit:soul_steel_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "spirit:soul_steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "灵魂钢工具"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"2FB3DF89E9D0122A"
+			]
+			id: "4BC5383EA9C130DF"
+			tasks: [{
+				id: "6BA4DE97E0AD2968"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modularrouters:dropper_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:energy_distributor_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:energy_output_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:flinger_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+										Pitch: 0.0f
+										Speed: 0.0f
+										Yaw: 0.0f
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:void_module"
+								tag: {
+									modularrouters: {
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:vacuum_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:puller_module_2"
+								tag: {
+									modularrouters: {
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:puller_module_1"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:player_module"
+								tag: {
+									modularrouters: {
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:placer_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:activator_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:sender_module_2"
+								tag: {
+									modularrouters: {
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:sender_module_1"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:detector_module"
+								tag: {
+									modularrouters: {
+										Direction: "NONE"
+										ModuleFilter: { }
+										SignalLevel: 15
+										StrongSignal: 0b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "modularrouters:distributor_module"
+								tag: {
+									modularrouters: {
+										ModuleFilter: { }
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "路由器模块"
+				type: "item"
+			}]
+			title: "路由器模块"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"2FB3DF89E9D0122A"
+			]
+			id: "0DC27530E2BA10D7"
+			tasks: [{
+				id: "52621B0B60A0C722"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modularrouters:xp_vacuum_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:filter_round_robin_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:pickup_delay_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:redstone_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:range_up_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:range_down_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:regulator_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:mimic_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:stack_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:pushing_augment"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:fast_pickup_augment"
+							}
+						]
+					}
+				}
+				title: "路由器拓展"
+				type: "item"
+			}]
+			title: "路由器拓展"
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"2FB3DF89E9D0122A"
+			]
+			id: "36C48B7B66C2895D"
+			tasks: [{
+				id: "23566863B7A9BD06"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "modularrouters:sync_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:stack_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:speed_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:security_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:fluid_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:energy_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:camouflage_upgrade"
+							}
+							{
+								Count: 1b
+								id: "modularrouters:blast_upgrade"
+							}
+						]
+					}
+				}
+				title: "路由器升级"
+				type: "item"
+			}]
+			title: "路由器升级"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"275667457EA76B73"
+				"2FB3DF89E9D0122A"
+			]
+			id: "5EC4E6F60D8640FB"
+			tasks: [{
+				id: "1FCBE3E638603D47"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+	]
+	title: "&c本章节可制作的辅助物品"
+}

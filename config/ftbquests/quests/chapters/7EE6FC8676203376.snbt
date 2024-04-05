@@ -1,0 +1,730 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7EE6FC8676203376"
+	group: "1FC04254FBE7C665"
+	icon: "kubejs:soul_steel_casing"
+	id: "7EE6FC8676203376"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FB3DF89E9D0122A"]
+			id: "3326802FFF6771F9"
+			tasks: [{
+				id: "62C8A227E30129CC"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3326802FFF6771F9"]
+			id: "6B1399265AE7BD71"
+			tasks: [{
+				id: "05FD7D94600E78CE"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B1399265AE7BD71"]
+			id: "0D46DCD9C088489A"
+			tasks: [{
+				id: "2734815C9E60F2BA"
+				item: "kubejs:soul_steel_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D46DCD9C088489A"
+				"6A48BF1139FE3515"
+			]
+			id: "531BA7A506DE9D38"
+			tasks: [{
+				id: "1C1EC2C403BC95E9"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D46DCD9C088489A"]
+			id: "604EBA61B80EA395"
+			tasks: [{
+				id: "1FE275FE9C6C59A9"
+				item: "naturesaura:token_euphoria"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["604EBA61B80EA395"]
+			id: "6A48BF1139FE3515"
+			tasks: [{
+				id: "1A8D7280C2A824BA"
+				item: "kubejs:token_euphoria_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6B1399265AE7BD71"]
+			id: "105D117A4BF0756C"
+			tasks: [{
+				id: "25526B6AF5FC3F3C"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A48BF1139FE3515"]
+			id: "342D277D8309A443"
+			tasks: [{
+				id: "482FB5718B511D58"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"342D277D8309A443"
+				"105D117A4BF0756C"
+			]
+			id: "6FA698F39B3333C0"
+			tasks: [{
+				id: "2C96F0577AE4F2FF"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6FA698F39B3333C0"]
+			id: "0A42158DE23B7CD5"
+			tasks: [{
+				id: "462E44789E294C6E"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A42158DE23B7CD5"
+				"03854B5ADF513981"
+				"008D287AB862F3C2"
+			]
+			description: [
+				"&a主手:&b浸润铁块  &a副手:&e欣快印记"
+				"&4对着地上的&a收容罐&5右键&a即可获得&b收容了&f盖亚&a的收容罐"
+			]
+			id: "608BF3A5C2AADBFA"
+			subtitle: "由于地方限制，你无法进行召唤盖亚的仪式，不妨尝试一下魔改方式吧！"
+			tasks: [{
+				id: "74FEDDA88B4807C3"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:mob_jar"
+					tag: {
+						BlockEntityTag: {
+							entityId: "botania:doppleganger"
+							entityTag: {
+								id: "botania:doppleganger"
+							}
+						}
+					}
+				}
+				title: "&5收容了盖亚的收容罐"
+				type: "item"
+			}]
+			title: "&5收容了盖亚的收容罐"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["608BF3A5C2AADBFA"]
+			id: "5F2B3B0EAE0EBFA4"
+			tasks: [
+				{
+					id: "4993EEF77AB424F0"
+					item: "botania:life_essence"
+					type: "item"
+				}
+				{
+					id: "09AE98615F01BB29"
+					item: "kubejs:terra_essence"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0A42158DE23B7CD5"
+				"5F2B3B0EAE0EBFA4"
+			]
+			id: "02448030E79BEE8D"
+			tasks: [{
+				id: "4575D56A33EDC424"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["02448030E79BEE8D"]
+			id: "2F1835539DF2973D"
+			subtitle: "&l&o&a精灵门!"
+			tasks: [
+				{
+					id: "4115F98FFFAEC542"
+					item: "botania:glimmering_livingwood"
+					type: "item"
+				}
+				{
+					id: "540381551E11C5CF"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+				{
+					id: "4D49822F0F1E5CD0"
+					item: "botania:natura_pylon"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F1835539DF2973D"]
+			description: [
+				"带有&a附魔&2[其他序列组装]&f的合成步骤"
+				"&c需要到对应的机器中合成&4而不是机械手拿着物品进行合成"
+				"&d大致方法如下图所示"
+				"{image:kubejs:textures/ftbquests/purecrystal.png width:100 height:60 align:1 fit:true}"
+			]
+			id: "32D343AE4BDE7095"
+			tasks: [{
+				id: "2EE336683E217921"
+				item: "elementalcraft:purecrystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0A42158DE23B7CD5"
+				"7FC1A537DBC0443B"
+				"3D9C28987EDF4C2B"
+			]
+			id: "03854B5ADF513981"
+			tasks: [{
+				id: "6B89F4B61B329C87"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B1399265AE7BD71"]
+			id: "7FC1A537DBC0443B"
+			tasks: [{
+				id: "59009F9833486348"
+				item: "kubejs:soul_gem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D9C28987EDF4C2B"]
+			id: "008D287AB862F3C2"
+			tasks: [{
+				id: "4EF3B3D752F16D68"
+				item: "minecraft:mossy_cobblestone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FC1A537DBC0443B"]
+			description: [
+				"&a进行世界合成时"
+				""
+				"&d中间的方块为&a机械动力中的&c流体储罐"
+				""
+				"&d并非&aCWE的&c伪造流体储罐"
+				""
+				""
+				"&d[对着物品长按w]"
+				"&6具体方式可以查看&9流体储罐的&a思索&b(最后一个)   &f或者"
+				"&9伪造流体储罐的&a思索"
+				""
+				"(&a伪造流体储罐&f的作用仅为世界配方提供gui支持)"
+			]
+			hide_dependency_lines: true
+			id: "3D9C28987EDF4C2B"
+			tasks: [
+				{
+					id: "017899E89918B00E"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "51676485B08B29BF"
+					item: "cwe:fake_fluid_tank"
+					optional_task: true
+					title: "这个机器仅仅只是为了提供合成配方的gui"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32D343AE4BDE7095"]
+			id: "730065877F52EA3C"
+			tasks: [{
+				id: "06E2B2FFAABE3CC8"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["730065877F52EA3C"]
+			id: "4D1DAD60BEF7F80B"
+			tasks: [{
+				id: "5A30CF74CD3DE950"
+				item: "kubejs:liquid_soul_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D1DAD60BEF7F80B"]
+			id: "4FE1D938136E35A1"
+			tasks: [{
+				id: "710AE71194B0C20E"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			id: "5FCE8DC72F776197"
+			tasks: [{
+				id: "30B9B5F4475A3232"
+				item: "elementalcraft:elementpipe_creative"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			id: "55D04101A3D4E787"
+			tasks: [{
+				id: "7094806746F639AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:reservoir_air"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:reservoir_earth"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:reservoir_water"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:reservoir_fire"
+							}
+						]
+					}
+				}
+				title: "元素积蓄器"
+				type: "item"
+			}]
+			title: "元素积蓄器"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			id: "47E8345C7B188DAD"
+			tasks: [{
+				id: "742FF986FA4CED7A"
+				item: "elementalcraft:binder_improved"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"02448030E79BEE8D"
+				"4FE1D938136E35A1"
+			]
+			id: "7D3B0E1EF02D4474"
+			tasks: [{
+				id: "033836296767BAA4"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7D3B0E1EF02D4474"
+				"5F2B3B0EAE0EBFA4"
+			]
+			id: "44F0495FA6917E74"
+			tasks: [{
+				id: "64C39604F790B956"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44F0495FA6917E74"]
+			id: "2EDCAAA29EA030A3"
+			tasks: [{
+				id: "03530DEBFA1BC0E1"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EDCAAA29EA030A3"]
+			description: [
+				"&a他所产生的应力被魔改了!"
+				"&d单独一个可以产生1024的应力"
+				"&6在前面放置金块可以产生2048的应力"
+			]
+			id: "2E0A9E1FBDE7629B"
+			tasks: [{
+				id: "7A42EB7E73BAEA6C"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["536BA7D4FD0D58D0"]
+			id: "3965991A5693FA4E"
+			tasks: [{
+				id: "6EF65DBA8149D0BD"
+				item: "elementalcraft:water_mill_wood_saw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44F0495FA6917E74"]
+			id: "536BA7D4FD0D58D0"
+			tasks: [{
+				id: "4CD6F67975258C6E"
+				item: "elementalcraft:drenched_saw_blade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["536BA7D4FD0D58D0"]
+			id: "5EC0C7D22D1928C1"
+			tasks: [{
+				id: "432A38288949AB74"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3965991A5693FA4E"]
+			id: "480641C0C5F93C52"
+			tasks: [{
+				id: "7843EAB2FFE0462E"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["480641C0C5F93C52"]
+			description: [
+				"[第一个奔流至高木原木可以通过把树苗种植在泥土上，使用骨粉催熟树苗获取]"
+				""
+				"&9它可以在植物盆中进行种植"
+				""
+				"&c但是奇怪的是如果你对着植物盆按u，你无法看到合成表"
+				""
+				"&c如果你对着已经有的合成表的产物按r，却能看到合成表"
+				""
+				"&4我已经向该mod的作者提交此issues"
+			]
+			id: "52C6B3B1B17B9CC8"
+			tasks: [{
+				id: "5A8036AC9B556348"
+				item: "ars_nouveau:blue_archwood_log"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["52C6B3B1B17B9CC8"]
+			id: "135F57F3E99ADC08"
+			tasks: [{
+				id: "2B4BADD64767BB4E"
+				item: "kubejs:gem_water"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["135F57F3E99ADC08"]
+			id: "06D9703E6B77A90C"
+			tasks: [{
+				id: "009AB8802AE5ED1C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botanypots:terracotta_hopper_botany_pot"
+							}
+							{
+								Count: 1b
+								id: "botanypots:terracotta_botany_pot"
+							}
+						]
+					}
+				}
+				title: "植物盆"
+				type: "item"
+			}]
+			title: "植物盆"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["135F57F3E99ADC08"]
+			id: "45EBA1D7976FF68B"
+			tasks: [{
+				id: "40CF814D599A7258"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45EBA1D7976FF68B"]
+			id: "41B8AC405FB564D1"
+			tasks: [{
+				id: "18044FF4D9BAB05B"
+				item: "ae2:printed_silicon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"41B8AC405FB564D1"
+				"78987720E7AA3CCF"
+			]
+			description: [
+				"&a根据路由器的速度来调节这些红石设备"
+				""
+				""
+				"&5红石逻辑控制器内的编码示例:"
+				"B=IF(R.CO==1,15)"
+				""
+				"{image:kubejs:textures/ftbquests/processor.png width:100 height:100 align:1 fit:true}"
+			]
+			id: "0574CA33643E025F"
+			rewards: [
+				{
+					count: 4
+					id: "4A28B2D5C3439A63"
+					item: "redstonepen:control_box"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55B87DE4376B45C7"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7D3799213748BBDF"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1EE045CEE2CD29F1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4FFEAE7858A3D413"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "2A3358B9FEAF2351"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "3FD15B95F3969F71"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["329550AC141B061A"]
+			id: "78987720E7AA3CCF"
+			tasks: [{
+				id: "206017F815D62BEB"
+				item: "ae2:not_so_mysterious_cube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71364EC0A773F453"]
+			id: "329550AC141B061A"
+			tasks: [
+				{
+					id: "4813CA1036C43B51"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "15D6B3B28F09ED78"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6C7D588EC07677BE"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "217150DE8A9BB22D"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			description: ["&a放在地上挖掉它会掉落四种压印模板"]
+			id: "71364EC0A773F453"
+			tasks: [{
+				id: "5B8C9F113AC7E763"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0574CA33643E025F"]
+			id: "77AE4DA7D7F72E3A"
+			tasks: [{
+				id: "6F12CFCEEB4521CD"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "12723734213C777C"
+			tasks: [
+				{
+					id: "4932D385A7340635"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "456279316C1013A4"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "4D3D7E2AFD8A131D"
+					item: "redstonepen:control_box"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
+	]
+	title: "更加深入的发展"
+}
