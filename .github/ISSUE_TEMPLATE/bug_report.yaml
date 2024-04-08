@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: test
     attributes:
       label: test
       description: What version of our software are you running?
