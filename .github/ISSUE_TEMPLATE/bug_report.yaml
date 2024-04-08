@@ -45,7 +45,7 @@ body:
       options:
         - Singleplayer
         - Sever
-        - Botn
+        - Both
       default: 0
     validations:
       required: true
