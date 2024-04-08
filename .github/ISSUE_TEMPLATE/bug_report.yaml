@@ -29,8 +29,8 @@ body:
       label: Have you modified the modpack?
       description: Have you added mods, changed configs, changed scripts or similar?
       options:
-        - no
-        - yes
+        - No
+        - Yes
       default: 0
     validations:
       required: true
