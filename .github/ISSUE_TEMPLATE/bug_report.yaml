@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "[Bug]:<title> "
 body:
   - type: markdown
     attributes:
@@ -37,14 +37,14 @@ body:
       label: User Modifications
       description: If you answered "Yes" above, please briefly explain what you have modified. Added mods are particularly important.
     validations:
-      required: true
+      required: false
   - type: dropdown
-    id: browsers
+    id: play
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
+      label: Did the issue happen in singleplayer or on a server?
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Singleplayer
+        - Sever
+        - Botn
+      validations:
+        required: false
