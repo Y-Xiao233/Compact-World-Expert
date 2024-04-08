@@ -1,0 +1,33 @@
+name: Bug report
+description: File a bug report
+title: "[BUG]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: version
+    attributes:
+      label: Modpack Version
+      description: 'Latest' is not a valid answer, please write the exact version number.
+      placeholder: Release xxx or Beta xxx
+    validations:
+      required: true
+
+- type: textarea
+    id: issue
+    attributes:
+      label: Describe your issue.
+      placeholder: issue
+    validations:
+      required: true
+- type: dropdown
+    id: modified
+    attributes:
+      label: Have you added mods, changed configs, changed scripts or similar?
+      multiple: true
+      options:
+        - yes
+        - no
