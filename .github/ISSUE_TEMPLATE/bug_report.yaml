@@ -11,7 +11,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: version
+    id: contact
     attributes:
       label: Modpack version
       description: 'Latest' is not a valid answer, please write the exact version number.
