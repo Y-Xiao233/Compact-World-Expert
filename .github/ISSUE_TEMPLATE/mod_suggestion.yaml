@@ -2,14 +2,13 @@ name: Mod Suggestion
 description: Suggest a new mod
 title: "[Suggest]:<modid> "
 body:
-- type: markdown
-  attributes:
-    value: "## Before suggesting a mod please:"
+  - type: markdown
+    attributes:
+      value: "## Before suggesting a mod please:"
   - type: markdown
     attributes:
       value: |
-        Make sure it hasn't been suggested before by checking the Issues section.
-Keep in mind that every new mod makes the modpack a little harder to run.
+        Keep in mind that every new mod makes the modpack a little harder to run.
   - type: input
     id: url
     attributes:
