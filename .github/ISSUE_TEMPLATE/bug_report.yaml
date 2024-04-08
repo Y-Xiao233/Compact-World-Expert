@@ -4,8 +4,11 @@ title: "[Bug]:<title> "
 body:
   - type: markdown
     attributes:
+      value: "## Before submitting your issue please:"
+  - type: markdown
+    attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Check if the Issues section has a similar issue.
   - type: input
     id: version
     attributes:
