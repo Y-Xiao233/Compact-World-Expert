@@ -26,9 +26,16 @@ body:
       label: Have you modified the modpack?
       description: Have you added mods, changed configs, changed scripts or similar?
       options:
-        - yes
-        - no
+        - "Yes"
+        - "No"
       default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: modifications
+    attributes:
+      label: User Modifications
+      description: If you answered "Yes" above, please briefly explain what you have modified. Added mods are particularly important.
     validations:
       required: true
   - type: dropdown
