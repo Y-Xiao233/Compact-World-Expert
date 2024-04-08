@@ -2,7 +2,6 @@ name: Bug Report
 description: Report an issue to help us improve
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
@@ -14,7 +13,7 @@ body:
     id: issue
     attributes:
       label: Modpack version
-      description: 'Latest' is not a valid answer, please write the exact version number.
+      description: Latest is not a valid answer, please write the exact version number.
       placeholder: Release xxx or Beta xxx
     validations:
       required: false
