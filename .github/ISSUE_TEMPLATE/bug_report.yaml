@@ -15,7 +15,7 @@ body:
     attributes:
       label: Modpack Version
       description: version
-      placeholder: Beta xxx or Release xxx
+      placeholder: Beta xxx **or** Release xxx
     validations:
       required: true
   - type: textarea
