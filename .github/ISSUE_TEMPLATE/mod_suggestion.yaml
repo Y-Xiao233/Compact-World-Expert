@@ -1,6 +1,6 @@
 name: Mod Suggestion
 description: Suggest a new mod
-title: "[Suggest]:<modid> "
+title: "[Mod Suggestion]:<modid> "
 body:
   - type: markdown
     attributes:
@@ -18,7 +18,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: reason
+    id: why
     attributes:
       label: Why would you like the mod added?
     validations:
