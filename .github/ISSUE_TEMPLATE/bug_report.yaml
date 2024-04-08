@@ -11,17 +11,17 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: issue
     attributes:
       label: Modpack version
       description: 'Latest' is not a valid answer, please write the exact version number.
-      placeholder: Release xxx **or** Beta xxx
+      placeholder: Release xxx or Beta xxx
     validations:
       required: false
   - type: textarea
     id: issue
     attributes:
-      label: Describe your issue.
+      label: Describe your issue
     validations:
       required: true
   - type: dropdown
