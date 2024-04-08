@@ -12,8 +12,8 @@ body:
   - type: input
     id: issue
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      label: Modpack Version
+      description: 'Latest' is not a valid answer, please write the exact version number.
       placeholder: ex. email@example.com
     validations:
       required: false
