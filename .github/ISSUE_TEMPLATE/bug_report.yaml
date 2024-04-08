@@ -18,9 +18,6 @@ body:
     id: issue
     attributes:
       label: Describe your issue
-      description: issue
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
