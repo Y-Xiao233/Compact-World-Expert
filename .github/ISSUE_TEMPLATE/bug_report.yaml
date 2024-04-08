@@ -1,8 +1,6 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -12,8 +10,8 @@ body:
     id: version
     attributes:
       label: Modpack Version
-      description: Specific Modpack Version
       placeholder: Beta xxx or Release xxx
+      description: Specific Modpack Version
     validations:
       required: true
   - type: textarea
