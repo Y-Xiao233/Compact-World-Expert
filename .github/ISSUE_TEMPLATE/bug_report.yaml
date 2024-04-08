@@ -14,8 +14,8 @@ body:
     id: version
     attributes:
       label: Modpack Version
-      description: version
-      placeholder: Beta xxx **or** Release xxx
+      description: 'Latest' is not a valid answer, please write the exact version number.
+      placeholder: Beta xxx or Release xxx
     validations:
       required: true
   - type: textarea
