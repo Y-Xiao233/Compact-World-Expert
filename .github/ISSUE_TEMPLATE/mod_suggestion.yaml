@@ -1,0 +1,25 @@
+name: Mod Suggestion
+description: Suggest a new mod
+title: "[Mod Suggestion]:<modid> "
+body:
+  - type: markdown
+    attributes:
+      value: "## Before suggesting a mod please:"
+  - type: markdown
+    attributes:
+      value: |
+        Keep in mind that every new mod makes the modpack a little harder to run.
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/jei
+      description: Link to the mod on Curseforge
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would you like the mod added?
+    validations:
+      required: true

@@ -1,0 +1,54 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]:<title> "
+body:
+  - type: markdown
+    attributes:
+      value: "## Before submitting your issue please:"
+  - type: markdown
+    attributes:
+      value: |
+        Check if the Issues section has a similar issue.
+  - type: input
+    id: version
+    attributes:
+      label: Modpack Version
+      placeholder: Beta xxx or Release xxx
+      description: Specific Modpack Version
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Describe your issue
+    validations:
+      required: true
+  - type: dropdown
+    id: modified
+    attributes:
+      label: Have you modified the modpack?
+      description: Have you added mods, changed configs, changed scripts or similar?
+      options:
+        - "No"
+        - "Yes"
+      default: 1
+    validations:
+      required: true
+  - type: textarea
+    id: modifications
+    attributes:
+      label: User Modifications
+      description: If you answered "Yes" above, please briefly explain what you have modified. Added mods are particularly important.
+    validations:
+      required: false
+  - type: dropdown
+    id: play
+    attributes:
+      label: Did the issue happen in singleplayer or on a server?
+      options:
+        - Singleplayer
+        - Sever
+        - Both
+      default: 0
+    validations:
+      required: true

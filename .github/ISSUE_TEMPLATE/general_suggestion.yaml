@@ -1,0 +1,24 @@
+name: General Suggestion
+description: Suggest a change or addition to the modpack
+title: "[General Suggestion]:<title> "
+body:
+  - type: markdown
+    attributes:
+      value: "## Before making a general suggestion please:"
+  - type: markdown
+    attributes:
+      value: |
+        Check for similar suggestions in the Issues & Discussions sections.
+  - type: textarea
+    id: what
+    attributes:
+      label: Describe your suggestion
+      description: What would you like added/changed?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would you like this added/changed?
+    validations:
+      required: true
