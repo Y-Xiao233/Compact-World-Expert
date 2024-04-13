@@ -17,6 +17,13 @@ ServerEvents.recipes(event =>{
             output_fluid:Fluid.of('kubejs:liquid_soul',10),
             chance:0.01,
             id:`${id_prefix}liquid_soul`
+        },
+        {
+            input:'thermal:rubber_block',
+            output_block:'thermal:cured_rubber_block',
+            output_fluid:Fluid.of('industrialforegoing:latex',10),
+            chance:0.01,
+            id:`${id_prefix}latex`
         }]
 
     reicpes.forEach(recipe =>{

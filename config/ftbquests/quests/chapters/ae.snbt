@@ -1,0 +1,902 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae"
+	group: "1FC04254FBE7C665"
+	icon: "expatternprovider:ex_pattern_provider"
+	id: "5980782909A442EB"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 25.0d
+		hover: [ ]
+		image: "ae2:block/controller_conflict"
+		rotation: 0.0d
+		width: 25.0d
+		x: 3.5d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66470A3825124332"]
+			hide_dependent_lines: true
+			id: "329AAA6A58EEB648"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03C4EAA192223914"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "6B9C7151AF4681C0"
+			tasks: [{
+				id: "0DAFA15AE277DDD4"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "791314A8DF13A60D"
+			tasks: [{
+				id: "13AC15D064F87FA3"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "531ED92E15C872DA"
+			tasks: [{
+				id: "3675722B0B25BB9A"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "1965B1C460B04769"
+			tasks: [{
+				id: "67FEE2759F4474CA"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "58BC6D49962CCFC5"
+			tasks: [{
+				id: "680F159FA6878F4C"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "4E218CAEFCDE4904"
+			tasks: [
+				{
+					id: "047FD33FD598C6FE"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+				{
+					id: "7B7558BBAE233A17"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58BC6D49962CCFC5"]
+			id: "0FD389A5E550E79C"
+			tasks: [{
+				id: "6FA905B93991F4EB"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58BC6D49962CCFC5"]
+			id: "61AF189ED2413F14"
+			tasks: [{
+				id: "4DA0E27E6231607E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:256k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:64k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:16k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:4k_crafting_storage"
+							}
+							{
+								Count: 1b
+								id: "ae2:1k_crafting_storage"
+							}
+						]
+					}
+				}
+				title: "合成存储器"
+				type: "item"
+			}]
+			title: "合成存储器"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "0BCE410E28DB16A0"
+			tasks: [{
+				id: "0750936E96A18049"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "5482B197105B8972"
+			tasks: [{
+				id: "12A8C001876B5D60"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "407971EA4EDC045B"
+			tasks: [{
+				id: "1908A31BC1C08A43"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "1DAD2A915C21E9A2"
+			tasks: [{
+				id: "60D0CE0F271C5CC0"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "364EB39347C6D436"
+			tasks: [{
+				id: "1D60634E211080A3"
+				item: "appmek:chemical_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "5589CD923AC741A1"
+			tasks: [{
+				id: "275EF4DA4886CDB4"
+				item: "arseng:source_cell_housing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BCE410E28DB16A0"]
+			hide_dependency_lines: true
+			id: "005AB00A73D181FC"
+			tasks: [{
+				id: "46AC670BBB926BD7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:fluid_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "流体存储元件"
+				type: "item"
+			}]
+			title: "流体存储元件"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DAD2A915C21E9A2"]
+			hide_dependency_lines: true
+			id: "15DB567CA4AFE68C"
+			tasks: [{
+				id: "3106C9AB8ECAD0F7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "存储元件"
+				type: "item"
+			}]
+			title: "存储元件"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5589CD923AC741A1"]
+			hide_dependency_lines: true
+			id: "4016CFF062DA6B93"
+			tasks: [{
+				id: "3442769A1194DC0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "arseng:source_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "魔源存储元件"
+				type: "item"
+			}]
+			title: "魔源存储元件"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5482B197105B8972"]
+			hide_dependency_lines: true
+			id: "45D18E3E0AA0FD25"
+			tasks: [{
+				id: "0BD3C0311970C98A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appbot:mana_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "魔力存储元件"
+				type: "item"
+			}]
+			title: "魔力存储元件"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["364EB39347C6D436"]
+			hide_dependency_lines: true
+			id: "29655EE4379D2BB8"
+			tasks: [{
+				id: "660582AFEBCA10EC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "appmek:chemical_storage_cell_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "化学品存储元件"
+				type: "item"
+			}]
+			title: "化学品存储元件"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["407971EA4EDC045B"]
+			hide_dependency_lines: true
+			id: "3EBBB9D9CC315056"
+			tasks: [{
+				id: "300F80011293B8BC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2things:disk_drive_256k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2things:disk_drive_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2things:disk_drive_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2things:disk_drive_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2things:disk_drive_1k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "深度物品存储磁盘驱动器"
+				type: "item"
+			}]
+			title: "深度物品存储磁盘驱动器"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "66250DB6D1607D5B"
+			tasks: [
+				{
+					id: "6A48F8B4D7CEC913"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "275C1C1B60C773B7"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "703C8EB2716ECC77"
+			tasks: [
+				{
+					id: "7894A8158149AFCB"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:wireless_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_encoding_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2wtlib:wireless_pattern_access_terminal"
+								}
+								{
+									Count: 1b
+									id: "ae2:wireless_crafting_terminal"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "无线终端"
+					type: "item"
+				}
+				{
+					id: "443BA36AC6DBCF41"
+					item: "ae2:security_station"
+					type: "item"
+				}
+				{
+					id: "3AF33DD69BA1DAB5"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "62BD106636A4B54F"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					id: "15AACC1373E119C9"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+			]
+			title: "无线终端"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "500156237839949A"
+			tasks: [
+				{
+					id: "098B9B65D1C760DC"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "525B88A7AD8B1DCE"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "76A1CB8B4621C13E"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+				{
+					id: "5FF02613A44454B9"
+					item: "ae2:spatial_anchor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "68B501FE6A365AF1"
+			tasks: [{
+				id: "207759E811D8761A"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "60AC2ADE34C6C642"
+			tasks: [
+				{
+					id: "6A9717AF76E4DE1C"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "39DAEFA756A1DBD7"
+					item: {
+						Count: 1b
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "3879DAFE6DA7E4AF"
+			tasks: [{
+				id: "146EED717A18F5A6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluix_smart_cable"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_covered_cable"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_smart_dense_cable"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_covered_dense_cable"
+							}
+						]
+					}
+				}
+				title: "线缆"
+				type: "item"
+			}]
+			title: "线缆"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "595AB7B2F3DD1A18"
+			tasks: [
+				{
+					id: "17A091D209CB1711"
+					item: "merequester:requester"
+					type: "item"
+				}
+				{
+					id: "301A84B9D5546E18"
+					item: "merequester:requester_terminal"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "60869FFC12097AB7"
+			tasks: [{
+				id: "26E0B6A27888AA98"
+				item: {
+					Count: 1b
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "74525C7E6DADD925"
+			tasks: [{
+				id: "049CB861D2588B70"
+				item: {
+					Count: 1b
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:i"
+							id: "minecraft:cobblestone"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "22772260B7EB6529"
+			tasks: [{
+				id: "489CFC227CA050E8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:interface_upgrade"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface_part"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_interface"
+							}
+						]
+					}
+				}
+				title: "扩展接口"
+				type: "item"
+			}]
+			title: "扩展接口"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "30528C51ABB1A824"
+			tasks: [{
+				id: "5764115E7D6393A9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:pattern_provider_upgrade"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider_part"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_pattern_provider"
+							}
+						]
+					}
+				}
+				title: "扩展样板供应器"
+				type: "item"
+			}]
+			title: "扩展样板供应器"
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "610B75BA920443AB"
+			tasks: [{
+				id: "2749014CD01F69A9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:drive_upgrade"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_drive"
+							}
+						]
+					}
+				}
+				title: "扩展驱动器"
+				type: "item"
+			}]
+			title: "扩展驱动器"
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "30F60302C6CF7B89"
+			tasks: [{
+				id: "39B97BE3561A0A24"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:io_bus_upgrade"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_export_bus_part"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:ex_import_bus_part"
+							}
+						]
+					}
+				}
+				title: "扩展输入/输出总线"
+				type: "item"
+			}]
+			title: "扩展输入/输出总线"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "6401840C1DE152A1"
+			tasks: [{
+				id: "4A12B0C1E66C2488"
+				item: "expatternprovider:ingredient_buffer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "13A53BFF95A06699"
+			tasks: [{
+				id: "2E7C0FFD2D0A5BC4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "expatternprovider:wireless_connect"
+							}
+							{
+								Count: 1b
+								id: "expatternprovider:wireless_tool"
+							}
+						]
+					}
+				}
+				title: "无线连接器"
+				type: "item"
+			}]
+			title: "无线连接器"
+			x: 11.5d
+			y: 0.0d
+		}
+	]
+	title: "&aAE及其扩展"
+}

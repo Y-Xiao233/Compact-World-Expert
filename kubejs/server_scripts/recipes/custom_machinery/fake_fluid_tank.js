@@ -15,7 +15,7 @@ ServerEvents.recipes(event =>{
         return fake_fluid_tank
     }
     
-    fake_fluid_tank(60,'ars_nouveau:dominion_wand','kubejs:soul_gem',4,'botania:rune_water',4,'elementalcraft:drenched_iron_ingot',4,'naturesaura:token_euphoria',4,'minecraft:lava',2000,'ars_nouveau:drygmy_charm',`${id_prefix}drygmy_charm`)
+    fake_fluid_tank(60,'ars_nouveau:dominion_wand','kubejs:soul_gem',1,'botania:rune_water',1,'elementalcraft:drenched_iron_ingot',1,'naturesaura:token_euphoria',1,'minecraft:lava',2000,'ars_nouveau:drygmy_charm',`${id_prefix}drygmy_charm`)
     fake_fluid_tank(60,'ars_nouveau:dominion_wand','kubejs:gem_earth',1,'kubejs:gem_earth',1,'minecraft:polished_andesite',1,'minecraft:polished_andesite',1,'minecraft:water',4000,'minecraft:mossy_cobblestone',`${id_prefix}mossy_cobblestone`)
     fake_fluid_tank(60,'naturesaura:token_euphoria','create:andesite_casing',1,'elementalcraft:purecrystal',1,'botania:terrasteel_nugget',1,'kubejs:soul_gem',1,'kubejs:liquid_soul',200,'industrialforegoing:machine_frame_pity',`${id_prefix}machine_frame_pity`)
     fake_fluid_tank(60,'ars_nouveau:dominion_wand','industrialforegoing:machine_frame_pity',1,'botania:terrasteel_ingot',1,'create:fluid_tank',1,'kubejs:soul_gem',1,'kubejs:liquid_soul',1000,'industrialforegoing:dissolution_chamber',`${id_prefix}dissolution_chamber`)

@@ -1164,6 +1164,219 @@
 			x: 11.5d
 			y: -6.5d
 		}
+		{
+			dependencies: ["555A01BA82D7D9B7"]
+			id: "78AD9AE6E99D598C"
+			tasks: [{
+				id: "2F8CC053B3F1FB4C"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["07DAE1E9DAFFBB22"]
+			id: "29FBCED696770897"
+			tasks: [{
+				id: "67C9F42C2875B3F6"
+				item: {
+					Count: 1b
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11D5B91D049E75C2"]
+			id: "154BB869C879B5FB"
+			tasks: [{
+				id: "5820068CF50A7BED"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "laserio:card_item"
+							}
+							{
+								Count: 1b
+								id: "laserio:card_fluid"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "物品/流体卡"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["555A01BA82D7D9B7"]
+			id: "11D5B91D049E75C2"
+			tasks: [{
+				id: "77EA0C41C2E0E696"
+				item: "laserio:logic_chip"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11D5B91D049E75C2"]
+			id: "6367BF767B243256"
+			tasks: [
+				{
+					id: "6208F4C6B120583D"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "0B691912D356AABE"
+					item: {
+						Count: 1b
+						id: "laserio:laser_wrench"
+						tag: {
+							connectionpos: {
+								X: -27
+								Y: -45
+								Z: -11
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D315B280529E575"
+					item: "laserio:laser_connector"
+					type: "item"
+				}
+				{
+					id: "73E8FFBF70A954F6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["45F5C47ED6231F36"]
+			id: "7B77055F1B84F5D0"
+			tasks: [{
+				id: "0EEFADEB2DB468F7"
+				item: {
+					Count: 1b
+					id: "laserio:filter_count"
+					tag: {
+						allowList: 1b
+						compareNBT: 0b
+						counts: [
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 0
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 1
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 2
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 3
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 4
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 5
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 6
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 7
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 8
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 9
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 10
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 11
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 12
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 13
+							}
+							{
+								Count: 0
+								MBAmount: 0
+								Slot: 14
+							}
+						]
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
 	]
 	title: "原初魔法"
 }

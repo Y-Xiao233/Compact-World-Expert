@@ -31,6 +31,36 @@ ServerEvents.recipes(event =>{
             output_item:'4x botania:gaia_ingot',
             time:100,
             id:`${id_prefix}gaia_ingot`
+        },
+        {
+            input_item:[
+                'ae2:silicon','minecraft:light_gray_dye',
+                'ae2:silicon','minecraft:light_gray_dye',
+                'minecraft:light_gray_dye','ae2:silicon',
+                'minecraft:light_gray_dye','ae2:silicon'
+            ],
+            input_fluid:'kubejs:liquid_soul',
+            input_fluid_amount:250,
+            output_fluid:false,
+            output_fluid_amount:0,
+            output_item:'4x thermal:rubber',
+            time:100,
+            id:`${id_prefix}rubber`
+        },
+        {
+            input_item:[
+                'naturesaura:infused_iron','minecraft:black_dye',
+                'elementalcraft:drenched_iron_ingot','minecraft:black_dye',
+                'minecraft:black_dye','create_new_age:overcharged_iron',
+                'minecraft:black_dye','minecraft:iron_ingot'
+            ],
+            input_fluid:'kubejs:liquid_soul',
+            input_fluid_amount:250,
+            output_fluid:false,
+            output_fluid_amount:0,
+            output_item:'4x naturesaura:depth_ingot',
+            time:100,
+            id:`${id_prefix}depth_ingot`
         }]
 
     recipes.forEach(recipe =>{

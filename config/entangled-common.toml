@@ -14,5 +14,5 @@
 
     # What is the max range in which entangled blocks can be bound? Only affects blocks in the same dimension. -1 for infinite range. Previously bound entangled blocks won't be affected.
     # Allowed range: -1 ~ 2147483647 - Default: -1
-    maxDistance = -1
+    maxDistance = 32
 

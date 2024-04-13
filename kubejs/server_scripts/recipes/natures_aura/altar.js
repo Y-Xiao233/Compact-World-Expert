@@ -12,76 +12,92 @@ ServerEvents.recipes(event =>{
     */
     const recipes = [
         {
-            input:'create:limestone',
-            output:'naturesaura:infused_stone',
+            input:items('create:limestone'),
+            output:items('naturesaura:infused_stone'),
             catalyst:false,
             aura:0,
             time:10,
             id:`${id_prefix}infused_stone`
         },
         {
-            input:'kubejs:soul_steel_casing',
+            input:items('kubejs:soul_steel_casing'),
             catalyst:'kubejs:token_euphoria_catalyst',
-            output:'mekanism:enrichment_chamber',
+            output:items('mekanism:enrichment_chamber'),
             aura:0,
             time:100,
             id:`${id_prefix}enrichment_chamber`
         },
         {
-            input:'create:andesite_casing',
+            input:items('create:andesite_casing'),
             catalyst:'kubejs:token_euphoria_catalyst',
-            output:'create_new_age:energiser_t1',
+            output:items('create_new_age:energiser_t1'),
             aura:0,
             time:100,
             id:`${id_prefix}energiser_t1`
         },
         {
-            input:'minecraft:gold_ingot',
+            input:items('minecraft:gold_ingot'),
             catalyst:'ae2:not_so_mysterious_cube',
-            output:'ae2:printed_logic_processor',
+            output:items('ae2:printed_logic_processor'),
             aura:100,
             time:10,
             id:`${id_prefix}printed_logic_processor`
         },
         {
-            input:'elementalcraft:drenched_iron_ingot',
+            input:items('elementalcraft:drenched_iron_ingot'),
             catalyst:'ae2:not_so_mysterious_cube',
-            output:'ae2:printed_engineering_processor',
+            output:items('ae2:printed_engineering_processor'),
             aura:100,
             time:10,
             id:`${id_prefix}printed_engineering_processor`
         },
         {
-            input:'ae2:silicon',
+            input:items('ae2:silicon'),
             catalyst:'ae2:not_so_mysterious_cube',
-            output:'ae2:printed_silicon',
+            output:items('ae2:printed_silicon'),
             aura:100,
             time:10,
             id:`${id_prefix}printed_silicon`
         },
         {
-            input:'kubejs:mana_certus_quartz_crystal',
+            input:items('kubejs:mana_certus_quartz_crystal'),
             catalyst:'ae2:not_so_mysterious_cube',
-            output:'ae2:printed_calculation_processor',
+            output:items('ae2:printed_calculation_processor'),
             aura:100,
             time:10,
             id:`${id_prefix}printed_calculation_processor`
+        },
+        {
+            input:items('naturesaura:depth_ingot'),
+            catalyst:'naturesaura:conversion_catalyst',
+            output:items('minecraft:diamond',2),
+            aura:500,
+            time:50,
+            id:`${id_prefix}diamond`
+        },
+        {
+            input:items('naturesaura:depth_ingot_block'),
+            catalyst:'naturesaura:conversion_catalyst',
+            output:items('minecraft:diamond_block',2),
+            aura:4000,
+            time:400,
+            id:`${id_prefix}diamond_block`
         }]
 
     recipes.forEach(recipe =>{
         if(recipe.catalyst == false){
             event.custom({
                 "type":"naturesaura:altar",
-                "input":{"item":recipe.input},
-                "output":{"item":recipe.output},
+                "input":recipe.input,
+                "output":recipe.output,
                 "aura":recipe.aura,
                 "time":recipe.time
             }).id(recipe.id)
         }else{
             event.custom({
                 "type":"naturesaura:altar",
-                "input":{"item":recipe.input},
-                "output":{"item":recipe.output},
+                "input":recipe.input,
+                "output":recipe.output,
                 "catalyst":{"item":recipe.catalyst},
                 "aura":recipe.aura,
                 "time":recipe.time
@@ -93,7 +109,7 @@ ServerEvents.recipes(event =>{
 ServerEvents.recipes(event =>{
     const id_prefix = 'compact_world:recipes/natures_auar/altar/sequenced_assembly/'
 
-    const recipes = [
+    const sequenced_assembly_recipes = [
         {
             input:'kubejs:incomplete_craftpurecrystal',
             input_nbt:'{SequencedAssembly:{Progress:0.6f,Step:3,id:"compact_world:recipes/create/special_sequenced_assembly/special/purecrystal"}}',
@@ -105,25 +121,25 @@ ServerEvents.recipes(event =>{
             id:`${id_prefix}purecrystal_step_4`
         }]
 
-    recipes.forEach(recipe =>{
-        if(recipe.output_nbt != false){
+    sequenced_assembly_recipes.forEach(sequenced_assembly_recipe =>{
+        if(sequenced_assembly_recipe.output_nbt != false){
             event.custom({
                 "type":"naturesaura:altar",
-                "input":{"type":'forge:nbt','item':recipe.input,'nbt':recipe.input_nbt},
-                "output":{"type":'forge:nbt','item':recipe.output,'nbt':recipe.output_nbt},
-                "aura":recipe.aura,
-                "catalyst":{"item":recipe.catalyst},
-                "time":recipe.time
-            }).id(recipe.id)
+                "input":{"type":'forge:nbt','item':sequenced_assembly_recipe.input,'nbt':sequenced_assembly_recipe.input_nbt},
+                "output":{"type":'forge:nbt','item':sequenced_assembly_recipe.output,'nbt':sequenced_assembly_recipe.output_nbt},
+                "aura":sequenced_assembly_recipe.aura,
+                "catalyst":{"item":sequenced_assembly_recipe.catalyst},
+                "time":sequenced_assembly_recipe.time
+            }).id(sequenced_assembly_recipe.id)
         }else{
             event.custom({
                 "type":"naturesaura:altar",
-                "input":{"type":'forge:nbt','item':recipe.input,'nbt':recipe.input_nbt},
-                "output":{"item":recipe.output},
-                "aura":recipe.aura,
-                "catalyst":{"item":recipe.catalyst},
-                "time":recipe.time
-            }).id(recipe.id)
+                "input":{"type":'forge:nbt','item':sequenced_assembly_recipe.input,'nbt':sequenced_assembly_recipe.input_nbt},
+                "output":{"item":sequenced_assembly_recipe.output},
+                "aura":sequenced_assembly_recipe.aura,
+                "catalyst":{"item":sequenced_assembly_recipe.catalyst},
+                "time":sequenced_assembly_recipe.time
+            }).id(sequenced_assembly_recipe.id)
         }
     })
 })

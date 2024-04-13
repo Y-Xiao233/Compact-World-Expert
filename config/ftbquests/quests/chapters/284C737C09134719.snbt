@@ -9,78 +9,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&a请认真查看本章内容！！！"]
+			description: [
+				"&a请认真查看本章内容！！！"
+				""
+				"&d这里面貌似有开局要用到的东西"
+				""
+				"&cta或许就藏在某些东西里面"
+			]
 			icon: "compactmachines:machine_maximum"
 			id: "1FDCB826EB03CF3C"
 			rewards: [
-				{
-					id: "5236DD6F2E7755BF"
-					item: {
-						Count: 1b
-						id: "akashictome:tome"
-						tag: {
-							"akashictome:data": {
-								apotheosis: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "apotheosis:apoth_chronicle"
-									}
-								}
-								cyclic: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "cyclic:cyclic_guide_book"
-									}
-								}
-								elementalcraft: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "elementalcraft:element_book"
-									}
-								}
-								laserio: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "laserio:laseriobook"
-									}
-								}
-								modularrouters: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "modularrouters:book"
-									}
-								}
-								naturesaura: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "naturesaura:book"
-									}
-								}
-								psi: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "psi:encyclopaedia_psionica"
-									}
-								}
-								thermal: {
-									Count: 1b
-									id: "patchouli:guide_book"
-									tag: {
-										"patchouli:book": "thermal:guidebook"
-									}
-								}
-							}
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "0698AD0CF97E3394"
 					item: {
@@ -149,13 +87,129 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0B3D2067643B1039"
+					item: {
+						Count: 1b
+						id: "akashictome:tome"
+						tag: {
+							"akashictome:data": {
+								apotheosis: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								cookingforblockheads: {
+									Count: 1b
+									id: "cookingforblockheads:recipe_book"
+								}
+								cyclic: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "cyclic:cyclic_guide_book"
+									}
+								}
+								elementalcraft: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+								functionalstorage: {
+									Count: 1b
+									id: "functionalstorage:linking_tool"
+									tag: {
+										Action: "ADD"
+										Mode: "SINGLE"
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
+										}
+									}
+								}
+								functionalstorage_0: {
+									Count: 1b
+									id: "functionalstorage:configuration_tool"
+									tag: {
+										Mode: "TOGGLE_RENDER"
+										"akashictome:definedMod": "functionalstorage_0"
+									}
+								}
+								industrialforegoing: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+								kubejs: {
+									Count: 1b
+									id: "kubejs:magical_stick"
+									tag: {
+										"akashictome:displayName": {
+											text: "{\"translate\":\"item.kubejs.magical_stick\"}"
+										}
+										"akashictome:is_morphing": 1b
+										display: {
+											Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
+										}
+									}
+								}
+								laserio: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+								}
+								modularrouters: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+								naturesaura: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+								psi: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "psi:encyclopaedia_psionica"
+									}
+								}
+								thermal: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+							"akashictome:is_morphing": 1b
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "15A94AD2479BE830"
 				title: "欢迎"
 				type: "checkmark"
 			}]
-			title: "欢迎来到Compact World"
+			title: "欢迎来到Compact World: Expert"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -281,6 +335,7 @@
 				""
 				"&d感谢以下对整合包开发做出贡献的："
 				"落秋FalAut"
+				"Mango is me!"
 			]
 			icon: {
 				Count: 1b
@@ -478,6 +533,8 @@
 				"&a若有建议及bug，欢迎加群"
 				"&a一群群号：814125336"
 				"&a二群群号：902264428"
+				""
+				"&bps:&f本整合包&c不考虑支持&a多人服务器&4分岛发展&f的玩法，如果此种情况出现的bug，概不负责"
 			]
 			icon: "ae2:creative_item_cell"
 			id: "473617B13C681BA5"

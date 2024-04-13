@@ -24,6 +24,11 @@ ServerEvents.recipes(event =>{
             input:Item.of('kubejs:incomplete_craftpurecrystal','{SequencedAssembly:{Progress:0.4f,Step:2,id:"compact_world:recipes/create/special_sequenced_assembly/special/purecrystal"}}').weakNBT(),
             output:Item.of('kubejs:incomplete_craftpurecrystal','{SequencedAssembly:{Progress:0.6f,Step:3,id:"compact_world:recipes/create/special_sequenced_assembly/special/purecrystal"}}'),
             id:`${id_prefix}purecrystal_step_3`
+        },
+        {
+            input:'botania:terrasteel_nugget',
+            output:'kubejs:enriched_terra',
+            id:`${id_prefix}enriched_terra`
         }]
 
     recipes.forEach(recipe =>{

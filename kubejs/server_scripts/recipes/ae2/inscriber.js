@@ -89,10 +89,19 @@ ServerEvents.recipes(event =>{
             top:'ae2:logic_processor_press',
             middle:'kubejs:gaia_nugget',
             bottom:false,
-            mode:2,
+            mode:1,
             output:'ae2:logic_processor_press',
             output_amount:1,
             id:`${id_prefix}logic_processor_press`
+        },
+        {
+            top:'kubejs:liquid_soul_bucket',
+            middle:'kubejs:rune_blank',
+            bottom:'kubejs:gaia_nugget',
+            mode:2,
+            output:'botania:rune_pride',
+            output_amount:1,
+            id:`${id_prefix}rune_pride`
         }]
 
     reicpes.forEach(recipe =>{

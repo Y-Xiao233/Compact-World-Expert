@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-  const id_prefix = 'compact_world:recipes/cradting_table/shaped/item/'
+  const id_prefix = 'compact_world:recipes/crafting_table/shaped/item/'
   /**
   {
    output:,
@@ -430,6 +430,252 @@ ServerEvents.recipes(event => {
         A: 'kubejs:gaia_nugget'
       },
       id:`${id_prefix}gaia_ingot_from_nugget`
+     },
+     {
+      output:'minecraft:nether_star',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'botania:gaia_ingot',
+        B: 'minecraft:wither_rose',
+        C: 'elementalcraft:elementpipe_creative'
+      },
+      id:`${id_prefix}nether_star`
+     },
+     {
+      output:'2x mekanism:upgrade_energy',
+      pattern:[' A ','BCB',' A '],
+      key:{
+        A: 'kubejs:gaia_nugget',
+        B: 'ae2:logic_processor',
+        C: 'minecraft:redstone'
+      },
+      id:`${id_prefix}upgrade_energy`
+     },
+     {
+      output:'2x mekanism:upgrade_speed',
+      pattern:[' A ','BCB',' A '],
+      key:{
+        A: 'kubejs:gaia_nugget',
+        B: 'ae2:engineering_processor',
+        C: 'minecraft:redstone'
+      },
+      id:`${id_prefix}upgrade_speed`
+     },
+     {
+      output:'entangled:item',
+      pattern:[' AB',' CA','C  '],
+      key:{
+        A: 'minecraft:redstone',
+        B: 'minecraft:nether_star',
+        C: 'spirit:soul_steel_ingot'
+      },
+      id:`${id_prefix}entangled_item`
+     },
+     {
+      output:'4x powah:capacitor_basic_tiny',
+      pattern:[' AB','ACA','BA '],
+      key:{
+        A: 'ae2:certus_quartz_crystal',
+        B: 'minecraft:black_dye',
+        C: 'create_new_age:blank_circuit'
+      },
+      id:`${id_prefix}capacitor_basic_tiny`
+     },
+     {
+      output:'naturesaura:token_fear',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'industrialforegoing:tinydryrubber',
+        B: 'naturesaura:token_euphoria'
+      },
+      id:`${id_prefix}token_fear`
+     },
+     {
+      output:'4x ae2:annihilation_core',
+      pattern:['ABC','   ','   '],
+      key:{
+        A: 'kubejs:gaia_nugget',
+        B: 'industrialforegoing:tinydryrubber',
+        C: 'ae2:engineering_processor'
+      },
+      id:`${id_prefix}annihilation_core`
+     },
+     {
+      output:'4x ae2:formation_core',
+      pattern:['ABC','   ','   '],
+      key:{
+        A: 'ae2:logic_processor',
+        B: 'industrialforegoing:tinydryrubber',
+        C: 'kubejs:gaia_nugget'
+      },
+      id:`${id_prefix}formation_core`
+     },
+     {
+      output:'ae2:item_cell_housing',
+      pattern:['CBC','BDB','AAA'],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'botania:gaia_ingot',
+        C: 'ae2:quartz_glass',
+        D: 'minecraft:chest'
+      },
+      id:`${id_prefix}item_cell_housing`
+     },
+     {
+      output:'appbot:mana_cell_housing',
+      pattern:['CBC','BDB','AAA'],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'botania:gaia_ingot',
+        C: 'ae2:quartz_glass',
+        D: 'botania:fabulous_pool'
+      },
+      id:`${id_prefix}mana_cell_housing`
+     },
+     {
+      output:'arseng:source_cell_housing',
+      pattern:['CBC','BDB','AAA'],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'botania:gaia_ingot',
+        C: 'ae2:quartz_glass',
+        D: 'ars_nouveau:source_jar'
+      },
+      id:`${id_prefix}source_cell_housing`
+     },
+     {
+      output:'appmek:chemical_cell_housing',
+      pattern:['CBC','BDB','AAA'],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'botania:gaia_ingot',
+        C: 'ae2:quartz_glass',
+        D: 'mekanism:basic_chemical_tank'
+      },
+      id:`${id_prefix}chemical_cell_housing`
+     },
+     {
+      output:'ae2:fluid_cell_housing',
+      pattern:['CBC','BDB','AAA'],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'botania:gaia_ingot',
+        C: 'ae2:quartz_glass',
+        D: 'create:fluid_tank'
+      },
+      id:`${id_prefix}fluid_cell_housing`
+     },
+     {
+      output:'4x ae2:blank_pattern',
+      pattern:['ABA','BCB','DDD'],
+      key:{
+        A: 'ae2:quartz_glass',
+        B: 'naturesaura:infused_iron',
+        C: 'kubejs:gaia_nugget',
+        D: 'create_new_age:blank_circuit'
+      },
+      id:`${id_prefix}blank_pattern`
+     },
+     {
+      output:'ae2:wireless_booster',
+      pattern:[' A ',' B ',' C '],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'modularrouters:augment_core',
+        C: 'ae2:fluix_dust'
+      },
+      id:`${id_prefix}wireless_booster`
+     },
+     {
+      output:'aeinfinitybooster:dimension_card',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'ae2:wireless_booster',
+        B: 'minecraft:nether_star',
+        C: 'entangled:block'
+      },
+      id:`${id_prefix}dimension_card`
+     },
+     {
+      output:Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:f",id:"minecraft:water"}}'),
+      pattern:['ABC','   ','   '],
+      key:{
+        A: 'ae2:cell_component_16k',
+        B: 'minecraft:water_bucket',
+        C: 'minecraft:nether_star'
+      },
+      id:`${id_prefix}infinity_cell/water`
+     },
+     {
+      output:Item.of('expatternprovider:infinity_cell', '{record:{"#c":"ae2:i",id:"minecraft:cobblestone"}}'),
+      pattern:['ABC','   ','   '],
+      key:{
+        A: 'ae2:cell_component_16k',
+        B: 'cobblefordays:tier_5',
+        C: 'minecraft:nether_star'
+      },
+      id:`${id_prefix}infinity_cell/cobblestone`
+     },
+     {
+      output:'expatternprovider:drive_upgrade',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: 'ae2:engineering_processor'
+      },
+      id:`${id_prefix}drive_upgrade`
+     },
+     {
+      output:'expatternprovider:pattern_provider_upgrade',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: 'minecraft:crafting_table'
+      },
+      id:`${id_prefix}pattern_provider_upgrade`
+     },
+     {
+      output:'expatternprovider:interface_upgrade',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: 'botania:mana_glass'
+      },
+      id:`${id_prefix}interface_upgrade`
+     },
+     {
+      output:'expatternprovider:io_bus_upgrade',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:speed_card',
+        C: 'ae2:engineering_processor'
+      },
+      id:`${id_prefix}io_bus_upgrade`
+     },
+     {
+      output:'laserio:logic_chip_raw',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:gold_nugget',
+        B: 'minecraft:cobblestone',
+        C: 'elementalcraft:inert_crystal'
+      },
+      id:`${id_prefix}logic_chip_raw`
+     },
+     {
+      output:Item.of('kubejs:psiknife', '{Unbreakable:1b}'),
+      pattern:['ABA','DCD','ABA'],
+      key:{
+        A: 'minecraft:gold_block',
+        B: 'laserio:logic_chip',
+        C: 'kubejs:psiknife',
+        D: 'elementalcraft:swift_alloy_ingot'
+      },
+      id:`${id_prefix}unbreakable_psiknife`
      }]
   
   recipes.forEach(recipe =>{

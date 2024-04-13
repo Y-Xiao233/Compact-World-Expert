@@ -32,6 +32,18 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['ae2:semi_dark_monitor','minecraft:crafting_table','ae2:fluix_glass_cable'],
             id:`${id_prefix}crafting_terminal`
+        },
+        {
+            output:'laserio:laser_node',
+            output_amount:1,
+            input:['laserio:laser_connector'],
+            id:`${id_prefix}laser_connector_to_laser_node`
+        },
+        {
+            output:'laserio:laser_connector',
+            output_amount:1,
+            input:['laserio:laser_node'],
+            id:`${id_prefix}laser_node_to_laser_connector`
         }]
 
     recipes.forEach(recipe =>{

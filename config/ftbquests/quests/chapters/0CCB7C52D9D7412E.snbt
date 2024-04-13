@@ -27,7 +27,7 @@
 			image: "apotheosis:blocks/salvaging_table_side"
 			rotation: 0.0d
 			width: 2.5d
-			x: 3.5d
+			x: 2.5d
 			y: -7.0d
 		}
 		{
@@ -471,7 +471,8 @@
 			]
 			description: [
 				"&a消耗火元素水晶产生应力"
-				"&c(&m没有水车)"
+				"&c(&m什么?你说水车去哪里了?没有水车!)"
+				"后面可以用新宝石跑轮(他所产生的应力被增强了)"
 			]
 			id: "09696F0434E21B52"
 			tasks: [{
@@ -1545,6 +1546,103 @@
 			}]
 			x: 17.5d
 			y: -5.0d
+		}
+		{
+			dependencies: ["2FB3DF89E9D0122A"]
+			id: "14913BC26BDCE41A"
+			tasks: [{
+				id: "5D2DE2A794F2B03A"
+				item: {
+					Count: 1b
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FB3DF89E9D0122A"]
+			id: "4F370DD14013D495"
+			tasks: [{
+				id: "73AFCEE87554F816"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4060D343A7FA205B"]
+			id: "21BBF72250253CFE"
+			tasks: [
+				{
+					id: "65E1ECBE771A460D"
+					item: "laserio:card_energy"
+					type: "item"
+				}
+				{
+					id: "477ACD76A4A8C939"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1EFB694616692836"]
+			id: "025B609AB5BF907C"
+			tasks: [{
+				id: "79211B627E9F95CA"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["025B609AB5BF907C"]
+			id: "15C984673C7A7755"
+			tasks: [{
+				id: "72E5DD9EE7E7222D"
+				item: {
+					Count: 1b
+					id: "laserio:filter_tag"
+					tag: {
+						tags: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["37858A5885BCDEEE"]
+			id: "145E34D6A4866DAE"
+			tasks: [{
+				id: "1B5205C9764F582F"
+				item: {
+					Count: 1b
+					id: "laserio:filter_mod"
+					tag: {
+						allowList: 1b
+						compareNBT: 0b
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
 		}
 	]
 	title: "魔法进阶"

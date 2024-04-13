@@ -1,14 +1,14 @@
-REIEvents.information(event => {
     /**
     {
      id:[],
      information:[]
     }
     */
-    const rei_information = [
+
+const tooltips_rei_information = [
     {
         id:['kubejs:compact_dust'],
-        information:['\u00a7ashift+空手\u00a7c右键\u00a7f紧实型压缩空间壁\u00a7c获得']
+        information:['\u00a7ashift+神奇的木棍\u00a7c右键\u00a7f紧实型压缩空间壁\u00a7c获得']
     },
     {
         id:['kubejs:compact_ingot'],
@@ -99,8 +99,14 @@ REIEvents.information(event => {
         information:['\u00a7a放在地上挖掉它会掉落四种压印模板']
     }]
 
-    rei_information.forEach(informations => {
+REIEvents.information(event => {
+    tooltips_rei_information.forEach(informations => {
         event.addItem(informations.id,'信息',[informations.information])
     })
 })
 
+ItemEvents.tooltip(tooltip =>{
+    tooltips_rei_information.forEach(item_tooltip =>{
+        tooltip.add(item_tooltip.id,item_tooltip.information)
+    })
+})

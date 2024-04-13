@@ -77,7 +77,7 @@ ServerEvents.recipes(event =>{
             element_amount:500,
             element_type:'fire',
             input:items('kubejs:gem_water'),
-            output:items('ae2:silicon',2),
+            output:items('ae2:silicon',4),
             id:`${id_prefix}silicon`
         }]
 

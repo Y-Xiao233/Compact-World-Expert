@@ -1,0 +1,6 @@
+{
+  "parent": "cobblefordays:block/generator",
+  "textures": {
+    "material": "spirit:block/soul_steel_block"
+  }
+}

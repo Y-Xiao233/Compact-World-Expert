@@ -57,8 +57,25 @@ ServerEvents.recipes(event =>{
       "type":"lychee:block_interacting",
       "ghost":true,
       "contextual":[{"type":"chance","description":"\u00a7a主手拿着\u00a7b浸润铁块，\u00a7a副手拿着\u00a7e欣快印记\u00a7a右键收容罐，可以获得收容了\u00a7f盖亚\u00a7a的收容罐","chance":1},{"type":"chance","description":"\u00a7c该配方仅用于制作收容了盖亚的收容罐，\u00a7a空白收容罐请使用另一种合成方式","chance":1}],
-      "post":[{"type":"drop_item","item":'ars_nouveau:mob_jar'}],
+      "post":[{"type":"drop_item","item":'ars_nouveau:mob_jar','nbt':'{BlockEntityTag:{entityId:"botania:doppleganger",entityTag:{id:"botania:doppleganger"}}}'}],
       "item_in":[{"item": "elementalcraft:drenched_iron_block",},{"item":'naturesaura:token_euphoria'}],
       "block_in": "ars_nouveau:mob_jar"
     }).id(`${id_prefix}doppleganger_in_mob_jar`)
+
+    event.custom({
+      "type":"lychee:block_interacting",
+      "hide_in_viewer":true,
+      "post":[{"type":"execute","command":"fill ~ ~ ~ ~ ~ ~ minecraft:air replace ars_nouveau:mob_jar"}],
+      "item_in":[{"item":'elementalcraft:elementpipe_creative',},{"item":'botania:gaia_ingot'}],
+      "block_in":"ars_nouveau:mob_jar"
+    })
+
+    event.custom({
+      "type":"lychee:block_interacting",
+      "ghost":true,
+      "contextual":[{"type":"chance","description":"\u00a7a主手拿着\u00a7b创造元素导管，\u00a7a副手拿着\u00a7e盖亚魂锭\u00a7a右键收容罐，可以获得收容了\u00a7f凋零\u00a7a的收容罐","chance":1},{"type":"chance","description":"\u00a7c该配方仅用于制作收容了凋零的收容罐，\u00a7a空白收容罐请使用另一种合成方式","chance":1}],
+      "post":[{"type":"drop_item","item":'ars_nouveau:mob_jar','nbt':'{BlockEntityTag:{entityId:"botania:doppleganger",entityTag:{id:"minecraft:wither"}}}'}],
+      "item_in":[{"item": 'elementalcraft:elementpipe_creative',},{"item":'botania:gaia_ingot'}],
+      "block_in": "ars_nouveau:mob_jar"
+    }).id(`${id_prefix}wither_in_mob_jar`)
 })

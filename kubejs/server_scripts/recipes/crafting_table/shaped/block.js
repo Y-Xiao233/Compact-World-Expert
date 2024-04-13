@@ -640,6 +640,282 @@ ServerEvents.recipes(event => {
         F: 'ae2:calculation_processor'
       },
       id:`${id_prefix}control_box`
+     },
+     {
+      output:'ironfurnaces:gold_furnace',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:gold_ingot',
+        B: 'naturesaura:gold_leaf',
+        C: 'minecraft:furnace'
+      },
+      id:`${id_prefix}gold_furance`
+     },
+     {
+      output:'botania:gaia_spreader',
+      pattern:['ABA','CDE','AFA'],
+      key:{
+        A: 'botania:gaia_ingot',
+        B: 'ae2:engineering_processor',
+        C: 'ae2:logic_processor',
+        D: 'botania:mana_spreader',
+        E: 'ae2:calculation_processor',
+        F: 'minecraft:redstone'
+      },
+      id:`${id_prefix}gaia_spreader`
+     },
+     {
+      output:'botania:runic_altar',
+      pattern:['AAA','ABA','   '],
+      key:{
+        A: 'botania:livingrock',
+        B: 'industrialforegoing:machine_frame_pity'
+      },
+      id:`${id_prefix}runic_altar`
+     },
+     {
+      output:'4x entangled:block',
+      pattern:['ABA','CDE','AFA'],
+      key:{
+        A: 'botania:gaia_ingot',
+        B: 'ae2:engineering_processor',
+        C: 'ae2:logic_processor',
+        D: 'spirit:soul_steel_block',
+        E: 'ae2:calculation_processor',
+        F: 'minecraft:redstone'
+      },
+      id:`${id_prefix}entangled_block`
+     },
+     {
+      output:'powah:energizing_orb',
+      pattern:['AAA','ABA','CCC'],
+      key:{
+        A: 'botania:bifrost_perm',
+        B: 'create_new_age:blank_circuit',
+        C: 'minecraft:black_dye'
+      },
+      id:`${id_prefix}energizing_orb`
+     },
+     {
+      output:'powah:energizing_rod_basic',
+      pattern:[' A ','BCB',' D '],
+      key:{
+        A: 'ae2:fluix_crystal',
+        B: 'powah:capacitor_basic_tiny',
+        C: 'ae2:engineering_processor',
+        D: 'minecraft:black_dye'
+      },
+      id:`${id_prefix}energizing_rod_basic`
+     },
+     {
+      output:'4x ae2:controller',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'thermal:cured_rubber_block',
+        B: 'naturesaura:token_terror',
+        C: 'minecraft:diamond_block'
+      },
+      id:`${id_prefix}ae2_controller`
+     },
+     {
+      output:'ae2:drive',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'naturesaura:infused_iron',
+        B: 'ae2:engineering_processor',
+        C: 'ae2:fluix_glass_cable',
+        D: 'minecraft:diamond'
+      },
+      id:`${id_prefix}drive`
+     },
+     {
+      output:'ae2:interface',
+      pattern:['ABA','CDE','ABA'],
+      key:{
+        A: 'naturesaura:infused_iron',
+        B: 'botania:mana_glass',
+        C: 'ae2:annihilation_core',
+        D: 'industrialforegoing:machine_frame_pity',
+        E: 'ae2:formation_core'
+      },
+      id:`${id_prefix}interface`
+     },
+     {
+      output:'ae2:pattern_provider',
+      pattern:['ABA','CDE','ABA'],
+      key:{
+        A: 'naturesaura:infused_iron',
+        B: 'minecraft:crafting_table',
+        C: 'ae2:annihilation_core',
+        D: 'industrialforegoing:machine_frame_pity',
+        E: 'ae2:formation_core'
+      },
+      id:`${id_prefix}pattern_provider`
+     },
+     {
+      output:'ae2:molecular_assembler',
+      pattern:['ABA','CDE','ABA'],
+      key:{
+        A: 'create_new_age:overcharged_iron_sheet',
+        B: 'ae2:quartz_glass',
+        C: 'ae2:annihilation_core',
+        D: 'create_new_age:blank_circuit',
+        E: 'ae2:formation_core'
+      },
+      id:`${id_prefix}molecular_assembler`
+     },
+     {
+      output:'ae2:crafting_unit',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'kubejs:soul_steel_casing',
+        B: 'ae2:logic_processor',
+        C: 'ae2:fluix_glass_cable',
+        D: 'minecraft:diamond'
+      },
+      id:`${id_prefix}crafting_unit`
+     },
+     {
+      output:'ae2:import_bus',
+      pattern:[' A ','BCB','   '],
+      key:{
+        A: 'ae2:annihilation_core',
+        B: 'naturesaura:infused_iron',
+        C: 'minecraft:sticky_piston'
+      },
+      id:`${id_prefix}import_bus`
+     },
+     {
+      output:'ae2:export_bus',
+      pattern:['BAB',' C ','   '],
+      key:{
+        A: 'ae2:annihilation_core',
+        B: 'naturesaura:infused_iron',
+        C: 'minecraft:piston'
+      },
+      id:`${id_prefix}export_bus`
+     },
+     {
+      output:'ae2:wireless_access_point',
+      pattern:[' A ',' B ',' C '],
+      key:{
+        A: 'ae2:fluix_block',
+        B: 'ae2:calculation_processor',
+        C: 'ae2:fluix_glass_cable'
+      },
+      id:`${id_prefix}wireless_access_point`
+     },
+     {
+      output:'ae2:quantum_ring',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'create_new_age:overcharged_iron',
+        B: 'minecraft:diamond',
+        C: 'entangled:block'
+      },
+      id:`${id_prefix}quantum_ring`
+     },
+     {
+      output:'ae2:quantum_link',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'create_new_age:overcharged_iron',
+        B: 'ae2:quartz_glass',
+        C: 'entangled:block'
+      },
+      id:`${id_prefix}quantum_link`
+     },
+     {
+      output:'ae2:spatial_anchor',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'ae2:spatial_pylon',
+        B: 'naturesaura:depth_ingot',
+        C: 'entangled:block'
+      },
+      id:`${id_prefix}spatial_anchor`
+     },
+     {
+      output:'ae2:me_p2p_tunnel',
+      pattern:['ABC','   ','   '],
+      key:{
+        A: 'ae2:import_bus',
+        B: 'ae2:flawless_budding_quartz',
+        C: 'ae2:export_bus'
+      },
+      id:`${id_prefix}me_p2p_tunnel`
+     },
+     {
+      output:'merequester:requester',
+      pattern:['ABA','CDC','AEA'],
+      key:{
+        A: 'botania:rune_pride',
+        B: 'ae2:interface',
+        C: 'ae2:crafting_accelerator',
+        D: 'minecraft:diamond',
+        E: 'ae2:pattern_provider'
+      },
+      id:`${id_prefix}requester`
+     },
+     {
+      output:'expatternprovider:ex_interface',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: '#ae2:interface'
+      },
+      id:`${id_prefix}ex_interface`
+     },
+     {
+      output:'expatternprovider:ex_pattern_provider',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: '#ae2:pattern_provider'
+      },
+      id:`${id_prefix}ex_pattern_provider`
+     },
+     {
+      output:'expatternprovider:ex_drive',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:capacity_card',
+        C: 'ae2:drive'
+      },
+      id:`${id_prefix}ex_drive`
+     },
+     {
+      output:'expatternprovider:ex_export_bus_part',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:speed_card',
+        C: 'ae2:export_bus'
+      },
+      id:`${id_prefix}ex_export_bus_part`
+     },
+     {
+      output:'expatternprovider:ex_import_bus_part',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:diamond',
+        B: 'ae2:speed_card',
+        C: 'ae2:import_bus'
+      },
+      id:`${id_prefix}ex_import_bus_part`
+     },
+     {
+      output:'laserio:laser_node',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'psi:psimetal',
+        B: 'hexerei:moon_dust',
+        C: 'laserio:logic_chip'
+      },
+      id:`${id_prefix}laser_node`
      }]
   
   recipes.forEach(recipe =>{

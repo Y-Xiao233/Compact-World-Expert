@@ -6,6 +6,6 @@ StartupEvents.registry('item', (event) => {
     ]
 
     sequenced_assembly_item.forEach(items =>{
-            event.create(items,'create:sequenced_assembly')
-        })
+        event.create(items,'create:sequenced_assembly')
+    })
 })

@@ -22,6 +22,18 @@ ServerEvents.recipes(event =>{
             output:'kubejs:soul',
             amount:80,
             id:`${id_prefix}soul_from_enriched_soul_steel`
+        },
+        {
+            input:'botania:terrasteel_nugget',
+            output:'kubejs:terra',
+            amount:20,
+            id:`${id_prefix}terra_from_terrasteel`
+        },
+        {
+            input:'kubejs:enriched_terra',
+            output:'kubejs:terra',
+            amount:80,
+            id:`${id_prefix}terra_from_enriched_terra`
         }]
 
     recipes.forEach(recipe =>{

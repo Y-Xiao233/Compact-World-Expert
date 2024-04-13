@@ -38,6 +38,42 @@ ServerEvents.recipes(event =>{
             base_input:'create:andesite_casing',
             addition_input:'elementalcraft:drenched_saw_blade',
             id:`${id_prefix}mechanical_saw`
+        },
+        {
+            output:'sophisticatedstorage:basic_to_diamond_tier_upgrade',
+            base_input:'sophisticatedstorage:basic_to_gold_tier_upgrade',
+            addition_input:'minecraft:diamond',
+            id:`${id_prefix}basic_to_diamond_tier_upgrade`
+        },
+        {
+            output:'sophisticatedstorage:gold_to_diamond_tier_upgrade',
+            base_input:'minecraft:gold_ingot',
+            addition_input:'minecraft:diamond',
+            id:`${id_prefix}gold_to_diamond_tier_upgrade`
+        },
+        {
+            output:'functionalstorage:diamond_upgrade',
+            base_input:'functionalstorage:gold_upgrade',
+            addition_input:'minecraft:diamond',
+            id:`${id_prefix}diamond_upgrade`
+        },
+        {
+            output:'ae2things:disk_housing',
+            base_input:'ae2:item_cell_housing',
+            addition_input:'sophisticatedstorage:basic_to_diamond_tier_upgrade',
+            id:`${id_prefix}disk_housing`
+        },
+        {
+            output:'expatternprovider:wireless_connect',
+            base_input:'entangled:block',
+            addition_input:'ae2:fluix_glass_cable',
+            id:`${id_prefix}wireless_connect`
+        },
+        {
+            output:'expatternprovider:wireless_tool',
+            base_input:'entangled:item',
+            addition_input:'ae2:fluix_glass_cable',
+            id:`${id_prefix}wireless_tool`
         }]
 
     recipes.forEach(recipe =>{

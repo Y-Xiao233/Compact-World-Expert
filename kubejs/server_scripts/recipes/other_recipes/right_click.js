@@ -10,7 +10,7 @@ BlockEvents.rightClicked(event => {
     const right_clicked_recipes = [
         {
             block_in:'compactmachines:solid_wall',
-            hand_item:'minecraft:air',
+            hand_item:'kubejs:magical_stick',
             output:'kubejs:compact_dust',
             chance:false
         },
@@ -65,6 +65,10 @@ BlockEvents.rightClicked(event =>{
     const { block, hand, item, world, player, server } = event
 
     if (block.id == 'ars_nouveau:mob_jar' && player.mainHandItem == 'elementalcraft:drenched_iron_block' && player.offHandItem == 'naturesaura:token_euphoria') {
-        server.runCommandSilent(`give @p ars_nouveau:mob_jar{BlockEntityTag:{entityId:"botania:doppleganger",entityTag:{id:"botania:doppleganger"}}}`)
+        player.give(Item.of('ars_nouveau:mob_jar','{BlockEntityTag:{entityId:"botania:doppleganger",entityTag:{id:"botania:doppleganger"}}}'))
+    }
+
+    if (block.id == 'ars_nouveau:mob_jar' && player.mainHandItem == 'elementalcraft:elementpipe_creative' && player.offHandItem == 'botania:gaia_ingot') {
+        player.give(Item.of('ars_nouveau:mob_jar','{BlockEntityTag:{entityId:"minecraft:wither",entityTag:{id:"minecraft:wither"}}}'))
     }
 })

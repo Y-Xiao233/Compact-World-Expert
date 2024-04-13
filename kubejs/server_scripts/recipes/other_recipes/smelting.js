@@ -5,10 +5,12 @@ ServerEvents.recipes(event =>{
         {
             output:'minecraft:gold_ingot',
             input:'thermal:gold_dust',
+            xp:0,
+            time:100,
             id:`${id_prefix}gold_ingot`
         }]
 
     recipes.forEach(recipe => {
-        event.smelting(recipe.output,recipe.input).id(recipe.id)  
+        event.recipes.minecraft.smelting(recipe.output,recipe.input,recipe.xp,recipe.time).id(recipe.id)  
     })
 })

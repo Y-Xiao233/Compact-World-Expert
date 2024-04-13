@@ -58,7 +58,14 @@ ServerEvents.recipes(event =>{
             input:'minecraft:grass',
             tool:'cwe:tools/knives/psimetal',
             id:`${id_prefix}straw`
-           }]
+        },
+        {
+            output:'laserio:logic_chip',
+            output_amount:1,
+            input:'laserio:logic_chip_raw',
+            tool:'cwe:tools/knives/psimetal',
+            id:`${id_prefix}logic_chip`
+        }]
 
     recipes.forEach(recipe =>{
         event.custom({

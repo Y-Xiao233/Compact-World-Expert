@@ -34,7 +34,8 @@ StartupEvents.registry("item", (event) => {
         'mana_certus_quartz_crystal',
         'soul_gem',
         'gaia_nugget',
-        'gem_water'
+        'gem_water',
+        'enriched_terra'
     ]
     
     const registry_tool = [
@@ -81,4 +82,5 @@ StartupEvents.registry("item", (event) => {
     event.create('source_psicoal').burnTime(800)
     event.create('psiknife').unstackable().maxDamage(32)
     event.create('swift_alloy_key').unstackable()
+    event.create('magical_stick').unstackable().glow(true)
 })

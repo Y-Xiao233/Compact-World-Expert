@@ -7,6 +7,182 @@
 	id: "07595C95B4C1E79A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "23C960E05973074D"
+			tasks: [{
+				id: "33AC9C76E091A76D"
+				item: {
+					Count: 1b
+					id: "compactmachines:tunnel"
+					tag: {
+						definition: {
+							id: "compactmachines:energy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FB3DF89E9D0122A"]
+			icon: "minecraft:nether_star"
+			id: "1D792E83ED74BC67"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2E9FB89EDC0E3172"
+				title: "更加深入的发展"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"77AE4DA7D7F72E3A"
+			]
+			id: "47DF1F9253025EAA"
+			tasks: [
+				{
+					id: "7EF77DF252D59D06"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "239245CC38DA90E5"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "704D2752B31A8FC5"
+					item: "redstonepen:control_box"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"5FCE8DC72F776197"
+				"44F0495FA6917E74"
+				"79ACAEAD70955630"
+			]
+			id: "5BACC7970365C946"
+			tasks: [
+				{
+					id: "64B39E4BDC25D881"
+					item: "botania:gaia_spreader"
+					type: "item"
+				}
+				{
+					id: "68D3FD812D6BC254"
+					item: "mythicbotany:wither_aconite"
+					type: "item"
+				}
+				{
+					id: "39CD0B13461F2232"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"0574CA33643E025F"
+				"44F0495FA6917E74"
+				"3E520AA93A0BC40E"
+			]
+			id: "7017B3DD67FA2A17"
+			tasks: [
+				{
+					id: "4AD6A58891084E29"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "45EF8642AFB5D0AD"
+					item: {
+						Count: 1b
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D792E83ED74BC67"]
+			id: "09913CC3766F86A3"
+			tasks: [
+				{
+					id: "3BA6F9AB5F858D20"
+					item: "functionalstorage:diamond_upgrade"
+					type: "item"
+				}
+				{
+					id: "114D270E50121BF1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+								}
+								{
+									Count: 1b
+									id: "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+								}
+							]
+						}
+					}
+					title: "钻石升级"
+					type: "item"
+				}
+			]
+			title: "钻石升级"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D792E83ED74BC67"]
+			id: "43B94DEC177997C5"
+			tasks: [{
+				id: "69A9746ECA171983"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1D792E83ED74BC67"]
+			id: "06C4A53CCD4C78C7"
+			tasks: [{
+				id: "060E78675C2C82CE"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+	]
 	title: "&c本章节可以制作的辅助物品"
 }

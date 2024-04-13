@@ -36,6 +36,63 @@ ServerEvents.recipes(event =>{
                 "results":[{"item":'minecraft:iron_ingot'}]
             }],
             id:`${id_prefix}iron_ingot`
+        },
+        {
+            input:items('minecraft:iron_ingot'),
+            loops:1,
+            output:items('create_new_age:overcharged_iron'),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:iron_ingot'),items('minecraft:redstone')],
+                    "results": [items('minecraft:iron_ingot')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":2000,
+                    "ingredients":[items('minecraft:iron_ingot')],
+                    "results":[items('create_new_age:overcharged_iron')]
+                }
+            ],
+            id:`${id_prefix}overcharged_iron`
+        },
+        {
+            input:items('minecraft:gold_ingot'),
+            loops:1,
+            output:items('create_new_age:overcharged_gold'),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:gold_ingot'),items('minecraft:redstone')],
+                    "results": [items('minecraft:gold_ingot')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":2000,
+                    "ingredients":[items('minecraft:gold_ingot')],
+                    "results":[items('create_new_age:overcharged_gold')]
+                }
+            ],
+            id:`${id_prefix}overcharged_gold`
+        },
+        {
+            input:items('naturesaura:token_fear'),
+            loops:1,
+            output:items('naturesaura:token_terror'),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('naturesaura:token_fear'),items('botania:terrasteel_nugget')],
+                    "results": [items('naturesaura:token_fear')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":2500,
+                    "ingredients":[items('naturesaura:token_fear')],
+                    "results":[items('naturesaura:token_terror')]
+                }
+            ],
+            id:`${id_prefix}token_terror`
         }]
 
     recipes.forEach(recipe =>{

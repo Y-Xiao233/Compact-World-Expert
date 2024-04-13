@@ -10,4 +10,12 @@ ServerEvents.entityLootTables((event) =>{
             pool.addItem('botania:life_essence',1,1)
         })
     })
+
+    event.modifyEntity("minecraft:wither", (table) => {
+        table.clearPools()
+        table.addPool((pool) => {
+            pool.rolls = [2, 3];
+            pool.addItem('minecraft:wither_rose',1,2)
+        })
+    })
 })

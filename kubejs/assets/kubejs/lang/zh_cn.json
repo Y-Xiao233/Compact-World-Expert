@@ -46,7 +46,7 @@
     "item.kubejs.sky_nugget":"苍穹粒",
     "item.kubejs.soul_steel_sheet":"灵魂钢板",
     "block.kubejs.obsidian":"黑曜石",
-    "infuse_type.kubejs.soul":"灵魂",
+    "infuse_type.kubejs.soul":"§9灵魂",
     "block.kubejs.soul_steel_casing":"灵魂钢机壳",
     "item.kubejs.enriched_soul_steel":"富集灵魂钢",
     "block.kubejs.token_euphoria_catalyst":"欣快催化器",
@@ -63,5 +63,8 @@
     "fluid.kubejs.liquid_soul":"液态灵魂",
     "item.kubejs.liquid_soul_bucket":"液态灵魂桶",
     "item.kubejs.gaia_nugget":"盖亚魂粒",
-    "item.kubejs.gem_water":"水之结晶"
+    "item.kubejs.gem_water":"水之结晶",
+    "infuse_type.kubejs.terra":"§a泰拉",
+    "item.kubejs.enriched_terra":"富集泰拉",
+    "item.kubejs.magical_stick":"§a神奇的木棍"
 }

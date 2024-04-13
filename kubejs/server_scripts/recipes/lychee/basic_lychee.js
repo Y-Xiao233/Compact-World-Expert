@@ -136,6 +136,16 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','botania:terrasteel_ingot','botania:mana_pylon',
                  posts('place','botania:natura_pylon')),
             id:`${id_prefix}natura_pylon`
+        },
+        {
+            main:lychee('lychee:block_interacting','naturesaura:token_terror','naturesaura:gold_brick',
+                 posts('place','naturesaura:conversion_catalyst')),
+            id:`${id_prefix}conversion_catalyst`
+        },
+        {
+            main:lychee('lychee:block_interacting','ae2:cell_component_16k','create:andesite_casing',
+                 posts('place','ae2:security_station')),
+            id:`${id_prefix}security_station`
         }]
 
     recipes.forEach(recipe =>{

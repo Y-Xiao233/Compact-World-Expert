@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "1FC04254FBE7C665"
+	id: "5F14BD1965453975"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "神奇的掉落物"
+}

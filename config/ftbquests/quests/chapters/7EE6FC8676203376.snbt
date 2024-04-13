@@ -3,14 +3,79 @@
 	default_quest_shape: ""
 	filename: "7EE6FC8676203376"
 	group: "1FC04254FBE7C665"
-	icon: "kubejs:soul_steel_casing"
+	icon: "minecraft:nether_star"
 	id: "7EE6FC8676203376"
-	order_index: 1
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "industrialforegoing:blocks/ore_sieve"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ae2:block/controller_lights"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "botania:block/corporea_retainer_end"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mekanism:block/factory/ultimate/crushing/front_active"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 25.0d
+			hover: [ ]
+			image: "thermal:textures/block/chunk_loader_top.png"
+			order: -1
+			rotation: 0.0d
+			width: 25.0d
+			x: 4.0d
+			y: -3.5d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2FB3DF89E9D0122A"]
 			id: "3326802FFF6771F9"
+			shape: "gear"
+			size: 2.5d
 			tasks: [{
 				id: "62C8A227E30129CC"
 				item: "spirit:soul_steel_ingot"
@@ -305,6 +370,50 @@
 		{
 			dependencies: ["32D343AE4BDE7095"]
 			id: "730065877F52EA3C"
+			rewards: [
+				{
+					count: 8
+					id: "0D102A0D90ACAA0C"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0504A6406850C720"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "260619743B362F02"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06E2B2FFAABE3CC8"
 				item: "industrialforegoing:fluid_extractor"
@@ -337,6 +446,11 @@
 		}
 		{
 			dependencies: ["4FE1D938136E35A1"]
+			description: [
+				"&d或许可以利用装满元素之后会&c发出15格红石信号来做自动化"
+				""
+				"{image:kubejs:textures/ftbquests/elementpipe_creative.png width:210 height:140 align:1}"
+			]
 			id: "5FCE8DC72F776197"
 			tasks: [{
 				id: "30B9B5F4475A3232"
@@ -637,6 +751,7 @@
 					type: "item"
 				}
 			]
+			title: "处理器"
 			x: 2.0d
 			y: -7.0d
 		}
@@ -699,7 +814,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: -7.0d
 		}
 		{
@@ -724,6 +839,536 @@
 			]
 			x: 4.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "4586178EDBD6227F"
+			tasks: [{
+				id: "3BDC4EFDDF492BD5"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			id: "79ACAEAD70955630"
+			tasks: [{
+				id: "7106EABE5A1E2857"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4D1DAD60BEF7F80B"]
+			id: "10D7B732694DF34B"
+			tasks: [{
+				id: "1323F2DB9069DA12"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"10D7B732694DF34B"
+				"79ACAEAD70955630"
+				"2600BAAA497AE382"
+			]
+			id: "0D6E60EB656E3133"
+			tasks: [{
+				id: "5DEE27EDD8A3E1BA"
+				item: "mythicbotany:wither_aconite"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5FCE8DC72F776197"]
+			description: [
+				"&a主手:&b创造元素导管  &a副手:&e盖亚魂锭"
+				"&4对着地上的&a收容罐&5右键&a即可获得&b收容了&f凋零&a的收容罐"
+			]
+			id: "519062D5659FEB32"
+			tasks: [{
+				id: "3D9F26D6A506F44B"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:mob_jar"
+					tag: {
+						BlockEntityTag: {
+							entityId: "botania:doppleganger"
+							entityTag: {
+								id: "minecraft:wither"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&5收容了凋零的收容罐"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["519062D5659FEB32"]
+			id: "2600BAAA497AE382"
+			tasks: [{
+				id: "5AC0A14AD171046C"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FCE8DC72F776197"]
+			hide_dependency_lines: true
+			id: "3E520AA93A0BC40E"
+			tasks: [{
+				id: "69A82FA4C545AB17"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0D6E60EB656E3133"
+				"3E520AA93A0BC40E"
+			]
+			description: ["&a有了这个，就有几乎花不光的魔力了!"]
+			id: "6017F1A1BD51E64F"
+			rewards: [{
+				id: "3B7760624EECDC1D"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "667A99458D674DB0"
+				title: "超多的魔力"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "55C0FDB8B6CD47C7"
+			tasks: [
+				{
+					id: "1ECBA13C6DE99CA8"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					id: "7ADE656587AA272C"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3E520AA93A0BC40E"]
+			id: "7A96FB86BF63BD9D"
+			tasks: [{
+				id: "16485CFBB004BAE8"
+				item: {
+					Count: 1b
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "2A6A7F3961752B16"
+			tasks: [
+				{
+					id: "594CD5CBAD96AF12"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5D30CA6C5E58F9A8"
+					item: {
+						Count: 1b
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "6D584DC1B03A3BD6"
+			tasks: [
+				{
+					id: "3240AC4E54FE8308"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "6271905F3ABF4584"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6D584DC1B03A3BD6"]
+			id: "533928F2C0DB1D2F"
+			tasks: [
+				{
+					id: "693CE603142C4402"
+					item: "create_new_age:overcharged_golden_sheet"
+					type: "item"
+				}
+				{
+					id: "51FF7D6BFD05498A"
+					item: "create_new_age:overcharged_iron_sheet"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["533928F2C0DB1D2F"]
+			id: "257E0CACC56772DF"
+			tasks: [{
+				id: "1C07DADB65BB05C5"
+				item: "create_new_age:blank_circuit"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2600BAAA497AE382"]
+			id: "5BFE0F275D2DE401"
+			tasks: [{
+				id: "501D5201C2DF3179"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["257E0CACC56772DF"]
+			id: "36CC3204AB64FD51"
+			tasks: [{
+				id: "505B4F8126275ABD"
+				item: "powah:energizing_orb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["257E0CACC56772DF"]
+			id: "6B4AE34D2F0A1BD1"
+			tasks: [{
+				id: "449CC6AD9C0AAE0E"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"6B4AE34D2F0A1BD1"
+				"36CC3204AB64FD51"
+			]
+			id: "45B534F0D2B2DCB4"
+			tasks: [{
+				id: "7DCC4F59AF4F6D1D"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6AE4FEA5C4486308"]
+			id: "05E241D2A1C5F673"
+			tasks: [{
+				id: "187A9BD631D6178C"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"45B534F0D2B2DCB4"
+				"05E241D2A1C5F673"
+			]
+			id: "4309A9436A115CD9"
+			tasks: [{
+				id: "6DF95AC011074F44"
+				item: "industrialforegoing:tinydryrubber"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5BFE0F275D2DE401"]
+			id: "394ED55BF5F665AD"
+			tasks: [{
+				id: "4F2C5125FCF4EE9D"
+				item: "minecraft:light_gray_dye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["394ED55BF5F665AD"]
+			id: "430C4B4D71FA11E5"
+			tasks: [{
+				id: "1A5ACEFA2E0E5B0C"
+				item: "thermal:rubber"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["430C4B4D71FA11E5"]
+			id: "6AE4FEA5C4486308"
+			tasks: [{
+				id: "0C2AD86FD033B8E6"
+				item: "thermal:rubber_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6AE4FEA5C4486308"]
+			id: "3675553896A3B975"
+			tasks: [{
+				id: "0FBCC295834F7C44"
+				item: "thermal:cured_rubber_block"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4309A9436A115CD9"]
+			id: "281B22D9556D1EDB"
+			tasks: [{
+				id: "1A6D51F7E6214E0A"
+				item: "naturesaura:token_fear"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["281B22D9556D1EDB"]
+			id: "0AA4E29D153DBC12"
+			tasks: [
+				{
+					id: "2FDE707B0F164F43"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:processing_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69A4F2FE6C6EDAA9"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:efficiency_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0573B0D1AC6F699D"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:speed_addon_2"
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["281B22D9556D1EDB"]
+			id: "7367C352E9F37415"
+			tasks: [{
+				id: "35E94AA1E81D53DD"
+				item: "naturesaura:token_terror"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7367C352E9F37415"]
+			id: "048A110C301423E1"
+			tasks: [{
+				id: "5AAC0D0A255C4766"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32B011A932F4A091"]
+			id: "54B7DAFBEA93E8BB"
+			tasks: [{
+				id: "31557BA52B43B00D"
+				item: "naturesaura:depth_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"048A110C301423E1"
+				"54B7DAFBEA93E8BB"
+			]
+			icon: "minecraft:diamond"
+			id: "66470A3825124332"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "28450412FC4F1113"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:diamond_block"
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond"
+							}
+						]
+					}
+				}
+				title: "钻石"
+				type: "item"
+			}]
+			title: "钻石"
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02448030E79BEE8D"]
+			id: "386F0BB8B58B90E1"
+			tasks: [{
+				id: "66D00DD91B151204"
+				item: "naturesaura:infused_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A42158DE23B7CD5"
+				"6D584DC1B03A3BD6"
+				"6FA698F39B3333C0"
+				"386F0BB8B58B90E1"
+			]
+			hide_dependency_lines: true
+			id: "32B011A932F4A091"
+			tasks: [
+				{
+					id: "71F7188DB068B236"
+					item: "naturesaura:infused_iron"
+					type: "item"
+				}
+				{
+					id: "09353A513BA9CC94"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "2A20A4DC357EB2FB"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "60A7F9C208EF5503"
+					item: "elementalcraft:drenched_iron_ingot"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "26B93F57D8A29D72"
+			tasks: [
+				{
+					id: "69A8294B8C258D24"
+					item: "laserio:card_redstone"
+					type: "item"
+				}
+				{
+					id: "194269C290F77142"
+					item: "laserio:overclocker_node"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -9.0d
 		}
 	]
 	title: "更加深入的发展"

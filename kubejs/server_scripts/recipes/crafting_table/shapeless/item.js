@@ -104,11 +104,69 @@ ServerEvents.recipes(event => {
             output_amount:9,
             input:['botania:gaia_ingot'],
             id:`${id_prefix}gaia_nugget_from_ingot`
+        },
+        {
+            output:'minecraft:light_gray_dye',
+            output_amount:2,
+            input:['minecraft:black_dye','minecraft:white_dye'],
+            id:`${id_prefix}light_gray_dye`
+        },
+        {
+            output:'industrialforegoing:processing_addon_2',
+            output_amount:2,
+            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:engineering_processor'],
+            id:`${id_prefix}processing_addon_2`
+        },
+        {
+            output:'industrialforegoing:efficiency_addon_2',
+            output_amount:2,
+            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:logic_processor'],
+            id:`${id_prefix}efficiency_addon_2`
+        },
+        {
+            output:'industrialforegoing:speed_addon_2',
+            output_amount:2,
+            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:calculation_processor'],
+            id:`${id_prefix}speed_addon_2`
+        },
+        {
+            output:'ae2:quantum_entangled_singularity',
+            output_amount:1,
+            input:['minecraft:diamond','ae2:singularity'],
+            id:`${id_prefix}quantum_entangled_singularity`
+        },
+        {
+            output:'laserio:card_fluid',
+            output_amount:1,
+            input:['laserio:logic_chip','minecraft:bucket'],
+            id:`${id_prefix}card_fluid`
+        },
+        {
+            output:'laserio:card_item',
+            output_amount:1,
+            input:['laserio:logic_chip','minecraft:chest'],
+            id:`${id_prefix}card_item`
+        },
+        {
+            output:'laserio:card_energy',
+            output_amount:1,
+            input:['laserio:logic_chip','apotheosis:epic_material'],
+            id:`${id_prefix}card_energy`
+        },
+        {
+            output:'laserio:card_redstone',
+            output_amount:1,
+            input:['laserio:logic_chip','minecraft:redstone'],
+            id:`${id_prefix}card_redstone`
         }]
 
     recipes.forEach(recipe =>{
         event.shapeless(Item.of(recipe.output,recipe.output_amount),recipe.input).id(recipe.id)
     })
+
+    event.shapeless(Item.of('compactmachines:tunnel', '{definition:{id:"compactmachines:item"}}'),['elementalcraft:swift_alloy_ingot','elementalcraft:contained_crystal','minecraft:chest']).id(`${id_prefix}tunnel/item`)
+    event.shapeless(Item.of('compactmachines:tunnel', '{definition:{id:"compactmachines:fluid"}}'),['elementalcraft:swift_alloy_ingot','elementalcraft:contained_crystal','minecraft:bucket']).id(`${id_prefix}tunnel/fluid`)
+    event.shapeless(Item.of('compactmachines:tunnel', '{definition:{id:"compactmachines:energy"}}'),['elementalcraft:swift_alloy_ingot','elementalcraft:contained_crystal','minecraft:redstone']).id(`${id_prefix}tunnel/energy`)
 })
 
 
