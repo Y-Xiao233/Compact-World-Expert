@@ -93,6 +93,73 @@ ServerEvents.recipes(event =>{
                 }
             ],
             id:`${id_prefix}token_terror`
+        },
+        {
+            input:items('minecraft:diamond'),
+            loops:1,
+            output:items('create_new_age:overcharged_diamond'),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:diamond'),items('minecraft:redstone')],
+                    "results": [items('minecraft:diamond')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":2000,
+                    "ingredients":[items('minecraft:diamond')],
+                    "results":[items('create_new_age:overcharged_diamond')]
+                }
+            ],
+            id:`${id_prefix}overcharged_diamond`
+        },
+        {
+            input:items('minecraft:stone'),
+            loops:1,
+            output:items('powah:uraninite_ore_dense',4),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
+                    "results": [items('minecraft:stone')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:stone'),items('minecraft:lime_dye')],
+                    "results": [items('minecraft:stone')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":10000,
+                    "ingredients":[items('minecraft:stone')],
+                    "results":[items('powah:uraninite_ore_dense',4)]
+                }
+            ],
+            id:`${id_prefix}uraninite_ore_dense`
+        },
+        {
+            input:items('minecraft:stone'),
+            loops:1,
+            output:items('create_new_age:thorium_ore',4),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
+                    "results": [items('minecraft:stone')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('minecraft:stone'),items('minecraft:brown_dye')],
+                    "results": [items('minecraft:stone')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":10000,
+                    "ingredients":[items('minecraft:stone')],
+                    "results":[items('create_new_age:thorium_ore',4)]
+                }
+            ],
+            id:`${id_prefix}thorium_ore`
         }]
 
     recipes.forEach(recipe =>{

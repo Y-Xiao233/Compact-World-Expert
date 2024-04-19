@@ -2,7 +2,7 @@ ServerEvents.recipes(event =>{
     const id_prefix = "compact_world:recipes/botanypots/soil/"
     /**
     {
-     id:,
+     soul_block:,
      can_be_planted_on:,
      growth_ticks:,
      growth_modifier:,
@@ -13,9 +13,16 @@ ServerEvents.recipes(event =>{
         {
             soil_block:'spirit:soul_steel_block',
             can_be_planted_on:['tier_1'],
-            growth_ticks:100,
+            growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}soul_steel_block`
+        },
+        {
+            soil_block:'botania:mana_diamond_block',
+            can_be_planted_on:['botania_flowers'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}mana_diamond_block`
         }]
 
     soils.forEach(soil =>{

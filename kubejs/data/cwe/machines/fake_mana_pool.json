@@ -1,0 +1,144 @@
+{
+    "name": "伪造魔力池",
+    "appearance": {
+        "block": "botania:mana_pool",
+        "light":15,
+        "hardness": 1,
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "mining_level": "minecraft:needs_stone_tool",
+        "running": {
+            "block": "botania:mana_pool"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "id":"slot0",
+        "x":60,
+        "y":12,
+        "type":"custommachinery:slot"
+      },
+      {
+        "id": "slot1",
+        "x": 117,
+        "y": 12,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot2",
+        "x": 60,
+        "y": 52,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot3",
+        "x": 117,
+        "y": 52,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot4",
+        "x": 89,
+        "y": 32,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot5",
+        "x": 152,
+        "y": 52,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot6",
+        "x": 180,
+        "y": 32,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "slot7",
+        "x": 152,
+        "y": 12,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 152,
+        "y": 32,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "伪造魔力池",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "text": "无序合成",
+        "x": 146,
+        "y": 18,
+        "type": "custommachinery:text"
+      },
+      {
+        "text": "主手右键魔力池",
+        "x": 140,
+        "y": 55,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+       {
+        "mode": "input",
+        "id": "slot0",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot4",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "slot5",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "slot6",
+        "type": "custommachinery:item"
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

@@ -66,5 +66,12 @@
     "item.kubejs.gem_water":"水之结晶",
     "infuse_type.kubejs.terra":"§a泰拉",
     "item.kubejs.enriched_terra":"富集泰拉",
-    "item.kubejs.magical_stick":"§a神奇的木棍"
+    "item.kubejs.magical_stick":"§a神奇的木棍",
+    "block.cwe.fake_mana_pool":"伪造魔力池",
+    "item.kubejs.fake_source":"伪造魔源",
+    "fluid.kubejs.liquid_mana":"液态魔力",
+    "item.kubejs.liquid_mana_bucket":"液态魔力桶",
+    "block.kubejs.liquid_mana":"液态魔力",
+    "gas.kubejs.mana_gas":"气态魔力",
+    "gas.kubejs.soul_gas":"气态灵魂"
 }

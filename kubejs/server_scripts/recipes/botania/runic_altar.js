@@ -11,8 +11,8 @@ ServerEvents.recipes(event =>{
 
     const recipes = [
         {
-            output:'mythicbotany:wither_aconite',
-            input:['minecraft:wither_rose','botania:rune_pride','#botania:petals/black','#botania:petals/black'],
+            output:'mythicbotany:wither_aconite_floating',
+            input:['minecraft:wither_rose','botania:rune_pride','#botania:petals/black','#botania:petals/black','minecraft:grass_block'],
             mana:10000,
             id:`${id_prefix}wither_aconite`
         }]

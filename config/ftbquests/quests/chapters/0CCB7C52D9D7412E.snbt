@@ -1644,6 +1644,17 @@
 			x: 7.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["1F2887CF4078E3CC"]
+			id: "0682D144A190084C"
+			tasks: [{
+				id: "1F20FF5A9CF68622"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
+		}
 	]
 	title: "魔法进阶"
 }

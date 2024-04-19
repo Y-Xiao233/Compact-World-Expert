@@ -192,7 +192,17 @@ ServerEvents.recipes(event => {
         'aeinfinitybooster:dimension_card',
         'expatternprovider:infinity_cell',
         'laserio:logic_chip_raw',
-        'laserio:logic_chip'
+        'laserio:logic_chip',
+        'industrialforegoing:fluid_sieving_machine',
+        'industrialforegoing:fermentation_station',
+        'industrialforegoing:washing_factory',
+        'eterminal:ex_pattern_access_part',
+        'mekanismgenerators:fission_reactor_casing',
+        'mekanismgenerators:fission_reactor_port',
+        'mekanismgenerators:reactor_glass',
+        'cookingforblockheads:sink',
+        'create:blaze_burner',
+        'botania:fel_pumpkin'
     ]
 
     const remove_by_id = [
@@ -663,7 +673,6 @@ ServerEvents.recipes(event => {
         'create:splashing/crushed_iron_pile',
         'create_new_age:shapeless/energiser_t1',
         'ars_nouveau:mob_jar',
-        'mythicbotany:mythicbotany_infusion/terrasteel_ingot',
         'botania:terra_plate/terrasteel_ingot',
         'botania:alfheim_portal',
         'botania:natura_pylon',
@@ -835,7 +844,36 @@ ServerEvents.recipes(event => {
         'laserio:laser_node',
         'laserio:card_fluid',
         'laserio:card_energy',
-        'laserio:card_redstone'
+        'laserio:card_redstone',
+        'create:crushing/nether_gold_ore',
+        'mekanism:processing/gold/ore/from_raw',
+        'mekanism:processing/gold/ore/nether_from_raw',
+        'mekanism:processing/gold/ore/deepslate_from_raw',
+        'mekanism:processing/gold/clump/from_raw_ore',
+        'mekanism:processing/gold/shard/from_raw_ore',
+        'botania:mana_infusion/mana_diamond',
+        'botania:mana_infusion/mana_diamond_block',
+        'mythicbotany:mythicbotany_infusion/terrasteel_ingot',
+        'mekanism:processing/fissile_fuel',
+        'mythicbotany:wither_aconite_floating',
+        'mekanism:rotary/water_vapor',
+        'mekanism:separator/water',
+        'mekanismgenerators:separator/heavy_water',
+        'mekanism:reaction/substrate/water_ethene',
+        'mekanism:gas_conversion/flint_to_oxygen',
+        'create_new_age:energising/diamond',
+        'powah:smelting/uraninite_from_raw',
+        'elementalcraft:pure_ore/powah/smelting/uraninite_from_raw',
+        'powah:smelting/uraninite_from_raw_blasting',
+        'elementalcraft:pure_ore/powah/smelting/uraninite_from_raw_blasting',
+        'powah:energizing/uraninite_from_ore_poor',
+        'powah:energizing/uranium_to_uraninite',
+        'powah:energizing/uraninite_from_ore_dense',
+        'powah:energizing/uraninite_from_raw',
+        'powah:energizing/uraninite_from_ore',
+        'create:mechanical_crafting/crushing_wheel',
+        'create_new_age:thorium_multiplication',
+        'create:conversion_0'
     ]
 
     const remove_by_type = [
@@ -844,7 +882,10 @@ ServerEvents.recipes(event => {
         'apotheosis:salvaging',
         'botanypots:crop',
         'jeresources:villager',
-        'naturesaura:animal_spawner'
+        'naturesaura:animal_spawner',
+        'industrialforegoing:ore_washer',
+        'industrialforegoing:fermenter',
+        'industrialforegoing:ore_sieve'
     ]
 
     remove_by_output.forEach(outputs =>{

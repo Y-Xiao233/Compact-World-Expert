@@ -61,6 +61,21 @@ ServerEvents.recipes(event =>{
             output_item:'4x naturesaura:depth_ingot',
             time:100,
             id:`${id_prefix}depth_ingot`
+        },
+        {
+            input_item:[
+                'minecraft:light_gray_dye','kubejs:soul_steel_casing',
+                'minecraft:light_gray_dye','create_new_age:overcharged_iron_sheet',
+                'create_new_age:overcharged_iron_sheet','minecraft:light_gray_dye',
+                'kubejs:soul_steel_casing','minecraft:light_gray_dye'
+            ],
+            input_fluid:'kubejs:liquid_mana',
+            input_fluid_amount:100,
+            output_fluid:false,
+            output_fluid_amount:false,
+            output_item:'3x mekanismgenerators:fission_reactor_casing',
+            time:100,
+            id:`${id_prefix}fission_reactor_casing`
         }]
 
     recipes.forEach(recipe =>{

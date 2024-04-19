@@ -35,7 +35,8 @@ StartupEvents.registry("item", (event) => {
         'soul_gem',
         'gaia_nugget',
         'gem_water',
-        'enriched_terra'
+        'enriched_terra',
+        'fake_source'
     ]
     
     const registry_tool = [

@@ -7,7 +7,7 @@
         "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
         "mining_level": "minecraft:needs_stone_tool",
         "running": {
-            "block": "kubejs:fluid_tank"
+            "block": "create:fluid_tank"
         }
     },
     "gui": [
@@ -87,7 +87,7 @@
         "type": "custommachinery:text"
       },
       {
-        "text": "主手右键流体罐",
+        "text": "主手拿着对应物品右键流体罐",
         "x": 130,
         "y": 52,
         "type": "custommachinery:text"

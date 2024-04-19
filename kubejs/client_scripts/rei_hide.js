@@ -88,7 +88,15 @@ const rei_hide = [
     'industrialforegoing:speed_addon_1',
     'industrialforegoing:efficiency_addon_1',
     'industrialforegoing:processing_addon_1',
-    'aeinfinitybooster:infinity_card'
+    'aeinfinitybooster:infinity_card',
+    'industrialforegoing:fluid_sieving_machine',
+    'industrialforegoing:fermentation_station',
+    'industrialforegoing:washing_factory',
+    'mythicbotany:wither_aconite',
+    'powah:uraninite_raw',
+    'powah:uraninite_ore_poor',
+    'powah:uraninite_ore',
+    'botania:fel_pumpkin'
 ]
 
 REIEvents.hide('item', event => {
@@ -103,17 +111,37 @@ ItemEvents.tooltip(tooltip =>{
     })
 })
 
-REIEvents.hide('item', event => {
 
 const other_functional_storage = ['jungle','birch','spruce','acacia','dark_oak','crimson','warped','mangrove']
 const other_functional_storage_tier = ['1','2','4']
+
+const mythicbotany_capacity_flower = ['feysythia','raindeletia']
+const botania_capacity_flower = ['dandelifeon','rafflowsia','shulk_me_not','entropinnyum','munchdew','rosa_arcana','thermalily','hydroangeas','spectrolus','narslimmus','gourmaryllis','kekimurus']
+
+ItemEvents.tooltip(tooltip =>{
+    other_functional_storage_tier.forEach(tier =>{
+    other_functional_storage.forEach(storage =>{
+        tooltip.add('functionalstorage:' + storage + '_' +  tier,hide_message)
+    })})
+
+    mythicbotany_capacity_flower.forEach(flowers =>{
+        tooltip.add('mythicbotany:' + flowers,hide_message)
+        tooltip.add('mythicbotany:' + flowers + '_floating',hide_message)
+    })
+
+    botania_capacity_flower.forEach(flowers =>{
+        tooltip.add('botania:' + flowers,hide_message)
+        tooltip.add('botania:floating_' + flowers,hide_message)
+    })
+})
+
+REIEvents.hide('item', event => {
+
     other_functional_storage_tier.forEach(tier =>{
     other_functional_storage.forEach(storage =>{
         event.hide('functionalstorage:' + storage + '_' +  tier)
     })})
 
-const mythicbotany_capacity_flower = ['feysythia','raindeletia']
-const botania_capacity_flower = ['dandelifeon','rafflowsia','shulk_me_not','entropinnyum','munchdew','rosa_arcana','thermalily','hydroangeas','spectrolus','narslimmus','gourmaryllis','kekimurus']
     mythicbotany_capacity_flower.forEach(flowers =>{
         event.hide('mythicbotany:' + flowers)
         event.hide('mythicbotany:' + flowers + '_floating')

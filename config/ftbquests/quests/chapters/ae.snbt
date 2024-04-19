@@ -897,6 +897,17 @@
 			x: 11.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["329AAA6A58EEB648"]
+			id: "57359E1416BE60ED"
+			tasks: [{
+				id: "36AF14DB33CC84E5"
+				item: "eterminal:ex_pattern_access_part"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
 	]
 	title: "&aAE及其扩展"
 }

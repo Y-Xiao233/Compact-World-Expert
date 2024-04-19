@@ -105,9 +105,6 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "pipez": {
-    "pipe": true
-  },
   "create": {
     "filter": true,
     "backtank_capacity": true,
@@ -121,6 +118,9 @@
   },
   "gravestone": {
     "grave": true
+  },
+  "mechanicalmachinery": {
+    "jade_provider": true
   },
   "cookingforblockheads": {
     "fridge": true,

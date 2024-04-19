@@ -881,8 +881,8 @@
 			]
 			id: "0D6E60EB656E3133"
 			tasks: [{
-				id: "5DEE27EDD8A3E1BA"
-				item: "mythicbotany:wither_aconite"
+				id: "2D4AF1ED7C29C0C5"
+				item: "mythicbotany:wither_aconite_floating"
 				type: "item"
 			}]
 			x: 5.5d
@@ -960,6 +960,10 @@
 		}
 		{
 			dependencies: ["77AE4DA7D7F72E3A"]
+			description: [
+				"&a在这个整合包中你可以给&2能&a加入&b能量/速度升级&a的机器加入64个升级"
+				"&5但是我&c建议&5你之加入&c16&5个(因此我特地将ta的最大堆叠数改成了16)"
+			]
 			id: "55C0FDB8B6CD47C7"
 			tasks: [
 				{

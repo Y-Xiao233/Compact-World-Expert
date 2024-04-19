@@ -146,6 +146,11 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','ae2:cell_component_16k','create:andesite_casing',
                  posts('place','ae2:security_station')),
             id:`${id_prefix}security_station`
+        },
+        {
+            main:lychee('lychee:block_interacting','botania:mana_diamond','mekanismgenerators:fission_reactor_casing',
+                 posts('place','mekanismgenerators:fission_reactor_port')),
+            id:`${id_prefix}fission_reactor_port`
         }]
 
     recipes.forEach(recipe =>{

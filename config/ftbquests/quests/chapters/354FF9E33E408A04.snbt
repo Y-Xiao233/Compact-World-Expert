@@ -1377,6 +1377,35 @@
 			x: 9.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["4586578D6CA31C45"]
+			id: "759148D9E719DCE7"
+			tasks: [{
+				id: "38668B63AD9EFBD4"
+				item: "bettermuffling:muffling_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["555A01BA82D7D9B7"]
+			id: "781EDD8C03A166DB"
+			tasks: [
+				{
+					id: "43980E349DAE7737"
+					item: "bettermuffling:muffling_block_advanced"
+					type: "item"
+				}
+				{
+					id: "133F6DC2D6919D07"
+					item: "bettermuffling:upgrade"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
 	]
 	title: "原初魔法"
 }

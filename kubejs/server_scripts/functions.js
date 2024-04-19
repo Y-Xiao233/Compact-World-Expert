@@ -185,33 +185,91 @@ function runes(consume,item,x,z){
     return runes
 }
 
-function items(item,count){
+function items(item,count,nbt){
     count = typeof count != "undefined"?count:false
+    nbt = typeof nbt != "undefined"?nbt:false
+
     let count_form_key = {}
+    let nbt_form_key = {}
+    let nbt_type_form_key = {}
+
     if(count != false){
         count_form_key = "count"
     }
+
+    if(nbt != false){
+        nbt_form_key = "nbt"
+        nbt_type_form_key = "type"
+    }
+
     let items = {
         "item":item
     }
+
     Object.defineProperty(items,count_form_key,{value:count,writable:true,enumerable:true,configurable:true})
+    Object.defineProperty(items,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
+    Object.defineProperty(items,nbt_type_form_key,{value:"forge:nbt",writable:true,enumerable:true,configurable:true})
+
     return items
 }
 
-function tags(tag,count){
+function tags(tag,count,nbt){
     count = typeof count != "undefined"?count:false
+    nbt = typeof nbt != "undefined"?nbt:false
+
     let count_form_key = {}
+    let nbt_form_key = {}
+
     if(count != false){
         count_form_key = "count"
     }
+
+    if(nbt != false){
+        nbt_form_key = "nbt"
+    }
+
     let tags = {
         "tag":tag
     }
+
     Object.defineProperty(tags,count_form_key,{value:count,writable:true,enumerable:true,configurable:true})
+    Object.defineProperty(tags,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
+
     return tags
+}
+
+function fluids(fluid,amount,nbt){
+    amount = typeof amount != "undefined"?amount:1000
+    nbt = typeof nbt != "undefined"?nbt:false
+
+    let nbt_form_key = {}
+
+    if(nbt != false){
+        nbt_form_key = "nbt"
+    }
+
+    let fluids = {
+        "fluid":fluid,
+        "amount": amount
+    }
+
+    Object.defineProperty(fluids,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
+
+    return fluids
 }
 
 function crops_outputs(item,chance,rolls1,rolls2){
     let output = Item.of(item).withChance(chance).withRolls(rolls1,rolls2)
     return output
+}
+
+function gases(gas,amount){
+    amount = typeof amount != "undefined"?amount:1000
+
+    let mekanism_gas = {
+        "gas": gas,
+        "amount": amount
+    }
+
+    return mekanism_gas
 }

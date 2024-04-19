@@ -44,12 +44,18 @@ ServerEvents.recipes(event =>{
             input:['4x minecraft:gold_ingot',Fluid.of('minecraft:lava',250)],
             heated:false,
             id:`${id_prefix}swift_alloy_ingot`
+        },
+        {
+            output:'create_new_age:radioactive_thorium',
+            input:['2x create_new_age:thorium','2x powah:uraninite',Fluid.of('minecraft:lava',1000)],
+            heated:"heated",
+            id:`${id_prefix}radioactive_thorium`
         }]
 
     recipes.forEach(recipe =>{
-        if(recipe.heated == "super"){
+        if(recipe.heated == "superheated"){
             event.recipes.create.mixing(recipe.output,recipe.input).superheated().id(recipe.id)
-        }else if(recipe.heated == true){
+        }else if(recipe.heated == 'heated'){
             event.recipes.create.mixing(recipe.output,recipe.input).heated().id(recipe.id)
         }else if(recipe.heated == false){
             event.recipes.create.mixing(recipe.output,recipe.input).id(recipe.id)

@@ -8,4 +8,5 @@ StartupEvents.registry("fluid",event =>{
     fluids.forEach(fluid =>{
         event.create(fluid.id).thickTexture(fluid.color).bucketColor(fluid.color)
     })
+    event.create('liquid_mana').stillTexture('kubejs:block/liquid_mana/liquid_mana_still').flowingTexture('kubejs:block/liquid_mana/liquid_mana_flowing').bucketColor(0x48E9F5)
 })

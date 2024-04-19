@@ -1,0 +1,9 @@
+{
+  "itemGroup.eterminal": "Enhanced Terminal",
+  "item.eterminal.ex_pattern_access_part": "ME增强型样板管理终端",
+  "gui.eterminal.ex_pattern_access_terminal": "ME拓展样板管理终端",
+  "gui.eterminal.ex_pattern_access_terminal.tooltip.01": "通过输出或者样板名称进行搜索。",
+  "gui.eterminal.ex_pattern_access_terminal.tooltip.02": "通过输入或者样板名称进行搜索。",
+  "gui.eterminal.ex_pattern_access_terminal.tooltip.03": "在世界中高亮显示该样板供应器",
+  "chat.ex_pattern_access_terminal.pos": "该样板供应器已在世界中高亮显示，坐标: %s, 维度: %s"
+}

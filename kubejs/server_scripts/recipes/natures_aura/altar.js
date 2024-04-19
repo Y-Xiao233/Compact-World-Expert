@@ -70,7 +70,7 @@ ServerEvents.recipes(event =>{
         {
             input:items('naturesaura:depth_ingot'),
             catalyst:'naturesaura:conversion_catalyst',
-            output:items('minecraft:diamond',2),
+            output:items('minecraft:diamond',8),
             aura:500,
             time:50,
             id:`${id_prefix}diamond`
@@ -78,10 +78,18 @@ ServerEvents.recipes(event =>{
         {
             input:items('naturesaura:depth_ingot_block'),
             catalyst:'naturesaura:conversion_catalyst',
-            output:items('minecraft:diamond_block',2),
+            output:items('minecraft:diamond_block',8),
             aura:4000,
             time:400,
             id:`${id_prefix}diamond_block`
+        },
+        {
+            input:items('kubejs:incomplete_craftpurecrystal',1,'{SequencedAssembly:{Progress:0.6f,Step:3,id:"compact_world:recipes/create/special_sequenced_assembly/special/purecrystal"}}'),
+            catalyst:'kubejs:token_euphoria_catalyst',
+            output:items('kubejs:incomplete_craftpurecrystal',1,'{SequencedAssembly:{Progress:0.8f,Step:4,id:"compact_world:recipes/create/special_sequenced_assembly/special/purecrystal"}}'),
+            aura:0,
+            time:10,
+            id:`${id_prefix}purecrystal/step3-4`
         }]
 
     recipes.forEach(recipe =>{
@@ -106,6 +114,7 @@ ServerEvents.recipes(event =>{
     })
 })
 
+/*
 ServerEvents.recipes(event =>{
     const id_prefix = 'compact_world:recipes/natures_auar/altar/sequenced_assembly/'
 
@@ -143,3 +152,5 @@ ServerEvents.recipes(event =>{
         }
     })
 })
+
+*/

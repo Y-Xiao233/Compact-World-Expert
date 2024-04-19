@@ -19,6 +19,22 @@ ServerEvents.recipes(event =>{
             growth_tick:200,
             growth_modifier:1,
             id:`${id_prefix}blue_archwood_sapling`
+        },
+        {
+            seed:'botania:brown_mystical_flower',
+            can_be_planted_on:['botania_flowers'],
+            output:[crops_outputs('botania:brown_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}brown_mystical_flower`
+        },
+        {
+            seed:'botania:lime_mystical_flower',
+            can_be_planted_on:['botania_flowers'],
+            output:[crops_outputs('botania:lime_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}lime_mystical_flower`
         }]
 
     crops.forEach(crop => {

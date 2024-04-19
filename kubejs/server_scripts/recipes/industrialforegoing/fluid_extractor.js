@@ -5,8 +5,8 @@ ServerEvents.recipes(event =>{
     {
      input:,
      output_block:,
-     chance:,
      output_fluid:,
+     chance:,
      id:`${id_prefix}`
     }
     */
@@ -24,6 +24,13 @@ ServerEvents.recipes(event =>{
             output_fluid:Fluid.of('industrialforegoing:latex',10),
             chance:0.01,
             id:`${id_prefix}latex`
+        },
+        {
+            input:'botania:mana_diamond_block',
+            output_block:'minecraft:diamond_block',
+            output_fluid:Fluid.of('kubejs:liquid_mana',10),
+            chance:0.01,
+            id:`${id_prefix}liquid_mana`
         }]
 
     reicpes.forEach(recipe =>{

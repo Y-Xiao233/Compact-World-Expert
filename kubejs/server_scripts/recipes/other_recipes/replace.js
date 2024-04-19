@@ -337,6 +337,24 @@ ServerEvents.recipes(event =>{
             filter:{output:'laserio:filter_count'},
             original:'minecraft:observer',
             replace:'cyclic:user'
+        },
+        {
+            type:'input',
+            filter:{output:'bettermuffling:muffling_block'},
+            original:'minecraft:note_block',
+            replace:'botania:livingwood_log'
+        },
+        {
+            type:'input',
+            filter:{output:'create_new_age:energiser_t2'},
+            original:'minecraft:lightning_rod',
+            replace:'create_new_age:overcharged_diamond'
+        },
+        {
+            type:'input',
+            filter:{output:'create:empty_blaze_burner'},
+            original:'create:iron_sheet',
+            replace:'create_new_age:overcharged_diamond'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

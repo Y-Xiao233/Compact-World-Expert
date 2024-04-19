@@ -44,6 +44,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['laserio:laser_node'],
             id:`${id_prefix}laser_node_to_laser_connector`
+        },
+        {
+            output:'cookingforblockheads:sink',
+            output_amount:2,
+            input:['thermal:device_water_gen','spirit:soul_steel_ingot'],
+            id:`${id_prefix}sink`
         }]
 
     recipes.forEach(recipe =>{

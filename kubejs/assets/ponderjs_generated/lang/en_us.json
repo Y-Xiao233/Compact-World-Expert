@@ -5,5 +5,14 @@
   "kubejs.ponder.fluid_tank.text_3": "拿着对应物品右键置物台把物品放上去",
   "kubejs.ponder.fluid_tank.text_4": "然后在中间的流体储罐内倒入对应流体",
   "kubejs.ponder.fluid_tank.text_5": "最后拿着对应的物品右键流体储罐",
-  "kubejs.ponder.fluid_tank.text_6": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了"
+  "kubejs.ponder.fluid_tank.text_6": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了",
+  "kubejs.ponder.mana_pool.header": "世界合成",
+  "kubejs.ponder.mana_pool.text_1": "空手+shift对着魔力池(并非伪造魔力池)右键",
+  "kubejs.ponder.mana_pool.text_2": "在这些冒红色粒子效果的地方放元素容器",
+  "kubejs.ponder.mana_pool.text_3": "在这些冒绿色粒子效果的地方放魔源罐",
+  "kubejs.ponder.mana_pool.text_4": "元素容器中需要一定量四种元素(4中元素的位置可以任意选择)",
+  "kubejs.ponder.mana_pool.text_5": "魔源罐中需要一定量魔源(4个魔源罐都需要)",
+  "kubejs.ponder.mana_pool.text_6": "中间的魔力池也需要一定量的魔力",
+  "kubejs.ponder.mana_pool.text_7": "最后拿着对应的物品右键魔力池(并非shift+右键)",
+  "kubejs.ponder.mana_pool.text_8": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了"
 }

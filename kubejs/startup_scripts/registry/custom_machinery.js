@@ -7,7 +7,8 @@ StartupEvents.registry("block", (event) => {
         'cwe:mana_sourcelink',
         'cwe:source_craftingtable',
         'cwe:mana_booster',
-        'cwe:fake_fluid_tank'
+        'cwe:fake_fluid_tank',
+        'cwe:fake_mana_pool'
     ]
 
     custom_machinerys.forEach(custom_machinery =>{

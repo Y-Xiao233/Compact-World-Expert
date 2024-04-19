@@ -3,9 +3,392 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: "1FC04254FBE7C665"
+	icon: "minecraft:crafting_table"
 	id: "5F14BD1965453975"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
-	title: "神奇的掉落物"
+	quests: [
+		{
+			dependencies: ["66470A3825124332"]
+			id: "728AA02240EBF3B7"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "6A3542662CEA5787"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["728AA02240EBF3B7"]
+			id: "70259D176FE131FE"
+			tasks: [{
+				id: "30964B1BDFD5D9D1"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70259D176FE131FE"]
+			id: "036AC9796FD2EABC"
+			tasks: [{
+				id: "69A35C4025C3A9F8"
+				item: "botania:mana_diamond_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["036AC9796FD2EABC"]
+			id: "221EB1C21D096B06"
+			tasks: [{
+				id: "7CAF36A100333286"
+				item: "kubejs:liquid_mana_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["221EB1C21D096B06"]
+			id: "75C6DEF9EE7D78B2"
+			tasks: [
+				{
+					id: "492A1A9CEC08E813"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "31C2FFD607BDA25C"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "7A8D3BD5E5AC3BCA"
+					item: "mekanismgenerators:reactor_glass"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7929A1C1A494C0D6"]
+			id: "3C5BC760B8D03208"
+			tasks: [{
+				id: "445BA72088C6DA6F"
+				item: "mekanismgenerators:fission_fuel_assembly"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7929A1C1A494C0D6"]
+			id: "4D368E7E17042589"
+			tasks: [{
+				id: "1C8FE3FEA2FC8023"
+				item: "mekanismgenerators:control_rod_assembly"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2510ED6B7A52F2D6"]
+			id: "3BFC0E20874651AC"
+			tasks: [{
+				id: "522D44AA76FE1D60"
+				item: "thermal:apatite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"75C6DEF9EE7D78B2"
+				"3C5BC760B8D03208"
+				"4D368E7E17042589"
+				"1796D5FC1BCEE9E6"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:block/liquid_mana/liquid_mana_still"
+				}
+			}
+			id: "2510ED6B7A52F2D6"
+			tasks: [{
+				id: "37F461A05B914860"
+				type: "checkmark"
+			}]
+			title: "氧气"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3006F6F25EEE198C"
+				"1E8621A935B7B6A4"
+			]
+			description: ["&a只能用锅炉制作"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mekanism:liquid/steam"
+				}
+			}
+			id: "1796D5FC1BCEE9E6"
+			tasks: [{
+				id: "6CA5D9E50D209144"
+				title: "水蒸气"
+				type: "checkmark"
+			}]
+			title: "水蒸气"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"70259D176FE131FE"
+				"493929200591E2C0"
+			]
+			id: "3006F6F25EEE198C"
+			tasks: [
+				{
+					id: "7D1BDB465FAC1BA3"
+					item: "mekanism:boiler_casing"
+					type: "item"
+				}
+				{
+					id: "5E3A5529AD6D2D56"
+					item: "mekanism:boiler_valve"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["728AA02240EBF3B7"]
+			id: "200B67A0E1F260C9"
+			tasks: [{
+				id: "13611AB3DF5BAD38"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["200B67A0E1F260C9"]
+			id: "6C71690E1E05709B"
+			tasks: [{
+				id: "0BD1BFCDCBD70EEC"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["036AC9796FD2EABC"]
+			id: "063702CE17A0C103"
+			tasks: [
+				{
+					id: "706B8BDF12189B25"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7AB7EB497D65FFDC"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["063702CE17A0C103"]
+			id: "2FFE56110F0BA14C"
+			tasks: [
+				{
+					id: "4081120E59E15AA2"
+					item: "create_new_age:thorium_ore"
+					type: "item"
+				}
+				{
+					id: "0D55428EC6233493"
+					item: "powah:uraninite_ore_dense"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FFE56110F0BA14C"
+				"194DD821009E632E"
+			]
+			id: "28BADDE895A1F297"
+			tasks: [
+				{
+					id: "7C991BF6119ACEF5"
+					item: "create_new_age:thorium"
+					type: "item"
+				}
+				{
+					id: "4F3A5EABDA5F4848"
+					item: "powah:uraninite"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"28BADDE895A1F297"
+				"4F11A3085878547A"
+			]
+			id: "082639A3CAC61F4A"
+			tasks: [{
+				id: "336D3A1A762B8B01"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082639A3CAC61F4A"]
+			id: "3F67098F51FE7E6B"
+			tasks: [{
+				id: "669D7D3DB4FCAE30"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3F67098F51FE7E6B"]
+			id: "7929A1C1A494C0D6"
+			tasks: [{
+				id: "68141ED30B2B5E6E"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["728AA02240EBF3B7"]
+			hide_dependency_lines: true
+			id: "29E010C1F8F901F9"
+			tasks: [{
+				id: "44D9C085E3B5766B"
+				item: "kubejs:soul_steel_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29E010C1F8F901F9"]
+			id: "1E8621A935B7B6A4"
+			tasks: [
+				{
+					id: "62598C7AC669226D"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "27AC732219D74917"
+					item: "mekanism:superheating_element"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29E010C1F8F901F9"]
+			id: "493929200591E2C0"
+			tasks: [
+				{
+					id: "7831EECB70F5B7F3"
+					item: "elementalcraft:pedestal_air"
+					type: "item"
+				}
+				{
+					id: "7798C06341AA6360"
+					item: "elementalcraft:pedestal_water"
+					type: "item"
+				}
+				{
+					id: "1645A06E3BBA124D"
+					item: "elementalcraft:pedestal_fire"
+					type: "item"
+				}
+				{
+					id: "5FBC396864E2D09B"
+					item: "elementalcraft:pedestal_earth"
+					type: "item"
+				}
+				{
+					id: "19ED4E986662815D"
+					item: "elementalcraft:pureinfuser"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["200B67A0E1F260C9"]
+			id: "194DD821009E632E"
+			tasks: [{
+				id: "5B42050CD6ECD5E0"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["200B67A0E1F260C9"]
+			id: "3A4F89473FDAD919"
+			tasks: [{
+				id: "2C4F77360F69ADC5"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3A4F89473FDAD919"]
+			id: "4F11A3085878547A"
+			tasks: [{
+				id: "308CEC6C3398A738"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+	]
+	title: "神奇的合成表"
 }

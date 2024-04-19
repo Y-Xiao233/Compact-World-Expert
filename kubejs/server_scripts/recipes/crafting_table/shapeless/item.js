@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
         },
         {
             output:'ae2:quantum_entangled_singularity',
-            output_amount:1,
+            output_amount:2,
             input:['minecraft:diamond','ae2:singularity'],
             id:`${id_prefix}quantum_entangled_singularity`
         },
@@ -158,6 +158,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['laserio:logic_chip','minecraft:redstone'],
             id:`${id_prefix}card_redstone`
+        },
+        {
+            output:'create:blaze_burner',
+            output_amount:1,
+            input:['create:empty_blaze_burner','minecraft:blaze_spawn_egg'],
+            id:`${id_prefix}blaze_burner`
         }]
 
     recipes.forEach(recipe =>{

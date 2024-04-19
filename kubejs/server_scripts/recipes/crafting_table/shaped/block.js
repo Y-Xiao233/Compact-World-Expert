@@ -916,6 +916,36 @@ ServerEvents.recipes(event => {
         C: 'laserio:logic_chip'
       },
       id:`${id_prefix}laser_node`
+     },
+     {
+      output:'eterminal:ex_pattern_access_part',
+      pattern:[' A ','BCB',' A '],
+      key:{
+        A: 'thermal:cured_rubber',
+        B: 'minecraft:redstone',
+        C: 'ae2:pattern_access_terminal'
+      },
+      id:`${id_prefix}ex_pattern_access_part`
+     },
+     {
+      output:'4x mekanismgenerators:reactor_glass',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: '#forge:glass',
+        B: 'mekanismgenerators:fission_reactor_casing'
+      },
+      id:`${id_prefix}reactor_glass`
+     },
+     {
+      output:'2x create:crushing_wheel',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'minecraft:polished_andesite',
+        B: 'kubejs:andesite_alloy_sheet',
+        C: 'create_new_age:overcharged_diamond',
+        D: 'create:shaft'
+      },
+      id:`${id_prefix}crushing_wheel`
      }]
   
   recipes.forEach(recipe =>{

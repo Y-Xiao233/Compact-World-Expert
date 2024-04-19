@@ -97,6 +97,10 @@ const tooltips_rei_information = [
     {
         id:['ae2:mysterious_cube'],
         information:['\u00a7a放在地上挖掉它会掉落四种压印模板']
+    },
+    {
+        id:['cwe:fake_mana_pool'],
+        information:["\u00a7c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"]
     }]
 
 REIEvents.information(event => {
