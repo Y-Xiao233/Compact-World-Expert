@@ -1,0 +1,6 @@
+BlockCrafting.addMultiblockStructure(MultiblockStructureFileBuilder.create("kubejs:enchanting_apparatus")
+    .file("kubejs/data/kubejs/structures/enchanting_apparatus.nbt")
+    .center('elementalcraft:swift_alloy_block')
+    .craftingItem('elementalcraft:swift_alloy_ingot')
+    .resultItem('ars_nouveau:enchanting_apparatus')
+    .build())

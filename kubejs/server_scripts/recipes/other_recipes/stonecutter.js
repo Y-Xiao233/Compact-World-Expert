@@ -52,6 +52,26 @@ ServerEvents.recipes(event =>{
             input:'modularrouters:blank_upgrade',
             output:'modularrouters:camouflage_upgrade',
             id:`${id_prefix}camouflage_upgrade`
+        },
+        {
+            input:'ars_nouveau:relay',
+            output:'ars_nouveau:relay_collector',
+            id:`${id_prefix}relay_collector`
+        },
+        {
+            input:'ars_nouveau:relay',
+            output:'ars_nouveau:relay_deposit',
+            id:`${id_prefix}relay_deposit`
+        },
+        {
+            input:'ars_nouveau:relay',
+            output:'ars_nouveau:relay_warp',
+            id:`${id_prefix}relay_warp`
+        },
+        {
+            input:'ars_nouveau:relay',
+            output:'ars_nouveau:relay_splitter',
+            id:`${id_prefix}relay_splitter`
         }]
 
     recipes.forEach(recipe =>{

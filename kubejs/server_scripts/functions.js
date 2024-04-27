@@ -52,7 +52,7 @@ function lychee(type,item_in,block_in,post1,post2,post3,post4,ghost,hide_in_play
     let lychee_function = {
         "type":type,
         "ghost":ghost,
-        "hide_in_player":hide_in_player
+        "hide_in_viewer":hide_in_player
     }
 
     Object.defineProperty(lychee_function,post_key,{value:posts,writable:true,enumerable:true,configurable:true})
@@ -98,6 +98,7 @@ function posts(posts_type,output_item,output_count,contextual_type,contextual){
         "type":posts_type,
         "count":output_count
     }
+    
     Object.defineProperty(post,contextual_form_key,{value:contextual_types,writable:true,enumerable:true,configurable:true})
     Object.defineProperty(post,post_form_key,{value:output_item,writable:true ,enumerable:true,configurable:true})
 
@@ -198,8 +199,8 @@ function items(item,count,nbt){
     }
 
     if(nbt != false){
-        nbt_form_key = "nbt"
-        nbt_type_form_key = "type"
+        nbt_form_key = "nbt",
+        nbt_type_form_key = 'type'
     }
 
     let items = {
@@ -207,8 +208,10 @@ function items(item,count,nbt){
     }
 
     Object.defineProperty(items,count_form_key,{value:count,writable:true,enumerable:true,configurable:true})
-    Object.defineProperty(items,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
-    Object.defineProperty(items,nbt_type_form_key,{value:"forge:nbt",writable:true,enumerable:true,configurable:true})
+    if(nbt != false){
+        Object.defineProperty(items,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
+        Object.defineProperty(items,nbt_type_form_key,{value:"forge:nbt",writable:true,enumerable:true,configurable:true})
+    }
 
     return items
 }
@@ -225,16 +228,19 @@ function tags(tag,count,nbt){
     }
 
     if(nbt != false){
-        nbt_form_key = "nbt"
+        nbt_form_key = "forge:nbt"
     }
 
     let tags = {
         "tag":tag
     }
 
+    if(count != false)
     Object.defineProperty(tags,count_form_key,{value:count,writable:true,enumerable:true,configurable:true})
-    Object.defineProperty(tags,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
 
+    if(nbt != false)
+    Object.defineProperty(tags,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
+    
     return tags
 }
 
@@ -245,7 +251,7 @@ function fluids(fluid,amount,nbt){
     let nbt_form_key = {}
 
     if(nbt != false){
-        nbt_form_key = "nbt"
+        nbt_form_key = "forge:nbt"
     }
 
     let fluids = {
@@ -253,6 +259,7 @@ function fluids(fluid,amount,nbt){
         "amount": amount
     }
 
+    if( nbt != false)
     Object.defineProperty(fluids,nbt_form_key,{value:nbt,writable:true,enumerable:true,configurable:true})
 
     return fluids
@@ -264,7 +271,7 @@ function crops_outputs(item,chance,rolls1,rolls2){
 }
 
 function gases(gas,amount){
-    amount = typeof amount != "undefined"?amount:1000
+    amount = typeof amount != "undefined"?amount:1
 
     let mekanism_gas = {
         "gas": gas,
@@ -272,4 +279,15 @@ function gases(gas,amount){
     }
 
     return mekanism_gas
+}
+
+function spirits(type,count){
+    count = typeof count != "undefined"?count:1
+    
+    let spirit = {
+        "type":type,
+        "count":count
+    }
+
+    return spirit
 }

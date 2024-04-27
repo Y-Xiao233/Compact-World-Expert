@@ -5,6 +5,68 @@
 	group: "1FC04254FBE7C665"
 	icon: "minecraft:crafting_table"
 	id: "5F14BD1965453975"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "quark:textures/attribute/attack_knockback.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "quark:textures/attribute/attack_damage.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 25.0d
+			hover: [ ]
+			image: "minecraft:block/cauldron_bottom"
+			rotation: 0.0d
+			width: 25.0d
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "kubejs:textures/ftbquests/fission_cutout.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "quark:textures/attribute/swim_speed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -1.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -55,7 +117,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["221EB1C21D096B06"]
+			dependencies: ["5FD4E6B9DC92A573"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/ftbquests/fission_cutout.png"
+				}
+			}
 			id: "75C6DEF9EE7D78B2"
 			tasks: [
 				{
@@ -75,7 +144,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			title: "裂变反应堆"
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -86,7 +156,7 @@
 				item: "mekanismgenerators:fission_fuel_assembly"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -97,18 +167,22 @@
 				item: "mekanismgenerators:control_rod_assembly"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["2510ED6B7A52F2D6"]
+			dependencies: [
+				"2510ED6B7A52F2D6"
+				"770DAFEF9910BEDC"
+				"694308168E73D6B8"
+			]
 			id: "3BFC0E20874651AC"
 			tasks: [{
 				id: "522D44AA76FE1D60"
 				item: "thermal:apatite"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -116,7 +190,6 @@
 				"75C6DEF9EE7D78B2"
 				"3C5BC760B8D03208"
 				"4D368E7E17042589"
-				"1796D5FC1BCEE9E6"
 			]
 			icon: {
 				Count: 1b
@@ -131,15 +204,17 @@
 				type: "checkmark"
 			}]
 			title: "氧气"
-			x: 8.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"3006F6F25EEE198C"
 				"1E8621A935B7B6A4"
+				"75C6DEF9EE7D78B2"
 			]
-			description: ["&a只能用锅炉制作"]
+			dependency_requirement: "one_completed"
+			description: ["&a只能用锅炉/裂变反应堆制作"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -150,11 +225,11 @@
 			id: "1796D5FC1BCEE9E6"
 			tasks: [{
 				id: "6CA5D9E50D209144"
-				title: "水蒸气"
+				title: "蒸气"
 				type: "checkmark"
 			}]
-			title: "水蒸气"
-			x: 8.0d
+			title: "蒸气"
+			x: 9.0d
 			y: 1.0d
 		}
 		{
@@ -175,7 +250,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -272,14 +347,17 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["082639A3CAC61F4A"]
+			dependencies: [
+				"082639A3CAC61F4A"
+				"221EB1C21D096B06"
+			]
 			id: "3F67098F51FE7E6B"
 			tasks: [{
 				id: "669D7D3DB4FCAE30"
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -4.0d
 		}
 		{
@@ -290,7 +368,7 @@
 				item: "create_new_age:reactor_rod"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -302,11 +380,11 @@
 				item: "kubejs:soul_steel_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["29E010C1F8F901F9"]
+			dependencies: ["3006F6F25EEE198C"]
 			id: "1E8621A935B7B6A4"
 			tasks: [
 				{
@@ -320,11 +398,14 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 1.0d
+			x: 8.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["29E010C1F8F901F9"]
+			dependencies: [
+				"29E010C1F8F901F9"
+				"11A21E8A7A20BE5E"
+			]
 			id: "493929200591E2C0"
 			tasks: [
 				{
@@ -353,7 +434,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -388,6 +469,315 @@
 			}]
 			x: 4.5d
 			y: -5.0d
+		}
+		{
+			dependencies: [
+				"221EB1C21D096B06"
+				"6E7B50531C965D1D"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:block/liquid_mana/liquid_mana_flowing"
+				}
+			}
+			id: "5FD4E6B9DC92A573"
+			tasks: [{
+				id: "5C8A63183CB6B5E7"
+				title: "气态魔力"
+				type: "checkmark"
+			}]
+			title: "气态魔力"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["728AA02240EBF3B7"]
+			hide_dependency_lines: true
+			id: "22B1F8DA49895955"
+			tasks: [{
+				id: "0C82E04C62534B44"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22B1F8DA49895955"]
+			id: "6E7B50531C965D1D"
+			tasks: [{
+				id: "7E295E3C0DE336CE"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29E010C1F8F901F9"]
+			id: "770DAFEF9910BEDC"
+			tasks: [{
+				id: "7498F50C04B038E7"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1AFF71BC22482363"]
+			id: "11A21E8A7A20BE5E"
+			tasks: [
+				{
+					id: "25353D40892251C4"
+					item: "elementalcraft:pristine_air_gem"
+					type: "item"
+				}
+				{
+					id: "3256082E17A4A854"
+					item: "elementalcraft:pristine_fire_gem"
+					type: "item"
+				}
+				{
+					id: "660C10FA4C76CD3E"
+					item: "elementalcraft:pristine_earth_gem"
+					type: "item"
+				}
+				{
+					id: "34668C0A05EC1D89"
+					item: "elementalcraft:pristine_water_gem"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["728AA02240EBF3B7"]
+			hide_dependency_lines: true
+			id: "1AFF71BC22482363"
+			tasks: [
+				{
+					id: "23DD6E4433A0EEE4"
+					item: "elementalcraft:powerful_earth_shard"
+					type: "item"
+				}
+				{
+					id: "44A562E90C6E384D"
+					item: "elementalcraft:powerful_water_shard"
+					type: "item"
+				}
+				{
+					id: "516CAC9574AF4A49"
+					item: "elementalcraft:powerful_fire_shard"
+					type: "item"
+				}
+				{
+					id: "04E12770E193A469"
+					item: "elementalcraft:powerful_air_shard"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1796D5FC1BCEE9E6"]
+			id: "694308168E73D6B8"
+			tasks: [{
+				id: "3932F4DC42BA99E0"
+				item: "kubejs:purewater_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"694308168E73D6B8"
+				"770DAFEF9910BEDC"
+			]
+			id: "1C9D91A5BF80857D"
+			tasks: [{
+				id: "2F4428814A48769F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C9D91A5BF80857D"]
+			description: ["&7富集碳&f可以用来制作&a两个&d富含魔源的psi煤炭，&f而&c每一个&d富含魔源的psi煤炭&a都&f可以制作为&7一个煤炭"]
+			id: "6C37378FC88CE690"
+			tasks: [{
+				id: "2636BC4B032AF2F0"
+				item: "mekanism:enriched_carbon"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C37378FC88CE690"]
+			icon: "minecraft:coal_block"
+			id: "5ACE4FC393BEFFC7"
+			tasks: [{
+				id: "694964FAF28F036C"
+				title: "近乎无限的煤炭"
+				type: "checkmark"
+			}]
+			title: "近乎无限的煤炭"
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BFC0E20874651AC"]
+			id: "113D6E716AF617FD"
+			tasks: [
+				{
+					id: "7D091035DC87AEC2"
+					item: "create_new_age:fluxuated_magnetite"
+					type: "item"
+				}
+				{
+					id: "6A7C40332D555CE3"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					id: "61CC7C0263271E0F"
+					item: "create:metal_girder"
+					type: "item"
+				}
+				{
+					id: "2C7353FA0CFE29F7"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1C9D91A5BF80857D"
+				"3BFC0E20874651AC"
+				"029E35B554FA3FBA"
+			]
+			description: ["&a每&b1000mb液态魔力&a可以产生&d8000魔源!"]
+			id: "4FCE777F690A4CCB"
+			tasks: [{
+				id: "24529AF284539C79"
+				item: "starbunclemania:fluid_sourcelink"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BFC0E20874651AC"]
+			id: "029E35B554FA3FBA"
+			tasks: [{
+				id: "5838A2002D4D60F6"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BFC0E20874651AC"]
+			id: "477650FDFEE022CD"
+			tasks: [{
+				id: "5575ACBBD910B245"
+				item: "malum:aerial_spirit"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["477650FDFEE022CD"]
+			id: "0967ED431EDF1289"
+			tasks: [{
+				id: "19EA565F9EB54C99"
+				item: "malum:runewood_sapling"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0967ED431EDF1289"]
+			id: "6A1FA55CEF14EDD9"
+			tasks: [{
+				id: "2DAF79AA6394D605"
+				item: "malum:runewood_log"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A1FA55CEF14EDD9"]
+			id: "68DBACBF8C8B33A3"
+			tasks: [
+				{
+					id: "0965E3ED00D5F79B"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					id: "6C604860BD6C91B3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "malum:runewood_item_pedestal"
+								}
+								{
+									Count: 1b
+									id: "malum:runewood_item_stand"
+								}
+							]
+						}
+					}
+					title: "符文木物品基座"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68DBACBF8C8B33A3"]
+			id: "34E71A15A9B8F146"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "32E0A811861449F8"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34E71A15A9B8F146"]
+			id: "3D8B6D4A05832C28"
+			tasks: [{
+				id: "52ED6B08576570D7"
+				item: "compactmachines:machine_giant"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
 		}
 	]
 	title: "神奇的合成表"

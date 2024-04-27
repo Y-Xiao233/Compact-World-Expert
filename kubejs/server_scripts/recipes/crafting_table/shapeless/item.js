@@ -164,6 +164,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['create:empty_blaze_burner','minecraft:blaze_spawn_egg'],
             id:`${id_prefix}blaze_burner`
+        },
+        {
+            output:'thermal:apatite',
+            output_amount:9,
+            input:['thermal:apatite_block'],
+            id:`${id_prefix}apatite`
         }]
 
     recipes.forEach(recipe =>{

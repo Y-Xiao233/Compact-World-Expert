@@ -4,8 +4,8 @@ ServerEvents.recipes(event =>{
     const recipes = [
         {
             gas:gases("kubejs:mana_gas",10),
-            output:gases("mekanism:oxygen",150),
-            heat:0.1,
+            output:gases("mekanism:oxygen",10),
+            heat:0.000001,
             id:`${id_prefix}oxygen`
         }]
 

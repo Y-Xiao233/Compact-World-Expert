@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ac"
+	group: "5D8512A6DD22287E"
+	icon: "malum:vivid_nitrate"
+	id: "29DF2FF2001C6EFE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68248BF75508CCAA"]
+			id: "328CAFBDA905B511"
+			tasks: [{
+				id: "6C267E6896366142"
+				item: "kubejs:spirit_press"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34E71A15A9B8F146"]
+			id: "68248BF75508CCAA"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "38AC1402513ACC5B"
+				item: "malum:infernal_spirit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["328CAFBDA905B511"]
+			id: "43FDBF5AB1B4258C"
+			tasks: [{
+				id: "0DCFAD5961D4B373"
+				item: "malum:arcane_spirit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68248BF75508CCAA"]
+			description: ["&d\"铜\"机壳?"]
+			id: "6C297AEDFCBC6E50"
+			tasks: [{
+				id: "578B2178A63B0C2C"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C297AEDFCBC6E50"]
+			id: "22118877EFF7B280"
+			tasks: [{
+				id: "1BB27BEE4CD49198"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "&a要完结了吗？&c不！还差的远"
+}

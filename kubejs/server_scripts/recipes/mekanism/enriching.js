@@ -29,6 +29,11 @@ ServerEvents.recipes(event =>{
             input:'botania:terrasteel_nugget',
             output:'kubejs:enriched_terra',
             id:`${id_prefix}enriched_terra`
+        },
+        {
+            input:'minecraft:coal',
+            output:'mekanism:enriched_carbon',
+            id:`${id_prefix}enriched_carbon`
         }]
 
     recipes.forEach(recipe =>{

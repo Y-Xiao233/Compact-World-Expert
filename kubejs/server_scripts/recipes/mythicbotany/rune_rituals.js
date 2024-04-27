@@ -17,7 +17,6 @@ ServerEvents.recipes(event => {
             inputs:[
                 items('naturesaura:sky_ingot_block'),
                 items('ae2:fluix_block'),
-                items('ae2:quartz_block'),
                 items('create:andesite_casing'),
                 items('elementalcraft:swift_alloy_block')
             ],
@@ -103,7 +102,31 @@ ServerEvents.recipes(event => {
             ],
             ticks:50,
             id:`${id_prefix}speed_upgrade`
-        }]
+        },
+        {
+            center:items('ars_nouveau:blue_archwood_sapling'),
+            inputs:[
+                items('thermal:apatite_block'),
+                items('elementalcraft:pristine_air_gem'),
+                items('create_new_age:overcharged_golden_sheet'),
+                items('elementalcraft:swift_alloy_ingot'),
+                items('malum:aerial_spirit')
+            ],
+            mana:10000,
+            outputs:[items('malum:runewood_sapling')],
+            runes:[
+                runes(true,'botania:rune_water',0,3),
+                runes(true,'botania:rune_water',0,-3),
+                runes(true,'botania:rune_water',3,0),
+                runes(true,'botania:rune_water',-3,0),
+                runes(true,'botania:rune_pride',-2,2),
+                runes(true,'botania:rune_pride',-2,-2),
+                runes(true,'botania:rune_pride',2,2),
+                runes(true,'botania:rune_pride',2,-2)
+            ],
+            ticks:50,
+            id:`${id_prefix}runewood_sapling`
+           }]
 
     recipes.forEach(recipe =>{
         event.custom({

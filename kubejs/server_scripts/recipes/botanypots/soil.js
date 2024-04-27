@@ -2,7 +2,7 @@ ServerEvents.recipes(event =>{
     const id_prefix = "compact_world:recipes/botanypots/soil/"
     /**
     {
-     soul_block:,
+     soil_block:,
      can_be_planted_on:,
      growth_ticks:,
      growth_modifier:,
@@ -23,6 +23,20 @@ ServerEvents.recipes(event =>{
             growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}mana_diamond_block`
+        },
+        {
+            soil_block:'psi:psimetal_block',
+            can_be_planted_on:['oak_log'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}psimetal_block`
+        },
+        {
+            soil_block:'thermal:apatite_block',
+            can_be_planted_on:['runewood'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}apatite_block`
         }]
 
     soils.forEach(soil =>{

@@ -78,4 +78,13 @@ ServerEvents.recipes(event =>{
       "item_in":[{"item": 'elementalcraft:elementpipe_creative',},{"item":'botania:gaia_ingot'}],
       "block_in": "ars_nouveau:mob_jar"
     }).id(`${id_prefix}wither_in_mob_jar`)
+
+
+    event.custom({
+      "type":"lychee:block_crushing",
+      "post":[{"type":"drop_item","item":'fluxnetworks:flux_dust',"count":1}],
+      "item_in":[{"item":'malum:infernal_spirit'}],
+      "falling_block":"kubejs:swift_alloy_sand",
+      "landing_block":'malum:runewood_log'
+    }).id(`${id_prefix}block_crushing/flux_dust`)
 })

@@ -686,6 +686,11 @@
 					item: "ringsofascension:ring_speed"
 					type: "item"
 				}
+				{
+					id: "6D9F7B3C7CC6082B"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 2.0d

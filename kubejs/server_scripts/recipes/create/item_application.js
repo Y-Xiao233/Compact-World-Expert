@@ -14,6 +14,12 @@ ServerEvents.recipes(event =>{
             block:'quark:smooth_soul_sandstone',
             output:'create:andesite_casing',
             id:`${id_prefix}andesite_casing`
+        },
+        {
+            hand_item:'malum:infernal_spirit',
+            block:'create:andesite_casing',
+            output:'create:copper_casing',
+            id:`${id_prefix}copper_casing`
         }]
 
     recipes.forEach(recipe =>{

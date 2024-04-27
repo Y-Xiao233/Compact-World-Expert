@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 2.5d
 			x: 2.5d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			click: ""
@@ -281,7 +281,17 @@
 				"7C711695E360075C"
 				"5AA10F217E6C1A0B"
 			]
-			description: ["&d你必须制作钥匙去往主世界的其他房间，不然没有足够的位置摆放制作奥数核心的结构"]
+			description: [
+				"&d你必须制作钥匙去往主世界的其他房间，不然没有足够的位置摆放制作奥数核心的结构"
+				""
+				"&4在&6泥土&4的位置放置&a微缩力场投影仪&4即可~"
+				""
+				""
+				"&4由于一些神奇的bug,"
+				"&a附魔装置&4采用另一种多方块合成的方式，"
+				"&4使用&d蓝图大炮将我预先准备好的蓝图&a打印到世界中，"
+				"&4再拿着&6迅金锭&c右键&4中间的&6迅金块&4即可合成"
+			]
 			id: "037EAE7E4CE963B9"
 			rewards: [
 				{
@@ -382,6 +392,7 @@
 		}
 		{
 			dependencies: ["3FC73DD0AD0927ED"]
+			description: ["&a或许可以拿来右键某个钥匙孔"]
 			id: "5AA10F217E6C1A0B"
 			tasks: [{
 				id: "5FF0AAD928C2BF24"
@@ -417,11 +428,6 @@
 					type: "item"
 				}
 				{
-					id: "4FE6463C4B0E0906"
-					item: "ars_nouveau:relay"
-					type: "item"
-				}
-				{
 					id: "1FC2E8449A176211"
 					item: {
 						Count: 1b
@@ -432,6 +438,39 @@
 							}
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "37B69F113B6B34B5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:relay"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_collector"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_deposit"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_warp"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:relay_splitter"
+								}
+							]
+						}
+					}
+					title: "魔源中继器"
 					type: "item"
 				}
 			]
@@ -531,7 +570,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["037EAE7E4CE963B9"]
+			dependencies: [
+				"037EAE7E4CE963B9"
+				"0768CEEDCFB45964"
+			]
 			description: [
 				"&d在为其设置魔源输入时,"
 				"&c只可接收来自魔源罐的魔源，"
@@ -1654,6 +1696,28 @@
 			}]
 			x: 8.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["037EAE7E4CE963B9"]
+			id: "0768CEEDCFB45964"
+			tasks: [{
+				id: "5BDC572CF815654B"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["008C78D564D83FF3"]
+			id: "493CEAF4B81FA1BD"
+			tasks: [{
+				id: "33FF38C32FCC7009"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
 		}
 	]
 	title: "魔法进阶"

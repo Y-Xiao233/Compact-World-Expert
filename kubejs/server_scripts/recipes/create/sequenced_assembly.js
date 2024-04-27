@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>{
      id:`${id_prefix}`
     }
     */
-    const { pressing,cutting,mixing,filling,milling,emptying,crushing,deploying,sequenced_assembly } = event.recipes.create
+    const { pressing,cutting,filling,milling,deploying,sequenced_assembly } = event.recipes.create
     const recipes = [
         {
             output:[Item.of('apotheosis:salvaging_table')],
@@ -31,6 +31,17 @@ ServerEvents.recipes(event =>{
             ],
             loops:3,
             id:`${id_prefix}andesite_alloy_sheet_from_imperfect_andesite_alloy`
+        },
+        {
+            output:[Item.of('kubejs:spirit_press')],
+            input:'malum:runewood_log',
+            main:[
+                pressing('malum:runewood_log',['malum:runewood_log']),
+                deploying('malum:runewood_log',['malum:runewood_log','malum:infernal_spirit']),
+                pressing('malum:runewood_log',['malum:runewood_log'])
+            ],
+            loops:1,
+            id:`${id_prefix}spirit_press`
         }]
 
         recipes.forEach(recipe =>{

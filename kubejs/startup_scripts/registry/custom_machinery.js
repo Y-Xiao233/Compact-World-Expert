@@ -12,6 +12,6 @@ StartupEvents.registry("block", (event) => {
     ]
 
     custom_machinerys.forEach(custom_machinery =>{
-        event.create(custom_machinery,"custommachinery")
+        event.create(custom_machinery,"custommachinery").renderType("translucent")
     })
 })

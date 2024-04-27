@@ -1,0 +1,20 @@
+{
+    "block.estrogen.centrifuge": "离心机",
+    "create.recipe.centrifuging": "离心",
+    "curios.identifier.thighs": "大腿",
+    "estrogen.ponder.basic.header": "如何使用离心机",
+    "estrogen.ponder.basic.text_1": "离心机没有任何库存，您需要在其周围放置流体容器才能使其工作！",
+    "estrogen.ponder.basic.text_2": "可以从底部输入流体",
+    "estrogen.ponder.basic.text_3": "并从顶部输出流体",
+    "estrogen.ponder.intro.header": "离心机需要",
+    "estrogen.ponder.intro.text_1": "离心机需要最高转速（256 RPM）才能工作！",
+    "fluid.estrogen.filtrated_horse_urine": "过滤马尿",
+    "fluid.estrogen.horse_urine": "马尿",
+    "fluid.estrogen.liquid_estrogen": "液体雌激素",
+    "fluid.estrogen.molten_amethyst": "熔融紫水晶",
+    "fluid.estrogen.molten_slime": "熔融史莱姆",
+    "fluid.estrogen.testosterone_mixture": "睾酮混合物",
+    "item.estrogen.balls": "球",
+    "item.estrogen.crystal_estrogen_pill": "雌激素丸水晶",
+    "item.estrogen.estrogen_chip_cookie": "雌激素饼干"
+  }

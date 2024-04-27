@@ -73,5 +73,10 @@
     "item.kubejs.liquid_mana_bucket":"液态魔力桶",
     "block.kubejs.liquid_mana":"液态魔力",
     "gas.kubejs.mana_gas":"气态魔力",
-    "gas.kubejs.soul_gas":"气态灵魂"
+    "gas.kubejs.soul_gas":"气态灵魂",
+    "block.kubejs.fake_shaft":"传动杆",
+    "item.kubejs.purewater_bucket":"纯净水桶",
+    "block.kubejs.purewater":"纯净水",
+    "fluid.kubejs.purewater":"纯净水",
+    "item.kubejs.spirit_press":"精魂压印模板"
 }

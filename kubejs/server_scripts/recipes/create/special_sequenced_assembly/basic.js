@@ -21,19 +21,19 @@ ServerEvents.recipes(event =>{
             main:[
             {
                 "type": "create:deploying",
-                "ingredients": [{"item":'spirit:soul_steel_ingot'},{"item":'botania:rune_water'}],
-                "results": [{"item":'spirit:soul_steel_ingot'}]
+                "ingredients": [items('spirit:soul_steel_ingot'),items('botania:rune_water')],
+                "results": [items('spirit:soul_steel_ingot')]
             },
             {
                 "type": "create:filling",
-                "ingredients": [{"item":'spirit:soul_steel_ingot'},{"amount":250,"fluid":"minecraft:water","nbt":{}}],
-                "results": [{"item":'spirit:soul_steel_ingot'}]
+                "ingredients": [items('spirit:soul_steel_ingot'),fluids('minecraft:water',250)],
+                "results": [items('spirit:soul_steel_ingot')]
             },
             {
                 "type":"create_new_age:energising",
                 "energy_needed":1000,
-                "ingredients":[{"item":'spirit:soul_steel_ingot'}],
-                "results":[{"item":'minecraft:iron_ingot'}]
+                "ingredients":[items('spirit:soul_steel_ingot')],
+                "results":[items('minecraft:iron_ingot',2)]
             }],
             id:`${id_prefix}iron_ingot`
         },
@@ -160,10 +160,40 @@ ServerEvents.recipes(event =>{
                 }
             ],
             id:`${id_prefix}thorium_ore`
+        },
+        {
+            input:items('create_new_age:radioactive_thorium'),
+            loops:1,
+            output:items('create_new_age:nuclear_fuel'),
+            transitionalItem:items('create_new_age:incomplete_fuel'),
+            main:[
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('create_new_age:incomplete_fuel'),items('create_new_age:blank_circuit')],
+                    "results": [items('create_new_age:incomplete_fuel')]
+                },
+                {
+                    "type": "create:filling",
+                    "ingredients": [items('create_new_age:incomplete_fuel'),fluids('kubejs:liquid_mana',100)],
+                    "results": [items('create_new_age:incomplete_fuel')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":10000,
+                    "ingredients":[items('create_new_age:incomplete_fuel')],
+                    "results":[items('create_new_age:incomplete_fuel')]
+                },
+                {
+                    "type": "create:pressing",
+                    "ingredients": [items('create_new_age:incomplete_fuel')],
+                    "results": [items('create_new_age:nuclear_fuel')]
+                }
+            ],
+            id:`${id_prefix}nuclear_fuel`
         }]
 
     recipes.forEach(recipe =>{
-        recipe.transitionalItem = recipe.input
+        recipe.transitionalItem = (recipe.transitionalItem != null ? recipe.transitionalItem : recipe.input)
         event.custom({
             "type":"create:sequenced_assembly",
             "ingredient":[recipe.input],

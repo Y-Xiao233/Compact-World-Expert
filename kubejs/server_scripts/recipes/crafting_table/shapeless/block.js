@@ -50,6 +50,42 @@ ServerEvents.recipes(event => {
             output_amount:2,
             input:['thermal:device_water_gen','spirit:soul_steel_ingot'],
             id:`${id_prefix}sink`
+        },
+        {
+            output:'elementalcraft:pedestal_air',
+            output_amount:1,
+            input:['kubejs:soul_steel_casing','elementalcraft:whiterock','elementalcraft:pristine_air_gem'],
+            id:`${id_prefix}pedestal_air`
+        },
+        {
+            output:'elementalcraft:pedestal_water',
+            output_amount:1,
+            input:['kubejs:soul_steel_casing','elementalcraft:whiterock','elementalcraft:pristine_water_gem'],
+            id:`${id_prefix}pedestal_water`
+        },
+        {
+            output:'elementalcraft:pedestal_fire',
+            output_amount:1,
+            input:['kubejs:soul_steel_casing','elementalcraft:whiterock','elementalcraft:pristine_fire_gem'],
+            id:`${id_prefix}pedestal_fire`
+        },
+        {
+            output:'elementalcraft:pedestal_earth',
+            output_amount:1,
+            input:['kubejs:soul_steel_casing','elementalcraft:whiterock','elementalcraft:pristine_earth_gem'],
+            id:`${id_prefix}pedestal_earth`
+        },
+        {
+            output:'malum:runewood_item_pedestal',
+            output_amount:1,
+            input:['malum:runewood_item_stand'],
+            id:`${id_prefix}runewood_item/stand_to_pedestal`
+        },
+        {
+            output:'malum:runewood_item_stand',
+            output_amount:1,
+            input:['malum:runewood_item_pedestal'],
+            id:`${id_prefix}runewood_item/pedestal_to_stand`
         }]
 
     recipes.forEach(recipe =>{

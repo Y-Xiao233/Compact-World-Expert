@@ -1,6 +1,16 @@
 ServerEvents.recipes(event =>{
     const id_prefix = 'compact_world:recipes/elementalcraft/sawing/'
 
+    /**
+    {
+     element_amount:,
+     input:,
+     luck_ratio:,
+     output:,
+     id:`${id_prefix}`
+    }
+    */
+
     const recipes = [
         {
             element_amount:1000,
@@ -8,6 +18,13 @@ ServerEvents.recipes(event =>{
             luck_ratio:0,
             output:items('ars_nouveau:blue_archwood_sapling'),
             id:`${id_prefix}blue_archwood_sapling`
+        },
+        {
+            element_amount:1000,
+            input:items('thermal:apatite'),
+            luck_ratio:0,
+            output:items('malum:aerial_spirit',4),
+            id:`${id_prefix}aerial_spirit`
         }]
 
     recipes.forEach(recipe =>{

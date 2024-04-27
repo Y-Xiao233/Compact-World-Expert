@@ -39,6 +39,13 @@ ServerEvents.recipes(event =>{
             infuse_type:'kubejs:terra',
             amount:40,
             id:`${id_prefix}infused_iron`
+        },
+        {
+            input:items('ars_nouveau:source_gem'),
+            output:'kubejs:source_psicoal',
+            infuse_type:'mekanism:carbon',
+            amount:40,
+            id:`${id_prefix}source_psicoal`
         }]
 
     recipes.forEach(recipe =>{

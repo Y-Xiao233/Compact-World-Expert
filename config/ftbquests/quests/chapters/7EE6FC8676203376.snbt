@@ -836,6 +836,16 @@
 					item: "redstonepen:control_box"
 					type: "item"
 				}
+				{
+					id: "2479C2A4D73B6D0F"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "45EDF9A660F589BB"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: -8.0d
@@ -994,7 +1004,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -1284,6 +1294,19 @@
 			]
 			icon: "minecraft:diamond"
 			id: "66470A3825124332"
+			rewards: [
+				{
+					id: "43A73ED2249EB60D"
+					item: "compactmachines:machine_maximum"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "629A61FDC9AEFF33"
+					item: "ringsofascension:ring_flight"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1373,6 +1396,17 @@
 			]
 			x: 4.5d
 			y: -9.0d
+		}
+		{
+			dependencies: ["3E520AA93A0BC40E"]
+			id: "01022FDC30A9515E"
+			tasks: [{
+				id: "7AD77E4CBDCE09E2"
+				item: "mythicbotany:mana_collector"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
 		}
 	]
 	title: "更加深入的发展"

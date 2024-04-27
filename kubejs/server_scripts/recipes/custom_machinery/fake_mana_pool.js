@@ -18,4 +18,8 @@ ServerEvents.recipes(event =>{
     
     fake_mana_pool('botania:mana_diamond','minecraft:diamond',1000,1000,1000,1000,1000,10000,50,`${id_prefix}mana_diamond`)
     fake_mana_pool('minecraft:blaze_spawn_egg','naturesaura:depth_ingot',5000,1000,1000,1000,5000,5000,50,`${id_prefix}blaze_spawn_egg`)
+    fake_mana_pool('elementalcraft:pristine_water_gem','elementalcraft:powerful_water_shard',100,50000,100,100,1000,1000,50,`${id_prefix}pristine_water_gem`)
+    fake_mana_pool('elementalcraft:pristine_air_gem','elementalcraft:powerful_air_shard',100,100,100,50000,1000,1000,50,`${id_prefix}pristine_air_gem`)
+    fake_mana_pool('elementalcraft:pristine_fire_gem','elementalcraft:powerful_fire_shard',50000,100,100,100,1000,1000,50,`${id_prefix}pristine_fire_gem`)
+    fake_mana_pool('elementalcraft:pristine_earth_gem','elementalcraft:powerful_earth_shard',100,100,50000,100,1000,1000,50,`${id_prefix}pristine_earth_gem`)
 })

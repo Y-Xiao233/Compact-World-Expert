@@ -10,7 +10,7 @@ ServerEvents.recipes(event =>{
      output_amount:,
      id:`${id_prefix}`
     }
-    //mode(1:"press" or 2:"inscribe")
+    //mode(1:"press" or 2:"inscribe") "press" consum the item on top , "inscribe" don't consum the item on top
     */
     const reicpes = [
         {
@@ -102,6 +102,15 @@ ServerEvents.recipes(event =>{
             output:'botania:rune_pride',
             output_amount:1,
             id:`${id_prefix}rune_pride`
+        },
+        {
+            top:'kubejs:purewater_bucket',
+            middle:'kubejs:rune_blank',
+            bottom:'malum:aerial_spirit',
+            mode:2,
+            output:'mythicbotany:niflheim_rune',
+            output_amount:1,
+            id:`${id_prefix}niflheim_rune`
         }]
 
     reicpes.forEach(recipe =>{

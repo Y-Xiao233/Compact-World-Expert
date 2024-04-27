@@ -110,6 +110,7 @@
 					type: "item"
 				}
 			]
+			title: "抽屉升级"
 			x: 0.5d
 			y: -4.0d
 		}
@@ -197,6 +198,11 @@
 			dependencies: [
 				"40FB21162E354800"
 				"4586578D6CA31C45"
+			]
+			description: [
+				"&4注意!在升级背包时，背包内的物品会被清空"
+				"&4注意!在升级背包时，背包内的物品会被清空"
+				"&4注意!在升级背包时，背包内的物品会被清空"
 			]
 			id: "3CE06C98DBC2D4C3"
 			tasks: [{
@@ -501,6 +507,7 @@
 					type: "item"
 				}
 			]
+			title: "\"铁质\"物品?"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -925,259 +932,23 @@
 			y: -6.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["284C737C09134719"]
-			disable_toast: true
-			icon: {
-				Count: 1b
-				id: "akashictome:tome"
-				tag: {
-					"akashictome:data": {
-						apotheosis: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "apotheosis:apoth_chronicle"
-							}
-						}
-						cookingforblockheads: {
-							Count: 1b
-							id: "cookingforblockheads:recipe_book"
-						}
-						cyclic: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "cyclic:cyclic_guide_book"
-							}
-						}
-						elementalcraft: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "elementalcraft:element_book"
-							}
-						}
-						functionalstorage: {
-							Count: 1b
-							id: "functionalstorage:linking_tool"
-							tag: {
-								Action: "ADD"
-								Mode: "SINGLE"
-								"akashictome:displayName": {
-									text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
-								}
-								"akashictome:is_morphing": 1b
-								display: {
-									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
-								}
-							}
-						}
-						functionalstorage_0: {
-							Count: 1b
-							id: "functionalstorage:configuration_tool"
-							tag: {
-								Mode: "TOGGLE_RENDER"
-								"akashictome:definedMod": "functionalstorage_0"
-							}
-						}
-						industrialforegoing: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "industrialforegoing:industrial_foregoing"
-							}
-						}
-						kubejs: {
-							Count: 1b
-							id: "kubejs:magical_stick"
-							tag: {
-								"akashictome:displayName": {
-									text: "{\"translate\":\"item.kubejs.magical_stick\"}"
-								}
-								"akashictome:is_morphing": 1b
-								display: {
-									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
-								}
-							}
-						}
-						laserio: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "laserio:laseriobook"
-							}
-						}
-						modularrouters: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "modularrouters:book"
-							}
-						}
-						naturesaura: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "naturesaura:book"
-							}
-						}
-						psi: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "psi:encyclopaedia_psionica"
-							}
-						}
-						thermal: {
-							Count: 1b
-							id: "patchouli:guide_book"
-							tag: {
-								"patchouli:book": "thermal:guidebook"
-							}
-						}
-					}
-					"akashictome:is_morphing": 1b
-				}
-			}
-			id: "36B15379EF35F41D"
-			rewards: [{
-				id: "7B54F19F8839066B"
-				item: {
-					Count: 1b
-					id: "akashictome:tome"
-					tag: {
-						"akashictome:data": {
-							apotheosis: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "apotheosis:apoth_chronicle"
-								}
-							}
-							cookingforblockheads: {
-								Count: 1b
-								id: "cookingforblockheads:recipe_book"
-							}
-							cyclic: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "cyclic:cyclic_guide_book"
-								}
-							}
-							elementalcraft: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "elementalcraft:element_book"
-								}
-							}
-							functionalstorage: {
-								Count: 1b
-								id: "functionalstorage:linking_tool"
-								tag: {
-									Action: "ADD"
-									Mode: "SINGLE"
-									"akashictome:displayName": {
-										text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
-									}
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
-									}
-								}
-							}
-							functionalstorage_0: {
-								Count: 1b
-								id: "functionalstorage:configuration_tool"
-								tag: {
-									Mode: "TOGGLE_RENDER"
-									"akashictome:definedMod": "functionalstorage_0"
-								}
-							}
-							industrialforegoing: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "industrialforegoing:industrial_foregoing"
-								}
-							}
-							kubejs: {
-								Count: 1b
-								id: "kubejs:magical_stick"
-								tag: {
-									"akashictome:displayName": {
-										text: "{\"translate\":\"item.kubejs.magical_stick\"}"
-									}
-									"akashictome:is_morphing": 1b
-									display: {
-										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
-									}
-								}
-							}
-							laserio: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "laserio:laseriobook"
-								}
-							}
-							modularrouters: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "modularrouters:book"
-								}
-							}
-							naturesaura: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "naturesaura:book"
-								}
-							}
-							psi: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "psi:encyclopaedia_psionica"
-								}
-							}
-							thermal: {
-								Count: 1b
-								id: "patchouli:guide_book"
-								tag: {
-									"patchouli:book": "thermal:guidebook"
-								}
-							}
-						}
-						"akashictome:is_morphing": 1b
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				disable_toast: true
-				id: "3EE2864C491D569D"
-				optional_task: true
-				title: "无限的阿卡什宝典"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
 			dependencies: [
 				"275667457EA76B73"
 				"2FB3DF89E9D0122A"
 			]
 			id: "2ED7765C6F9D6FCD"
-			tasks: [{
-				id: "4810DD31BE1D9204"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4810DD31BE1D9204"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+				{
+					id: "00DAAEDBA7C44D08"
+					item: "thermal:device_water_gen"
+					type: "item"
+				}
+			]
 			x: 9.0d
 			y: -5.5d
 		}

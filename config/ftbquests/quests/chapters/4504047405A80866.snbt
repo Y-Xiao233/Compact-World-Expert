@@ -1,0 +1,818 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4504047405A80866"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "akashictome:tome"
+		tag: {
+			"akashictome:data": {
+				apotheosis: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "apotheosis:apoth_chronicle"
+					}
+				}
+				compactmachines: {
+					Count: 1b
+					id: "compactmachines:personal_shrinking_device"
+				}
+				cookingforblockheads: {
+					Count: 1b
+					id: "cookingforblockheads:recipe_book"
+				}
+				cyclic: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "cyclic:cyclic_guide_book"
+					}
+				}
+				elementalcraft: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+				functionalstorage: {
+					Count: 1b
+					id: "functionalstorage:linking_tool"
+					tag: {
+						Action: "ADD"
+						Mode: "SINGLE"
+						"akashictome:displayName": {
+							text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
+						}
+						"akashictome:is_morphing": 1b
+						display: {
+							Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
+						}
+					}
+				}
+				functionalstorage_0: {
+					Count: 1b
+					id: "functionalstorage:configuration_tool"
+					tag: {
+						Mode: "TOGGLE_RENDER"
+						"akashictome:definedMod": "functionalstorage_0"
+					}
+				}
+				industrialforegoing: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				kubejs: {
+					Count: 1b
+					id: "kubejs:magical_stick"
+					tag: {
+						"akashictome:displayName": {
+							text: "{\"translate\":\"item.kubejs.magical_stick\"}"
+						}
+						"akashictome:is_morphing": 1b
+						display: {
+							Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
+						}
+					}
+				}
+				laserio: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "laserio:laseriobook"
+					}
+				}
+				malum: {
+					Count: 1b
+					id: "malum:encyclopedia_arcana"
+				}
+				mekanism: {
+					Count: 1b
+					id: "mekanism:configuration_card"
+					tag: {
+						"akashictome:displayName": {
+							text: "{\"translate\":\"item.mekanism.configuration_card\"}"
+						}
+						"akashictome:is_morphing": 1b
+						display: {
+							Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configuration_card\"}]}"
+						}
+					}
+				}
+				modularrouters: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				naturesaura: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+				psi: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "psi:encyclopaedia_psionica"
+					}
+				}
+				thermal: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				thermal_0: {
+					Count: 1b
+					id: "thermal:redprint"
+					tag: {
+						"akashictome:definedMod": "thermal_0"
+					}
+				}
+			}
+			"akashictome:is_morphing": 1b
+		}
+	}
+	id: "4504047405A80866"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["284C737C09134719"]
+			icon: {
+				Count: 1b
+				id: "akashictome:tome"
+				tag: {
+					"akashictome:data": {
+						apotheosis: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "apotheosis:apoth_chronicle"
+							}
+						}
+						compactmachines: {
+							Count: 1b
+							id: "compactmachines:personal_shrinking_device"
+						}
+						cookingforblockheads: {
+							Count: 1b
+							id: "cookingforblockheads:recipe_book"
+						}
+						cyclic: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "cyclic:cyclic_guide_book"
+							}
+						}
+						elementalcraft: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "elementalcraft:element_book"
+							}
+						}
+						functionalstorage: {
+							Count: 1b
+							id: "functionalstorage:linking_tool"
+							tag: {
+								Action: "ADD"
+								Mode: "SINGLE"
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
+								}
+							}
+						}
+						functionalstorage_0: {
+							Count: 1b
+							id: "functionalstorage:configuration_tool"
+							tag: {
+								Mode: "TOGGLE_RENDER"
+								"akashictome:definedMod": "functionalstorage_0"
+							}
+						}
+						industrialforegoing: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "industrialforegoing:industrial_foregoing"
+							}
+						}
+						kubejs: {
+							Count: 1b
+							id: "kubejs:magical_stick"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.kubejs.magical_stick\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
+								}
+							}
+						}
+						laserio: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "laserio:laseriobook"
+							}
+						}
+						malum: {
+							Count: 1b
+							id: "malum:encyclopedia_arcana"
+						}
+						mekanism: {
+							Count: 1b
+							id: "mekanism:configuration_card"
+							tag: {
+								"akashictome:displayName": {
+									text: "{\"translate\":\"item.mekanism.configuration_card\"}"
+								}
+								"akashictome:is_morphing": 1b
+								display: {
+									Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configuration_card\"}]}"
+								}
+							}
+						}
+						modularrouters: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "modularrouters:book"
+							}
+						}
+						naturesaura: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "naturesaura:book"
+							}
+						}
+						psi: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "psi:encyclopaedia_psionica"
+							}
+						}
+						thermal: {
+							Count: 1b
+							id: "patchouli:guide_book"
+							tag: {
+								"patchouli:book": "thermal:guidebook"
+							}
+						}
+						thermal_0: {
+							Count: 1b
+							id: "thermal:redprint"
+							tag: {
+								"akashictome:definedMod": "thermal_0"
+							}
+						}
+					}
+					"akashictome:is_morphing": 1b
+				}
+			}
+			id: "020495B69A69DB35"
+			rewards: [{
+				id: "05EDCF809926F023"
+				item: {
+					Count: 1b
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							apotheosis: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "apotheosis:apoth_chronicle"
+								}
+							}
+							compactmachines: {
+								Count: 1b
+								id: "compactmachines:personal_shrinking_device"
+							}
+							cookingforblockheads: {
+								Count: 1b
+								id: "cookingforblockheads:recipe_book"
+							}
+							cyclic: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "cyclic:cyclic_guide_book"
+								}
+							}
+							elementalcraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "elementalcraft:element_book"
+								}
+							}
+							functionalstorage: {
+								Count: 1b
+								id: "functionalstorage:linking_tool"
+								tag: {
+									Action: "ADD"
+									Mode: "SINGLE"
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.functionalstorage.linking_tool\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.functionalstorage.linking_tool\"}]}"
+									}
+								}
+							}
+							functionalstorage_0: {
+								Count: 1b
+								id: "functionalstorage:configuration_tool"
+								tag: {
+									Mode: "TOGGLE_RENDER"
+									"akashictome:definedMod": "functionalstorage_0"
+								}
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							kubejs: {
+								Count: 1b
+								id: "kubejs:magical_stick"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.kubejs.magical_stick\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.kubejs.magical_stick\"}]}"
+									}
+								}
+							}
+							laserio: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "laserio:laseriobook"
+								}
+							}
+							malum: {
+								Count: 1b
+								id: "malum:encyclopedia_arcana"
+							}
+							mekanism: {
+								Count: 1b
+								id: "mekanism:configuration_card"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.mekanism.configuration_card\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configuration_card\"}]}"
+									}
+								}
+							}
+							modularrouters: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "modularrouters:book"
+								}
+							}
+							naturesaura: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+							psi: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "psi:encyclopaedia_psionica"
+								}
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+							thermal_0: {
+								Count: 1b
+								id: "thermal:redprint"
+								tag: {
+									"akashictome:definedMod": "thermal_0"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A12DDDFDF464A16"
+				title: "阿卡什宝典"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["284C737C09134719"]
+			icon: {
+				Count: 1b
+				id: "morphtool:tool"
+				tag: {
+					"morphtool:data": {
+						ae2: {
+							Count: 1b
+							id: "ae2:nether_quartz_wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.nether_quartz_wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.ae2.nether_quartz_wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						create: {
+							Count: 1b
+							id: "create:wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.create.wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.create.wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						cyclic: {
+							Count: 1b
+							id: "cyclic:cable_wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.cyclic.cable_wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.cyclic.cable_wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						fluxnetworks: {
+							Count: 1b
+							id: "fluxnetworks:admin_configurator"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.fluxnetworks.admin_configurator\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.fluxnetworks.admin_configurator\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						framedblocks: {
+							Count: 1b
+							id: "framedblocks:framed_wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.framedblocks.framed_wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.framedblocks.framed_wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						hammerlib: {
+							Count: 1b
+							id: "hammerlib:wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.hammerlib.wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.hammerlib.wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						laserio: {
+							Count: 1b
+							id: "laserio:laser_wrench"
+							tag: {
+								connectionpos: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.laserio.laser_wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.laserio.laser_wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						mekanism: {
+							Count: 1b
+							id: "mekanism:configurator"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configurator\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"color\":\"#30FFF9\",\"translate\":\"item.mekanism.configurator\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						powah: {
+							Count: 1b
+							id: "powah:wrench"
+							tag: {
+								PowahWrenchNBT: { }
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.powah.wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.powah.wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						rftoolsbase: {
+							Count: 1b
+							id: "rftoolsbase:smartwrench_select"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.rftoolsbase.smartwrench_select\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.rftoolsbase.smartwrench_select\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+						thermal: {
+							Count: 1b
+							id: "thermal:wrench"
+							tag: {
+								display: {
+									Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.thermal.wrench\"}]}"
+								}
+								"morphtool:displayName": {
+									text: "{\"translate\":\"item.thermal.wrench\"}"
+								}
+								"morphtool:is_morphing": 1b
+							}
+						}
+					}
+					"morphtool:is_morphing": 1b
+				}
+			}
+			id: "4246B9A652107482"
+			rewards: [{
+				id: "579C9CDED8AF96D4"
+				item: {
+					Count: 1b
+					id: "morphtool:tool"
+					tag: {
+						"morphtool:data": {
+							ae2: {
+								Count: 1b
+								id: "ae2:nether_quartz_wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ae2.nether_quartz_wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.ae2.nether_quartz_wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							create: {
+								Count: 1b
+								id: "create:wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.create.wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.create.wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							cyclic: {
+								Count: 1b
+								id: "cyclic:cable_wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.cyclic.cable_wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.cyclic.cable_wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							fluxnetworks: {
+								Count: 1b
+								id: "fluxnetworks:admin_configurator"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.fluxnetworks.admin_configurator\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.fluxnetworks.admin_configurator\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							framedblocks: {
+								Count: 1b
+								id: "framedblocks:framed_wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.framedblocks.framed_wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.framedblocks.framed_wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							hammerlib: {
+								Count: 1b
+								id: "hammerlib:wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.hammerlib.wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.hammerlib.wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							laserio: {
+								Count: 1b
+								id: "laserio:laser_wrench"
+								tag: {
+									connectionpos: {
+										X: 0
+										Y: 0
+										Z: 0
+									}
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.laserio.laser_wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.laserio.laser_wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							mekanism: {
+								Count: 1b
+								id: "mekanism:configurator"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.mekanism.configurator\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"color\":\"#30FFF9\",\"translate\":\"item.mekanism.configurator\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							powah: {
+								Count: 1b
+								id: "powah:wrench"
+								tag: {
+									PowahWrenchNBT: { }
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.powah.wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.powah.wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							rftoolsbase: {
+								Count: 1b
+								id: "rftoolsbase:smartwrench_select"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.rftoolsbase.smartwrench_select\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.rftoolsbase.smartwrench_select\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+							thermal: {
+								Count: 1b
+								id: "thermal:wrench"
+								tag: {
+									display: {
+										Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.thermal.wrench\"}]}"
+									}
+									"morphtool:displayName": {
+										text: "{\"translate\":\"item.thermal.wrench\"}"
+									}
+									"morphtool:is_morphing": 1b
+								}
+							}
+						}
+						"morphtool:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AE9E59AE8C7AEE7"
+				title: "变形工具"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["284C737C09134719"]
+			icon: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1710060491
+							1244414724
+							-1706817341
+							1439410764
+						]
+						Name: "Y_Xiao233"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ4OTM3NDI0OCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "29401C92A7236D01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B2938D43B196146"
+				table_id: 3133637102301187553L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "009699B790219515"
+				title: "头~"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+	]
+	title: "&d可以无限领取的物品~"
+}

@@ -1,0 +1,96 @@
+{
+	icon: {
+		Count: 1b
+		id: "minecraft:player_head"
+		tag: {
+			SkullOwner: {
+				Id: [I;
+					1710060491
+					1244414724
+					-1706817341
+					1439410764
+				]
+				Name: "Y_Xiao233"
+				Properties: {
+					textures: [{
+						Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ4OTM3NDI0OCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+					}]
+				}
+			}
+		}
+	}
+	id: "2B7CEA5781A58DE1"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1710060491
+							1244414724
+							-1706817341
+							1439410764
+						]
+						Name: "Y_Xiao233"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ4OTM3NDI0OCwKICAicHJvZmlsZUlkIiA6ICI2NWVkNzNjYjRhMmM0MzA0OWE0NDA4YzM1NWNiYWE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJZX1hpYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTkyZDIyNGNlZTQzYTg5ODc4ZTA2M2Y1ZWY0ZGM1YmVjODAxYjkyYzJiMTNiNmMzMWNhODlmNzUzZWNiZjJiMyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-803157436
+							-1374270028
+							-1142197095
+							418052210
+						]
+						Name: "Red_Tea_co"
+						Properties: {
+							textures: [{
+								Signature: "JN6GRtEB/gGTQHbq8yg6+h4hFzH0wHKfP5AsTNm8elWX6jpAaV9kDGYCI/8WGiDCe+g1L2EeU8I1fpSwZhnyFd0gKXKWLwz+HjdbcJd/6F4AYsXThFX6RWL0LIC30tX3c2SzndlBh+mVsKpw3R6D/Ot/+j0IZG5FzElqfTAsI29XIYkR750/hIL76SgPXNABiD+9ZO7mN7vVIb5O1vPpP9kDsuxiKSQhOL+wCKY+2UbKmJy/qECgvpjiG4WwdCr3cezDrYDo1DaqmIEB1g20oSagGDub2PTeFWKTqINYjHLCHydRdmDTcW6CW84OdbOEfPZI++NyDJLxpBRrZKsuWBKRDw3FjQ710CwhNkIW8Hq48Y2DflRT0824lu5y7aF1wS7181aVPP0CecaTm8iMEWLFPO1JzjFIiPS6P7NabWmYOSt7GPpC4KjQf/MuiCxCaBEAtnKiL88iNVAuSAm8LTTT2+EysDzWkR380+rTlifoAuil2YBwXIL5v2A+hDFQLkMnig7wKRFoyPDVmKpiXmLIGFZ9VU3EM9YVQvr2udI2XqE3c++9bh29TUttQNmERGSGeFvJYOOJKb/sarZu+NIMDPToH4hoxa6INPz8bgTdfpTn90mbE0Z5T68FzvHBV4RdWJZ5hvWSrCSbNVN5TfuWj6GsCT59r0kGvQ+G0/E="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQ5NTUzMDM0OSwKICAicHJvZmlsZUlkIiA6ICJkMDIwY2E0NGFlMTY0ZGI0YmJlYjc0OTkxOGVhZjg3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRfVGVhX2NvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NmMzMzYWMxNmRkZTZkZGQ4MTFhMzY4ZDQ0YjA3NTNiN2Q5NGE2NTc5YWMyNzI0YWIyZTA1MDRjZTM0MGZlNzYiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y5YTc2NTM3NjQ3OTg5ZjlhMGI2ZDAwMWUzMjBkYWM1OTFjMzU5ZTllNjFhMzFmNGNlMTFjODhmMjA3ZjBhZDQiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							584541818
+							1661160081
+							-1425719069
+							-1721764358
+						]
+						Name: "Tyumen_"
+						Properties: {
+							textures: [{
+								Signature: "c/pCdMv2GY8JSrFvS03yU83CT5Zh2pGL9LOP1cqo9J7pHWRQDkun6cEvmboLM9w0r1OCr8YyVcQOBtn9e179sF2aRLnWDz8QCLTZND0KQv6SO1M97MOju2ULCdnIYAfK/kJ4iZ+xJD28HJY7L4OKltiCGwWpd81PiWZjR1eFYzN03RR5C4GLOeaoUr7D3mS2us1PvPLfd6JFq0kXZM261XUnYtcklw2LvyHf6sXtShNAnP5bgJy9ANOvNfUYI7/0r5YSmu9N2TADQU/23eGVGN1uac4k6SixajtQnch6wkZsjwHuJVwHiC0BRIzM6aGZuEm6VdmhdFgnaoBzUFnhZAoAuLBB5yA0BWBYOhITYCzIrstrxMsyweDNEU4L356DWTbToV55eHr+hgIOiIvH+CGyGXvymh3P6Kf3VvNa5DE3mjG2RMKlMIc/2AOgxHwwd+m4Gh6t63CE8qWeGbAY6qAMw12c5mfycM0oFmWZ+8UIApcGWTsQFU1+nwz5PgvrmH4mWtkC6dIuGU0JkY+IqGpbkUWQ4LhOOGcWo5Xt01F+xYIE8PQ1Uzs3yhosnYn5JD36BnrONvV2SuSKc7DIjvsU5caU70NYJOEhxYCIxH5WngoNoRnrskiuddWu5KzIzb3dGeaYMJs7NVpD4drzjRV2bnVrEXhYo5vU8JEa5s0="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTcwODQyNDIwOTc3MiwKICAicHJvZmlsZUlkIiA6ICIyMmQ3NjY3YTYzMDM0YTkxYWIwNTQwZTM5OTVmZjVmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXVtZW5fIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EwNTE4MWQ5Mjg1MTYyNmVmYTk0MDc5ZWVhNDgzYzM2NmQwZThhYzUwNDMwZTYzNDcwNjJmZjk5YjdhMmZmYjAiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "头~"
+}

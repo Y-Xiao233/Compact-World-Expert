@@ -355,6 +355,30 @@ ServerEvents.recipes(event =>{
             filter:{output:'create:empty_blaze_burner'},
             original:'create:iron_sheet',
             replace:'create_new_age:overcharged_diamond'
+        },
+        {
+            type:'input',
+            filter:{output:'botania:glimmering_dreamwood_log'},
+            original:'minecraft:glowstone_dust',
+            replace:'apotheosis:mythic_material'
+        },
+        {
+            type:'input',
+            filter:{output:'botania:glimmering_dreamwood'},
+            original:'minecraft:glowstone_dust',
+            replace:'apotheosis:mythic_material'
+        },
+        {
+            type:'input',
+            filter:{output:'fluxnetworks:flux_configurator'},
+            original:'minecraft:ender_eye',
+            replace:'botania:mana_diamond'
+        },
+        {
+            type:'input',
+            filter:{output:'fluxnetworks:flux_core'},
+            original:'minecraft:ender_eye',
+            replace:'botania:mana_diamond'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

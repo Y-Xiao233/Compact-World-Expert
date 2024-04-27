@@ -84,7 +84,7 @@ ServerEvents.recipes(event =>{
         },
         {
             main:lychee('lychee:block_interacting',"kubejs:swift_alloy_key","kubejs:compact_keywall",
-                 posts('place',"minecraft:air",false,"execute","fill ~ ~ ~ ~ ~ ~ minecraft:air replace compactmachines:solid_wall")),
+                 posts('place',"minecraft:air",false,"execute","fill ~ ~11 ~6 ~ ~-1 ~-6 minecraft:air replace compactmachines:solid_wall")),
             id:`${id_prefix}break_the_compact_keywall`
         },
         {
@@ -151,6 +151,16 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','botania:mana_diamond','mekanismgenerators:fission_reactor_casing',
                  posts('place','mekanismgenerators:fission_reactor_port')),
             id:`${id_prefix}fission_reactor_port`
+        },
+        {
+            main:lychee('lychee:block_interacting','create_new_age:nuclear_fuel','create:shaft',
+                 posts('place','create_new_age:reactor_rod'),false,false,false,false,true),
+            id:`${id_prefix}reactor_rod`
+        },
+        {
+            main:lychee('lychee:block_interacting','create_new_age:nuclear_fuel','kubejs:fake_shaft',
+                 posts('place','create_new_age:reactor_rod'),false,false,false,true,false),
+            id:`${id_prefix}reactor_rod_ghost`
         }]
 
     recipes.forEach(recipe =>{

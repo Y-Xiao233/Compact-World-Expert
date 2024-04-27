@@ -84,4 +84,5 @@ StartupEvents.registry("item", (event) => {
     event.create('psiknife').unstackable().maxDamage(32)
     event.create('swift_alloy_key').unstackable()
     event.create('magical_stick').unstackable().glow(true)
+    event.create('spirit_press').unstackable()
 })

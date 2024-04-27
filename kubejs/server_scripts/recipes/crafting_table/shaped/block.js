@@ -350,10 +350,11 @@ ServerEvents.recipes(event => {
      },
      {
       output:'cwe:source_craftingtable',
-      pattern:['AAA','ABA','AAA'],
+      pattern:['ACA','CBC','ACA'],
       key:{
         A: 'create:framed_glass',
-        B: Item.of('ars_nouveau:source_jar','{BlockEntityTag:{source:10000}}').weakNBT()
+        B: Item.of('ars_nouveau:source_jar','{BlockEntityTag:{source:10000}}').weakNBT(),
+        C: 'apotheosis:mythic_material'
       },
       id:`${id_prefix}source_craftingtable`
      },
@@ -806,7 +807,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}wireless_access_point`
      },
      {
-      output:'ae2:quantum_ring',
+      output:'4x ae2:quantum_ring',
       pattern:['ABA','BCB','ABA'],
       key:{
         A: 'create_new_age:overcharged_iron',
@@ -908,7 +909,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}ex_import_bus_part`
      },
      {
-      output:'laserio:laser_node',
+      output:'2x laserio:laser_node',
       pattern:['ABA','BCB','ABA'],
       key:{
         A: 'psi:psimetal',
@@ -946,6 +947,177 @@ ServerEvents.recipes(event => {
         D: 'create:shaft'
       },
       id:`${id_prefix}crushing_wheel`
+     },
+     {
+      output:'2x mekanismgenerators:control_rod_assembly',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'botania:mana_diamond',
+        B: 'create_new_age:reactor_rod',
+        C: 'industrialforegoing:machine_frame_pity'
+      },
+      id:`${id_prefix}control_rod_assembly`
+     },
+     {
+      output:'mekanismgenerators:fission_fuel_assembly',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'minecraft:redstone_block',
+        B: 'create_new_age:reactor_rod',
+        C: 'industrialforegoing:machine_frame_pity'
+      },
+      id:`${id_prefix}fission_fuel_assembly`
+     },
+     {
+      output:'mekanism:basic_fluid_tank',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'elementalcraft:drenched_iron_ingot',
+        B: 'minecraft:redstone',
+        C: 'create_new_age:overcharged_diamond'
+      },
+      id:`${id_prefix}basic_fluid_tank`
+     },
+     {
+      output:'mekanism:basic_chemical_tank',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'naturesaura:infused_iron',
+        B: 'minecraft:redstone',
+        C: 'create_new_age:overcharged_diamond'
+      },
+      id:`${id_prefix}basic_chemical_tank`
+     },
+     {
+      output:'mekanism:rotary_condensentrator',
+      pattern:['ABA','CDE','ABA'],
+      key:{
+        A: 'kubejs:gaia_nugget',
+        B: 'create_new_age:blank_circuit',
+        C: 'mekanism:basic_fluid_tank',
+        D: 'industrialforegoing:machine_frame_pity',
+        E: 'mekanism:basic_chemical_tank'
+      },
+      id:`${id_prefix}rotary_condensentrator`
+     },
+     {
+      output:'elementalcraft:pureinfuser',
+      pattern:['ABA','CDC','ACA'],
+      key:{
+        A: 'elementalcraft:whiterock',
+        B: 'elementalcraft:elementpipe_creative',
+        C: 'elementalcraft:purecrystal',
+        D: 'botania:mana_diamond_block'
+      },
+      id:`${id_prefix}pureinfuser`
+     },
+     {
+      output:'4x mekanism:pressure_disperser',
+      pattern:[' A ','ABA',' A '],
+      key:{
+        A: 'mekanism:boiler_casing',
+        B: 'elementalcraft:purecrystal'
+      },
+      id:`${id_prefix}pressure_disperser`
+     },
+     {
+      output:'4x mekanism:superheating_element',
+      pattern:['CAC','ABA','CAC'],
+      key:{
+        A: 'mekanism:boiler_casing',
+        B: 'elementalcraft:purecrystal',
+        C: 'elementalcraft:firecrystal'
+      },
+      id:`${id_prefix}superheating_element`
+     },
+     {
+      output:'create_new_age:generator_coil',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'create_new_age:thorium',
+        B: 'powah:uraninite_block'
+      },
+      id:`${id_prefix}generator_coil`
+     },
+     {
+      output:'4x create_new_age:fluxuated_magnetite',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'mekanism:pressure_disperser',
+        B: 'thermal:apatite',
+        C: 'minecraft:diamond'
+      },
+      id:`${id_prefix}fluxuated_magnetite`
+     },
+     {
+      output:'sophisticatedbackpacks:diamond_backpack',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'create_new_age:overcharged_diamond',
+        B: 'sophisticatedbackpacks:gold_backpack'
+      },
+      id:`${id_prefix}diamond_backpack`
+     },
+     {
+      output:'starbunclemania:fluid_jar',
+      pattern:[' A ','BCB','DDD'],
+      key:{
+        A: 'elementalcraft:swift_alloy_ingot',
+        B: 'minecraft:glass',
+        C: 'thermal:apatite',
+        D: 'ars_nouveau:blue_archwood_log'
+      },
+      id:`${id_prefix}fluid_jar`
+     },
+     {
+      output:'starbunclemania:fluid_sourcelink',
+      pattern:[' A ','BCB',' A '],
+      key:{
+        A: 'thermal:apatite',
+        B: 'minecraft:coal_block',
+        C: 'starbunclemania:source_fluid_bucket'
+      },
+      id:`${id_prefix}fluid_sourcelink`
+     },
+     {
+      output:'mythicbotany:mana_collector',
+      pattern:['ABA','ACA','ADA'],
+      key:{
+        A: 'botania:glimmering_dreamwood',
+        B: 'botania:gaia_ingot',
+        C: 'minecraft:nether_star',
+        D: 'botania:rune_pride'
+      },
+      id:`${id_prefix}mana_collecter`
+     },
+     {
+      output:'minecraft:anvil',
+      pattern:['AAA',' B ','BBB'],
+      key:{
+        A: 'psi:psimetal_block',
+        B: 'psi:psimetal'
+      },
+      id:`${id_prefix}anvil`
+     },
+     {
+      output:'malum:runewood_item_pedestal',
+      pattern:['BCB','BBB',' A '],
+      key:{
+        A: 'malum:runewood_log',
+        B: 'malum:runewood_planks',
+        C: 'mythicbotany:niflheim_rune'
+      },
+      id:`${id_prefix}runewood_item_pedestal`
+     },
+     {
+      output:'malum:spirit_altar',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: '#cwe:runewood_item',
+        B: 'malum:runewood_log',
+        C: 'malum:runewood_leaves'
+      },
+      id:`${id_prefix}spirit_altar`
      }]
   
   recipes.forEach(recipe =>{

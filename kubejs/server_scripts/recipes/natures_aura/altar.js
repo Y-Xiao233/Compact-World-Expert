@@ -70,7 +70,7 @@ ServerEvents.recipes(event =>{
         {
             input:items('naturesaura:depth_ingot'),
             catalyst:'naturesaura:conversion_catalyst',
-            output:items('minecraft:diamond',8),
+            output:items('minecraft:diamond',3),
             aura:500,
             time:50,
             id:`${id_prefix}diamond`
@@ -78,7 +78,7 @@ ServerEvents.recipes(event =>{
         {
             input:items('naturesaura:depth_ingot_block'),
             catalyst:'naturesaura:conversion_catalyst',
-            output:items('minecraft:diamond_block',8),
+            output:items('minecraft:diamond_block',3),
             aura:4000,
             time:400,
             id:`${id_prefix}diamond_block`

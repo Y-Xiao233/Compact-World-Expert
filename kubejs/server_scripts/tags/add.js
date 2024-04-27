@@ -4,6 +4,8 @@ ServerEvents.tags('item', event => {
     event.add('cwe:twig_wand',"botania:twig_wand")
     event.add('cwe:tools/shovel/swift_alloy','kubejs:swift_alloy_shovel')
     event.add('forge:sand','kubejs:swift_alloy_sand')
+    event.add('cwe:runewood_item','malum:runewood_item_pedestal')
+    event.add('cwe:runewood_item','malum:runewood_item_stand')
 })
 
 

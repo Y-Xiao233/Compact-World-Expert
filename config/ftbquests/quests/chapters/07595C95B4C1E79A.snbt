@@ -24,7 +24,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -61,6 +61,16 @@
 				{
 					id: "704D2752B31A8FC5"
 					item: "redstonepen:control_box"
+					type: "item"
+				}
+				{
+					id: "220DAE537350A440"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+				{
+					id: "693BA27A1BCE751E"
+					item: "create:powered_latch"
 					type: "item"
 				}
 			]
@@ -182,6 +192,131 @@
 			}]
 			x: -6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["66470A3825124332"]
+			icon: "minecraft:crafting_table"
+			id: "53AD2FE433EF14C7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "73301DC3AE3489E7"
+				title: "神奇的合成表"
+				type: "checkmark"
+			}]
+			title: "神奇的合成表"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"53AD2FE433EF14C7"
+				"200B67A0E1F260C9"
+			]
+			description: [
+				"&4注意!在升级背包时，背包内的物品会被清空"
+				"&4注意!在升级背包时，背包内的物品会被清空"
+				"&4注意!在升级背包时，背包内的物品会被清空"
+			]
+			id: "3BC9F1D5D1DBD024"
+			tasks: [{
+				id: "180567EFF9D05024"
+				item: {
+					Count: 1b
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						contentsUuid: [I;
+							-137049484
+							-623951843
+							-1113267412
+							1013563042
+						]
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"53AD2FE433EF14C7"
+				"34E71A15A9B8F146"
+			]
+			id: "2EA6B983826331A7"
+			tasks: [{
+				id: "5BC5B13BE881B2D9"
+				item: "compactmachines:machine_giant"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"53AD2FE433EF14C7"
+				"34E71A15A9B8F146"
+			]
+			id: "0326BFD97DCAE5A7"
+			tasks: [
+				{
+					id: "1B276C8502171A85"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "2B71BC8C0B63101D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "fluxnetworks:flux_point"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:flux_plug"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E78E9A7E4830F99"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "fluxnetworks:flux_controller"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:basic_flux_storage"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:gargantuan_flux_storage"
+								}
+								{
+									Count: 1b
+									id: "fluxnetworks:herculean_flux_storage"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 2.5d
 		}
 	]
 	title: "&c本章节可以制作的辅助物品"

@@ -277,6 +277,7 @@ BlockEvents.rightClicked(event =>{
                 block.offset(0,-1,0).set('compactmachines:solid_wall')
                 a = 0
                 b = 0
+                e = 0
             })
         }
     }
@@ -284,4 +285,8 @@ BlockEvents.rightClicked(event =>{
 
     elementalcraft_ars_nouveau_botania('botania:mana_diamond','minecraft:diamond',1000,1000,1000,1000,1000,10000,50)
     elementalcraft_ars_nouveau_botania('minecraft:blaze_spawn_egg','naturesaura:depth_ingot',5000,1000,1000,1000,5000,5000,50)
+    elementalcraft_ars_nouveau_botania('elementalcraft:pristine_water_gem','elementalcraft:powerful_water_shard',100,50000,100,100,1000,1000,50)
+    elementalcraft_ars_nouveau_botania('elementalcraft:pristine_air_gem','elementalcraft:powerful_air_shard',100,100,100,50000,1000,1000,50)
+    elementalcraft_ars_nouveau_botania('elementalcraft:pristine_fire_gem','elementalcraft:powerful_fire_shard',50000,100,100,100,1000,1000,50)
+    elementalcraft_ars_nouveau_botania('elementalcraft:pristine_earth_gem','elementalcraft:powerful_earth_shard',100,100,50000,100,1000,1000,50)
 })

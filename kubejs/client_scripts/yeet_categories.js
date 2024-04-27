@@ -6,7 +6,11 @@ REIEvents.removeCategories(event => {
     'industrialforegoing:ore_washer',
     'industrialforegoing:fermenter',
     'industrialforegoing:ore_sieve',
-    'create:mystery_conversion'
+    'create:mystery_conversion',
+    'vintageimprovements:unpacking',
+    'malum:spirit_rite',
+    'malum:spirit_transmutation',
+    'fluxnetworks:creating_flux'
   ]
 
   hide_by_categories.forEach(categories =>{

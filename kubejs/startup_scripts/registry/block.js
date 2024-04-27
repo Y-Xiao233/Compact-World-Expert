@@ -88,4 +88,5 @@ StartupEvents.registry("block", (event) => {
     event.create('compact_keywall','cardinal').soundType("stone").unbreakable()
     event.create('compact_soild_wall').soundType("stone").unbreakable()
     event.create('swift_alloy_sand','falling').soundType("sand").requiresTool(false).hardness(0.1)
+    event.create('fake_shaft')
 })

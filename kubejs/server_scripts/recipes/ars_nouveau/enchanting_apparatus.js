@@ -16,6 +16,13 @@ ServerEvents.recipes(event =>{
             pedstalitems:['elementalcraft:swift_alloy_block','spirit:soul_powder_block','create:shaft'],
             source_cost:2000,
             id:`${id_prefix}element_motor`
+        },
+        {
+            input:'elementalcraft:swift_alloy_ingot',
+            output:'apotheosis:mythic_material',
+            pedstalitems:['ars_nouveau:source_gem','spirit:soul_powder','ars_nouveau:sourcestone'],
+            source_cost:2000,
+            id:`${id_prefix}mythic_material`
         }]
 
     recipes.forEach(recipe =>{

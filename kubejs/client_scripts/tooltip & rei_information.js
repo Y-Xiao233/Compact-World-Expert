@@ -101,6 +101,22 @@ const tooltips_rei_information = [
     {
         id:['cwe:fake_mana_pool'],
         information:["\u00a7c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"]
+    },
+    {
+        id:['sophisticatedbackpacks:backpack'],
+        information:["\u00a7c注意!在升级背包时，背包内物品会被清空"]
+    },
+    {
+        id:[/sophisticatedbackpacks:.*_backpack/],
+        information:["\u00a7c注意!在升级背包时，背包内物品会被清空"]
+    },
+    {
+        id:['kubejs:swift_alloy_key'],
+        information:['\u00a7a或许可以拿来右键某个钥匙孔']
+    },
+    {
+        id:['ars_nouveau:enchanting_apparatus'],
+        information:['\u00a7a使用蓝图大炮将我预先准备好的结构打印到世界中,\u00a7c然后拿着迅金锭右键迅金块即可']
     }]
 
 REIEvents.information(event => {
