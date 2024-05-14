@@ -50,6 +50,12 @@ ServerEvents.recipes(event =>{
             input:['2x create_new_age:thorium','2x powah:uraninite',Fluid.of('minecraft:lava',1000)],
             heated:"heated",
             id:`${id_prefix}radioactive_thorium`
+        },
+        {
+            output:'powah:capacitor_hardened',
+            input:['powah:capacitor_basic_large','powah:steel_energized',Fluid.of('kubejs:purewater',250)],
+            heated:'heated',
+            id:`${id_prefix}`
         }]
 
     recipes.forEach(recipe =>{

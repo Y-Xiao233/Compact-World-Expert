@@ -6,6 +6,8 @@ BlockEvents.rightClicked('create:fluid_tank', (event) => {
 */
     if (event.hand !== "MAIN_HAND") return;
     if(!event.player.shiftKeyDown) return;
+    if(event.item.id !== 'minecraft:air') return;
+    
     const { block, server } = event;
   
     const scheme = [
@@ -15,7 +17,7 @@ BlockEvents.rightClicked('create:fluid_tank', (event) => {
       [0, 0, -2],
     ];
     const blockId = Utils.id('create:depot');
-    event.player.tell('\u00a7c注意:若要进行世界合成\u00a7a流体罐下方只能是紧实型压缩空间壁')
+    event.player.tell(Text.translate('tip.compact_world.world_crafting'))
     let x, y, z;
     for ([x, y, z] of scheme) {
       if (block.offset(x, y, z).id !== blockId) {

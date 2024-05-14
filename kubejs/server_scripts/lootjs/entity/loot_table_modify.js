@@ -18,4 +18,20 @@ ServerEvents.entityLootTables((event) =>{
             pool.addItem('minecraft:wither_rose',1,2)
         })
     })
+
+    event.modifyEntity("minecraft:skeleton", (table) => {
+        table.clearPools()
+        table.addPool((pool) => {
+            pool.rolls = [2, 3];
+            pool.addItem('minecraft:bone',1,2)
+        })
+    })
+
+    event.modifyEntity("mekanismadditions:baby_skeleton", (table) => {
+        table.clearPools()
+        table.addPool((pool) => {
+            pool.rolls = [2, 3];
+            pool.addItem('minecraft:bone',1,2)
+        })
+    })
 })

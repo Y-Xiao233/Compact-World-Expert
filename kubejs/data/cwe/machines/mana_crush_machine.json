@@ -23,6 +23,16 @@
         "type": "custommachinery:player_inventory"
       },
       {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
         "id":"input1",
         "x":60,
         "y":20,

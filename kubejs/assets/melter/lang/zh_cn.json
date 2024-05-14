@@ -1,0 +1,10 @@
+{
+  "block.melter.melter": "熔化器",
+  "config.jade.plugin_melter.melter_data": "Melter data",
+  "itemGroup.Melter": "Melter",
+  "melter.block.display": "熔化器",
+  "melter.tooltip.multiplier": "热量乘数: %d",
+  "melter.tooltip.multiplier_none": "§c未加热!",
+  "melter.tooltip.progress": "进度: %d%%",
+  "melting.recipe": "熔化"
+}

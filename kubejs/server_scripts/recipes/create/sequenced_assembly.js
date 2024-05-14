@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>{
      id:`${id_prefix}`
     }
     */
-    const { pressing,cutting,filling,milling,deploying,sequenced_assembly } = event.recipes.create
+    const { pressing, cutting, filling, deploying, sequenced_assembly} = event.recipes.create
     const recipes = [
         {
             output:[Item.of('apotheosis:salvaging_table')],
@@ -20,7 +20,7 @@ ServerEvents.recipes(event =>{
                 pressing('minecraft:smithing_table',['minecraft:smithing_table']),
                 deploying('minecraft:smithing_table',['minecraft:smithing_table','apotheosis:gem_dust'])
             ],
-            loops:8,
+            loops:4,
             id:`${id_prefix}salvaging_table`
         },
         {
@@ -42,6 +42,18 @@ ServerEvents.recipes(event =>{
             ],
             loops:1,
             id:`${id_prefix}spirit_press`
+        },
+        {
+            output:[Item.of('minecraft:lapis_ore',2)],
+            input:'minecraft:stone',
+            main:[
+                deploying('minecraft:stone',['minecraft:stone','malum:arcane_spirit']),
+                deploying('minecraft:stone',['minecraft:stone','minecraft:blue_dye']),
+                filling('minecraft:stone',[Fluid.of('kubejs:purewater',200),'minecraft:stone']),
+                deploying('minecraft:stone',['minecraft:stone','thermal:apatite'])
+            ],
+            loops:1,
+            id:`${id_prefix}lapis_ore`
         }]
 
         recipes.forEach(recipe =>{

@@ -972,7 +972,7 @@
 			dependencies: ["77AE4DA7D7F72E3A"]
 			description: [
 				"&a在这个整合包中你可以给&2能&a加入&b能量/速度升级&a的机器加入64个升级"
-				"&5但是我&c建议&5你之加入&c16&5个(因此我特地将ta的最大堆叠数改成了16)"
+				"&5但是我&c建议&5你&4最多&5加入&c16&5个(因此我特地将ta的最大堆叠数改成了16)"
 			]
 			id: "55C0FDB8B6CD47C7"
 			tasks: [
@@ -1292,6 +1292,10 @@
 				"048A110C301423E1"
 				"54B7DAFBEA93E8BB"
 			]
+			description: [
+				"&b请完善前一章节能做的自动化之后再进入下一章节"
+				"&d不要盲目推进度哦"
+			]
 			icon: "minecraft:diamond"
 			id: "66470A3825124332"
 			rewards: [
@@ -1407,6 +1411,113 @@
 			}]
 			x: 6.0d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"54B7DAFBEA93E8BB"
+				"2E9ADF37C17C6156"
+			]
+			id: "2529BA353D72EE44"
+			tasks: [{
+				id: "09D752B6CEF7BBD5"
+				item: "thermal:chiller_ball_cast"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3326802FFF6771F9"]
+			hide_dependency_lines: true
+			id: "2E9ADF37C17C6156"
+			tasks: [{
+				id: "43BEA36F1C1FAD17"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4FE1D938136E35A1"]
+			hide_dependency_lines: true
+			id: "76112D5F8967ADBA"
+			tasks: [{
+				id: "2BE314DA8CE8811E"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"76112D5F8967ADBA"
+				"2529BA353D72EE44"
+			]
+			id: "6DAD5E1264ECCF14"
+			tasks: [{
+				id: "44C1E8C036C51D25"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DAD5E1264ECCF14"]
+			id: "5C801F5D0CBFC47F"
+			rewards: [
+				{
+					id: "41CCB3939FFB6B5A"
+					item: "naturesaura:lower_limiter"
+					type: "item"
+				}
+				{
+					id: "1A137A2C1793E1B1"
+					item: "naturesaura:generator_limit_remover"
+					type: "item"
+				}
+				{
+					id: "3E1A0C17A6E2CF25"
+					item: "naturesaura:aura_detector"
+					type: "item"
+				}
+				{
+					id: "0E605C91F6510E11"
+					item: "redstonepen:control_box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E525B572CAB537E"
+				item: "naturesaura:projectile_generator"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47E8345C7B188DAD"]
+			description: [
+				"&c需要在底下加热"
+				""
+				"&5可用的热源有:"
+				""
+				"&a火把(热量乘数1) "
+				"&a营火/灵魂营火(热量乘数2)"
+				"&a熔岩(热量乘数3)"
+				"&a烈焰人燃烧室[普通加热](热量乘数5)"
+				"&a烈焰人燃烧室[超级加热](热量乘数8)"
+			]
+			id: "5A973D3A202E2B74"
+			tasks: [{
+				id: "7C857BE6F023B4D7"
+				item: "melter:melter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 	]
 	title: "更加深入的发展"

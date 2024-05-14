@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "melter:block/melter",
+	"textures": {
+		"iron": "botania:block/terrasteel_block",
+		"melter": "melter:block/melter_lava",
+		"particle": "block/cauldron_side"
+	}
+}

@@ -67,18 +67,27 @@
 				"77D40929EC0F3AAC"
 			]
 			description: [
-				"&ashift+神奇的木棍&c右键&f紧实型压缩空间壁&c获得"
+				"&ashift+神奇的木棍&c右键&f紧实型压缩空间壁/压缩块&c获得"
 				""
 				"&d这木棍怎么来呢？不妨找找送的东西里面有没有哦~"
 				""
 				"ps:&bta可能在送的任何东西里面哦~"
 			]
 			id: "20E673E14865AC24"
-			rewards: [{
-				id: "108F191D5848E59A"
-				item: "ringsofascension:ring_night_vision"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "108F191D5848E59A"
+					item: "ringsofascension:ring_night_vision"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32839F64D6866BB7"
+					item: "minecraft:chest"
+					team_reward: true
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -380,6 +389,11 @@
 		}
 		{
 			dependencies: ["44CC50FE50F79BEA"]
+			description: [
+				"&c你需要把&a基础CAD核心&c和&a基础CAD弹夹&c一起放入CAD装配台中才能使用灌注式"
+				"&d基础CAD电池是可选的"
+				"{image:kubejs:textures/ftbquests/cad_core.png width:110 height:160 align:1}"
+			]
 			id: "4AB6262F17A4EAF3"
 			tasks: [
 				{
@@ -394,6 +408,11 @@
 						id: "psi:spell_bullet"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "6790185A31878395"
+					item: "psi:cad_core_basic"
 					type: "item"
 				}
 			]
@@ -415,7 +434,7 @@
 		{
 			dependencies: ["529FEEB650A43FAE"]
 			description: [
-				"&b[水滴右键泥土可以转化出水]"
+				"&b[水滴右键&d泥土&b可以转化出水]"
 				"&a将魔源粘土球扔到水中有20%概率转化为粘土球"
 			]
 			id: "3B92022C6A8BC415"
@@ -481,7 +500,7 @@
 				"0629CB8B857BE07A"
 				"1DB669254C3FB079"
 			]
-			description: ["&a水滴右键泥土转化出水"]
+			description: ["&a水滴右键&d泥土&a转化出水"]
 			id: "3317803D41593B4A"
 			tasks: [{
 				id: "7E5B61C5B21CBD0F"
@@ -516,7 +535,7 @@
 				"521DB09EF601C482"
 				"3317803D41593B4A"
 			]
-			description: [""]
+			description: ["打&a草&r获取"]
 			id: "78DF124E7913661C"
 			tasks: [{
 				id: "604B745A5154A4A7"
@@ -628,19 +647,12 @@
 				"{image:kubejs:textures/ftbquests/cad_core.png width:110 height:160 align:1}"
 			]
 			id: "6075F3A979BD0064"
-			tasks: [
-				{
-					id: "534005828B3D9F37"
-					item: "psi:cad_core_basic"
-					type: "item"
-				}
-				{
-					id: "56FDDF85F357C407"
-					item: "psi:cad_battery_basic"
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "56FDDF85F357C407"
+				item: "psi:cad_battery_basic"
+				optional_task: true
+				type: "item"
+			}]
 			x: 5.0d
 			y: -3.5d
 		}
@@ -686,11 +698,6 @@
 					item: "ringsofascension:ring_speed"
 					type: "item"
 				}
-				{
-					id: "6D9F7B3C7CC6082B"
-					item: "botanypots:terracotta_hopper_botany_pot"
-					type: "item"
-				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -729,5 +736,5 @@
 			y: 1.0d
 		}
 	]
-	title: "开始"
+	title: "开端"
 }

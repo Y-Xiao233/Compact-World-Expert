@@ -1,8 +1,23 @@
 StartupEvents.registry("fluid",event =>{
+
+    /** 
+    {
+     id:,
+     color:
+    }
+    */
     const fluids = [
         {
             id:'liquid_soul',
             color:0x0873A8
+        },
+        {
+            id:'artificial_oil',
+            color:0x443939
+        },
+        {
+            id:'high_purity_oil',
+            color:0x000000
         }]
 
     fluids.forEach(fluid =>{

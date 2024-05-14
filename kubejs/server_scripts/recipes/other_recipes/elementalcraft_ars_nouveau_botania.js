@@ -63,6 +63,7 @@ BlockEvents.rightClicked('botania:mana_pool', (event) => {
     */
         if (event.hand !== "MAIN_HAND") return;
         if(!event.player.shiftKeyDown) return;
+        if(event.item.id !== 'minecraft:air') return;
         const { block, server } = event;
       
         const scheme1 = [
@@ -82,9 +83,9 @@ BlockEvents.rightClicked('botania:mana_pool', (event) => {
         const blockId1 = Utils.id('elementalcraft:container');
         const blockId2 = Utils.id('ars_nouveau:source_jar');
 
-        event.player.tell('\u00a7d注意:若要进行世界合成\u00a7b魔力池下方只能是紧实型压缩空间壁')
-        event.player.tell('\u00a74红色粒子效果处只能是元素容器')
-        event.player.tell('\u00a7a绿色粒子效果处只能是魔源罐')
+        event.player.tell(Text.translate('tip.compact_world.elementalcraft_ars_nouveau_botania_1'))
+        event.player.tell(Text.translate('tip.compact_world.elementalcraft_ars_nouveau_botania_2'))
+        event.player.tell(Text.translate('tip.compact_world.elementalcraft_ars_nouveau_botania_3'))
 
         let x1, y1, z1;
         let x2, y2, z2;

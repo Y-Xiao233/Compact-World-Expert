@@ -86,6 +86,30 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['malum:runewood_item_pedestal'],
             id:`${id_prefix}runewood_item/pedestal_to_stand`
+        },
+        {
+            output:'xnet:advanced_connector_yellow',
+            output_amount:4,
+            input:['xnet:connector_yellow','xnet:connector_yellow','xnet:connector_yellow','xnet:connector_yellow','minecraft:diamond'],
+            id:`${id_prefix}advanced_connector_yellow`
+        },
+        {
+            output:'create:encased_chain_drive',
+            output_amount:4,
+            input:['create:andesite_casing','elementalcraft:swift_alloy_nugget','elementalcraft:swift_alloy_nugget','elementalcraft:swift_alloy_nugget','elementalcraft:swift_alloy_nugget'],
+            id:`${id_prefix}encased_chain_drive`
+        },
+        {
+            output:'clickmachine:auto_clicker',
+            output_amount:1,
+            input:['cyclic:user'],
+            id:`${id_prefix}user_to_auto_clicker`
+        },
+        {
+            output:'cyclic:user',
+            output_amount:1,
+            input:['clickmachine:auto_clicker'],
+            id:`${id_prefix}auto_clicker_to_user`
         }]
 
     recipes.forEach(recipe =>{

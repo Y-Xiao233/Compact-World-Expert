@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
             output:'minecraft:diamond_pickaxe',
             output_amount:1,
             input:['spirit:soul_steel_pickaxe'],
-            id:`${id_prefix}diaamond_pickaxe`
+            id:`${id_prefix}diamond_pickaxe`
         },
         {
             output:'minecraft:iron_pickaxe',
@@ -170,6 +170,18 @@ ServerEvents.recipes(event => {
             output_amount:9,
             input:['thermal:apatite_block'],
             id:`${id_prefix}apatite`
+        },
+        {
+            output:'xnet:connector_upgrade',
+            output_amount:4,
+            input:['minecraft:paper','minecraft:diamond'],
+            id:`${id_prefix}connector_upgrade`
+        },
+        {
+            output:'powah:capacitor_basic',
+            output_amount:1,
+            input:['powah:capacitor_basic_tiny','mekanism:nugget_steel','mekanism:nugget_steel','mekanism:nugget_steel'],
+            id:`${id_prefix}capactior_basic`
         }]
 
     recipes.forEach(recipe =>{

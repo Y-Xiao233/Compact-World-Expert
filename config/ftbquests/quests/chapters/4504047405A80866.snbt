@@ -292,7 +292,7 @@
 			}
 			id: "020495B69A69DB35"
 			rewards: [{
-				id: "05EDCF809926F023"
+				id: "5DD8519F3B288D16"
 				item: {
 					Count: 1b
 					id: "akashictome:tome"
@@ -346,7 +346,7 @@
 								Count: 1b
 								id: "functionalstorage:configuration_tool"
 								tag: {
-									Mode: "TOGGLE_RENDER"
+									Mode: "LOCKING"
 									"akashictome:definedMod": "functionalstorage_0"
 								}
 							}

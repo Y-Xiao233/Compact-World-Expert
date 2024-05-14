@@ -15,6 +15,12 @@ BlockEvents.rightClicked(event => {
             chance:false
         },
         {
+            block_in:'kubejs:compact_block',
+            hand_item:'kubejs:magical_stick',
+            output:'kubejs:compact_dust',
+            chance:false
+        },
+        {
             block_in:'minecraft:grass_block',
             hand_item:'minecraft:air',
             output:'kubejs:water_droplet',
@@ -44,7 +50,7 @@ BlockEvents.rightClicked(event => {
                 itemEntity.x+=0.5
                 itemEntity.y+=1
                 itemEntity.z+=0.5
-                if(Math.random < recipe.chance){
+                if(Math.random() < recipe.chance){
                 itemEntity.spawn()
                 }
             }
@@ -53,16 +59,16 @@ BlockEvents.rightClicked(event => {
 })
 
 BlockEvents.rightClicked(event =>{
-    const { block, hand, item, world, player } = event
+    const {block, hand, item} = event
     if (hand.name() != "MAIN_HAND") return 
 
-    if (event.block.id == 'minecraft:andesite' && event.item.id == 'botania:twig_wand') {
-        event.block.set('minecraft:polished_andesite')
+    if (block.id == 'minecraft:andesite' && item.id == 'botania:twig_wand') {
+        block.set('minecraft:polished_andesite')
     }
 })
 
 BlockEvents.rightClicked(event =>{
-    const { block, hand, item, world, player, server } = event
+    const {block, player} = event
 
     if (block.id == 'ars_nouveau:mob_jar' && player.mainHandItem == 'elementalcraft:drenched_iron_block' && player.offHandItem == 'naturesaura:token_euphoria') {
         player.give(Item.of('ars_nouveau:mob_jar','{BlockEntityTag:{entityId:"botania:doppleganger",entityTag:{id:"botania:doppleganger"}}}'))

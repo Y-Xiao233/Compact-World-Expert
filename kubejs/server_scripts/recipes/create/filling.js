@@ -3,7 +3,7 @@ ServerEvents.recipes(event =>{
     /**
     {
      output:,
-     fluid:,
+     fluid:Fluid.of(),
      input:,
      id:
     }
@@ -14,6 +14,18 @@ ServerEvents.recipes(event =>{
             fluid:Fluid.of('starbunclemania:source_fluid',1000),
             input:Item.of('kubejs:spirit_press',{display:{Name:'{"text":"精魂压印模板--\u00a7c不消耗"}'}}).weakNBT(),
             id:'arcane_spirit'
+        },
+        {
+            output:'botania:rune_mana',
+            fluid:Fluid.of('kubejs:liquid_mana',1000),
+            input:'kubejs:rune_blank',
+            id:'rune_mana'
+        },
+        {
+            output:'kubejs:raw_enriched_iron',
+            fluid:Fluid.of('kubejs:high_purity_oil',400),
+            input:'minecraft:raw_iron',
+            id:'raw_enriched_iron'
         }]
 
     recipes.forEach(recipe =>{

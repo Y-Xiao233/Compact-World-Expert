@@ -94,8 +94,8 @@ ServerEvents.recipes(event => {
       output:'psi:cad_core_basic',
       pattern:[' A ','ABA',' A '],
       key:{
-        A: 'kubejs:rough_psimetal',
-        B: 'botania:livingwood_twig'
+        A: 'kubejs:compact_ingot',
+        B: 'psi:psidust'
       },
       id:`${id_prefix}cad_core_basic`
      },
@@ -249,7 +249,7 @@ ServerEvents.recipes(event => {
       pattern:['CCC','ABA','AAA'],
       key:{
         A: 'minecraft:bone_block',
-        B: 'minecraft:wooden_hoe',
+        B: Item.of('minecraft:wooden_hoe').ignoreNBT(),
         C: 'hexerei:mindful_trance_blend'
       },
       id:`${id_prefix}natures_blessing_wooden_hoe`
@@ -672,10 +672,47 @@ ServerEvents.recipes(event => {
       key:{
         A: 'minecraft:gold_block',
         B: 'laserio:logic_chip',
-        C: 'kubejs:psiknife',
+        C: Item.of('kubejs:psiknife').ignoreNBT(),
         D: 'elementalcraft:swift_alloy_ingot'
       },
       id:`${id_prefix}unbreakable_psiknife`
+     },
+     {
+      output:'thermal:chiller_ball_cast',
+      pattern:[' A ','ABA',' A '],
+      key:{
+        A: 'naturesaura:depth_ingot',
+        B: 'create:dough'
+      },
+      id:`${id_prefix}chiller_ball_cast`
+     },
+     {
+      output:'kubejs:sky_key',
+      pattern:['A  ','B  ','B  '],
+      key:{
+        A: 'naturesaura:sky_ingot',
+        B: 'kubejs:sky_nugget'
+      },
+      id:`${id_prefix}sky_key`
+     },
+     {
+      output:'ironfurnaces:augment_generator',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'botania:manasteel_ingot',
+        B: 'hexerei:moon_dust',
+        C: 'laserio:logic_chip'
+      },
+      id:`${id_prefix}augment_generator`
+     },
+     {
+      output:Item.of('kubejs:swift_alloy_shovel', '{Unbreakable:1b}'),
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'elementalcraft:swift_alloy_block',
+        B: Item.of('kubejs:swift_alloy_shovel').ignoreNBT(),
+      },
+      id:`${id_prefix}unbreakable_swift_alloy_shovel`
      }]
   
   recipes.forEach(recipe =>{

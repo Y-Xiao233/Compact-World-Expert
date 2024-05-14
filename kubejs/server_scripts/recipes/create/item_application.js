@@ -20,6 +20,12 @@ ServerEvents.recipes(event =>{
             block:'create:andesite_casing',
             output:'create:copper_casing',
             id:`${id_prefix}copper_casing`
+        },
+        {
+            hand_item:'naturesaura:sky_ingot',
+            block:'create:andesite_casing',
+            output:'createutilities:void_casing',
+            id:`${id_prefix}void_casing`
         }]
 
     recipes.forEach(recipe =>{

@@ -1,122 +1,216 @@
     /**
     {
      id:[],
-     information:[]
+     information:[Text.translate('tip.compact_world.information_')],
+     tooltip:true
     }
     */
 
 const tooltips_rei_information = [
     {
         id:['kubejs:compact_dust'],
-        information:['\u00a7ashift+神奇的木棍\u00a7c右键\u00a7f紧实型压缩空间壁\u00a7c获得']
+        information:[Text.translate('tip.compact_world.information_1')],
+        //information:['§ashift+神奇的木棍§c右键§f紧实型压缩空间壁/压缩块§c获得'],
+        tooltip:true
     },
     {
         id:['kubejs:compact_ingot'],
-        information:['\u00a7a拿着\u00a7f压缩粉末\u00a7c右键\u00a7f压缩空间壁\u00a7c获得']
+        information:[Text.translate('tip.compact_world.information_2')],
+        //information:['§a拿着§f压缩粉末§c右键§f压缩空间壁§c获得'],
+        tooltip:true
     },
     {
         id:['psi:cad_assembly_iron'],
-        information:['\u00a7a拿着\u00a7f压缩CAD机体\u00a7c右键\u00a7f紧实型压缩空间壁\u00a7c获得']
+        information:[Text.translate('tip.compact_world.information_3')],
+        //information:['§a拿着§f压缩CAD机体§c右键§f紧实型压缩空间壁§c获得'],
+        tooltip:true
     },
     {
         id:['kubejs:water_droplet'],
-        information:['\u00a7ashift+空手\u00a7c右键\u00a7f草方块\u00a7a有2%概率\u00a7c获得']
+        information:[Text.translate('tip.compact_world.information_4')],
+        //information:['§ashift+空手§c右键§f草方块§a有2%概率§c获得'],
+        tooltip:true
     },
     {
         id:['minecraft:water'],
-        information:['\u00a7a拿着\u00a7f水滴\u00a7c右键\u00a7f泥土\u00a7c获取']
+        information:[Text.translate('tip.compact_world.information_5')],
+        //information:['§a拿着§f水滴§c右键§f泥土§c获取'],
+        tooltip:true
     },
     {
         id:['psi:psimetal'],
-        information:['\u00a7a关于用什么方式产生\u00a7c爆炸\u00a7f请前往任务查看\u00a7a(有较为详细的教程)']
+        information:[Text.translate('tip.compact_world.information_6')],
+        //information:['§a关于用什么方式产生§c爆炸§f请前往任务查看§a(有较为详细的教程)'],
+        tooltip:true
     },
     {
         id:['kubejs:psiknife'],
-        information:['用\u00a7c魔源宝石\u00a7f在工作台内合成的方式\u00a7a可以修复耐久\u00a7c(不会被彻底破坏)']
+        information:[Text.translate('tip.compact_world.information_7')],
+        //information:['用§c魔源宝石§f在工作台内合成的方式§a可以修复耐久§c(不会被彻底破坏)'],
+        tooltip:true
     },
     {
         id:['naturesaura:gold_leaf'],
-        information:['\u00a7a无法使用\u00a7c原版方式\u00a7a获得，\u00a7f请使用魔改方式获取']
+        information:[Text.translate('tip.compact_world.information_8')],
+        //information:['§a无法使用§c原版方式§a获得，§f请使用魔改方式获取'],
+        tooltip:true
     },
     {
         id:['hexerei:belladonna_flower'],
-        information:['打\u00a7a草/高草\u00a7f有\u00a7c20%概率\u00a7f掉落']
+        information:[Text.translate('tip.compact_world.information_9')],
+        //information:['打§a草/高草§f有§c20%概率§f掉落'],
+        tooltip:true
     },
     {
         id:['kubejs:source_psicoal'],
-        information:["\u00a7a可以燃烧\u00a7c4个\u00a7a物品"]
+        information:[Text.translate('tip.compact_world.information_10')],
+       //information:["§a可以燃烧§c4个§a物品"],
+        tooltip:true
     },
     {
         id:['elementalcraft:firecrystal'],
-        information:["\u00a7a可以燃烧\u00a7c32个\u00a7a物品"]
+        information:[Text.translate('tip.compact_world.information_11')],
+        //information:["§a可以燃烧§c32个§a物品"],
+        tooltip:true
     },
     {
         id:['minecraft:flint'],
-        information:["\u00a7c不可以通过打破\u00a7a沙砾\u00a7f的方式获得，\u00a7a请使用\u00a7c农夫乐事的砧板\u00a7f获得"]
+        information:[Text.translate('tip.compact_world.information_12')],
+        //information:["§c不可以通过打破§a沙砾§f的方式获得，§a请使用§c农夫乐事的砧板§f获得"],
+        tooltip:true
     },
     {
         id:['naturesaura:offering_table'],
-        information:["\u00a7c只能在主世界合成，在微缩世界合成不会有掉落物！\n\u00a7a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来\n\u00a7d你需要制作物品收集器将其收集进来"]
+        information:[Text.translate('tip.compact_world.information_13')],
+        //information:["§c只能在主世界合成，在微缩世界合成不会有掉落物！\n§a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来\n§d你需要制作物品收集器将其收集进来"],
+        tooltip:true
     },
     {
         id:[/createcasing:.*_depot/],
-        information:["\u00a7c拿着对应的机壳右键置物台"]
+        information:[Text.translate('tip.compact_world.information_14')],
+        //information:["§c拿着对应的机壳右键置物台"],
+        tooltip:true
     },
     {
         id:[/createcasing:.*_mixer/],
-        information:["\u00a7c拿着对应的机壳右键动力搅拌器"]
+        information:[Text.translate('tip.compact_world.information_15')],
+        //information:["§c拿着对应的机壳右键动力搅拌器"],
+        tooltip:true
     },
     {
         id:[/createcasing:.*_press/],
-        information:["\u00a7c拿着对应的机壳右键置物台动力辊压机"]
+        information:[Text.translate('tip.compact_world.information_16')],
+        //information:["§c拿着对应的机壳右键置物台动力辊压机"],
+        tooltip:true
     },
     {
         id:['ae2:flawless_budding_quartz'],
-        information:["\u00a7c可以被挖掘且掉落原方块(不需要精准采集)"]
+        information:[Text.translate('tip.compact_world.information_17')],
+        //information:["§c可以被挖掘且掉落原方块(不需要精准采集)"],
+        tooltip:true
     },
     {
         id:['mythicbotany:gjallar_horn_full'],
-        information:["\u00a7c具体合成方式见任务内"]
+        information:[Text.translate('tip.compact_world.information_18')],
+        //information:["§c具体合成方式见任务内"],
+        tooltip:true
     },
     {
         id:['mythicbotany:petrunia_floating'],
-        information:["\u00a7a如果附近有足够魔力,\u00a7c(浮空)符文矮牵牛花可以自动激活仪式"]
+        information:[Text.translate('tip.compact_world.information_19')],
+        //information:["§a如果附近有足够魔力,§c(浮空)符文矮牵牛花可以自动激活仪式"],
+        tooltip:true
     },
     {
         id:['kubejs:obsidian'],
-        information:["\u00a7a仅用于合成,\u00a7c无法\u00a7a作为下界传送门方块"]
+        information:[Text.translate('tip.compact_world.information_20')],
+        //information:["§a仅用于合成,§c无法§a作为下界传送门方块"],
+        tooltip:true
     },
     {
         id:['minecraft:bone_meal'],
-        information:["\u00a7c把\u00a7a沙子/魔源粉\u00a7c丢入水中有概率获得"]
+        information:[Text.translate('tip.compact_world.information_21')],
+        //information:["§c把§a沙子/魔源粉§c丢入水中有概率获得"],
+        tooltip:true
     },
     {
         id:['cwe:fake_fluid_tank'],
-        information:["\u00a7c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"]
+        information:[Text.translate('tip.compact_world.information_22')],
+        //information:["§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"],
+        tooltip:true
     },
     {
         id:['ae2:mysterious_cube'],
-        information:['\u00a7a放在地上挖掉它会掉落四种压印模板']
+        information:[Text.translate('tip.compact_world.information_23')],
+        //information:['§a放在地上挖掉它会掉落四种压印模板'],
+        tooltip:true
     },
     {
         id:['cwe:fake_mana_pool'],
-        information:["\u00a7c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"]
+        information:[Text.translate('tip.compact_world.information_24')],
+        //information:["§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看"],
+        tooltip:true
     },
     {
         id:['sophisticatedbackpacks:backpack'],
-        information:["\u00a7c注意!在升级背包时，背包内物品会被清空"]
+        information:[Text.translate('tip.compact_world.information_25')],
+        //information:["§c注意!在升级背包时，背包内物品会被清空"],
+        tooltip:true
     },
     {
         id:[/sophisticatedbackpacks:.*_backpack/],
-        information:["\u00a7c注意!在升级背包时，背包内物品会被清空"]
+        information:[Text.translate('tip.compact_world.information_26')],
+        //information:["§c注意!在升级背包时，背包内物品会被清空"],
+        tooltip:true
     },
     {
         id:['kubejs:swift_alloy_key'],
-        information:['\u00a7a或许可以拿来右键某个钥匙孔']
+        information:[Text.translate('tip.compact_world.information_27')],
+        //information:['§a或许可以拿来右键某个钥匙孔'],
+        tooltip:true
     },
     {
         id:['ars_nouveau:enchanting_apparatus'],
-        information:['\u00a7a使用蓝图大炮将我预先准备好的结构打印到世界中,\u00a7c然后拿着迅金锭右键迅金块即可']
+        information:[Text.translate('tip.compact_world.information_28')],
+        //information:['§a使用蓝图大炮将我预先准备好的结构打印到世界中,§c然后拿着迅金锭右键迅金块即可'],
+        tooltip:true
+    },
+    {
+        id:['naturesaura:sky_ingot'],
+        information:[Text.translate('tip.compact_world.information_29')],
+        //information:['§c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!\n\n§a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来\n\n§d因此你需要制作物品收集器将其收集进来'],
+        tooltip:true
+    },
+    {
+        id:['melter:melter'],
+        information:[Text.translate('tip.compact_world.information_30')],
+        //information:['§c需要在底下加热\n§5可用的热源有:\n\n§a火把(热量乘数1)\n§a营火/灵魂营火(热量乘数2)\n§a熔岩(热量乘数3)\n§a烈焰人燃烧室[普通加热](热量乘数5)\n§a烈焰人燃烧室[超级加热](热量乘数8)'],
+        tooltip:false
+    },
+    {
+        id:['kubejs:sky_key'],
+        information:[Text.translate('tip.compact_world.information_31')],
+        //information:['§a或许可以拿来右键某个钥匙孔'],
+        tooltip:true
+    },
+    {
+        id:['kubejs:fake_shaft'],
+        information:[Text.translate('tip.compact_world.information_32')]
+    },
+    {
+        id:['cyclic:user'],
+        information:[Text.translate('tip.compact_world.information_33')],
+        tooltip:true
+    },
+    {
+        id:['clickmachine:auto_clicker'],
+        information:[Text.translate('tip.compact_world.information_34')],
+        tooltip:true
+    },
+    {
+        id:['minecraft:bone'],
+        information:[Text.translate('tip.compact_world.information_35')],
+        tooltip:true
     }]
 
 REIEvents.information(event => {
@@ -127,6 +221,8 @@ REIEvents.information(event => {
 
 ItemEvents.tooltip(tooltip =>{
     tooltips_rei_information.forEach(item_tooltip =>{
-        tooltip.add(item_tooltip.id,item_tooltip.information)
+        if(item_tooltip.tooltip != false){
+            tooltip.add(item_tooltip.id,item_tooltip.information)
+        }else return
     })
 })

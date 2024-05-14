@@ -85,8 +85,20 @@
 		}
 		{
 			dependencies: ["30782F4DFAA15B61"]
+			description: [
+				"&d嗯？&a你问我为什么送这么多？"
+				""
+				"&c当然是后面要的非常多啦"
+			]
 			hide_dependency_lines: true
 			id: "4D7465B820A9F8DD"
+			rewards: [{
+				count: 160
+				id: "4971A599D762892B"
+				item: "ars_nouveau:sourcestone"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "4780CC222D151F6C"
 				item: "ars_nouveau:sourcestone"
@@ -231,6 +243,12 @@
 		{
 			dependencies: ["0273EC7435D10E5B"]
 			id: "12D85D3B4D0DE1F8"
+			rewards: [{
+				count: 16
+				id: "3F106C95AB4EBA4F"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2B7C1D26E320AA21"
 				item: "ars_nouveau:archwood_planks"
@@ -367,6 +385,11 @@
 							Rotation: "NONE"
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "39D8651447A6C340"
+					item: "ars_nouveau:source_jar"
 					type: "item"
 				}
 			]
@@ -917,6 +940,13 @@
 		{
 			dependencies: ["54FE74611E08BF8B"]
 			id: "1CAA6E76CD01D8D9"
+			rewards: [{
+				count: 64
+				id: "3475DFE61F9EFFF0"
+				item: "minecraft:poppy"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "73A3955704D1E94C"
 				item: "naturesaura:offering_table"
@@ -1085,7 +1115,7 @@
 				}
 			]
 			x: 14.0d
-			y: 3.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -1138,6 +1168,7 @@
 			description: [
 				"&a从左往右分别给抽屉加入输出/抽取升级"
 				"&d放入对应材料即可实现自动"
+				"&c更加推荐使用配合xnet控制输入物品的抽屉内的数量始终为1来实现自动化，图示的方法可能会吞材料"
 				"{image:kubejs:textures/ftbquests/salvaging.png width:240 height:80 align:1 fit:true}"
 			]
 			id: "23367A1087968291"
@@ -1572,6 +1603,10 @@
 		}
 		{
 			dependencies: ["0BF4E0A71E17AC31"]
+			description: [
+				"&b请完善前一章节能做的自动化之后再进入下一章节"
+				"&d不要盲目推进度哦"
+			]
 			id: "2FB3DF89E9D0122A"
 			rewards: [{
 				id: "05CCC782734D492A"
@@ -1718,6 +1753,74 @@
 			}]
 			x: 2.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["686049150D5FDE64"]
+			id: "084F47D6C083BF5F"
+			tasks: [{
+				id: "3DF8E5D002FF905D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createutilities:gearcube"
+							}
+							{
+								Count: 1b
+								id: "createutilities:lshaped_gearbox"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FB3DF89E9D0122A"]
+			id: "332E2E63AD3628C2"
+			tasks: [{
+				id: "249511CFB07BB1D1"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			description: [
+				"&a或许可以拿来右键某个钥匙孔"
+				""
+				"&d这是专门留给你制作苍穹锭自动化的空间"
+			]
+			id: "12EF5F133E87A88D"
+			tasks: [{
+				id: "46C77B69F0C68FD5"
+				item: "kubejs:sky_key"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35AC84A039B7744C"]
+			id: "49BC99FBC3BB5336"
+			tasks: [{
+				id: "742F20A6C7AA64BD"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
 		}
 	]
 	title: "魔法进阶"

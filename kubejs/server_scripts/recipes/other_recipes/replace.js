@@ -379,6 +379,60 @@ ServerEvents.recipes(event =>{
             filter:{output:'fluxnetworks:flux_core'},
             original:'minecraft:ender_eye',
             replace:'botania:mana_diamond'
+        },
+        {
+            type:'input',
+            filter:{output:'functionalstorage:storage_controller'},
+            original:'#forge:storage_blocks/quartz',
+            replace:'ae2:fluix_block'
+        },
+        {
+            type:'input',
+            filter:{output:/functionalstorage:framed_.*/},
+            original:'minecraft:iron_nugget',
+            replace:'hexerei:moon_dust'
+        },
+        {
+            type:'input',
+            filter:{output:'functionalstorage:simple_compacting_drawer'},
+            original:'minecraft:iron_ingot',
+            replace:'hexerei:moon_dust'
+        },
+        {
+            type:'input',
+            filter:{output:'functionalstorage:compacting_drawer'},
+            original:'minecraft:iron_ingot',
+            replace:'hexerei:moon_dust'
+        },
+        {
+            type:'input',
+            filter:{output:'createutilities:void_motor'},
+            original:'createutilities:graviton_tube',
+            replace:'spirit:soul_steel_ingot'
+        },
+        {
+            type:'input',
+            filter:{output:'minecraft:repeater'},
+            original:'minecraft:redstone',
+            replace:'apotheosis:epic_material'
+        },
+        {
+            type:'input',
+            filter:{output:'cyclic:apple_bone'},
+            original:'cyclic:apple_honey',
+            replace:'minecraft:apple'
+        },
+        {
+            type:'input',
+            filter:{output:'create:propeller'},
+            original:'create:iron_sheet',
+            replace:'create:golden_sheet'
+        },
+        {
+            type:'input',
+            filter:{output:'elementalcraft:elementpipe_improved'},
+            original:'elementalcraft:elementpipe_impaired',
+            replace:'elementalcraft:elementpipe'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

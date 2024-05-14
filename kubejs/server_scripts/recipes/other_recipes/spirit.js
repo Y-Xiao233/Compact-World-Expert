@@ -1,7 +1,7 @@
 ServerEvents.recipes(event =>{
     const recipes = [
         {
-            input:'elementalcraft:swift_alloy_ingot',
+            input:items('elementalcraft:swift_alloy_ingot'),
             pattern:[
                 [" B ","B@B"," B "],
                 ["AAA","A&A","AAA"]
@@ -14,12 +14,27 @@ ServerEvents.recipes(event =>{
             destroysStructure:true,
             output:'compactcrafting:field_projector',
             output_amount:4
+        },
+        {
+            input:tags('forge:glass'),
+            pattern:[
+                ["   "," @ ","   "],
+                ["ABA","B&B","ABA"]
+            ],
+            keys:{
+                "A":{"block":'minecraft:lapis_block'},
+                "B":{"block":'create:copper_casing'}
+            },
+            duration:20,
+            destroysStructure:false,
+            output:'spirit:soul_glass',
+            output_amount:1
         }]
 
     recipes.forEach(recipe =>{
         event.custom({
             "type":"spirit:soul_engulfing",
-            "input":{"ingredient": {"item":recipe.input},"multiblock": {"pattern":recipe.pattern,"keys":recipe.keys}},
+            "input":{"ingredient": recipe.input,"multiblock": {"pattern":recipe.pattern,"keys":recipe.keys}},
             "duration":recipe.duration,
             "destroysStructure":recipe.destroysStructure,
             "outputItem":recipe.output,

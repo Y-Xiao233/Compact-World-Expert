@@ -685,7 +685,7 @@ ServerEvents.recipes(event => {
         E: 'ae2:calculation_processor',
         F: 'minecraft:redstone'
       },
-      id:`${id_prefix}entangled_block`
+      id:`${id_prefix}entangled_2`
      },
      {
       output:'powah:energizing_orb',
@@ -837,7 +837,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}spatial_anchor`
      },
      {
-      output:'ae2:me_p2p_tunnel',
+      output:'2x ae2:me_p2p_tunnel',
       pattern:['ABC','   ','   '],
       key:{
         A: 'ae2:import_bus',
@@ -1118,6 +1118,77 @@ ServerEvents.recipes(event => {
         C: 'malum:runewood_leaves'
       },
       id:`${id_prefix}spirit_altar`
+     },
+     {
+      output:'thermal:machine_chiller',
+      pattern:[' A ','BCB','DDD'],
+      key:{
+        A: '#forge:glass',
+        B: 'naturesaura:token_terror',
+        C: 'industrialforegoing:machine_frame_pity',
+        D: 'botania:rune_water'
+      },
+      id:`${id_prefix}machine_chiller`
+     },
+     {
+      output:'naturesaura:projectile_generator',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'minecraft:snowball',
+        B: 'botania:rune_water',
+        C: 'naturesaura:token_terror',
+        D: 'industrialforegoing:machine_frame_pity'
+      },
+      id:`${id_prefix}projectile_generator`
+     },
+     {
+      output:'melter:melter',
+      pattern:['A A','ABA','CAC'],
+      key:{
+        A: 'minecraft:basalt',
+        B: 'elementalcraft:binder_improved',
+        C: 'botania:terrasteel_nugget'
+      },
+      id:`${id_prefix}melter`
+     },
+     {
+      output:'mekanism:combiner',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'naturesaura:infused_stone',
+        B: 'botania:terrasteel_ingot',
+        C: 'mekanism:steel_casing'
+      },
+      id:`${id_prefix}combiner`
+     },
+     {
+      output:'cyclic:crafter',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'botania:livingrock',
+        B: 'botania:manasteel_ingot',
+        C: 'psi:psimetal_block'
+      },
+      id:`${id_prefix}crafter`
+     },
+     {
+      output:'entangled:block',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'apotheosis:mythic_material',
+        B: 'create:andesite_alloy',
+        C: 'create:andesite_casing'
+      },
+      id:`${id_prefix}entangled_1`
+     },
+     {
+      output:'compactmachines:machine_normal',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'minecraft:gold_block',
+        B: 'compactmachines:wall'
+      },
+      id:`${id_prefix}machine_normal`
      }]
   
   recipes.forEach(recipe =>{

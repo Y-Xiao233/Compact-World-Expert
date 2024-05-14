@@ -8,7 +8,8 @@ StartupEvents.registry("block", (event) => {
         'cwe:source_craftingtable',
         'cwe:mana_booster',
         'cwe:fake_fluid_tank',
-        'cwe:fake_mana_pool'
+        'cwe:fake_mana_pool',
+        'cwe:dream_portal_core'
     ]
 
     custom_machinerys.forEach(custom_machinery =>{

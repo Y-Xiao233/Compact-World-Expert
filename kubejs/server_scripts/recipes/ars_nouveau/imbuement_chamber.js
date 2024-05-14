@@ -62,7 +62,7 @@ ServerEvents.recipes(event =>{
         {
             input:'create:crushed_raw_gold',
             output:'kubejs:shining_gold_mix',
-            pedstalitems:['kubejs:source_clay_ball','naturesaura:gold_leaf'],
+            pedstalitems:[],
             source_cost:50,
             id:`${id_prefix}shining_gold_mix`
         },

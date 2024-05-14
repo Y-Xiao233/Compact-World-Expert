@@ -74,6 +74,12 @@ ServerEvents.recipes(event =>{
             base_input:'entangled:item',
             addition_input:'ae2:fluix_glass_cable',
             id:`${id_prefix}wireless_tool`
+        },
+        {
+            output:'xnet:connector_yellow',
+            base_input:'laserio:laser_node',
+            addition_input:'4x minecraft:yellow_dye',
+            id:`${id_prefix}connector_yellow`
         }]
 
     recipes.forEach(recipe =>{

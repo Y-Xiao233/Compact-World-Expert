@@ -10,7 +10,13 @@ REIEvents.removeCategories(event => {
     'vintageimprovements:unpacking',
     'malum:spirit_rite',
     'malum:spirit_transmutation',
-    'fluxnetworks:creating_flux'
+    'fluxnetworks:creating_flux',
+    'malum:spirit_repair',
+    'jeresources:dungeon',
+    'industrialforegoing:machine_produce',
+    'vintageimprovements:leaves_vibrating',
+    'vintageimprovements:vibrating',
+    'ironfurnaces:generator_smoking'
   ]
 
   hide_by_categories.forEach(categories =>{

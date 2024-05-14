@@ -22,6 +22,7 @@ ServerEvents.recipes(event =>{
             {
                 "type": "create:deploying",
                 "ingredients": [items('spirit:soul_steel_ingot'),items('botania:rune_water')],
+                "keepHeldItem":true,
                 "results": [items('spirit:soul_steel_ingot')]
             },
             {

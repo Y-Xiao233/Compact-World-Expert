@@ -141,6 +141,12 @@
 		{
 			dependencies: ["6837E73B047AC233"]
 			id: "443D5E6FE11BBE62"
+			rewards: [{
+				id: "438A7C93C47275EB"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				team_reward: true
+				type: "item"
+			}]
 			tasks: [{
 				id: "68EB837E3030161C"
 				item: "minecraft:oak_sapling"
@@ -225,6 +231,7 @@
 			id: "554CFBD29F0B694A"
 			rewards: [
 				{
+					count: 6
 					id: "22E2779D17F81743"
 					item: {
 						Count: 1b
@@ -270,6 +277,11 @@
 				"20C2D92E888636AA"
 			]
 			id: "01C9C2A8ADDD71D6"
+			rewards: [{
+				id: "593A23DC7DA4EBEC"
+				item: "functionalstorage:void_upgrade"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "651320E8BE2AD6B0"
@@ -455,6 +467,11 @@
 				"565C6267F7BE78BA"
 			]
 			id: "2EB1962BEB28AA4E"
+			rewards: [{
+				id: "5099A8A3A638B62F"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02A6953A3EA1E505"
 				item: "botania:fertilizer"
@@ -503,6 +520,27 @@
 		{
 			dependencies: ["565C6267F7BE78BA"]
 			id: "543761F9708EC621"
+			rewards: [
+				{
+					id: "704436989399DB4A"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "4E54D5DEDE9E7158"
+					item: {
+						Count: 1b
+						id: "modularrouters:breaker_module"
+						tag: {
+							modularrouters: {
+								Direction: "NONE"
+								ModuleFilter: { }
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "26DB5050B1E04E8C"
 				item: "minecraft:andesite"
@@ -754,6 +792,11 @@
 		{
 			dependencies: ["4586578D6CA31C45"]
 			id: "3C5857AC16D1C449"
+			rewards: [{
+				id: "4546499DB8548B7A"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FEB0C7430D3247F"
 				item: {
@@ -1055,6 +1098,10 @@
 		}
 		{
 			dependencies: ["770151A578433280"]
+			description: [
+				"&b请完善前一章节能做的自动化之后再进入下一章节"
+				"&d不要盲目推进度哦"
+			]
 			id: "3FC73DD0AD0927ED"
 			rewards: [
 				{
@@ -1117,6 +1164,11 @@
 		{
 			dependencies: ["55B4E791CDAFCAAD"]
 			id: "555A01BA82D7D9B7"
+			rewards: [{
+				id: "649FF6A56C8848AA"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6F3C7CA6C2A95C73"
 				item: "minecraft:gold_ingot"
@@ -1149,18 +1201,51 @@
 		}
 		{
 			dependencies: ["71FB34748500080D"]
+			description: [
+				"&a压缩空间内无法使用循环的玩家模拟器"
+				""
+				"&6请改用自动点击器"
+				""
+				"&4ps：自动点击器造成的资源占用是玩家模拟器的2倍，所以在主世界还是用玩家模拟器吧qaq"
+			]
 			id: "45F5C47ED6231F36"
-			tasks: [{
-				id: "2D9C2D02001FDC81"
-				item: "cyclic:user"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "214F2BD1AE54B8CE"
+					item: "xnet:controller"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3261FD1CA5550C5C"
+					item: "xnet:connector_yellow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2D9C2D02001FDC81"
+					item: "cyclic:user"
+					type: "item"
+				}
+				{
+					id: "0ACB4771E01C7BFB"
+					item: "clickmachine:auto_clicker"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["3C659BB5A50BED9A"]
 			id: "2189882BA4020BB6"
+			rewards: [{
+				count: 2
+				id: "5E7B383F6B00C4BF"
+				item: "functionalstorage:compacting_drawer"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BE3D341FA944B5C"
 				item: "cobblefordays:tier_2"
@@ -1223,7 +1308,7 @@
 			}]
 			title: "物品/流体卡"
 			x: 7.0d
-			y: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["555A01BA82D7D9B7"]
@@ -1410,6 +1495,17 @@
 			]
 			x: 4.0d
 			y: -8.0d
+		}
+		{
+			dependencies: ["11D5B91D049E75C2"]
+			id: "73CE3FE1D759EC27"
+			tasks: [{
+				id: "59DD3547FCD30937"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
 		}
 	]
 	title: "原初魔法"

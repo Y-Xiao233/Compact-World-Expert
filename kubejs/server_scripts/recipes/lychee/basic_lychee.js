@@ -57,7 +57,7 @@ ServerEvents.recipes(event =>{
         },
         {
             main:lychee('lychee:item_inside','kubejs:source_clay_ball','minecraft:water',
-                 posts('drop_item','minecraft:clay_ball',1,"chance",0.2)),
+                 posts('drop_item','minecraft:clay_ball',1,"chance",0.3)),
             id:`${id_prefix}clay_ball`
         },
         {
@@ -83,9 +83,14 @@ ServerEvents.recipes(event =>{
             id:`${id_prefix}polished_andesite`
         },
         {
-            main:lychee('lychee:block_interacting',"kubejs:swift_alloy_key","kubejs:compact_keywall",
+            main:lychee('lychee:block_interacting',"kubejs:swift_alloy_key","kubejs:compact_keywall_swift",
                  posts('place',"minecraft:air",false,"execute","fill ~ ~11 ~6 ~ ~-1 ~-6 minecraft:air replace compactmachines:solid_wall")),
-            id:`${id_prefix}break_the_compact_keywall`
+            id:`${id_prefix}break_the_compact_keywall_swift`
+        },
+        {
+            main:lychee('lychee:block_interacting',"kubejs:sky_key","kubejs:compact_keywall_sky",
+                 posts('place',"minecraft:air",false,"execute","fill ~ ~11 ~6 ~ ~-1 ~-6 minecraft:air replace compactmachines:solid_wall")),
+            id:`${id_prefix}break_the_compact_keywall_sky`
         },
         {
             main:lychee('lychee:block_interacting','kubejs:bottle_water','minecraft:grass',
@@ -161,6 +166,11 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','create_new_age:nuclear_fuel','kubejs:fake_shaft',
                  posts('place','create_new_age:reactor_rod'),false,false,false,true,false),
             id:`${id_prefix}reactor_rod_ghost`
+        },
+        {
+            main:lychee('lychee:block_interacting','naturesaura:sky_ingot','spirit:soul_steel_block',
+                 posts('drop_item','xnet:controller',4,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace spirit:soul_steel_block")),
+            id:`${id_prefix}controller`
         }]
 
     recipes.forEach(recipe =>{

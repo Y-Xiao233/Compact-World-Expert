@@ -13,6 +13,7 @@ CreateEvents.spoutHandler(event =>{
     })
 })
 
+/*
 CreateEvents.spoutHandler(event =>{
 
     function spoutrecipe(helditem,input_fluid,amount,output_item,id){
@@ -40,4 +41,31 @@ CreateEvents.spoutHandler(event =>{
     }
 
     spoutrecipe('kubejs:spirit_press','starbunclemania:source_fluid',1000,'malum:arcane_spirit','arcane_spirit')
+})
+*/
+
+CreateEvents.spoutHandler(event =>{
+    function spoutrecipe(held_item,input_fluid,amount,output,id){
+        event.add(id, 'create:depot', (block, fluid, simulate) =>{
+            if(fluid.id == input_fluid && fluid.amount >= amount && block.entityData.contains("HeldItem")){
+                let output_amount
+                let heldItem_count = block.entityData.HeldItem.Item.Count
+                let heldItem = block.entityData.HeldItem.Item.id
+
+                if(block.entityData.OutputBuffer.Items.length === 0){
+                    output_amount = 0
+                }else if(block.entityData.OutputBuffer.Items.length !== 0){
+                    output_amount = block.entityData.OutputBuffer.Items["0"].Count
+                    if(output_amount >= 64) return 0;
+                }
+
+                if(heldItem == held_item){
+                    if(!simulate){
+                        block.mergeEntityData(`{HeldItem:{Item:{id:'${heldItem}',Count:${heldItem_count}b}},OutputBuffer:{Size:8,Items:[{Slot:0,id:'${output}',Count:${output_amount+1}b}]}}`)
+                    }return 1000;
+                }else return 0;
+            }else return 0;
+        })
+    }
+spoutrecipe('kubejs:spirit_press','starbunclemania:source_fluid',1000,'malum:arcane_spirit','arcane_spirit')
 })

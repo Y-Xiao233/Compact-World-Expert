@@ -74,6 +74,9 @@
   "custommachinery": {
     "machine_component_provider": true
   },
+  "melter": {
+    "melter_data": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -118,9 +121,6 @@
   },
   "gravestone": {
     "grave": true
-  },
-  "mechanicalmachinery": {
-    "jade_provider": true
   },
   "cookingforblockheads": {
     "fridge": true,

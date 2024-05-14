@@ -106,6 +106,58 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:80,
             id:`${id_prefix}mindful_trance_blend`
+           },
+           {
+            inputItem:[
+            {"item":'ars_nouveau:source_gem'},
+            {"item":'ars_nouveau:source_gem'},
+            {"item":'ars_nouveau:source_gem'},
+            {"item":'ars_nouveau:source_gem'},
+            {"item":'ars_nouveau:source_gem'}
+            ], //inputItem:5
+            output:'kubejs:source_dust',
+            output_amount:5,
+            time:80,
+            id:`${id_prefix}source_dust`
+           },
+           {
+            inputItem:[
+            {"item":'naturesaura:gold_leaf'},
+            {"item":'naturesaura:gold_leaf'},
+            {"item":'naturesaura:gold_leaf'},
+            {"item":'naturesaura:gold_leaf'},
+            {"item":'naturesaura:gold_leaf'}
+            ], //inputItem:5
+            output:'minecraft:yellow_dye',
+            output_amount:6,
+            time:80,
+            id:`${id_prefix}yellow_dye`
+           },
+           {
+            inputItem:[
+            {"item":'minecraft:sand'},
+            {"item":'minecraft:sand'},
+            {"item":'minecraft:sand'},
+            {"item":'minecraft:sand'},
+            {"item":'minecraft:sand'}
+            ], //inputItem:5
+            output:'minecraft:gravel',
+            output_amount:5,
+            time:40,
+            id:`${id_prefix}gravel`
+           },
+           {
+            inputItem:[
+            {"item":'compressium:cobblestone_1'},
+            {"item":'compressium:cobblestone_1'},
+            {"item":'compressium:cobblestone_1'},
+            {"item":'compressium:cobblestone_1'},
+            {"item":'compressium:cobblestone_1'}
+            ], //inputItem:5
+            output:'minecraft:andesite',
+            output_amount:8,
+            time:80,
+            id:`${id_prefix}andesite`
            }]
 
     recipes.forEach(recipe =>{

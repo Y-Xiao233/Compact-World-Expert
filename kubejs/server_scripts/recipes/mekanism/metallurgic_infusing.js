@@ -3,8 +3,8 @@ ServerEvents.recipes(event =>{
 
     /**
     {
-     input:,
-     output:,
+     input:items(),
+     output:items(),
      infuse_type:,
      amount:,
      id:`${id_prefix}`
@@ -46,6 +46,13 @@ ServerEvents.recipes(event =>{
             infuse_type:'mekanism:carbon',
             amount:40,
             id:`${id_prefix}source_psicoal`
+        },
+        {
+            input:items('mekanism:enriched_iron'),
+            output:items('mekanism:ingot_steel'),
+            infuse_type:'mekanism:carbon',
+            amount:10,
+            id:`${id_prefix}ingot_steel`
         }]
 
     recipes.forEach(recipe =>{

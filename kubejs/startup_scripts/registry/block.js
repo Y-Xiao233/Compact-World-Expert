@@ -32,14 +32,14 @@ StartupEvents.registry("block", (event) => {
                 id:'compact_block',
                 soundtype:"metal",
                 requirestool:true,
-                tooltier:`${tooltiers.iron}`,
+                tooltier:`${tooltiers.wood}`,
                 tooltype:`${tooltypes.pickaxe}`
             },
             {
                 id:'gold_rich_compact_wall',
                 soundtype:"stone",
                 requirestool:true,
-                tooltier:`${tooltiers.iron}`,
+                tooltier:`${tooltiers.wood}`,
                 tooltype:`${tooltypes.pickaxe}`
             },
             {
@@ -85,8 +85,10 @@ StartupEvents.registry("block", (event) => {
     .requiresTool(true).tagBlock('minecraft:needs_iron_tool').tagBlock('minecraft:mineable/pickaxe')
     .fullBlock(false).renderType('translucent').transparent(true).opaque(false).notSolid()
 
-    event.create('compact_keywall','cardinal').soundType("stone").unbreakable()
+    event.create('compact_keywall_swift','cardinal').soundType("stone").unbreakable().model('kubejs:block/compact_keywall')
+    event.create('compact_keywall_sky','cardinal').soundType("stone").unbreakable().model('kubejs:block/compact_keywall')
     event.create('compact_soild_wall').soundType("stone").unbreakable()
     event.create('swift_alloy_sand','falling').soundType("sand").requiresTool(false).hardness(0.1)
     event.create('fake_shaft')
+    event.create('dream_portal','cardinal').box(0,0,7,16,16,9).unbreakable().soundType("amethyst").noCollision()
 })

@@ -16,6 +16,7 @@
         "show_fast_rename_checkbox": {
             "value": false
         },
+        "continuous_crafting_saved_value": false,
         "show_regular_sort_button": {
             "value": false
         },

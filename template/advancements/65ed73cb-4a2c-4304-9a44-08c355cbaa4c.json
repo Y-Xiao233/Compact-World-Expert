@@ -11,15 +11,15 @@
     },
     "done": true
   },
-  "create:root": {
+  "farmersdelight:main/root": {
     "criteria": {
-      "0": "2024-02-19 21:24:58 +0800"
+      "seeds": "2024-05-04 21:29:52 +0800"
     },
     "done": true
   },
-  "compactmachines:got_shrinking_device": {
+  "create:root": {
     "criteria": {
-      "obtained_psd": "2024-02-19 21:29:45 +0800"
+      "0": "2024-02-19 21:24:58 +0800"
     },
     "done": true
   },
@@ -29,9 +29,9 @@
     },
     "done": true
   },
-  "arsomega:root": {
+  "compactmachines:got_shrinking_device": {
     "criteria": {
-      "arsomega:worn_notebook": "2024-02-19 21:24:58 +0800"
+      "obtained_psd": "2024-02-19 21:29:45 +0800"
     },
     "done": true
   },

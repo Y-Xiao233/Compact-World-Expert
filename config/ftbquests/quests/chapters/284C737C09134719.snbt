@@ -182,7 +182,7 @@
 					type: "item"
 				}
 				{
-					id: "5720799398727037"
+					id: "5F250E42989AC780"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -236,7 +236,7 @@
 									Count: 1b
 									id: "functionalstorage:configuration_tool"
 									tag: {
-										Mode: "TOGGLE_RENDER"
+										Mode: "LOCKING"
 										"akashictome:definedMod": "functionalstorage_0"
 									}
 								}

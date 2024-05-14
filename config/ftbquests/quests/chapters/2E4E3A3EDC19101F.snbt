@@ -46,25 +46,95 @@
 				"01C9C2A8ADDD71D6"
 				"40FB21162E354800"
 			]
-			description: ["&d可以大量存储一种/两种/四种物品"]
+			description: ["抽屉升级&d可以自动收集/输入/输出"]
 			id: "16AFFC7DE7A558BC"
 			tasks: [
 				{
-					id: "490E1041D05EEBD1"
-					item: "functionalstorage:oak_1"
+					id: "2F2445AD534FF613"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:oak_4"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:oak_1"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:oak_2"
+								}
+							]
+						}
+					}
+					title: "物品抽屉"
 					type: "item"
 				}
 				{
-					id: "3B741BA33387CF44"
-					item: "functionalstorage:oak_2"
+					id: "586D5063F9F50166"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:fluid_1"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:fluid_2"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:fluid_4"
+								}
+							]
+						}
+					}
+					title: "流体抽屉"
 					type: "item"
 				}
 				{
-					id: "097E2FC7489B4FF3"
-					item: "functionalstorage:oak_4"
+					id: "75B0A150559DF2EF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:puller_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:collector_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:pusher_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+							]
+						}
+					}
+					title: "抽屉升级"
 					type: "item"
 				}
 			]
+			title: "功能性存储"
 			x: -4.0d
 			y: 0.5d
 		}
@@ -73,44 +143,13 @@
 				"01C9C2A8ADDD71D6"
 				"40FB21162E354800"
 			]
-			description: ["&d可以自动收集/输入/输出"]
+			description: [""]
 			id: "0D66CFB9473E0B5E"
-			tasks: [
-				{
-					id: "3D7CF3055179BC20"
-					item: {
-						Count: 1b
-						id: "functionalstorage:collector_upgrade"
-						tag: {
-							Direction: "down"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5C9ADD79EF52B0DE"
-					item: {
-						Count: 1b
-						id: "functionalstorage:puller_upgrade"
-						tag: {
-							Direction: "down"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "316D7663AF73C9C7"
-					item: {
-						Count: 1b
-						id: "functionalstorage:pusher_upgrade"
-						tag: {
-							Direction: "down"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "抽屉升级"
+			tasks: [{
+				id: "42C1B93101A2A820"
+				item: "compactmachines:machine_normal"
+				type: "item"
+			}]
 			x: 0.5d
 			y: -4.0d
 		}
@@ -282,12 +321,26 @@
 				"40FB21162E354800"
 				"71FB34748500080D"
 			]
+			description: [
+				"&a压缩空间内无法使用循环的玩家模拟器"
+				""
+				"&6请改用自动点击器"
+				""
+				"&4ps：自动点击器造成的资源占用是玩家模拟器的2倍，所以在主世界还是用玩家模拟器吧qaq"
+			]
 			id: "093FE441E5F9D5B7"
-			tasks: [{
-				id: "2F4AD7E4B0E96841"
-				item: "cyclic:user"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F4AD7E4B0E96841"
+					item: "cyclic:user"
+					type: "item"
+				}
+				{
+					id: "7CC8BB864A13B678"
+					item: "clickmachine:auto_clicker"
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -1.0d
 		}
@@ -415,35 +468,19 @@
 		}
 		{
 			dependencies: [
-				"2FB82E3B932237C5"
+				"35AC84A039B7744C"
 				"275667457EA76B73"
 			]
 			id: "340E93A2D092D507"
-			tasks: [
-				{
-					id: "1807108355637464"
-					item: {
-						Count: 1b
-						id: "functionalstorage:linking_tool"
-						tag: {
-							Action: "ADD"
-							Mode: "MULTIPLE"
-						}
-					}
-					type: "item"
+			tasks: [{
+				id: "57049F1A2503DAE4"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
 				}
-				{
-					id: "182D221CEA54440C"
-					item: {
-						Count: 1b
-						id: "functionalstorage:configuration_tool"
-						tag: {
-							Mode: "TOGGLE_NUMBERS"
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: 7.5d
 			y: -6.0d
 		}
@@ -453,25 +490,54 @@
 				"0BF4E0A71E17AC31"
 			]
 			id: "03C39E54F27206BF"
-			tasks: [{
-				id: "4D16300A8FFF0046"
-				item: "ae2things:advanced_inscriber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D16300A8FFF0046"
+					item: "ae2things:advanced_inscriber"
+					type: "item"
+				}
+				{
+					id: "4CA2B48665FBCB84"
+					item: "ae2:speed_card"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: [
 				"275667457EA76B73"
-				"0BF4E0A71E17AC31"
+				"1463B376F05A9201"
 			]
 			id: "0850A3BB5FBE8EA5"
-			tasks: [{
-				id: "3D855D9F939EF891"
-				item: "ae2:speed_card"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3A2E4B98C8E59E13"
+					item: "functionalstorage:storage_controller"
+					type: "item"
+				}
+				{
+					id: "2C27D3620B68D9B4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:simple_compacting_drawer"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:compacting_drawer"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -1.0d
 		}
@@ -481,11 +547,33 @@
 				"0BF4E0A71E17AC31"
 			]
 			id: "7CED97BBB457C9AE"
-			tasks: [{
-				id: "3257F593F567AC8C"
-				item: "modularrouters:modular_router"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3257F593F567AC8C"
+					item: "modularrouters:modular_router"
+					type: "item"
+				}
+				{
+					id: "6018BD90D4A7198D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "xnet:controller"
+								}
+								{
+									Count: 1b
+									id: "xnet:connector_yellow"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: -4.0d
 		}
@@ -872,25 +960,58 @@
 				"555A01BA82D7D9B7"
 			]
 			id: "593F563376DF9A6D"
-			tasks: [{
-				id: "08377BD5337A0C11"
-				item: "ironfurnaces:gold_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08377BD5337A0C11"
+					item: "ironfurnaces:gold_furnace"
+					type: "item"
+				}
+				{
+					id: "5A7563BB22A137FF"
+					item: "ironfurnaces:augment_generator"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: [
 				"40FB21162E354800"
-				"3FC73DD0AD0927ED"
+				"11D5B91D049E75C2"
 			]
 			id: "582185166599E070"
-			tasks: [{
-				id: "5E34FB525A10E2F0"
-				item: "functionalstorage:fluid_1"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C02C6365D2E8943"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "5C2B9223F2D19F76"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "7EA205E932A301B1"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					id: "171C0A3ADE238211"
+					item: {
+						Count: 1b
+						id: "laserio:filter_basic"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: -5.5d
 		}
@@ -951,6 +1072,20 @@
 			]
 			x: 9.0d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"3590FCA754C646B9"
+				"3B92022C6A8BC415"
+			]
+			id: "3D56188EBE95B4FB"
+			tasks: [{
+				id: "2239DF32517C8AC8"
+				item: "cyclic:hopper_fluid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.0d
 		}
 	]
 	title: "&c本章节可制作的辅助物品"

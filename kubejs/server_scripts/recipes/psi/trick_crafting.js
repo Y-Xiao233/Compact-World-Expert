@@ -40,7 +40,7 @@ ServerEvents.recipes(event =>{
     },
     {
       cad:'psi:cad_assembly_iron',
-      input:'ars_nouveau:source_gem',
+      input:'kubejs:source_dust',
       output:'kubejs:source_psicoal',
       id:`${id_prefix}source_psicoal`,
       trick:'psi:trick_infusion'
@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>{
     },
     {
       cad:'psi:cad_assembly_psimetal',
-      input:'compactmachines:wall',
+      input:'kubejs:compact_block',
       output:'hexerei:mixing_cauldron',
       id:`${id_prefix}mixing_cauldron`,
       trick:'psi:trick_greater_infusion'

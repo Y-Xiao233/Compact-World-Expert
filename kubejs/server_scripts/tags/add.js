@@ -6,10 +6,18 @@ ServerEvents.tags('item', event => {
     event.add('forge:sand','kubejs:swift_alloy_sand')
     event.add('cwe:runewood_item','malum:runewood_item_pedestal')
     event.add('cwe:runewood_item','malum:runewood_item_stand')
+    event.add('cwe:mana_pool','botania:fabulous_pool')
+    event.add('cwe:mana_pool','botania:creative_pool')
+    event.add('cwe:mana_pool','botania:mana_pool')
+    event.add('cwe:mana_pool','botania:diluted_pool')
 })
 
 
 ServerEvents.tags('block', event => {
     event.add('minecraft:needs_iron_tool','compactcrafting:field_projector')
     event.add('minecraft:mineable/pickaxe','compactcrafting:field_projector')
+    event.add('cwe:mana_pool','botania:fabulous_pool')
+    event.add('cwe:mana_pool','botania:creative_pool')
+    event.add('cwe:mana_pool','botania:mana_pool')
+    event.add('cwe:mana_pool','botania:diluted_pool')
 })

@@ -294,7 +294,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["063702CE17A0C103"]
+			dependencies: [
+				"063702CE17A0C103"
+				"194DD821009E632E"
+			]
 			id: "2FFE56110F0BA14C"
 			tasks: [
 				{
@@ -757,6 +760,10 @@
 		}
 		{
 			dependencies: ["68DBACBF8C8B33A3"]
+			description: [
+				"&b请完善前一章节能做的自动化之后再进入下一章节"
+				"&d不要盲目推进度哦"
+			]
 			id: "34E71A15A9B8F146"
 			shape: "gear"
 			size: 2.5d
@@ -767,17 +774,6 @@
 			}]
 			x: 18.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["34E71A15A9B8F146"]
-			id: "3D8B6D4A05832C28"
-			tasks: [{
-				id: "52ED6B08576570D7"
-				item: "compactmachines:machine_giant"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 2.5d
 		}
 	]
 	title: "神奇的合成表"

@@ -92,13 +92,13 @@
 					type: "item"
 				}
 				{
-					id: "68D3FD812D6BC254"
-					item: "mythicbotany:wither_aconite"
+					id: "39CD0B13461F2232"
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
-					id: "39CD0B13461F2232"
-					item: "minecraft:nether_star"
+					id: "7E6A0EDD00CFAC79"
+					item: "mythicbotany:wither_aconite_floating"
 					type: "item"
 				}
 			]
@@ -317,6 +317,60 @@
 			]
 			x: 10.5d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"66470A3825124332"
+			]
+			id: "1AA0F5CDA2FB2CCC"
+			tasks: [{
+				id: "5E84CDB530D10D82"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "xnet:advanced_connector_yellow"
+							}
+							{
+								Count: 1b
+								id: "xnet:connector_upgrade"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"47E8345C7B188DAD"
+			]
+			description: [
+				"&c需要在底下加热"
+				""
+				"&5可用的热源有:"
+				""
+				"&a火把(热量乘数1) "
+				"&a营火/灵魂营火(热量乘数2)"
+				"&a熔岩(热量乘数3)"
+				"&a烈焰人燃烧室[普通加热](热量乘数5)"
+				"&a烈焰人燃烧室[超级加热](热量乘数8)"
+			]
+			id: "1E91CD9264DCA3E4"
+			tasks: [{
+				id: "3FCF554F2C42B3EA"
+				item: "melter:melter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "&c本章节可以制作的辅助物品"
