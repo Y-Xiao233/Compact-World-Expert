@@ -269,7 +269,7 @@
 	#Source config
 	[elementalcraft.source]
 		#set to true to make sources infinite.
-		disableSourceExhaustion = false
+		disableSourceExhaustion = true
 
 	#Config of sources around
 	[elementalcraft.spawn]

@@ -1,0 +1,9 @@
+{
+    "itemGroup.eterminal": "增強終端",
+    "item.eterminal.ex_pattern_access_part": "ME增強型樣板管理終端",
+    "gui.eterminal.ex_pattern_access_terminal": "ME擴展樣板管理終端",
+    "gui.eterminal.ex_pattern_access_terminal.tooltip.01": "通過輸出或樣板名稱進行搜索。",
+    "gui.eterminal.ex_pattern_access_terminal.tooltip.02": "通過輸入或樣板名稱進行搜索。",
+    "gui.eterminal.ex_pattern_access_terminal.tooltip.03": "在世界中高亮顯示該樣板供應器",
+    "chat.ex_pattern_access_terminal.pos": "該樣板供應器已在世界中高亮顯示，坐標: %s, 維度: %s"
+  }

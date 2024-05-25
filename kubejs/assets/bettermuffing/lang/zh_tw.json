@@ -1,0 +1,18 @@
+{
+    "block.bettermuffling.muffling_block":"消音方塊",
+    "block.bettermuffling.muffling_block_advanced":"高級消音方塊",
+    "item.bettermuffling.upgrade":"高級升級",
+    "tooltip.upgrade.info": "Shift+右鍵\n消音方塊來升級.",
+    "gui.muffling_block.title": "消音器設置",
+    "button.muffling_block.range": "範圍",
+    "button.muffling_block.player_only": "私人模式",
+    "button.muffling_block.placer_only.on": "私人模式:開啟",
+    "button.muffling_block.placer_only.off": "私人模式:關閉",
+    "label.muffling_block.sound.category": "類型",
+    "label.muffling_block.volume": "音量",
+    "label.muffling_block.sound.names": "聲音名稱",
+    "tooltip.muffling_block.black.white.list": "白/黑名單",
+    "tooltip.muffling_block.listening.on": "傾聽聲音:開啟",
+    "tooltip.muffling_block.listening.off": "傾聽聲音:關閉",
+    "tooltip.muffling_block.entry.delete": "刪除所選條目"
+}

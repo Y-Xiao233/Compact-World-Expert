@@ -6,6 +6,7 @@
   "kubejs.ponder.fluid_tank.text_4": "然后在中间的流体储罐内倒入对应流体",
   "kubejs.ponder.fluid_tank.text_5": "最后拿着对应的物品右键流体储罐",
   "kubejs.ponder.fluid_tank.text_6": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了",
+
   "kubejs.ponder.mana_pool.header": "世界合成",
   "kubejs.ponder.mana_pool.text_1": "空手+shift对着魔力池(并非伪造魔力池)右键",
   "kubejs.ponder.mana_pool.text_2": "在这些冒红色粒子效果的地方放元素容器",
@@ -14,5 +15,11 @@
   "kubejs.ponder.mana_pool.text_5": "魔源罐中需要一定量魔源(4个魔源罐都需要)",
   "kubejs.ponder.mana_pool.text_6": "中间的魔力池也需要一定量的魔力",
   "kubejs.ponder.mana_pool.text_7": "最后拿着对应的物品右键魔力池(并非shift+右键)",
-  "kubejs.ponder.mana_pool.text_8": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了"
+  "kubejs.ponder.mana_pool.text_8": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了",
+
+  "kubejs.ponder.dream_portal_core.header": "梦之精灵门核心",
+  "kubejs.ponder.dream_portal_core.text_1": "这个魔力池可以随意替换(带有\u0027#cwe:mana_pool\u0027)",
+  "kubejs.ponder.dream_portal_core.text_2": "这个机器必须要开门才能进行工作，手持§a森林法杖§f在§a每个魔力池中§f有§c10000魔力§f的情况下§a右键§c梦之精灵门核心",
+  "kubejs.ponder.dream_portal_core.text_3": "每次工作都会消耗两个魔力池各1000魔力",
+  "kubejs.ponder.dream_portal_core.text_4": "这个机器有朝向，具体结构请查看CM中的结构哦~(\u0027不会查看请看任务中的提示\u0027)"
 }

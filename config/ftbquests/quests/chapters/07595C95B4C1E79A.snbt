@@ -35,7 +35,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "2E9FB89EDC0E3172"
-				title: "更加深入的发展"
+				title: "{ftbquests.chapter.07595C95B4C1E79A.quests1.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -163,11 +163,11 @@
 							]
 						}
 					}
-					title: "钻石升级"
+					title: "{ftbquests.chapter.07595C95B4C1E79A.quests5.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "钻石升级"
+			title: "{ftbquests.chapter.07595C95B4C1E79A.quests5.title}"
 			x: -6.5d
 			y: 2.5d
 		}
@@ -201,10 +201,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "73301DC3AE3489E7"
-				title: "神奇的合成表"
+				title: "{ftbquests.chapter.07595C95B4C1E79A.quests8.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "神奇的合成表"
+			title: "{ftbquests.chapter.07595C95B4C1E79A.quests8.title}"
 			x: 7.0d
 			y: 2.5d
 		}
@@ -214,9 +214,9 @@
 				"200B67A0E1F260C9"
 			]
 			description: [
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests9.description0}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests9.description1}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests9.description2}"
 			]
 			id: "3BC9F1D5D1DBD024"
 			tasks: [{
@@ -353,15 +353,15 @@
 				"47E8345C7B188DAD"
 			]
 			description: [
-				"&c需要在底下加热"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description0}"
 				""
-				"&5可用的热源有:"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description2}"
 				""
-				"&a火把(热量乘数1) "
-				"&a营火/灵魂营火(热量乘数2)"
-				"&a熔岩(热量乘数3)"
-				"&a烈焰人燃烧室[普通加热](热量乘数5)"
-				"&a烈焰人燃烧室[超级加热](热量乘数8)"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description4}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description5}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description6}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description7}"
+				"{ftbquests.chapter.07595C95B4C1E79A.quests13.description8}"
 			]
 			id: "1E91CD9264DCA3E4"
 			tasks: [{
@@ -372,6 +372,48 @@
 			x: 0.0d
 			y: 4.0d
 		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"77AE4DA7D7F72E3A"
+			]
+			id: "399B0FFE7C9E9606"
+			tasks: [{
+				id: "6E879131DD2E0150"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1D792E83ED74BC67"
+				"02448030E79BEE8D"
+			]
+			id: "3A88DD0EE51C8B94"
+			tasks: [{
+				id: "1B6C1889933A9049"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"53AD2FE433EF14C7"
+				"3BFC0E20874651AC"
+			]
+			id: "044AA4A55ABA630A"
+			tasks: [{
+				id: "1D397334B3C18E91"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
 	]
-	title: "&c本章节可以制作的辅助物品"
+	title: "{ftbquests.chapter.07595C95B4C1E79A.title}"
 }

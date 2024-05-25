@@ -140,11 +140,10 @@
 				{
 					id: "7A8D3BD5E5AC3BCA"
 					item: "mekanismgenerators:reactor_glass"
-					optional_task: true
 					type: "item"
 				}
 			]
-			title: "裂变反应堆"
+			title: "{ftbquests.chapter.1.quests4.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -203,7 +202,7 @@
 				id: "37F461A05B914860"
 				type: "checkmark"
 			}]
-			title: "氧气"
+			title: "{ftbquests.chapter.1.quests8.title}"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -214,7 +213,7 @@
 				"75C6DEF9EE7D78B2"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&a只能用锅炉/裂变反应堆制作"]
+			description: ["{ftbquests.chapter.1.quests9.description}"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -225,10 +224,10 @@
 			id: "1796D5FC1BCEE9E6"
 			tasks: [{
 				id: "6CA5D9E50D209144"
-				title: "蒸气"
+				title: "{ftbquests.chapter.1.quests9.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "蒸气"
+			title: "{ftbquests.chapter.1.quests9.title}"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -237,6 +236,7 @@
 				"70259D176FE131FE"
 				"493929200591E2C0"
 			]
+			hide_dependency_lines: true
 			id: "3006F6F25EEE198C"
 			tasks: [
 				{
@@ -488,10 +488,10 @@
 			id: "5FD4E6B9DC92A573"
 			tasks: [{
 				id: "5C8A63183CB6B5E7"
-				title: "气态魔力"
+				title: "{ftbquests.chapter.1.quests25.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "气态魔力"
+			title: "{ftbquests.chapter.1.quests25.title}"
 			x: 7.0d
 			y: 0.0d
 		}
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["1C9D91A5BF80857D"]
-			description: ["&7富集碳&f可以用来制作&a两个&d富含魔源的psi煤炭，&f而&c每一个&d富含魔源的psi煤炭&a都&f可以制作为&7一个煤炭"]
+			description: ["{ftbquests.chapter.1.quests33.description}"]
 			id: "6C37378FC88CE690"
 			tasks: [{
 				id: "2636BC4B032AF2F0"
@@ -629,10 +629,10 @@
 			id: "5ACE4FC393BEFFC7"
 			tasks: [{
 				id: "694964FAF28F036C"
-				title: "近乎无限的煤炭"
+				title: "{ftbquests.chapter.1.quests34.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "近乎无限的煤炭"
+			title: "{ftbquests.chapter.1.quests34.title}"
 			x: 11.0d
 			y: 4.0d
 		}
@@ -670,7 +670,7 @@
 				"3BFC0E20874651AC"
 				"029E35B554FA3FBA"
 			]
-			description: ["&a每&b1000mb液态魔力&a可以产生&d8000魔源!"]
+			description: ["{ftbquests.chapter.1.quests36.description}"]
 			id: "4FCE777F690A4CCB"
 			tasks: [{
 				id: "24529AF284539C79"
@@ -751,7 +751,7 @@
 							]
 						}
 					}
-					title: "符文木物品基座"
+					title: "{ftbquests.chapter.1.quests41.tasks1.title}"
 					type: "item"
 				}
 			]
@@ -761,8 +761,8 @@
 		{
 			dependencies: ["68DBACBF8C8B33A3"]
 			description: [
-				"&b请完善前一章节能做的自动化之后再进入下一章节"
-				"&d不要盲目推进度哦"
+				"{ftbquests.chapter.1.quests42.description0}"
+				"{ftbquests.chapter.1.quests42.description1}"
 			]
 			id: "34E71A15A9B8F146"
 			shape: "gear"
@@ -775,6 +775,28 @@
 			x: 18.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["477650FDFEE022CD"]
+			id: "2516EEF47D5BF9A3"
+			tasks: [{
+				id: "06E9D575B079AE5B"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["194DD821009E632E"]
+			id: "0792642FD91C34FF"
+			tasks: [{
+				id: "7B2CD55A96662AE9"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
 	]
-	title: "神奇的合成表"
+	title: "{ftbquests.chapter.1.title}"
 }

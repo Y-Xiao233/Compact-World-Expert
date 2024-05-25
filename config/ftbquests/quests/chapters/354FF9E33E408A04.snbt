@@ -50,8 +50,8 @@
 		{
 			dependencies: ["5CC8E12A86F03069"]
 			description: [
-				"&b修复方式为下图所示"
-				"用&c魔源宝石&f在工作台内合成的方式&a修复&c(在使用时不会被彻底破坏)"
+				"{ftbquests.chapter.354FF9E33E408A04.quests0.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests0.description1}"
 				"{image:kubejs:textures/ftbquests/repair_psiknife.png width:100 height:60 align:1 fit:true}"
 			]
 			id: "1B80D35438CA7772"
@@ -110,9 +110,9 @@
 				"370038C9EF107DE8"
 			]
 			description: [
-				"&a要合成这个物品"
-				"&d你的CAD至少需要以下配置"
-				"&c[基础CAD核心]&a[Psi金属CAD机体]&c[基础CAD弹夹]"
+				"{ftbquests.chapter.354FF9E33E408A04.quests4.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests4.description1}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests4.description2}"
 				"{image:kubejs:textures/ftbquests/gold_fiber.png width:100 height:140 align:1 fit:true}"
 			]
 			id: "6837E73B047AC233"
@@ -144,7 +144,7 @@
 			rewards: [{
 				id: "438A7C93C47275EB"
 				item: "botanypots:terracotta_hopper_botany_pot"
-				team_reward: true
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -158,9 +158,9 @@
 		{
 			dependencies: ["4F7D2ABA14E5218E"]
 			description: [
-				"&a要合成这个物品"
-				"&d你的CAD至少需要以下配置"
-				"&c[基础CAD核心]&a[Psi金属CAD机体]&c[基础CAD弹夹]"
+				"{ftbquests.chapter.354FF9E33E408A04.quests7.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests7.description1}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests7.description2}"
 				"{image:kubejs:textures/ftbquests/gold_fiber.png width:100 height:140 align:1 fit:true}"
 			]
 			id: "1260C3167DDB93DA"
@@ -256,7 +256,7 @@
 		}
 		{
 			dependencies: ["554CFBD29F0B694A"]
-			description: ["挖掘此方块&c不会掉落&a原本的掉落物"]
+			description: ["{ftbquests.chapter.354FF9E33E408A04.quests13.description}"]
 			id: "0AE3835D21BEF693"
 			rewards: [{
 				id: "61D0882A47C83A17"
@@ -362,7 +362,7 @@
 					type: "item"
 				}
 			]
-			title: "抽屉"
+			title: "{ftbquests.chapter.354FF9E33E408A04.quests15.title}"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -665,8 +665,8 @@
 		{
 			dependencies: ["164707345CBA50ED"]
 			description: [
-				"虽然&a精致存储&f的各类&c高级箱子&4&l无法合成&r"
-				"&d但是&f你可以通过&e基础->金升级&f来升级你的&d箱子"
+				"{ftbquests.chapter.354FF9E33E408A04.quests33.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests33.description1}"
 			]
 			id: "1BFA49D01F986413"
 			tasks: [
@@ -691,6 +691,11 @@
 		}
 		{
 			dependencies: ["504B361D6059FEFD"]
+			description: [
+				"{ftbquests.chapter.354FF9E33E408A04.quests34.description0}"
+				""
+				"{ftbquests.chapter.354FF9E33E408A04.quests34.description2}"
+			]
 			id: "5D13BA1EC2F45489"
 			tasks: [{
 				id: "6499946FAF829382"
@@ -892,7 +897,7 @@
 				"3BF9078FCECAD704"
 			]
 			description: [
-				"&d可以利用下图方式自动化熔岩"
+				"{ftbquests.chapter.354FF9E33E408A04.quests48.description0}"
 				"{image:kubejs:textures/ftbquests/lava_1.png width:100 height:120 align:1 fit:true}"
 				"{image:kubejs:textures/ftbquests/lava_2.png width:100 height:60 align:1 fit:true}"
 			]
@@ -951,7 +956,7 @@
 		}
 		{
 			dependencies: ["0B0DB2B720F1D0C7"]
-			description: ["&a在砧板上切鼠尾草"]
+			description: ["{ftbquests.chapter.354FF9E33E408A04.quests53.description}"]
 			id: "7DD97A44CA5F06B4"
 			tasks: [{
 				id: "18F17A47549F0DDD"
@@ -1008,7 +1013,7 @@
 		}
 		{
 			dependencies: ["50DC6A29CC8F6920"]
-			description: ["&a在砧板上切干燥的鼠尾草捆"]
+			description: ["{ftbquests.chapter.354FF9E33E408A04.quests57.description}"]
 			id: "4586578D6CA31C45"
 			tasks: [{
 				id: "416F6BE03550C38A"
@@ -1021,9 +1026,9 @@
 		{
 			dependencies: ["3C5857AC16D1C449"]
 			description: [
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
+				"{ftbquests.chapter.354FF9E33E408A04.quests58.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests58.description1}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests58.description2}"
 			]
 			id: "5221F0B7D8C4AF99"
 			tasks: [{
@@ -1099,15 +1104,15 @@
 		{
 			dependencies: ["770151A578433280"]
 			description: [
-				"&b请完善前一章节能做的自动化之后再进入下一章节"
-				"&d不要盲目推进度哦"
+				"{ftbquests.chapter.354FF9E33E408A04.quests63.description0}"
+				"{ftbquests.chapter.354FF9E33E408A04.quests63.description1}"
 			]
 			id: "3FC73DD0AD0927ED"
 			rewards: [
 				{
 					id: "1610D8D68D90C17F"
 					item: "compactmachines:machine_maximum"
-					team_reward: true
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1155,7 +1160,7 @@
 						Unbreakable: 1b
 					}
 				}
-				match_nbt: true
+				match_nbt: false
 				type: "item"
 			}]
 			x: 3.5d
@@ -1202,11 +1207,11 @@
 		{
 			dependencies: ["71FB34748500080D"]
 			description: [
-				"&a压缩空间内无法使用循环的玩家模拟器"
+				"{ftbquests.chapter.354FF9E33E408A04.quests69.description0}"
 				""
-				"&6请改用自动点击器"
+				"{ftbquests.chapter.354FF9E33E408A04.quests69.description2}"
 				""
-				"&4ps：自动点击器造成的资源占用是玩家模拟器的2倍，所以在主世界还是用玩家模拟器吧qaq"
+				"{ftbquests.chapter.354FF9E33E408A04.quests69.description4}"
 			]
 			id: "45F5C47ED6231F36"
 			rewards: [
@@ -1306,7 +1311,7 @@
 				}
 				type: "item"
 			}]
-			title: "物品/流体卡"
+			title: "{ftbquests.chapter.354FF9E33E408A04.quests73.title}"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -1508,5 +1513,5 @@
 			y: -7.5d
 		}
 	]
-	title: "原初魔法"
+	title: "{ftbquests.chapter.354FF9E33E408A04.title}"
 }

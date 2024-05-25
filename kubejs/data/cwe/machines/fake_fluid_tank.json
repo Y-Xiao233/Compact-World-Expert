@@ -1,5 +1,5 @@
 {
-    "name": "伪造流体罐",
+    "name": "block.cwe.fake_fluid_tank",
     "appearance": {
         "block": "create:fluid_tank",
         "light":15,
@@ -85,19 +85,19 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "伪造流体罐",
+        "text": "block.cwe.fake_fluid_tank",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"
       },
       {
-        "text": "无序合成",
+        "text": "tip.cwe.fake_fluid_tank_1",
         "x": 130,
         "y": 18,
         "type": "custommachinery:text"
       },
       {
-        "text": "主手拿着对应物品右键流体罐",
+        "text": "tip.cwe.fake_fluid_tank_2",
         "x": 130,
         "y": 52,
         "type": "custommachinery:text"

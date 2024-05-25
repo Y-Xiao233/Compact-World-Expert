@@ -1,0 +1,116 @@
+{
+    "name":"block.cwe.mana_injector",
+    "appearance": {
+        "block": "kubejs:machine/mana_injector",
+        "light":15,
+        "hardness": 1,
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "mining_level": "minecraft:needs_stone_tool",
+        "running": {
+            "block": "kubejs:machine/mana_injector"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
+        "id":"input",
+        "x":40,
+        "y":20,
+        "type":"custommachinery:energy"
+      },
+      {
+        "id":"input1",
+        "x":60,
+        "y":20,
+        "type":"custommachinery:mana"
+      },
+      {
+        "id": "input2",
+        "x": 87,
+        "y": 35,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output1",
+        "x": 149,
+        "y": 35,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output2",
+        "x": 169,
+        "y": 35,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 116,
+        "y": 35,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "block.cwe.mana_injector",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode":"input",
+        "id":"input",
+        "type": "custommachinery:energy",
+        "capacity": 100000
+      },
+      {
+        "mode":"input",
+        "id":"input1",
+        "type": "custommachinery:mana",
+        "capacity": 100000
+      },
+      {
+        "mode": "input",
+        "id": "input2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output2",
+        "type": "custommachinery:item"
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

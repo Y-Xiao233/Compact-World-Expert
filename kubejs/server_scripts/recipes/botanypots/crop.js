@@ -22,7 +22,7 @@ ServerEvents.recipes(event =>{
         },
         {
             seed:'botania:brown_mystical_flower',
-            can_be_planted_on:['basic_botania_mystical_flowers'],
+            can_be_planted_on:['botania_mystical_flowers_1'],
             output:[crops_outputs('botania:brown_mystical_flower',0.8,2,4)],
             growth_tick:200,
             growth_modifier:1,
@@ -30,7 +30,7 @@ ServerEvents.recipes(event =>{
         },
         {
             seed:'botania:lime_mystical_flower',
-            can_be_planted_on:['basic_botania_mystical_flowers'],
+            can_be_planted_on:['botania_mystical_flowers_1'],
             output:[crops_outputs('botania:lime_mystical_flower',0.8,2,4)],
             growth_tick:200,
             growth_modifier:1,
@@ -54,12 +54,44 @@ ServerEvents.recipes(event =>{
         },
         {
             seed:'botania:blue_mystical_flower',
-            can_be_planted_on:['advanced_botania_mystical_flowers'],
+            can_be_planted_on:['botania_mystical_flowers_2'],
             output:[crops_outputs('botania:blue_mystical_flower',0.8,2,4)],
             growth_tick:200,
             growth_modifier:1,
             id:`${id_prefix}blue_mystical_flower`
-           }]
+        },
+        {
+            seed:'botania:purple_mystical_flower',
+            can_be_planted_on:['botania_mystical_flowers_3'],
+            output:[crops_outputs('botania:purple_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}purple_mystical_flower`
+        },
+        {
+            seed:'botania:orange_mystical_flower',
+            can_be_planted_on:['botania_mystical_flowers_3'],
+            output:[crops_outputs('botania:orange_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}orange_mystical_flower`
+        },
+        {
+            seed:'botania:red_mystical_flower',
+            can_be_planted_on:['botania_mystical_flowers_3'],
+            output:[crops_outputs('botania:red_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}red_mystical_flower`
+        },
+        {
+            seed:'botania:black_mystical_flower',
+            can_be_planted_on:['botania_mystical_flowers_4'],
+            output:[crops_outputs('botania:black_mystical_flower',0.8,2,4)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}black_mystical_flower`
+        }]
 
     crops.forEach(crop => {
       event.recipes.botanypots.crop(crop.seed,crop.can_be_planted_on,{block:crop.seed},crop.output,crop.growth_tick,crop.growth_modifier).id(crop.id)

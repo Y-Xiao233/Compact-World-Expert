@@ -196,11 +196,11 @@
 				"008D287AB862F3C2"
 			]
 			description: [
-				"&a主手:&b浸润铁块  &a副手:&e欣快印记"
-				"&4对着地上的&a收容罐&5右键&a即可获得&b收容了&f盖亚&a的收容罐"
+				"{ftbquests.chapter.7EE6FC8676203376.quests10.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests10.description1}"
 			]
 			id: "608BF3A5C2AADBFA"
-			subtitle: "由于地方限制，你无法进行召唤盖亚的仪式，不妨尝试一下魔改方式吧！"
+			subtitle: "{ftbquests.chapter.7EE6FC8676203376.quests10.subtitle}"
 			tasks: [{
 				id: "74FEDDA88B4807C3"
 				item: {
@@ -215,10 +215,10 @@
 						}
 					}
 				}
-				title: "&5收容了盖亚的收容罐"
+				title: "{ftbquests.chapter.7EE6FC8676203376.quests10.tasks0.title}"
 				type: "item"
 			}]
-			title: "&5收容了盖亚的收容罐"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests10.title}"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -257,7 +257,7 @@
 		{
 			dependencies: ["02448030E79BEE8D"]
 			id: "2F1835539DF2973D"
-			subtitle: "&l&o&a精灵门!"
+			subtitle: "{ftbquests.chapter.7EE6FC8676203376.quests13.subtitle}"
 			tasks: [
 				{
 					id: "4115F98FFFAEC542"
@@ -281,9 +281,9 @@
 		{
 			dependencies: ["2F1835539DF2973D"]
 			description: [
-				"带有&a附魔&2[其他序列组装]&f的合成步骤"
-				"&c需要到对应的机器中合成&4而不是机械手拿着物品进行合成"
-				"&d大致方法如下图所示"
+				"{ftbquests.chapter.7EE6FC8676203376.quests14.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests14.description1}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests14.description2}"
 				"{image:kubejs:textures/ftbquests/purecrystal.png width:100 height:60 align:1 fit:true}"
 			]
 			id: "32D343AE4BDE7095"
@@ -335,18 +335,18 @@
 		{
 			dependencies: ["7FC1A537DBC0443B"]
 			description: [
-				"&a进行世界合成时"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description0}"
 				""
-				"&d中间的方块为&a机械动力中的&c流体储罐"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description2}"
 				""
-				"&d并非&aCWE的&c伪造流体储罐"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description4}"
 				""
 				""
-				"&d[对着物品长按w]"
-				"&6具体方式可以查看&9流体储罐的&a思索&b(最后一个)   &f或者"
-				"&9伪造流体储罐的&a思索"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description7}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description8}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description9}"
 				""
-				"(&a伪造流体储罐&f的作用仅为世界配方提供gui支持)"
+				"{ftbquests.chapter.7EE6FC8676203376.quests18.description11}"
 			]
 			hide_dependency_lines: true
 			id: "3D9C28987EDF4C2B"
@@ -359,8 +359,7 @@
 				{
 					id: "51676485B08B29BF"
 					item: "cwe:fake_fluid_tank"
-					optional_task: true
-					title: "这个机器仅仅只是为了提供合成配方的gui"
+					title: "{ftbquests.chapter.7EE6FC8676203376.quests18.tasks1.title}"
 					type: "item"
 				}
 			]
@@ -447,7 +446,7 @@
 		{
 			dependencies: ["4FE1D938136E35A1"]
 			description: [
-				"&d或许可以利用装满元素之后会&c发出15格红石信号来做自动化"
+				"{ftbquests.chapter.7EE6FC8676203376.quests22.description0}"
 				""
 				"{image:kubejs:textures/ftbquests/elementpipe_creative.png width:210 height:140 align:1}"
 			]
@@ -489,10 +488,10 @@
 						]
 					}
 				}
-				title: "元素积蓄器"
+				title: "{ftbquests.chapter.7EE6FC8676203376.quests23.tasks0.title}"
 				type: "item"
 			}]
-			title: "元素积蓄器"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests23.title}"
 			x: 2.5d
 			y: -4.0d
 		}
@@ -553,9 +552,9 @@
 		{
 			dependencies: ["2EDCAAA29EA030A3"]
 			description: [
-				"&a他所产生的应力被魔改了!"
-				"&d单独一个可以产生1024的应力"
-				"&6在前面放置金块可以产生2048的应力"
+				"{ftbquests.chapter.7EE6FC8676203376.quests28.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests28.description1}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests28.description2}"
 			]
 			id: "2E0A9E1FBDE7629B"
 			tasks: [{
@@ -613,15 +612,15 @@
 		{
 			dependencies: ["480641C0C5F93C52"]
 			description: [
-				"[第一个奔流至高木原木可以通过把树苗种植在泥土上，使用骨粉催熟树苗获取]"
+				"{ftbquests.chapter.7EE6FC8676203376.quests33.description0}"
 				""
-				"&9它可以在植物盆中进行种植"
+				"{ftbquests.chapter.7EE6FC8676203376.quests33.description2}"
 				""
-				"&c但是奇怪的是如果你对着植物盆按u，你无法看到合成表"
+				"{ftbquests.chapter.7EE6FC8676203376.quests33.description4}"
 				""
-				"&c如果你对着已经有的合成表的产物按r，却能看到合成表"
+				"{ftbquests.chapter.7EE6FC8676203376.quests33.description6}"
 				""
-				"&4我已经向该mod的作者提交此issues"
+				"{ftbquests.chapter.7EE6FC8676203376.quests33.description8}"
 			]
 			id: "52C6B3B1B17B9CC8"
 			tasks: [{
@@ -664,10 +663,10 @@
 						]
 					}
 				}
-				title: "植物盆"
+				title: "{ftbquests.chapter.7EE6FC8676203376.quests35.tasks0.title}"
 				type: "item"
 			}]
-			title: "植物盆"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests35.title}"
 			x: -1.0d
 			y: -8.0d
 		}
@@ -699,11 +698,11 @@
 				"78987720E7AA3CCF"
 			]
 			description: [
-				"&a根据路由器的速度来调节这些红石设备"
+				"{ftbquests.chapter.7EE6FC8676203376.quests38.description0}"
 				""
 				""
-				"&5红石逻辑控制器内的编码示例:"
-				"B=IF(R.CO==1,15)"
+				"{ftbquests.chapter.7EE6FC8676203376.quests38.description3}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests38.description4}"
 				""
 				"{image:kubejs:textures/ftbquests/processor.png width:100 height:100 align:1 fit:true}"
 			]
@@ -751,7 +750,7 @@
 					type: "item"
 				}
 			]
-			title: "处理器"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests38.title}"
 			x: 2.0d
 			y: -7.0d
 		}
@@ -796,7 +795,7 @@
 		}
 		{
 			dependencies: ["4FE1D938136E35A1"]
-			description: ["&a放在地上挖掉它会掉落四种压印模板"]
+			description: ["{ftbquests.chapter.7EE6FC8676203376.quests41.description}"]
 			id: "71364EC0A773F453"
 			tasks: [{
 				id: "5B8C9F113AC7E763"
@@ -858,8 +857,8 @@
 				item: "botania:gaia_spreader"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4FE1D938136E35A1"]
@@ -901,8 +900,8 @@
 		{
 			dependencies: ["5FCE8DC72F776197"]
 			description: [
-				"&a主手:&b创造元素导管  &a副手:&e盖亚魂锭"
-				"&4对着地上的&a收容罐&5右键&a即可获得&b收容了&f凋零&a的收容罐"
+				"{ftbquests.chapter.7EE6FC8676203376.quests48.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests48.description1}"
 			]
 			id: "519062D5659FEB32"
 			tasks: [{
@@ -921,7 +920,7 @@
 				}
 				type: "item"
 			}]
-			title: "&5收容了凋零的收容罐"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests48.title}"
 			x: 4.5d
 			y: -4.0d
 		}
@@ -953,7 +952,7 @@
 				"0D6E60EB656E3133"
 				"3E520AA93A0BC40E"
 			]
-			description: ["&a有了这个，就有几乎花不光的魔力了!"]
+			description: ["{ftbquests.chapter.7EE6FC8676203376.quests51.description}"]
 			id: "6017F1A1BD51E64F"
 			rewards: [{
 				id: "3B7760624EECDC1D"
@@ -962,7 +961,7 @@
 			}]
 			tasks: [{
 				id: "667A99458D674DB0"
-				title: "超多的魔力"
+				title: "{ftbquests.chapter.7EE6FC8676203376.quests51.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 6.5d
@@ -971,8 +970,8 @@
 		{
 			dependencies: ["77AE4DA7D7F72E3A"]
 			description: [
-				"&a在这个整合包中你可以给&2能&a加入&b能量/速度升级&a的机器加入64个升级"
-				"&5但是我&c建议&5你&4最多&5加入&c16&5个(因此我特地将ta的最大堆叠数改成了16)"
+				"{ftbquests.chapter.7EE6FC8676203376.quests52.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests52.description1}"
 			]
 			id: "55C0FDB8B6CD47C7"
 			tasks: [
@@ -987,8 +986,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -6.0d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["3E520AA93A0BC40E"]
@@ -1293,8 +1292,8 @@
 				"54B7DAFBEA93E8BB"
 			]
 			description: [
-				"&b请完善前一章节能做的自动化之后再进入下一章节"
-				"&d不要盲目推进度哦"
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description1}"
 			]
 			icon: "minecraft:diamond"
 			id: "66470A3825124332"
@@ -1302,7 +1301,7 @@
 				{
 					id: "43A73ED2249EB60D"
 					item: "compactmachines:machine_maximum"
-					team_reward: true
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -1331,10 +1330,10 @@
 						]
 					}
 				}
-				title: "钻石"
+				title: "{ftbquests.chapter.7EE6FC8676203376.quests73.tasks0.title}"
 				type: "item"
 			}]
-			title: "钻石"
+			title: "{ftbquests.chapter.7EE6FC8676203376.quests73.title}"
 			x: 14.0d
 			y: -3.5d
 		}
@@ -1500,15 +1499,15 @@
 		{
 			dependencies: ["47E8345C7B188DAD"]
 			description: [
-				"&c需要在底下加热"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description0}"
 				""
-				"&5可用的热源有:"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description2}"
 				""
-				"&a火把(热量乘数1) "
-				"&a营火/灵魂营火(热量乘数2)"
-				"&a熔岩(热量乘数3)"
-				"&a烈焰人燃烧室[普通加热](热量乘数5)"
-				"&a烈焰人燃烧室[超级加热](热量乘数8)"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description4}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description5}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description6}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description7}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests83.description8}"
 			]
 			id: "5A973D3A202E2B74"
 			tasks: [{
@@ -1519,6 +1518,39 @@
 			x: 2.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["77AE4DA7D7F72E3A"]
+			id: "56501DBFFA95F501"
+			tasks: [{
+				id: "27B21671FC010E08"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["02448030E79BEE8D"]
+			id: "16ECEAA9D74ED16C"
+			tasks: [{
+				id: "26B97D84AEDBBFCF"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C0FDB8B6CD47C7"]
+			id: "2A80C86BFD38EA66"
+			tasks: [{
+				id: "6FE9C2EE116DA7D1"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
 	]
-	title: "更加深入的发展"
+	title: "{ftbquests.chapter.7EE6FC8676203376.title}"
 }

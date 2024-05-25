@@ -1,0 +1,5 @@
+{
+    "ftbbackups2.backup.starting": "服務端備份開始",
+    "ftbbackups2.backup.failed": "創建備份失敗",
+    "ftbbackups2.backup.finished": "創建備份完成"
+  }

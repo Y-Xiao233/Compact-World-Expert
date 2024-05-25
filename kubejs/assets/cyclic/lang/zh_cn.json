@@ -1,0 +1,15 @@
+{
+    "fluid_type.cyclic.wax":"蜡",
+    "fluid_type.cyclic.magma":"岩浆",
+    "fluid_type.cyclic.honey":"蜂蜜",
+    "fluid_type.cyclic.biomass":"生物质",
+    "fluid_type.cyclic.slime":"史莱姆",
+    "fluid_type.cyclic.xpjuice":"液态经验",
+
+    "block.cyclic.wax_block":"蜡",
+    "block.cyclic.magma_block":"岩浆",
+    "block.cyclic.honey_block":"蜂蜜",
+    "block.cyclic.biomass_block":"生物质",
+    "block.cyclic.slime_block":"史莱姆",
+    "block.cyclic.xpjuice_block":"液态经验"
+}

@@ -32,6 +32,16 @@ ServerEvents.recipes(event =>{
             input:'spirit:soul_steel_ingot',
             output:'kubejs:soul_steel_sheet',
             id:`${id_prefix}soul_steel_sheet`
+        },
+        {
+            input:'mekanism:ingot_steel',
+            output:'quark:blank_rune',
+            id:`${id_prefix}blank_rune`
+        },
+        {
+            input:'minecraft:netherite_block',
+            output:'kubejs:press_control_circuit_die',
+            id:`${id_prefix}press_control_circuit_die`
         }]
 
     recipes.forEach(recipes =>{

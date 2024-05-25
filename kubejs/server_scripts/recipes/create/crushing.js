@@ -52,6 +52,12 @@ ServerEvents.recipes(event =>{
             input:'naturesaura:gold_leaf',
             time:10,
             id:`${id_prefix}yellow_dye`
+        },
+        {
+            output:['createaddition:straw'],
+            input:'thermal:cured_rubber',
+            time:10,
+            id:`${id_prefix}straw`
         }]
 
     recipes.forEach(recipe => {

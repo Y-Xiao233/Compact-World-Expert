@@ -1,5 +1,5 @@
 {
-    "name": "伪造魔力池",
+    "name": "block.cwe.fake_mana_pool",
     "appearance": {
         "block": "botania:mana_pool",
         "light":15,
@@ -91,19 +91,19 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "伪造魔力池",
+        "text": "block.cwe.fake_mana_pool",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"
       },
       {
-        "text": "无序合成",
+        "text": "tip.cwe.fake_mana_pool_1",
         "x": 146,
         "y": 18,
         "type": "custommachinery:text"
       },
       {
-        "text": "主手右键魔力池",
+        "text": "tip.cwe.fake_mana_pool_2",
         "x": 140,
         "y": 55,
         "type": "custommachinery:text"

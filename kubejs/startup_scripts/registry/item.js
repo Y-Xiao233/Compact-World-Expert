@@ -38,7 +38,16 @@ StartupEvents.registry("item", (event) => {
         'enriched_terra',
         'fake_source',
         'sky_key',
-        'raw_enriched_iron'
+        'raw_enriched_iron',
+        'lens_of_blank',
+        'lens_of_tainted',
+        'blank_alloy_infused',
+        'pure_matter_ball',
+        'tin_rod',
+        'tin_spring',
+        'lens_of_blazing',
+        'blank_diamond_crystal_niotic',
+        'press_control_circuit_die'
     ]
     
     const registry_tool = [
@@ -87,4 +96,5 @@ StartupEvents.registry("item", (event) => {
     event.create('swift_alloy_key').unstackable()
     event.create('magical_stick').unstackable().glow(true)
     event.create('spirit_press').unstackable()
+    event.create('tin_source').color(0x476F81).unstackable().texture('kubejs:item/source')
 })

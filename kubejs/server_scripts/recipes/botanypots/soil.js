@@ -19,7 +19,7 @@ ServerEvents.recipes(event =>{
         },
         {
             soil_block:'botania:mana_diamond_block',
-            can_be_planted_on:['basic_botania_mystical_flowers'],
+            can_be_planted_on:['botania_mystical_flowers_1'],
             growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}mana_diamond_block`
@@ -40,10 +40,24 @@ ServerEvents.recipes(event =>{
         },
         {
             soil_block:'compactmachines:machine_giant',
-            can_be_planted_on:['advanced_botania_mystical_flowers'],
+            can_be_planted_on:['botania_mystical_flowers_2'],
             growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}machine_giant`
+        },
+        {
+            soil_block:'psi:ivory_psimetal_block',
+            can_be_planted_on:['botania_mystical_flowers_3'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}ivory_psimetal_block`
+        },
+        {
+            soil_block:'minecraft:netherite_block',
+            can_be_planted_on:['botania_mystical_flowers_4'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}netherite_block`
         }]
 
     soils.forEach(soil =>{

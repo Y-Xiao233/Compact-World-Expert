@@ -19,6 +19,11 @@ ServerEvents.recipes(event =>{
             gas:gases('mekanism:steam'),
             fluid:fluids('kubejs:purewater',1),
             id:`${id_prefix}purewater`
+        },
+        {
+            gas:gases('kubejs:tainted_matter_gas',1),
+            fluid:fluids('kubejs:liquid_tainted_matter',1),
+            id:`${id_prefix}tainted_matter`
         }]
 
     recipes.forEach((recipe) => {

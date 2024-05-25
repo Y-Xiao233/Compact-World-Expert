@@ -1,5 +1,5 @@
 {
-    "name": "魔力粉碎机",
+    "name": "block.cwe.mana_crush_machine",
     "appearance": {
         "block": "kubejs:machine/mana_crush_machine_off",
         "light":15,
@@ -67,7 +67,7 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "魔力粉碎机",
+        "text": "block.cwe.mana_crush_machine",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"

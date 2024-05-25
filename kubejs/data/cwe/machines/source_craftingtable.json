@@ -1,5 +1,5 @@
 {
-    "name": "魔源工作台",
+    "name": "block.cwe.source_craftingtable",
     "appearance": {
         "block": "kubejs:machine/source_craftingtable",
         "light":15,
@@ -109,13 +109,13 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "魔源工作台",
+        "text": "block.cwe.source_craftingtable",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"
       },
       {
-        "text": "有序合成",
+        "text": "tip.cwe.source_craftingtable",
         "x": 130,
         "y": 18,
         "type": "custommachinery:text"

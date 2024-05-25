@@ -1,0 +1,19 @@
+{
+    "block.cwe.fake_mana_pool":"Fake Mana Pool",
+    "block.cwe.fake_fluid_tank":"Fake Fluid Tank",
+    "block.cwe.mana_sourcelink":"Mana Sourcelink",
+    "block.cwe.mana_booster":"Mana Booster",
+    "block.cwe.mana_crush_machine":"Mana Crush Machine",
+    "block.cwe.element_motor":"Element Motor",
+    "block.cwe.dream_portal_core":"Dream Portal Core",
+    "block.cwe.mana_injector":"Mana Injector",
+    "block.cwe.source_craftingtable": "Source Crafting Table",
+
+
+
+    "tip.cwe.fake_fluid_tank_1": "Shapeless Crafting",
+    "tip.cwe.fake_fluid_tank_2": "Right-click the corresponding item with the main hand to fill the fluid tank",
+    "tip.cwe.fake_mana_pool_1": "Shapeless Crafting",
+    "tip.cwe.fake_mana_pool_2": "Right-click the mana pool with the main hand",
+    "tip.cwe.source_craftingtable": "Shaped Crafting"
+}

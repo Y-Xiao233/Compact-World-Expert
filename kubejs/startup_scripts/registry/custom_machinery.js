@@ -9,10 +9,11 @@ StartupEvents.registry("block", (event) => {
         'cwe:mana_booster',
         'cwe:fake_fluid_tank',
         'cwe:fake_mana_pool',
-        'cwe:dream_portal_core'
+        'cwe:dream_portal_core',
+        'cwe:mana_injector'
     ]
 
     custom_machinerys.forEach(custom_machinery =>{
-        event.create(custom_machinery,"custommachinery").renderType("translucent")
+        event.create(custom_machinery,"custommachinery").renderType("translucent").displayName(Text.translate(`block.${custom_machinery.replace(':','.')}`))
     })
 })

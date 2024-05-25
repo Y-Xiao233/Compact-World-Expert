@@ -86,17 +86,17 @@
 		{
 			dependencies: ["30782F4DFAA15B61"]
 			description: [
-				"&d嗯？&a你问我为什么送这么多？"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests1.description0}"
 				""
-				"&c当然是后面要的非常多啦"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests1.description2}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "4D7465B820A9F8DD"
 			rewards: [{
 				count: 160
 				id: "4971A599D762892B"
 				item: "ars_nouveau:sourcestone"
-				team_reward: true
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -172,8 +172,8 @@
 		{
 			dependencies: ["436DABD2CAF143B5"]
 			description: [
-				"&d可以燃烧32个物品"
-				"&a或许是给火红莲提供燃料的不错方法"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests7.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests7.description1}"
 			]
 			id: "0273EC7435D10E5B"
 			tasks: [{
@@ -300,15 +300,15 @@
 				"5AA10F217E6C1A0B"
 			]
 			description: [
-				"&d你必须制作钥匙去往主世界的其他房间，不然没有足够的位置摆放制作奥数核心的结构"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description0}"
 				""
-				"&4在&6泥土&4的位置放置&a微缩力场投影仪&4即可~"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description2}"
 				""
 				""
-				"&4由于一些神奇的bug,"
-				"&a附魔装置&4采用另一种多方块合成的方式，"
-				"&4使用&d蓝图大炮将我预先准备好的蓝图&a打印到世界中，"
-				"&4再拿着&6迅金锭&c右键&4中间的&6迅金块&4即可合成"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description5}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description6}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description7}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests16.description8}"
 			]
 			id: "037EAE7E4CE963B9"
 			rewards: [
@@ -415,7 +415,7 @@
 		}
 		{
 			dependencies: ["3FC73DD0AD0927ED"]
-			description: ["&a或许可以拿来右键某个钥匙孔"]
+			description: ["{ftbquests.chapter.0CCB7C52D9D7412E.quests17.description}"]
 			id: "5AA10F217E6C1A0B"
 			tasks: [{
 				id: "5FF0AAD928C2BF24"
@@ -428,16 +428,16 @@
 		{
 			dependencies: ["36A7BFFC2F569895"]
 			description: [
-				"&d下面第一张图片是一个已经编辑好的雷击式"
-				"[在&6术式编写台&f中编写]&b顺序依次是:"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description1}"
 				""
 				""
-				"&l&a[启动式:雷击]   &c[运算符:矢量追踪]    &a[运算符:实体视线]"
-				"&l                                &a[运算符:实体位置]    &c[选择符:施术者]"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description4}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description5}"
 				""
 				""
-				"&b需要特别注意的是:"
-				"&c运算符:矢量追踪&f的&a&l位置&f和&a&l射线&4必须&f如下方第二张图所示"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description8}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests18.description9}"
 				""
 				""
 				"{image:kubejs:textures/ftbquests/lightning.png width:160 height:110 align:1 fit:true}"
@@ -493,7 +493,7 @@
 							]
 						}
 					}
-					title: "魔源中继器"
+					title: "{ftbquests.chapter.0CCB7C52D9D7412E.quests18.tasks2.title}"
 					type: "item"
 				}
 			]
@@ -532,9 +532,9 @@
 				"7197FE9E6650B34F"
 			]
 			description: [
-				"&a消耗火元素水晶产生应力"
-				"&c(&m什么?你说水车去哪里了?没有水车!)"
-				"后面可以用新宝石跑轮(他所产生的应力被增强了)"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests21.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests21.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests21.description2}"
 			]
 			id: "09696F0434E21B52"
 			tasks: [{
@@ -598,12 +598,12 @@
 				"0768CEEDCFB45964"
 			]
 			description: [
-				"&d在为其设置魔源输入时,"
-				"&c只可接收来自魔源罐的魔源，"
-				"&4而不能接收来自魔源中继器的魔源"
-				"&a简而言之，在为其设置魔源输入时:"
-				"&a先用&d支配之杖&e右键&a魔源罐,"
-				"&a再用&d支配之杖&e右键&a魔源工作台"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description2}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description3}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description4}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests26.description5}"
 			]
 			id: "036D07A9E9412ABA"
 			tasks: [{
@@ -944,7 +944,7 @@
 				count: 64
 				id: "3475DFE61F9EFFF0"
 				item: "minecraft:poppy"
-				team_reward: true
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -987,9 +987,9 @@
 				"2BF8F6C967EC873B"
 			]
 			description: [
-				"&c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!"
-				"&a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来"
-				"&d因此你需要制作物品收集器将其收集进来"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests53.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests53.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests53.description2}"
 			]
 			id: "69AE8E795DE7E41C"
 			tasks: [{
@@ -1014,11 +1014,11 @@
 		{
 			dependencies: ["54FE74611E08BF8B"]
 			description: [
-				"&c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!"
-				"&a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来"
-				"&d因此你需要制作物品收集器将其收集进来"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests55.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests55.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests55.description2}"
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "2BF8F6C967EC873B"
 			rewards: [{
 				id: "2BCFF944B662F385"
@@ -1110,7 +1110,7 @@
 							]
 						}
 					}
-					title: "火花升级"
+					title: "{ftbquests.chapter.0CCB7C52D9D7412E.quests59.tasks1.title}"
 					type: "item"
 				}
 			]
@@ -1166,9 +1166,9 @@
 				"0BABBBFE12BB6A57"
 			]
 			description: [
-				"&a从左往右分别给抽屉加入输出/抽取升级"
-				"&d放入对应材料即可实现自动"
-				"&c更加推荐使用配合xnet控制输入物品的抽屉内的数量始终为1来实现自动化，图示的方法可能会吞材料"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests63.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests63.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests63.description2}"
 				"{image:kubejs:textures/ftbquests/salvaging.png width:240 height:80 align:1 fit:true}"
 			]
 			id: "23367A1087968291"
@@ -1523,7 +1523,7 @@
 				"3208DB754D645C86"
 			]
 			description: [
-				"&a你必须喝下这个才能进行符文仪式"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests87.description0}"
 				"{image:kubejs:textures/ftbquests/nygjallar_horn_full.png width:180 height:80 align:1}"
 			]
 			id: "156A4D964C9F03B0"
@@ -1537,7 +1537,7 @@
 		}
 		{
 			dependencies: ["65B3B67A36F842F7"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "03F6D1EC8B961C7F"
 			tasks: [
 				{
@@ -1557,8 +1557,8 @@
 		{
 			dependencies: ["40070201EB30760D"]
 			description: [
-				"&a符文仪式所消耗的魔力必须来自"
-				"&d[玩家背包中的(高级/终极)魔力之戒]/&e[(浮空)符文矮牵牛]"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests89.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests89.description1}"
 			]
 			hide_dependency_lines: true
 			id: "23CB968ED1AB9DFA"
@@ -1577,12 +1577,12 @@
 				"23CB968ED1AB9DFA"
 			]
 			description: [
-				"1.&a符文仪式所消耗的魔力必须来自"
-				"&d[玩家背包中的(高级/终极)魔力之戒]/&e[(浮空)符文矮牵牛]"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests90.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests90.description1}"
 				""
-				"2.&a你必须喝下&d装有密米尔之泉水的加拉尔号角&a才能进行符文仪式"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests90.description3}"
 				""
-				"3.&b如果附近有足够魔力,&e(浮空)符文矮牵牛可以自动激活仪式"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests90.description5}"
 			]
 			icon: "spirit:soul_steel_block"
 			id: "0BF4E0A71E17AC31"
@@ -1604,14 +1604,14 @@
 		{
 			dependencies: ["0BF4E0A71E17AC31"]
 			description: [
-				"&b请完善前一章节能做的自动化之后再进入下一章节"
-				"&d不要盲目推进度哦"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests91.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests91.description1}"
 			]
 			id: "2FB3DF89E9D0122A"
 			rewards: [{
 				id: "05CCC782734D492A"
 				item: "compactmachines:machine_maximum"
-				team_reward: true
+				team_reward: false
 				type: "item"
 			}]
 			shape: "gear"
@@ -1794,9 +1794,9 @@
 		{
 			dependencies: ["69AE8E795DE7E41C"]
 			description: [
-				"&a或许可以拿来右键某个钥匙孔"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests103.description0}"
 				""
-				"&d这是专门留给你制作苍穹锭自动化的空间"
+				"{ftbquests.chapter.0CCB7C52D9D7412E.quests103.description2}"
 			]
 			id: "12EF5F133E87A88D"
 			tasks: [{
@@ -1823,5 +1823,5 @@
 			y: -1.0d
 		}
 	]
-	title: "魔法进阶"
+	title: "{ftbquests.chapter.0CCB7C52D9D7412E.title}"
 }

@@ -20,7 +20,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "77D526B82DE57184"
-				title: "原初魔法"
+				title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -2.5d
@@ -31,7 +31,7 @@
 				"40FB21162E354800"
 				"443D5E6FE11BBE62"
 			]
-			description: ["&d便携工作台！"]
+			description: ["{ftbquests.chapter.2E4E3A3EDC19101F.quests1.description}"]
 			id: "4300724067E76872"
 			tasks: [{
 				id: "2520F6B17F5982BD"
@@ -46,7 +46,7 @@
 				"01C9C2A8ADDD71D6"
 				"40FB21162E354800"
 			]
-			description: ["抽屉升级&d可以自动收集/输入/输出"]
+			description: ["{ftbquests.chapter.2E4E3A3EDC19101F.quests2.description}"]
 			id: "16AFFC7DE7A558BC"
 			tasks: [
 				{
@@ -71,7 +71,7 @@
 							]
 						}
 					}
-					title: "物品抽屉"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests2.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -96,7 +96,7 @@
 							]
 						}
 					}
-					title: "流体抽屉"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests2.tasks1.title}"
 					type: "item"
 				}
 				{
@@ -130,11 +130,11 @@
 							]
 						}
 					}
-					title: "抽屉升级"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests2.tasks2.title}"
 					type: "item"
 				}
 			]
-			title: "功能性存储"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests2.title}"
 			x: -4.0d
 			y: 0.5d
 		}
@@ -159,8 +159,8 @@
 				"1271B6DBFA1C0F74"
 			]
 			description: [
-				"&d可以将物品漏到世界中"
-				"&c底下有物品就不会漏"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests4.description0}"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests4.description1}"
 			]
 			id: "17A50085F166F289"
 			tasks: [{
@@ -174,8 +174,8 @@
 		{
 			dependencies: ["40FB21162E354800"]
 			description: [
-				"虽然&a精致存储&f的各类&c高级箱子&4&l无法合成&r"
-				"&d但是&f你可以通过&e基础->金升级&f来升级你的&d箱子"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests5.description0}"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests5.description1}"
 			]
 			id: "5A1FE0EDD9443CB2"
 			tasks: [
@@ -229,7 +229,7 @@
 				}
 				type: "item"
 			}]
-			title: "圆石制造机"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests6.title}"
 			x: -6.0d
 			y: -2.5d
 		}
@@ -239,9 +239,9 @@
 				"4586578D6CA31C45"
 			]
 			description: [
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
-				"&4注意!在升级背包时，背包内的物品会被清空"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests7.description0}"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests7.description1}"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests7.description2}"
 			]
 			id: "3CE06C98DBC2D4C3"
 			tasks: [{
@@ -286,7 +286,7 @@
 				}
 				type: "item"
 			}]
-			title: "背包"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests7.title}"
 			x: 1.0d
 			y: -2.5d
 		}
@@ -322,11 +322,11 @@
 				"71FB34748500080D"
 			]
 			description: [
-				"&a压缩空间内无法使用循环的玩家模拟器"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests9.description0}"
 				""
-				"&6请改用自动点击器"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests9.description2}"
 				""
-				"&4ps：自动点击器造成的资源占用是玩家模拟器的2倍，所以在主世界还是用玩家模拟器吧qaq"
+				"{ftbquests.chapter.2E4E3A3EDC19101F.quests9.description4}"
 			]
 			id: "093FE441E5F9D5B7"
 			tasks: [
@@ -352,10 +352,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "46192F5E53DDBA43"
-				title: "开始"
+				title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests10.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "开始"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests10.title}"
 			x: 2.5d
 			y: -11.5d
 		}
@@ -383,7 +383,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "792D8BFC7575F175"
-				title: "魔法进阶"
+				title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests12.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -459,7 +459,7 @@
 							]
 						}
 					}
-					title: "火花升级"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests15.tasks1.title}"
 					type: "item"
 				}
 			]
@@ -595,7 +595,7 @@
 					type: "item"
 				}
 			]
-			title: "\"铁质\"物品?"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests20.title}"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -645,7 +645,7 @@
 				}
 				type: "item"
 			}]
-			title: "灵魂钢工具"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests21.title}"
 			x: 9.0d
 			y: 0.5d
 		}
@@ -815,10 +815,10 @@
 						]
 					}
 				}
-				title: "路由器模块"
+				title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests22.tasks0.title}"
 				type: "item"
 			}]
-			title: "路由器模块"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests22.title}"
 			x: 10.5d
 			y: -4.0d
 		}
@@ -871,7 +871,7 @@
 							]
 						}
 					}
-					title: "路由器升级"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests23.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -928,11 +928,11 @@
 							]
 						}
 					}
-					title: "路由器拓展"
+					title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests23.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "路由器升级/拓展"
+			title: "{ftbquests.chapter.2E4E3A3EDC19101F.quests23.title}"
 			x: 6.0d
 			y: -5.5d
 		}
@@ -1088,5 +1088,5 @@
 			y: -15.0d
 		}
 	]
-	title: "&c本章节可制作的辅助物品"
+	title: "{ftbquests.chapter.2E4E3A3EDC19101F.title}"
 }

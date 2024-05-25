@@ -1,0 +1,551 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6CF0BD2004C5F9D2"
+	group: "5D8512A6DD22287E"
+	icon: "create_new_age:reactor_casing"
+	id: "6CF0BD2004C5F9D2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1388155919F1C4DE"]
+			id: "0F0B661A8D72F708"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "3BF2EC24FEB3D9EC"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F0B661A8D72F708"]
+			id: "21AC86C69874BDDA"
+			tasks: [{
+				id: "11EBE714B2885E4B"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21AC86C69874BDDA"]
+			id: "548C70DB2601DCE7"
+			tasks: [{
+				id: "67A65FD922A71A02"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["548C70DB2601DCE7"]
+			id: "7E13E1F6E5A475A2"
+			tasks: [{
+				id: "7835411A2328BAC9"
+				item: "malum:aqueous_spirit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7E13E1F6E5A475A2"
+				"6A83E1DEDF3AD631"
+			]
+			id: "0B5BC9A3F1514059"
+			tasks: [{
+				id: "2D6327226EB6A207"
+				item: "kubejs:molten_aqueous_spirit_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["548C70DB2601DCE7"]
+			id: "6A83E1DEDF3AD631"
+			tasks: [{
+				id: "6F54114E6D3A2ABF"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["66FEED1047D4727A"]
+			id: "0799CB4FCA25296B"
+			tasks: [{
+				id: "7521B36C59224F5C"
+				item: "kubejs:blank_diamond_crystal_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0B5BC9A3F1514059"
+				"0799CB4FCA25296B"
+			]
+			id: "3356938174568484"
+			tasks: [{
+				id: "073EA7180B4074BF"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2FAAA2B57731061F"
+				"64108917A52CB2F5"
+			]
+			id: "66FEED1047D4727A"
+			tasks: [{
+				id: "1554D6305D78F967"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0B661A8D72F708"]
+			description: ["{ftbquests.chapter.6CF0BD2004C5F9D2.quests9.description}"]
+			hide_dependency_lines: true
+			id: "2FAAA2B57731061F"
+			tasks: [{
+				id: "2047022C0E9D6C21"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["599BE19378DF3F63"]
+			id: "64108917A52CB2F5"
+			tasks: [{
+				id: "132404B2AA540062"
+				item: "create_bic_bit:mechanical_fryer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5710CF2DA2C1E8A2"
+				"10D63F5C51743B57"
+			]
+			id: "599BE19378DF3F63"
+			tasks: [
+				{
+					id: "1E68A201BB5A5E3C"
+					item: "create_new_age:heater"
+					type: "item"
+				}
+				{
+					id: "3D682BF0EE40E5D3"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0ADD4B5FFD356EA5"
+				"378913B824EE8E2E"
+			]
+			id: "5710CF2DA2C1E8A2"
+			tasks: [
+				{
+					id: "0E71A814E3F1C256"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "34A98F9C6788C8AE"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+				{
+					id: "04CA2415512763F9"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "6FC9769100742743"
+					item: "create_new_age:reactor_glass"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0B661A8D72F708"]
+			hide_dependency_lines: true
+			id: "0ADD4B5FFD356EA5"
+			tasks: [{
+				id: "18E04D08C5983794"
+				item: "hexerei:quicksilver_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66FEED1047D4727A"]
+			id: "0D68E0FA20BD6517"
+			tasks: [{
+				id: "1653BA3277552172"
+				item: "kubejs:molten_crystal_blazing_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0D68E0FA20BD6517"
+				"7C786116BED5C47C"
+			]
+			id: "60ACAE467DE2EC81"
+			tasks: [{
+				id: "5B028525C0E44CB6"
+				item: "kubejs:lens_of_blazing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3356938174568484"]
+			id: "7C786116BED5C47C"
+			tasks: [{
+				id: "5299E40A2C86100C"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60ACAE467DE2EC81"]
+			id: "3E97036A94D34BA2"
+			tasks: [{
+				id: "04A6231F91C3F331"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E97036A94D34BA2"]
+			id: "5BC31E53896FFEDA"
+			tasks: [{
+				id: "27695C992B1AAE63"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F0B661A8D72F708"]
+			hide_dependency_lines: true
+			id: "378913B824EE8E2E"
+			tasks: [{
+				id: "4794098A7937BAFD"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21AC86C69874BDDA"]
+			id: "345C0F6E943AAE82"
+			tasks: [{
+				id: "1FE063F4BC12C9EC"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0F0B661A8D72F708"]
+			hide_dependency_lines: true
+			id: "10D63F5C51743B57"
+			tasks: [{
+				id: "7736DC4140411762"
+				item: "create_new_age:copper_circuit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E97036A94D34BA2"]
+			id: "2DB9098C49108048"
+			tasks: [{
+				id: "6D5E11797126A860"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3356938174568484"]
+			id: "10DC4BDD7AFC5963"
+			tasks: [{
+				id: "5B773D189E73D442"
+				item: "powah:capacitor_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10DC4BDD7AFC5963"]
+			id: "04D263241A5B4378"
+			tasks: [{
+				id: "002DCFF3ACC1980D"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BC31E53896FFEDA"]
+			id: "0DBDC6D79F9C55CC"
+			tasks: [{
+				id: "4D37311435DA5C6F"
+				item: "kubejs:press_control_circuit_die"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DBDC6D79F9C55CC"]
+			id: "2BFF2EFD0CBB6B69"
+			tasks: [{
+				id: "7425A36A2EC3DAA1"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2BFF2EFD0CBB6B69"
+				"7C786116BED5C47C"
+			]
+			id: "0C421190F6F05B2D"
+			tasks: [{
+				id: "544DB18C62C6F3AD"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C421190F6F05B2D"]
+			id: "4EF7E005CAD9B315"
+			tasks: [{
+				id: "7B28DB3D776F9590"
+				item: "mekanism:elite_tier_installer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C421190F6F05B2D"]
+			id: "28DAD177699A1137"
+			tasks: [{
+				id: "2662FC080AB531D0"
+				item: "cwe:mana_injector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5BC31E53896FFEDA"]
+			id: "332213E1D9EDAC17"
+			tasks: [{
+				id: "4D81CEDAE2E898CD"
+				item: "botania:black_mystical_flower"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"28DAD177699A1137"
+				"332213E1D9EDAC17"
+			]
+			id: "6D1FA40073674479"
+			tasks: [
+				{
+					id: "01CAF41C6BE09B39"
+					item: "botania:black_lotus"
+					type: "item"
+				}
+				{
+					id: "742E3F4720CE7CD3"
+					item: "botania:blacker_lotus"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D1FA40073674479"]
+			id: "7CECB4AE32123671"
+			tasks: [{
+				id: "3202296F4FFE338F"
+				item: "psi:ebony_substance"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CECB4AE32123671"]
+			id: "6139BA1B05E5C581"
+			tasks: [{
+				id: "5E06C67504ECC156"
+				item: "psi:ebony_psimetal"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6139BA1B05E5C581"
+				"4A837A263F60D19D"
+			]
+			id: "612C1E5E76E86080"
+			tasks: [{
+				id: "71743A2D62CF44B6"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0F0B661A8D72F708"
+				"403AC440BAB0CB6D"
+			]
+			hide_dependency_lines: true
+			id: "2F8FD7B4A0BE2DDB"
+			tasks: [{
+				id: "1FFD85697F32C0B2"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2F8FD7B4A0BE2DDB"]
+			id: "59FDAD335E14FE6B"
+			tasks: [
+				{
+					id: "4274B5662DB3B1BC"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					id: "5957053FAFF7577F"
+					item: "minecraft:prismarine_crystals"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59FDAD335E14FE6B"]
+			id: "4A837A263F60D19D"
+			tasks: [{
+				id: "5154245E53AE3CA7"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["612C1E5E76E86080"]
+			id: "36427BD0913423F3"
+			tasks: [{
+				id: "3782CE920653536E"
+				item: {
+					Count: 1b
+					id: "spirit:soul_crystal"
+					tag: {
+						StoredEntity: {
+							Souls: 64
+							Type: "minecraft:guardian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3ED0DC83617FD1A8"]
+			id: "3D7FE2B83DBBA29C"
+			tasks: [{
+				id: "0B25E4FCD8D08203"
+				item: "thermalendergy:endergy_upgrade_1"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["612C1E5E76E86080"]
+			id: "3ED0DC83617FD1A8"
+			tasks: [{
+				id: "3BD6C0233743DD30"
+				item: "thermalendergy:prismalium_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+	]
+	title: "{ftbquests.chapter.6CF0BD2004C5F9D2.title}"
+}

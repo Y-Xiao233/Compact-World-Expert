@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"&a请认真查看本章内容！！！"
+				"{ftbquests.chapter.284C737C09134719.quests0.description0}"
 				""
-				"&d这里面貌似有开局要用到的东西"
+				"{ftbquests.chapter.284C737C09134719.quests0.description2}"
 				""
-				"&cta或许就藏在某些东西里面"
+				"{ftbquests.chapter.284C737C09134719.quests0.description4}"
 			]
 			icon: "compactmachines:machine_maximum"
 			id: "1FDCB826EB03CF3C"
@@ -328,20 +328,20 @@
 			]
 			tasks: [{
 				id: "15A94AD2479BE830"
-				title: "欢迎"
+				title: "{ftbquests.chapter.284C737C09134719.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
-			title: "欢迎来到Compact World: Expert"
+			title: "{ftbquests.chapter.284C737C09134719.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&a若物品在rei中有信息这一栏"
-				"&c请务必仔细查看"
-				"&d若有一些不属于Create的物品有思索"
-				"&c请务必仔细查看"
+				"{ftbquests.chapter.284C737C09134719.quests1.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests1.description1}"
+				"{ftbquests.chapter.284C737C09134719.quests1.description2}"
+				"{ftbquests.chapter.284C737C09134719.quests1.description3}"
 			]
 			icon: {
 				Count: 1b
@@ -353,7 +353,7 @@
 			id: "06E0BFF667E68E71"
 			tasks: [{
 				id: "279DB321873DBA4E"
-				title: "关于信息"
+				title: "{ftbquests.chapter.284C737C09134719.quests1.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -362,8 +362,8 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&a所有多方块结构均有蓝图，可以在蓝图桌找到对应的结构并在世界中预览"
-				"&cps:请勿对着蓝图按&4&lshift+右键&r&c，导致崩端概不负责"
+				"{ftbquests.chapter.284C737C09134719.quests2.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests2.description1}"
 			]
 			icon: "create:schematic"
 			id: "4A38C173C13B34F6"
@@ -397,7 +397,7 @@
 			]
 			tasks: [{
 				id: "5989A50FF1CD361F"
-				title: "关于多方块结构"
+				title: "{ftbquests.chapter.284C737C09134719.quests2.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -406,8 +406,8 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&a它属于专家包（&c也许"
-				"&d非专家慎入"
+				"{ftbquests.chapter.284C737C09134719.quests3.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests3.description1}"
 			]
 			icon: "compactmachines:personal_shrinking_device"
 			id: "4F67D961CD101ADE"
@@ -418,7 +418,7 @@
 			}]
 			tasks: [{
 				id: "2CE167BE1B34C5BA"
-				title: "关于难度"
+				title: "{ftbquests.chapter.284C737C09134719.quests3.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -427,21 +427,21 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&a我强制禁用了许多规则，具体如下："
-				"1.doTraderSpawning(禁止流浪商人生成)"
-				"2.doMobSpawning(禁止生物自然生成)"
-				"3.mobGriefing(防爆)"
-				"4.doWeatherCycle(禁止天气变化)"
+				"{ftbquests.chapter.284C737C09134719.quests4.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description1}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description2}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description3}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description4}"
 				""
-				"&a我强制启用了两个规则："
-				"1.keepInventory(死亡不掉落)"
-				"2.doMobLoot(生物掉落物)"
+				"{ftbquests.chapter.284C737C09134719.quests4.description6}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description7}"
+				"{ftbquests.chapter.284C737C09134719.quests4.description8}"
 			]
 			icon: "minecraft:chain"
 			id: "4D8EE2598E08F030"
 			tasks: [{
 				id: "2842A61730AF57A0"
-				title: "关于游戏"
+				title: "{ftbquests.chapter.284C737C09134719.quests4.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
@@ -450,14 +450,15 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&l&o&n&d作者：Y_Xiao233"
+				"{ftbquests.chapter.284C737C09134719.quests5.description0}"
 				""
-				"&a特别感谢："
-				"Red_Tea_Co"
+				"{ftbquests.chapter.284C737C09134719.quests5.description2}"
+				"{ftbquests.chapter.284C737C09134719.quests5.description3}"
 				""
-				"&d感谢以下对整合包开发做出贡献的："
-				"落秋FalAut"
-				"Mango is me!"
+				"{ftbquests.chapter.284C737C09134719.quests5.description5}"
+				"{ftbquests.chapter.284C737C09134719.quests5.description6}"
+				"{ftbquests.chapter.284C737C09134719.quests5.description7}"
+				"{ftbquests.chapter.284C737C09134719.quests5.description8}"
 			]
 			icon: {
 				Count: 1b
@@ -536,14 +537,14 @@
 					auto: "no_toast"
 					command: "/tellraw @a {\"text\":\"点击前往作者的b站主页\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/451025800\"}}"
 					id: "60A172CB548D77A9"
-					title: "&e作者的b站主页"
+					title: "{ftbquests.chapter.284C737C09134719.quests5.rewards2.title}"
 					type: "command"
 				}
 			]
-			subtitle: "&d&l&o作者：Y_Xiao233"
+			subtitle: "{ftbquests.chapter.284C737C09134719.quests5.subtitle}"
 			tasks: [{
 				id: "37088664BB36827F"
-				title: "关于作者"
+				title: "{ftbquests.chapter.284C737C09134719.quests5.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -552,9 +553,9 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&d感谢秋明的直播以及视频宣传"
-				"&a秋明虎牙直播：秋明-黑桃A"
-				"&a秋明b站：Sweet秋明"
+				"{ftbquests.chapter.284C737C09134719.quests6.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests6.description1}"
+				"{ftbquests.chapter.284C737C09134719.quests6.description2}"
 			]
 			icon: {
 				Count: 1b
@@ -583,14 +584,14 @@
 					auto: "no_toast"
 					command: "/tellraw @a {\"text\":\"点击前往Sweet秋明的b站主页\",\"color\":\"green\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://space.bilibili.com/32796946?spm_id_from=333.337.0.0\"}}"
 					id: "37DB732992173DC4"
-					title: "&eSweet秋明的b站主页"
+					title: "{ftbquests.chapter.284C737C09134719.quests6.rewards0.title}"
 					type: "command"
 				}
 				{
 					auto: "no_toast"
 					command: "/tellraw @a {\"text\":\"点击前往Sweet秋明的虎牙主页\",\"color\":\"yellow\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.huya.com/raini\"}}"
 					id: "0EC42AD5EA323A2D"
-					title: "&eSweet秋明的虎牙主页"
+					title: "{ftbquests.chapter.284C737C09134719.quests6.rewards1.title}"
 					type: "command"
 				}
 				{
@@ -622,7 +623,7 @@
 			]
 			tasks: [{
 				id: "4C8F9F4D2A425D63"
-				title: "鸣谢"
+				title: "{ftbquests.chapter.284C737C09134719.quests6.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -631,15 +632,15 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&a我使用LockDown强制锁定了生成的地图"
-				"&d你只能在这个地图中进行游玩"
-				"&c开局所处的空间并非压缩空间生成，而是手动搭建的，所以别想着出去了"
+				"{ftbquests.chapter.284C737C09134719.quests7.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests7.description1}"
+				"{ftbquests.chapter.284C737C09134719.quests7.description2}"
 			]
 			icon: "compactmachines:wall"
 			id: "46CB645E3DB174FC"
 			tasks: [{
 				id: "504A9860C5189A5C"
-				title: "关于世界类型"
+				title: "{ftbquests.chapter.284C737C09134719.quests7.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -2.0d
@@ -648,21 +649,21 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"&c1.仅为测试版本，并不代表最终品质"
-				"&c2.在未发布正式版前以任何形式传播将追究责任，该版本仅在我的群中进行测试"
+				"{ftbquests.chapter.284C737C09134719.quests8.description0}"
+				"{ftbquests.chapter.284C737C09134719.quests8.description1}"
 				""
 				""
-				"&a若有建议及bug，欢迎加群"
-				"&a一群群号：814125336"
-				"&a二群群号：902264428"
+				"{ftbquests.chapter.284C737C09134719.quests8.description4}"
+				"{ftbquests.chapter.284C737C09134719.quests8.description5}"
+				"{ftbquests.chapter.284C737C09134719.quests8.description6}"
 				""
-				"&bps:&f本整合包&c不考虑支持&a多人服务器&4分岛发展&f的玩法，如果此种情况出现的bug，概不负责"
+				"{ftbquests.chapter.284C737C09134719.quests8.description8}"
 			]
 			icon: "ae2:creative_item_cell"
 			id: "473617B13C681BA5"
 			tasks: [{
 				id: "74815D5C7F8F81A6"
-				title: "关于整合包"
+				title: "{ftbquests.chapter.284C737C09134719.quests8.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -670,17 +671,17 @@
 		}
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
-			description: ["&a请勿直接将两个&d合成/产出&e魔源/魔力&a的自定义机器使用&5支配之杖&a相连接"]
+			description: ["{ftbquests.chapter.284C737C09134719.quests9.description}"]
 			icon: "cwe:source_craftingtable"
 			id: "6E230EDD09351327"
 			tasks: [{
 				id: "517B60756FFABE4A"
 				type: "checkmark"
 			}]
-			title: "关于自定义机器"
+			title: "{ftbquests.chapter.284C737C09134719.quests9.title}"
 			x: -2.0d
 			y: -2.0d
 		}
 	]
-	title: "欢迎"
+	title: "{ftbquests.chapter.284C737C09134719.title}"
 }

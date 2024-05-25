@@ -171,6 +171,26 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','naturesaura:sky_ingot','spirit:soul_steel_block',
                  posts('drop_item','xnet:controller',4,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace spirit:soul_steel_block")),
             id:`${id_prefix}controller`
+        },
+        {
+            main:lychee('lychee:block_interacting','mythicbotany:alfsteel_ingot','botania:natura_pylon',
+                 posts('place','mythicbotany:alfsteel_pylon')),
+            id:`${id_prefix}alfsteel_pylon`
+        },
+        {
+            main:lychee('lychee:block_interacting','mythicbotany:alfsteel_ingot','botania:dreamwood',
+                 posts('drop_item','cwe:dream_portal_core',1,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace botania:dreamwood")),
+            id:`${id_prefix}dream_portal_core`
+        },
+        {
+            main:lychee('lychee:block_interacting','malum:spirit_altar','malum:the_device',
+                 posts('drop_item','malum:spirit_crucible',1,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace malum:the_device")),
+            id:`${id_prefix}spirit_crucible`
+        },
+        {
+            main:lychee('lychee:block_interacting','melter:melter','create:brass_casing',
+                 posts('place','thermal:machine_crucible')),
+            id:`${id_prefix}machine_crucible`
         }]
 
     recipes.forEach(recipe =>{

@@ -54,6 +54,27 @@ ServerEvents.recipes(event =>{
             ],
             loops:1,
             id:`${id_prefix}lapis_ore`
+        },
+        {
+            output:[Item.of('kubejs:blank_diamond_crystal_niotic',2)],
+            input:'minecraft:diamond',
+            main:[
+                deploying('minecraft:diamond',['minecraft:diamond','powah:crystal_blazing']),
+                pressing('minecraft:diamond',['minecraft:diamond']),
+                filling('minecraft:diamond',[Fluid.of('kubejs:purewater',200),'minecraft:diamond']),
+            ],
+            loops:1,
+            id:`${id_prefix}blank_diamond_crystal_niotic`
+        },
+        {
+            output:[Item.of('kubejs:lens_of_blazing')],
+            input:'kubejs:lens_of_blank',
+            main:[
+                filling('kubejs:lens_of_blank',[Fluid.of('kubejs:molten_crystal_blazing',1000),'kubejs:lens_of_blank']),
+                deploying('kubejs:lens_of_blank',['kubejs:lens_of_blank','mekanism:alloy_reinforced']),
+            ],
+            loops:1,
+            id:`${id_prefix}lens_of_blazing`
         }]
 
         recipes.forEach(recipe =>{

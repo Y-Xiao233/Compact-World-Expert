@@ -1,5 +1,5 @@
 {
-    "name": "魔力增值器",
+    "name": "block.cwe.mana_booster",
     "appearance": {
         "block": "kubejs:machine/mana_booster_off",
         "light":15,
@@ -61,7 +61,7 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "魔力增值器",
+        "text": "block.cwe.mana_booster",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"

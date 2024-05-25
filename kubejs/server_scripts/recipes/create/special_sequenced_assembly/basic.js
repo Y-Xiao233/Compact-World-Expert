@@ -36,7 +36,7 @@ ServerEvents.recipes(event =>{
                 "ingredients":[items('spirit:soul_steel_ingot')],
                 "results":[items('minecraft:iron_ingot',2)]
             }],
-            id:`${id_prefix}iron_ingot`
+            id:`${id_prefix}iron_ingot_1`
         },
         {
             input:items('minecraft:iron_ingot'),
@@ -191,6 +191,65 @@ ServerEvents.recipes(event =>{
                 }
             ],
             id:`${id_prefix}nuclear_fuel`
+        },
+        {
+            input:items('minecraft:raw_iron'),
+            loops:1,
+            output:items('minecraft:iron_ingot',2),
+            main:[
+            {
+                "type": "create:deploying",
+                "ingredients": [items('minecraft:raw_iron'),items('botania:rune_water')],
+                "keepHeldItem":true,
+                "results": [items('minecraft:raw_iron')]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [items('minecraft:raw_iron'),items('elementalcraft:drenched_iron_ingot')],
+                "results": [items('minecraft:raw_iron')]
+            },
+            {
+                "type": "create:filling",
+                "ingredients": [items('minecraft:raw_iron'),fluids('minecraft:water',250)],
+                "results": [items('minecraft:raw_iron')]
+            },
+            {
+                "type":"create_new_age:energising",
+                "energy_needed":8000,
+                "ingredients":[items('minecraft:raw_iron')],
+                "results":[items('minecraft:iron_ingot',2)]
+            }],
+            id:`${id_prefix}iron_ingot_2`
+        },
+        {
+            input:items('quark:blank_rune'),
+            loops:1,
+            output:items('vintageimprovements:redstone_module'),
+            transitionalItem:items('vintageimprovements:incomplete_redstone_module'),
+            main:[
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":20000,
+                    "ingredients":[items('quark:blank_rune')],
+                    "results":[items('vintageimprovements:incomplete_redstone_module')]
+                },
+                {
+                    "type":"vintageimprovements:vibrating",
+                    "ingredients":[items('vintageimprovements:incomplete_redstone_module')],
+                    "results":[items('vintageimprovements:incomplete_redstone_module')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('vintageimprovements:incomplete_redstone_module'),items('minecraft:redstone_block')],
+                    "results": [items('vintageimprovements:incomplete_redstone_module')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('vintageimprovements:incomplete_redstone_module'),items('minecraft:red_dye')],
+                    "results": [items('vintageimprovements:redstone_module')]
+                }
+            ],
+            id:`${id_prefix}redstone_module`
         }]
 
     recipes.forEach(recipe =>{

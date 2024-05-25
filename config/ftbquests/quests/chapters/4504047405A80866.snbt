@@ -148,7 +148,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b
@@ -437,14 +436,13 @@
 			}]
 			tasks: [{
 				id: "4A12DDDFDF464A16"
-				title: "阿卡什宝典"
+				title: "{ftbquests.chapter.4504047405A80866.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b
@@ -769,14 +767,13 @@
 			}]
 			tasks: [{
 				id: "4AE9E59AE8C7AEE7"
-				title: "变形工具"
+				title: "{ftbquests.chapter.4504047405A80866.quests1.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b
@@ -800,19 +797,18 @@
 			}
 			id: "29401C92A7236D01"
 			rewards: [{
-				exclude_from_claim_all: true
 				id: "0B2938D43B196146"
 				table_id: 3133637102301187553L
 				type: "choice"
 			}]
 			tasks: [{
 				id: "009699B790219515"
-				title: "头~"
+				title: "{ftbquests.chapter.4504047405A80866.quests2.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 0.0d
 		}
 	]
-	title: "&d可以无限领取的物品~"
+	title: "{ftbquests.chapter.4504047405A80866.title}"
 }

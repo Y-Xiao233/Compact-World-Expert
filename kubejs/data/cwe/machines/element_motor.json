@@ -1,5 +1,5 @@
 {
-    "name": "元素马达",
+    "name": "block.cwe.element_motor",
     "appearance": {
         "block": "kubejs:machine/element_motor_off",
         "light":15,
@@ -49,7 +49,7 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "元素马达",
+        "text": "block.cwe.element_motor",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"

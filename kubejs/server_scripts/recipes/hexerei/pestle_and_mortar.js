@@ -158,6 +158,32 @@ ServerEvents.recipes(event =>{
             output_amount:8,
             time:80,
             id:`${id_prefix}andesite`
+           },
+           {
+            inputItem:[
+            {"item":'botania:black_lotus'},
+            {"item":'botania:black_lotus'},
+            {"item":'botania:black_lotus'},
+            {"item":'botania:black_lotus'},
+            {"item":'botania:black_lotus'}
+            ], //inputItem:5
+            output:'psi:ebony_substance',
+            output_amount:2,
+            time:80,
+            id:`${id_prefix}ebony_substance_1`
+           },
+           {
+            inputItem:[
+            {"item":'botania:blacker_lotus'},
+            {"item":'botania:blacker_lotus'},
+            {"item":'botania:blacker_lotus'},
+            {"item":'botania:blacker_lotus'},
+            {"item":'botania:blacker_lotus'}
+            ], //inputItem:5
+            output:'psi:ebony_substance',
+            output_amount:8,
+            time:120,
+            id:`${id_prefix}ebony_substance_2`
            }]
 
     recipes.forEach(recipe =>{

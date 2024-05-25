@@ -5,7 +5,69 @@
 	group: "5D8512A6DD22287E"
 	icon: "malum:vivid_nitrate"
 	id: "29DF2FF2001C6EFE"
-	order_index: 0
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "powah:item/charged_snowball"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "quark:textures/attribute/armor_toughness.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "vintageimprovements:item/redstone_module"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "industrialforegoing:blocks/material_stonework_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "malum:item/impetus/osmium_cracked"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -4.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,8 +91,8 @@
 				item: "malum:infernal_spirit"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -48,7 +110,7 @@
 		}
 		{
 			dependencies: ["68248BF75508CCAA"]
-			description: ["&d\"铜\"机壳?"]
+			description: ["{ftbquests.chapter.ac.quests3.description}"]
 			hide_dependency_lines: true
 			id: "6C297AEDFCBC6E50"
 			tasks: [{
@@ -207,23 +269,33 @@
 				}
 				type: "item"
 			}]
-			title: "水晶"
+			title: "{ftbquests.chapter.ac.quests12.title}"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["01A2A9EF38607EF7"]
 			description: [
-				"先用&a泰拉凝聚板&f合成&c空&f的&9灵魂水晶"
+				"{ftbquests.chapter.ac.quests13.description0}"
 				""
-				"&f然后用&a精魂灌注&f合成&c有幼年骷髅&f的&9灵魂水晶"
+				"{ftbquests.chapter.ac.quests13.description2}"
 				""
-				"&b若想升级灵魂水晶不妨试试递归水晶"
+				"{ftbquests.chapter.ac.quests13.description4}"
 			]
 			id: "5E25A3244B807442"
 			tasks: [{
-				id: "75591B4F4F2C4D1B"
-				item: "spirit:soul_crystal"
+				id: "0905849D60D134CE"
+				item: {
+					Count: 1b
+					id: "spirit:soul_crystal"
+					tag: {
+						StoredEntity: {
+							Souls: 64
+							Type: "mekanismadditions:baby_skeleton"
+						}
+					}
+				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 7.0d
@@ -237,8 +309,8 @@
 				item: "minecraft:bone"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -304,7 +376,7 @@
 		}
 		{
 			dependencies: ["68248BF75508CCAA"]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			id: "094583B6699DD7CF"
 			tasks: [{
 				id: "3EC6F2017FC059D5"
@@ -361,8 +433,8 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["746256D648A165E8"]
@@ -372,8 +444,8 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5DFB4F3E67B9B965"]
@@ -383,8 +455,8 @@
 				item: "mekanism:combiner"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -397,8 +469,8 @@
 				item: "psi:ivory_psimetal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["38047771A05F2705"]
@@ -408,8 +480,8 @@
 				item: "powah:steel_energized"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1A581EDBEDE2D319"]
@@ -419,9 +491,555 @@
 				item: "powah:energizing_rod_hardened"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1A581EDBEDE2D319"
+				"3025EEB6E71C8466"
+			]
+			id: "208C415ED81EB747"
+			tasks: [{
+				id: "0547227576DD0899"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 9.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["163511B155F1559B"]
+			id: "4FBBF029709D6F51"
+			tasks: [{
+				id: "041D7E4E09B3E66B"
+				item: "minecraft:orange_dye"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38047771A05F2705"]
+			id: "20819CBB40E3A8E8"
+			tasks: [{
+				id: "6906F00EFFEB01CF"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"20819CBB40E3A8E8"
+				"4FBBF029709D6F51"
+			]
+			id: "2F5D52FA400328D5"
+			tasks: [{
+				id: "167E0B7D3AB569AB"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F5D52FA400328D5"]
+			description: [
+				"{ftbquests.chapter.ac.quests33.description0}"
+				""
+				"{ftbquests.chapter.ac.quests33.description2}"
+				"{ftbquests.chapter.ac.quests33.description3}"
+				"{image:kubejs:textures/ftbquests/ponder.png width:80 height:15 align:1 fit:true}"
+				""
+				"{ftbquests.chapter.ac.quests33.description6}"
+				""
+				"{ftbquests.chapter.ac.quests33.description8}"
+				"{ftbquests.chapter.ac.quests33.description9}"
+				"{ftbquests.chapter.ac.quests33.description10}"
+				"{image:kubejs:textures/ftbquests/dream_portal_core.png width:100 height:105 align:1 fit:true}"
+			]
+			id: "3025EEB6E71C8466"
+			tasks: [
+				{
+					id: "2CF71B4743C0CE8E"
+					item: "mythicbotany:alfsteel_pylon"
+					type: "item"
+				}
+				{
+					id: "72033F5763CADE3D"
+					item: "cwe:dream_portal_core"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3025EEB6E71C8466"]
+			id: "59F22BB2D74D3E95"
+			tasks: [{
+				id: "7BFDA700BC31AC93"
+				item: {
+					Count: 1b
+					id: "kubejs:tin_source"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"59F22BB2D74D3E95"
+				"287F3BF5819A973C"
+			]
+			id: "0B817D7ABC13954B"
+			tasks: [{
+				id: "1A447CF41C9A6E71"
+				item: "thermal:tin_nugget"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["33081F74577A0540"]
+			id: "287F3BF5819A973C"
+			tasks: [{
+				id: "5B709F8838C46859"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["746256D648A165E8"]
+			id: "7155CE57B7B6E2EB"
+			tasks: [{
+				id: "22F921940A943B25"
+				item: "quark:blank_rune"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7155CE57B7B6E2EB"]
+			id: "60EBA98D72D8D5A8"
+			tasks: [{
+				id: "60AF4B6FBFB3CBC9"
+				item: "quark:purple_rune"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60EBA98D72D8D5A8"]
+			id: "3FDCF78FB0893AA2"
+			tasks: [{
+				id: "39075CB4C9DC637F"
+				item: "malum:eldritch_spirit"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3FDCF78FB0893AA2"
+				"5DFB4F3E67B9B965"
+			]
+			id: "33081F74577A0540"
+			tasks: [{
+				id: "04C9565C853CCED9"
+				item: "malum:the_device"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["60EBA98D72D8D5A8"]
+			id: "3A19BC9282FA8183"
+			tasks: [{
+				id: "368EDA28DFB5A491"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3A19BC9282FA8183"]
+			id: "2DFFA07325AA0AC7"
+			tasks: [{
+				id: "058B271F2B96CAB9"
+				item: "kubejs:tin_spring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2DFFA07325AA0AC7"]
+			id: "43649ADD243C694B"
+			tasks: [{
+				id: "6D25616EAE48118E"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["43649ADD243C694B"]
+			id: "153B3EB19F946F38"
+			tasks: [{
+				id: "096983AFE824B4DC"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["43649ADD243C694B"]
+			id: "2193F2A0D5F98FD7"
+			tasks: [{
+				id: "5FC84E73C3413A8E"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["153B3EB19F946F38"]
+			id: "05831C854B0239B3"
+			tasks: [{
+				id: "619D7BC6DBC8A7DE"
+				item: "kubejs:lens_of_blank"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"05831C854B0239B3"
+				"2193F2A0D5F98FD7"
+				"2A5F7F6BBA1DA01A"
+			]
+			id: "012DB45FEEE32712"
+			tasks: [{
+				id: "6A7652489E091A78"
+				item: "kubejs:lens_of_tainted"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["541BD184AB2AFF72"]
+			id: "2A5F7F6BBA1DA01A"
+			tasks: [{
+				id: "6320A00D51AB8614"
+				item: "kubejs:liquid_tainted_matter_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["60DACA0D68D6DBCC"]
+			id: "541BD184AB2AFF72"
+			tasks: [{
+				id: "2E545C7D35DDB9E5"
+				item: "naturesaura:tainted_gold"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["10635F754C9BDFB5"]
+			id: "60DACA0D68D6DBCC"
+			tasks: [
+				{
+					id: "47C7CE42775E2F05"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					id: "0EDC8CD475830691"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FDCF78FB0893AA2"]
+			id: "10635F754C9BDFB5"
+			tasks: [{
+				id: "2607F945738B4770"
+				item: {
+					Count: 1b
+					id: "naturesaura:aura_bottle"
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33081F74577A0540"]
+			id: "624E4E40467F5D09"
+			tasks: [{
+				id: "4C42F1B2599B8B12"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"012DB45FEEE32712"
+				"624E4E40467F5D09"
+			]
+			id: "144AAFB58E34C49D"
+			tasks: [{
+				id: "28962DD801382FEB"
+				item: "kubejs:liquid_tainted_matter_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["144AAFB58E34C49D"]
+			id: "7097E72EF3D4BEEA"
+			tasks: [{
+				id: "36D6E981B5B99D43"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.ac.quests54.title}"
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["208C415ED81EB747"]
+			id: "6ABEE04C3D174100"
+			tasks: [{
+				id: "4A64AFFF14D8A56E"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6ABEE04C3D174100"
+				"3B415AD17F064779"
+			]
+			id: "740DB21BED701F06"
+			tasks: [{
+				id: "38A3168A04F4E97B"
+				item: "kubejs:pure_matter_ball"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68248BF75508CCAA"]
+			hide_dependency_lines: true
+			id: "3B415AD17F064779"
+			tasks: [{
+				id: "7A93B583E82DF3CA"
+				item: "ae2:matter_ball"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["740DB21BED701F06"]
+			id: "54EBD58380B9F5E4"
+			tasks: [{
+				id: "4D9C31940DDD25DB"
+				item: "mekanism:chemical_dissolution_chamber"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EBD58380B9F5E4"]
+			id: "62DB9A60D732CA38"
+			tasks: [{
+				id: "6D0DFA14C4E903B1"
+				title: "{ftbquests.chapter.ac.quests59.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"62DB9A60D732CA38"
+				"7097E72EF3D4BEEA"
+				"7E001B1018BB5ADA"
+			]
+			id: "6996C19560C2BE01"
+			tasks: [{
+				id: "55220B1F6359229F"
+				title: "{ftbquests.chapter.ac.quests60.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33081F74577A0540"]
+			hide_dependency_lines: false
+			id: "7E001B1018BB5ADA"
+			tasks: [{
+				id: "62EC0FC5DAF6957F"
+				item: {
+					Count: 1b
+					id: "mekanism:chemical_infuser"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "80000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6996C19560C2BE01"]
+			id: "3D308174A8C49BDD"
+			tasks: [{
+				id: "2BB621291063FFF0"
+				item: "kubejs:blank_alloy_infused"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["208C415ED81EB747"]
+			id: "495BF7E828EFF3F2"
+			tasks: [{
+				id: "5F3F8971C6B7E3B9"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3D308174A8C49BDD"
+				"7A74C43B877B19EA"
+			]
+			id: "1388155919F1C4DE"
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "4C0705237B1B4738"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D6F66C19DD79B15"]
+			id: "404C331AF6CA354B"
+			tasks: [{
+				id: "5BEDF417B5B6079A"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["404C331AF6CA354B"]
+			id: "787F944666CD29CD"
+			tasks: [{
+				id: "26CA73EA77C46B07"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["787F944666CD29CD"]
+			id: "7A74C43B877B19EA"
+			tasks: [{
+				id: "75FEB67710A358A2"
+				item: "vintageimprovements:redstone_module"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DFFA07325AA0AC7"]
+			id: "7D6F66C19DD79B15"
+			tasks: [{
+				id: "07CA1C272989B607"
+				item: "vintageimprovements:vibrating_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1388155919F1C4DE"]
+			id: "141C029A08594F90"
+			tasks: [{
+				id: "22BB4827ADB1400A"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1388155919F1C4DE"]
+			id: "6D2D8E97BD218F02"
+			tasks: [{
+				id: "4BA73A52D630827E"
+				item: "mekanism:advanced_tier_installer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
 	]
-	title: "&a要完结了吗？&c不！还差的远"
+	title: "{ftbquests.chapter.ac.title}"
 }

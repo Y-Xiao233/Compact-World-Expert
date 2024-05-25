@@ -34,4 +34,14 @@ ServerEvents.entityLootTables((event) =>{
             pool.addItem('minecraft:bone',1,2)
         })
     })
+
+
+    event.modifyEntity("minecraft:guardian", (table) => {
+        table.clearPools()
+        table.addPool((pool) => {
+            pool.rolls = [2, 3];
+            pool.addItem('minecraft:prismarine_shard',1,2);
+            pool.addItem('minecraft:prismarine_crystals',1,2);
+        })
+    })
 })

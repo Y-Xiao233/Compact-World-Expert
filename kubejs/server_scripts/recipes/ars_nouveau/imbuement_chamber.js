@@ -82,7 +82,7 @@ ServerEvents.recipes(event =>{
         },
         {
             input:'thermal:gold_dust',
-            output:'4x minecraft:redstone',
+            output:'8x minecraft:redstone',
             pedstalitems:['ae2:logic_processor','ae2:calculation_processor','ae2:engineering_processor','elementalcraft:firecrystal'],
             source_cost:1000,
             id:`${id_prefix}redstone`

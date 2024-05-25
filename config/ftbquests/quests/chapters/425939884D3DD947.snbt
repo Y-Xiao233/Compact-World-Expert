@@ -67,11 +67,11 @@
 				"77D40929EC0F3AAC"
 			]
 			description: [
-				"&ashift+神奇的木棍&c右键&f紧实型压缩空间壁/压缩块&c获得"
+				"{ftbquests.chapter.425939884D3DD947.quests0.description0}"
 				""
-				"&d这木棍怎么来呢？不妨找找送的东西里面有没有哦~"
+				"{ftbquests.chapter.425939884D3DD947.quests0.description2}"
 				""
-				"ps:&bta可能在送的任何东西里面哦~"
+				"{ftbquests.chapter.425939884D3DD947.quests0.description4}"
 			]
 			id: "20E673E14865AC24"
 			rewards: [
@@ -84,7 +84,7 @@
 					count: 2
 					id: "32839F64D6866BB7"
 					item: "minecraft:chest"
-					team_reward: true
+					team_reward: false
 					type: "item"
 				}
 			]
@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["1CEEA6210D4F17B2"]
-			description: ["&a利用奖励物品以及方块放置器来做自动化吧！"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests13.description}"]
 			id: "478DBE88504156E5"
 			rewards: [
 				{
@@ -372,7 +372,7 @@
 				}
 				type: "item"
 			}]
-			title: "魔源宝石"
+			title: "{ftbquests.chapter.425939884D3DD947.quests15.title}"
 			x: 0.5d
 			y: -2.0d
 		}
@@ -390,8 +390,8 @@
 		{
 			dependencies: ["44CC50FE50F79BEA"]
 			description: [
-				"&c你需要把&a基础CAD核心&c和&a基础CAD弹夹&c一起放入CAD装配台中才能使用灌注式"
-				"&d基础CAD电池是可选的"
+				"{ftbquests.chapter.425939884D3DD947.quests17.description0}"
+				"{ftbquests.chapter.425939884D3DD947.quests17.description1}"
 				"{image:kubejs:textures/ftbquests/cad_core.png width:110 height:160 align:1}"
 			]
 			id: "4AB6262F17A4EAF3"
@@ -421,7 +421,7 @@
 		}
 		{
 			dependencies: ["44CC50FE50F79BEA"]
-			description: ["&c不会消耗右键的方块"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests18.description}"]
 			id: "529FEEB650A43FAE"
 			tasks: [{
 				id: "1239EC95F3F4C58D"
@@ -434,8 +434,8 @@
 		{
 			dependencies: ["529FEEB650A43FAE"]
 			description: [
-				"&b[水滴右键&d泥土&b可以转化出水]"
-				"&a将魔源粘土球扔到水中有20%概率转化为粘土球"
+				"{ftbquests.chapter.425939884D3DD947.quests19.description0}"
+				"{ftbquests.chapter.425939884D3DD947.quests19.description1}"
 			]
 			id: "3B92022C6A8BC415"
 			tasks: [{
@@ -448,7 +448,7 @@
 		}
 		{
 			dependencies: ["48A1C014CD60C106"]
-			description: ["&ashift+空手&c右键&f草方块&a有2%的概率&c获得"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests20.description}"]
 			id: "0629CB8B857BE07A"
 			tasks: [{
 				id: "58CFEBE6BDBA84D1"
@@ -474,7 +474,7 @@
 		}
 		{
 			dependencies: ["44CC50FE50F79BEA"]
-			description: ["&a可以燃烧4个物品"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests22.description}"]
 			id: "2D3418AFB4E418AF"
 			tasks: [{
 				id: "5E60826207115A9F"
@@ -500,7 +500,7 @@
 				"0629CB8B857BE07A"
 				"1DB669254C3FB079"
 			]
-			description: ["&a水滴右键&d泥土&a转化出水"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests24.description}"]
 			id: "3317803D41593B4A"
 			tasks: [{
 				id: "7E5B61C5B21CBD0F"
@@ -535,7 +535,7 @@
 				"521DB09EF601C482"
 				"3317803D41593B4A"
 			]
-			description: ["打&a草&r获取"]
+			description: ["{ftbquests.chapter.425939884D3DD947.quests26.description}"]
 			id: "78DF124E7913661C"
 			tasks: [{
 				id: "604B745A5154A4A7"
@@ -642,15 +642,14 @@
 				"28E21742DA8A91C2"
 			]
 			description: [
-				"&c你需要把&a基础CAD核心&c和&a基础CAD弹夹&c一起放入CAD装配台中才能使用爆炸式"
-				"&d基础CAD电池是可选的"
+				"{ftbquests.chapter.425939884D3DD947.quests31.description0}"
+				"{ftbquests.chapter.425939884D3DD947.quests31.description1}"
 				"{image:kubejs:textures/ftbquests/cad_core.png width:110 height:160 align:1}"
 			]
 			id: "6075F3A979BD0064"
 			tasks: [{
 				id: "56FDDF85F357C407"
 				item: "psi:cad_battery_basic"
-				optional_task: true
 				type: "item"
 			}]
 			x: 5.0d
@@ -670,16 +669,16 @@
 		{
 			dependencies: ["6075F3A979BD0064"]
 			description: [
-				"&d下面第一张图片是一个已经编辑好的爆炸式"
-				"[在&6术式编写台&f中编写]&b顺序依次是:"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description0}"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description1}"
 				""
 				""
-				"&l&a[启动式:爆炸]   &c[运算符:矢量追踪]    &a[运算符:实体视线]"
-				"&l&c[常数:数值]        &a[运算符:实体位置]    &c[选择符:施术者]"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description4}"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description5}"
 				""
 				""
-				"&b需要特别注意的是:"
-				"&c运算符:矢量追踪&f的&a&l位置&f和&a&l射线&4必须&f如下方第二张图所示"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description8}"
+				"{ftbquests.chapter.425939884D3DD947.quests33.description9}"
 				"{image:kubejs:textures/ftbquests/explode.png width:160 height:110 align:1 fit:true}"
 				""
 				""
@@ -690,7 +689,7 @@
 				{
 					id: "1FD9E98E773A5500"
 					item: "compactmachines:machine_maximum"
-					team_reward: true
+					team_reward: false
 					type: "item"
 				}
 				{
@@ -722,9 +721,8 @@
 		}
 		{
 			dependencies: ["284C737C09134719"]
-			description: ["&m&d藏在哪里了呢？"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
+			description: ["{ftbquests.chapter.425939884D3DD947.quests35.description}"]
+			hide_dependency_lines: false
 			id: "77D40929EC0F3AAC"
 			size: 0.25d
 			tasks: [{
@@ -736,5 +734,5 @@
 			y: 1.0d
 		}
 	]
-	title: "开端"
+	title: "{ftbquests.chapter.425939884D3DD947.title}"
 }

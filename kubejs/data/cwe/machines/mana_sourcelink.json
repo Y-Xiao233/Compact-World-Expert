@@ -1,5 +1,5 @@
 {
-    "name": "魔力魔源通道",
+    "name": "block.cwe.mana_sourcelink",
     "appearance": {
         "block": "kubejs:machine/mana_sourcelink",
         "light":15,
@@ -55,7 +55,7 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "魔力魔源通道",
+        "text": "block.cwe.mana_sourcelink",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"

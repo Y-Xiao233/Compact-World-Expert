@@ -1,0 +1,12 @@
+{
+    "block.functionalstorage.framed_controller_extension":"鑲框擴展控制器",
+    "block.functionalstorage.framed_storage_controller":"鑲框存儲控制器",
+    "block.functionalstorage.framed_simple_compacting_drawer":"鑲框簡易壓縮抽屜",
+    "block.functionalstorage.simple_compacting_drawer":"簡易壓縮抽屜",
+    "block.functionalstorage.controller_extension":"擴展控制器",
+    "block.functionalstorage.fluid_4":"流體抽屜(2x2)",
+    "block.functionalstorage.fluid_2":"流體抽屜(1x2)",
+    "block.functionalstorage.fluid_1":"流體抽屜(1x1)",
+    "storageupgrade.desc.fluid": "使此抽屜可以存儲的流體x",
+    "storageupgrade.desc.item": "使此抽屜可以存儲的物品x"
+}

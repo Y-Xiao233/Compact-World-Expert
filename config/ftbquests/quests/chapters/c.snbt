@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "c"
+	group: "5D8512A6DD22287E"
+	icon: "industrialforegoing:material_stonework_factory"
+	id: "26C72F96BF4A2B28"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34E71A15A9B8F146"]
+			hide_text_until_complete: false
+			icon: "malum:vivid_nitrate"
+			id: "2BC1C9FB81FD249A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1ABE1EABD1467C21"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter.c.quests0.title}"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC1C9FB81FD249A"]
+			id: "423CEAD7865F4766"
+			tasks: [{
+				id: "496D47AE8FCD5603"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2BC1C9FB81FD249A"
+				"1388155919F1C4DE"
+			]
+			id: "38F1ED1FBB04043C"
+			tasks: [{
+				id: "5C53FD0738F58E0B"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"446CE8AFC10DBADE"
+				"21AC86C69874BDDA"
+			]
+			id: "4C6A3CE4C5FACA2A"
+			tasks: [{
+				id: "35A8A4D1E4E07D87"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1388155919F1C4DE"]
+			icon: "create_new_age:reactor_casing"
+			id: "446CE8AFC10DBADE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6EC822F297217272"
+				title: "{ftbquests.chapter.c.quests4.tasks0.title}"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.c.title}"
+}

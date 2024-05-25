@@ -154,13 +154,13 @@ const tooltips_rei_information = [
     {
         id:['sophisticatedbackpacks:backpack'],
         information:[Text.translate('tip.compact_world.information_25')],
-        //information:["§c注意!在升级背包时，背包内物品会被清空"],
+        //information:["§c注意!在升级背包时，背包内物品不会被清空"],
         tooltip:true
     },
     {
         id:[/sophisticatedbackpacks:.*_backpack/],
         information:[Text.translate('tip.compact_world.information_26')],
-        //information:["§c注意!在升级背包时，背包内物品会被清空"],
+        //information:["§c注意!在升级背包时，背包内物品不会被清空"],
         tooltip:true
     },
     {
@@ -210,6 +210,21 @@ const tooltips_rei_information = [
     {
         id:['minecraft:bone'],
         information:[Text.translate('tip.compact_world.information_35')],
+        tooltip:true
+    },
+    {
+        id:['create:blaze_cake'],
+        information:[Text.translate('tip.compact_world.information_36')],
+        tooltip:true
+    },
+    {
+        id:['minecraft:blaze_rod'],
+        information:[Text.translate('tip.compact_world.information_37')],
+        tooltip:true
+    },
+    {
+        id:[/mekanism:.*_.*_factory/],
+        information:[Text.translate('tip.compact_world.information_38')],
         tooltip:true
     }]
 

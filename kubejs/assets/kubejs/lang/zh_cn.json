@@ -53,6 +53,20 @@
     "item.kubejs.fake_source":"伪造魔源",
     "item.kubejs.liquid_mana_bucket":"液态魔力桶",
     "item.kubejs.purewater_bucket":"纯净水桶",
+    "item.kubejs.lens_of_blank":"空白透镜",
+    "item.kubejs.lens_of_tainted":"污染透镜",
+    "item.kubejs.blank_alloy_infused":"空白合金",
+    "item.kubejs.pure_matter_ball":"纯净物质球",
+    "item.kubejs.tin_source":"锡元素源点",
+    "item.kubejs.liquid_tainted_matter_bucket":"液态污染物质桶",
+    "item.kubejs.tin_spring":"锡弹簧",
+    "item.kubejs.tin_rod":"锡棒",
+    "item.kubejs.molten_aqueous_spirit_bucket":"熔融碧水精魂桶",
+    "item.kubejs.molten_crystal_blazing_bucket":"熔融烈焰水晶桶",
+    "item.kubejs.lens_of_blazing":"烈焰透镜",
+    "item.kubejs.blank_diamond_crystal_niotic":"空白钻石水晶",
+    "item.kubejs.incomplete_crystal_blazing":"烈焰水晶(未完成)",
+    "item.kubejs.press_control_circuit_die":"控制电路冲压模具",
 
 
 
@@ -75,6 +89,9 @@
     "block.kubejs.liquid_soul":"液态灵魂",
     "block.kubejs.liquid_mana":"液态魔力",
     "block.kubejs.fake_shaft":"传动杆",
+    "block.kubejs.liquid_tainted_matter":"液态污染物质",
+    "block.kubejs.molten_aqueous_spirit":"熔融碧水精魂",
+    "block.kubejs.molten_crystal_blazing":"熔融烈焰水晶",
 
     "block.cwe.fake_mana_pool":"伪造魔力池",
     "block.cwe.fake_fluid_tank":"伪造流体储罐",
@@ -83,22 +100,26 @@
     "block.cwe.mana_crush_machine":"魔力粉碎机",
     "block.cwe.element_motor":"元素马达",
     "block.cwe.dream_portal_core":"梦之精灵门核心",
+    "block.cwe.mana_injector":"魔力注入器",
 
 
 
     "fluid.kubejs.liquid_mana":"液态魔力",
     "fluid.kubejs.liquid_soul":"液态灵魂",
+    "fluid.kubejs.liquid_tainted_matter":"液态污染物质",
+    "fluid.kubejs.purewater":"纯净水",
+    "fluid.kubejs.artificial_oil":"人造石油",
+    "fluid.kubejs.high_purity_oil":"高纯石油",
+    "fluid.kubejs.molten_aqueous_spirit":"熔融碧水精魂",
+    "fluid.kubejs.molten_crystal_blazing":"熔融烈焰水晶",
 
 
 
     "gas.kubejs.mana_gas":"气态魔力",
     "gas.kubejs.soul_gas":"气态灵魂",
-
-
-
-    "fluid.kubejs.purewater":"纯净水",
-    "fluid.kubejs.artificial_oil":"人造石油",
-    "fluid.kubejs.high_purity_oil":"高纯石油",
+    "gas.kubejs.tainted_matter_gas":"气态污染物质",
+    "gas.kubejs.pure_matter_gas":"气态纯净物质",
+    "gas.kubejs.base_matter_gas":"气态基础物质",
 
 
 
@@ -170,8 +191,8 @@
     "tip.compact_world.information_22":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看",
     "tip.compact_world.information_23":"§a放在地上挖掉它会掉落四种压印模板",
     "tip.compact_world.information_24":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看",
-    "tip.compact_world.information_25":"§c注意!在升级背包时，背包内物品会被清空",
-    "tip.compact_world.information_26":"§c注意!在升级背包时，背包内物品会被清空",
+    "tip.compact_world.information_25":"§a在升级背包时，背包内物品§c不§a会被清空",
+    "tip.compact_world.information_26":"§a在升级背包时，背包内物品§c不§a会被清空",
     "tip.compact_world.information_27":"§a或许可以拿来右键某个钥匙孔",
     "tip.compact_world.information_28":"§a使用蓝图大炮将我预先准备好的结构打印到世界中,§c然后拿着迅金锭右键迅金块即可",
     "tip.compact_world.information_29":"§c祭祀台的只能在主世界合成，在微缩世界合成不会有掉落物!\n\n§a合成成功以后掉落物会因为上方有紧实型压缩空间墙壁而掉不进来\n\n§d因此你需要制作物品收集器将其收集进来",
@@ -181,6 +202,9 @@
     "tip.compact_world.information_33":"§c压缩空间内无法使用，请改用§a自动点击器",
     "tip.compact_world.information_34":"§c资源占用为§a玩家模拟器的两倍，§c若不是在压缩空间内使用，请改用§a玩家模拟器",
     "tip.compact_world.information_35":"§c在任务内查看详细获取方式",
+    "tip.compact_world.information_36":"§c已被禁用\n\n§a第三章第二节可使用§e锅炉加热器§a达到§5超级燃烧\n\n§a第三章第三节可使用§e生物燃油§a达到§5超级燃烧",
+    "tip.compact_world.information_37":"§c使用德格米的方式获取",
+    "tip.compact_world.information_38":"§c请使用§a工厂安装器§c来升级这个机器",
     
 
     
@@ -191,6 +215,7 @@
     "kubejs.ponder.fluid_tank.text_4": "然后在中间的流体储罐内倒入对应流体",
     "kubejs.ponder.fluid_tank.text_5": "最后拿着对应的物品右键流体储罐",
     "kubejs.ponder.fluid_tank.text_6": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了",
+
     "kubejs.ponder.mana_pool.header": "世界合成",
     "kubejs.ponder.mana_pool.text_1": "空手+shift对着魔力池(并非伪造魔力池)右键",
     "kubejs.ponder.mana_pool.text_2": "在这些冒红色粒子效果的地方放元素容器",
@@ -199,5 +224,11 @@
     "kubejs.ponder.mana_pool.text_5": "魔源罐中需要一定量魔源(4个魔源罐都需要)",
     "kubejs.ponder.mana_pool.text_6": "中间的魔力池也需要一定量的魔力",
     "kubejs.ponder.mana_pool.text_7": "最后拿着对应的物品右键魔力池(并非shift+右键)",
-    "kubejs.ponder.mana_pool.text_8": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了"
+    "kubejs.ponder.mana_pool.text_8": "开始合成后会有粒子效果出现，等待粒子效果结束就合成完毕了",
+
+    "kubejs.ponder.dream_portal_core.header": "梦之精灵门核心",
+    "kubejs.ponder.dream_portal_core.text_1": "这个魔力池可以随意替换(带有\u0027#cwe:mana_pool\u0027)",
+    "kubejs.ponder.dream_portal_core.text_2": "这个机器必须要开门才能进行工作，手持§a森林法杖§f在§a每个魔力池中§f有§c10000魔力§f的情况下§a右键§c梦之精灵门核心",
+    "kubejs.ponder.dream_portal_core.text_3": "每次工作都会消耗两个魔力池各1000魔力",
+    "kubejs.ponder.dream_portal_core.text_4": "这个机器有朝向，具体结构请查看CM中的结构哦~(\u0027不会查看请看任务中的提示\u0027)"
 }

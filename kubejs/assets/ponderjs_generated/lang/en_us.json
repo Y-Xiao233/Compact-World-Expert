@@ -1,4 +1,9 @@
 {
+  "kubejs.ponder.dream_portal_core.header": "kubejs.ponder.dream_portal_core.header",
+  "kubejs.ponder.dream_portal_core.text_1": "kubejs.ponder.dream_portal_core.text_1",
+  "kubejs.ponder.dream_portal_core.text_2": "kubejs.ponder.dream_portal_core.text_2",
+  "kubejs.ponder.dream_portal_core.text_3": "kubejs.ponder.dream_portal_core.text_3",
+  "kubejs.ponder.dream_portal_core.text_4": "kubejs.ponder.dream_portal_core.text_4",
   "kubejs.ponder.fluid_tank.header": "kubejs.ponder.fluid_tank.header",
   "kubejs.ponder.fluid_tank.text_1": "kubejs.ponder.fluid_tank.text_1",
   "kubejs.ponder.fluid_tank.text_2": "kubejs.ponder.fluid_tank.text_2",

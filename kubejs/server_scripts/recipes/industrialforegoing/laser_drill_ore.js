@@ -5,6 +5,13 @@ ServerEvents.recipes(event =>{
     {
      catalyst:,
      output:,
+     rarity:[{
+        "blacklist":{},
+        "depth_max":255,
+        "depth_min":0,
+        "weight":1,
+        "whitelist":{}
+     }],
      id:''
     }
     */
@@ -19,7 +26,79 @@ ServerEvents.recipes(event =>{
             "weight":1,
             "whitelist":{}
         }],
-        id:''
+        id:'raw_iron'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'minecraft:ancient_debris',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":40,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_ancient_debris'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'minecraft:netherite_scrap',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":50,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_netherite_scrap'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'minecraft:netherite_ingot',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":5,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_netherite_ingot'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'spirit:soul_steel_ingot',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":8,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_spirit_soul'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'minecraft:gold_ingot',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":20,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_gold_ingot'
+    },
+    {
+        catalyst:'kubejs:lens_of_blazing',
+        output:'minecraft:iron_ingot',
+        rarity:[{
+           "blacklist":{},
+           "depth_max":255,
+           "depth_min":0,
+           "weight":20,
+           "whitelist":{}
+        }],
+        id:'lens_of_blazing_iron_ingot'
     }]
 
     reicpes.forEach(recipe =>{

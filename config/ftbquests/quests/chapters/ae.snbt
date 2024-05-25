@@ -151,10 +151,10 @@
 						]
 					}
 				}
-				title: "合成存储器"
+				title: "{ftbquests.chapter.ae.quests8.tasks0.title}"
 				type: "item"
 			}]
-			title: "合成存储器"
+			title: "{ftbquests.chapter.ae.quests8.title}"
 			x: 3.5d
 			y: 2.0d
 		}
@@ -263,10 +263,10 @@
 						]
 					}
 				}
-				title: "流体存储元件"
+				title: "{ftbquests.chapter.ae.quests15.tasks0.title}"
 				type: "item"
 			}]
-			title: "流体存储元件"
+			title: "{ftbquests.chapter.ae.quests15.title}"
 			x: 7.0d
 			y: -3.5d
 		}
@@ -309,10 +309,10 @@
 						]
 					}
 				}
-				title: "存储元件"
+				title: "{ftbquests.chapter.ae.quests16.tasks0.title}"
 				type: "item"
 			}]
-			title: "存储元件"
+			title: "{ftbquests.chapter.ae.quests16.title}"
 			x: 7.0d
 			y: -0.5d
 		}
@@ -355,10 +355,10 @@
 						]
 					}
 				}
-				title: "魔源存储元件"
+				title: "{ftbquests.chapter.ae.quests17.tasks0.title}"
 				type: "item"
 			}]
-			title: "魔源存储元件"
+			title: "{ftbquests.chapter.ae.quests17.title}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -401,10 +401,10 @@
 						]
 					}
 				}
-				title: "魔力存储元件"
+				title: "{ftbquests.chapter.ae.quests18.tasks0.title}"
 				type: "item"
 			}]
-			title: "魔力存储元件"
+			title: "{ftbquests.chapter.ae.quests18.title}"
 			x: 7.0d
 			y: -2.5d
 		}
@@ -447,10 +447,10 @@
 						]
 					}
 				}
-				title: "化学品存储元件"
+				title: "{ftbquests.chapter.ae.quests19.tasks0.title}"
 				type: "item"
 			}]
-			title: "化学品存储元件"
+			title: "{ftbquests.chapter.ae.quests19.title}"
 			x: 7.0d
 			y: 0.5d
 		}
@@ -493,10 +493,10 @@
 						]
 					}
 				}
-				title: "深度物品存储磁盘驱动器"
+				title: "{ftbquests.chapter.ae.quests20.tasks0.title}"
 				type: "item"
 			}]
-			title: "深度物品存储磁盘驱动器"
+			title: "{ftbquests.chapter.ae.quests20.title}"
 			x: 7.0d
 			y: -1.5d
 		}
@@ -549,7 +549,7 @@
 							]
 						}
 					}
-					title: "无线终端"
+					title: "{ftbquests.chapter.ae.quests22.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -573,7 +573,7 @@
 					type: "item"
 				}
 			]
-			title: "无线终端"
+			title: "{ftbquests.chapter.ae.quests22.title}"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -667,10 +667,10 @@
 						]
 					}
 				}
-				title: "线缆"
+				title: "{ftbquests.chapter.ae.quests26.tasks0.title}"
 				type: "item"
 			}]
-			title: "线缆"
+			title: "{ftbquests.chapter.ae.quests26.title}"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -707,7 +707,7 @@
 						}
 					}
 				}
-				match_nbt: true
+				match_nbt: false
 				type: "item"
 			}]
 			x: 11.0d
@@ -728,7 +728,7 @@
 						}
 					}
 				}
-				match_nbt: true
+				match_nbt: false
 				type: "item"
 			}]
 			x: 11.0d
@@ -759,10 +759,10 @@
 						]
 					}
 				}
-				title: "扩展接口"
+				title: "{ftbquests.chapter.ae.quests30.tasks0.title}"
 				type: "item"
 			}]
-			title: "扩展接口"
+			title: "{ftbquests.chapter.ae.quests30.title}"
 			x: 10.5d
 			y: -2.0d
 		}
@@ -791,10 +791,10 @@
 						]
 					}
 				}
-				title: "扩展样板供应器"
+				title: "{ftbquests.chapter.ae.quests31.tasks0.title}"
 				type: "item"
 			}]
-			title: "扩展样板供应器"
+			title: "{ftbquests.chapter.ae.quests31.title}"
 			x: 11.5d
 			y: -2.0d
 		}
@@ -819,10 +819,10 @@
 						]
 					}
 				}
-				title: "扩展驱动器"
+				title: "{ftbquests.chapter.ae.quests32.tasks0.title}"
 				type: "item"
 			}]
-			title: "扩展驱动器"
+			title: "{ftbquests.chapter.ae.quests32.title}"
 			x: 10.5d
 			y: -1.0d
 		}
@@ -851,10 +851,10 @@
 						]
 					}
 				}
-				title: "扩展输入/输出总线"
+				title: "{ftbquests.chapter.ae.quests33.tasks0.title}"
 				type: "item"
 			}]
-			title: "扩展输入/输出总线"
+			title: "{ftbquests.chapter.ae.quests33.title}"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -890,10 +890,10 @@
 						]
 					}
 				}
-				title: "无线连接器"
+				title: "{ftbquests.chapter.ae.quests35.tasks0.title}"
 				type: "item"
 			}]
-			title: "无线连接器"
+			title: "{ftbquests.chapter.ae.quests35.title}"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -920,5 +920,5 @@
 			y: -2.0d
 		}
 	]
-	title: "&aAE及其扩展"
+	title: "{ftbquests.chapter.ae.title}"
 }

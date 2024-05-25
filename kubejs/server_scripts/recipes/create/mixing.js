@@ -56,6 +56,36 @@ ServerEvents.recipes(event =>{
             input:['powah:capacitor_basic_large','powah:steel_energized',Fluid.of('kubejs:purewater',250)],
             heated:'heated',
             id:`${id_prefix}`
+        },
+        {
+            output:Fluid.of('kubejs:liquid_tainted_matter',250),
+            input:['naturesaura:tainted_gold'],
+            heated:'heated',
+            id:`${id_prefix}liquid_tainted_matter_1`
+        },
+        {
+            output:'4x create:brass_ingot',
+            input:['2x minecraft:copper_ingot','mekanism:alloy_infused'],
+            heated:'heated',
+            id:`${id_prefix}brass_ingot`
+        },
+        {
+            output:'3x create_new_age:copper_circuit',
+            input:['3x create_new_age:blank_circuit','3x minecraft:copper_ingot','mekanism:alloy_infused'],
+            heated:'heated',
+            id:`${id_prefix}copper_circuit`
+        },
+        {
+            output:'kubejs:incomplete_crystal_blazing',
+            input:['minecraft:blaze_rod'],
+            heated:'superheated',
+            id:`${id_prefix}incomplete_crystal_blazing`
+        },
+        {
+            output:'2x powah:capacitor_niotic',
+            input:['powah:capacitor_hardened','powah:crystal_niotic',Fluid.of('kubejs:molten_aqueous_spirit',250)],
+            heated:'superheated',
+            id:`${id_prefix}capacitor_niotic`
         }]
 
     recipes.forEach(recipe =>{

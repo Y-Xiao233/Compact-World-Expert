@@ -1,0 +1,15 @@
+{
+    "fluid_type.cyclic.wax":"蠟",
+    "fluid_type.cyclic.magma":"岩漿",
+    "fluid_type.cyclic.honey":"蜂蜜",
+    "fluid_type.cyclic.biomass":"生物質",
+    "fluid_type.cyclic.slime":"史萊姆",
+    "fluid_type.cyclic.xpjuice":"液態經驗",
+
+    "block.cyclic.wax_block":"蠟方塊",
+    "block.cyclic.magma_block":"岩漿方塊",
+    "block.cyclic.honey_block":"蜂蜜方塊",
+    "block.cyclic.biomass_block":"生物質方塊",
+    "block.cyclic.slime_block":"史萊姆方塊",
+    "block.cyclic.xpjuice_block":"液態經驗方塊"
+}

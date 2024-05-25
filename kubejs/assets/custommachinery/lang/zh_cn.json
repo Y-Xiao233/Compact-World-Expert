@@ -1,0 +1,18 @@
+{
+    "block.cwe.fake_mana_pool":"伪造魔力池",
+    "block.cwe.fake_fluid_tank":"伪造流体储罐",
+    "block.cwe.mana_sourcelink":"魔力魔源通道",
+    "block.cwe.mana_booster":"魔力增值器",
+    "block.cwe.mana_crush_machine":"魔力粉碎机",
+    "block.cwe.element_motor":"元素马达",
+    "block.cwe.dream_portal_core":"梦之精灵门核心",
+    "block.cwe.mana_injector":"魔力注入器",
+    "block.cwe.source_craftingtable":"魔源工作台",
+
+
+    "tip.cwe.fake_fluid_tank_1":"无序合成",
+    "tip.cwe.fake_fluid_tank_2":"主手拿着对应物品右键流体罐",
+    "tip.cwe.fake_mana_pool_1":"无序合成",
+    "tip.cwe.fake_mana_pool_2":"主手右键魔力池",
+    "tip.cwe.source_craftingtable":"有序合成"
+}

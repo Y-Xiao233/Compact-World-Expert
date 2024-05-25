@@ -10,6 +10,7 @@ ServerEvents.tags('item', event => {
     event.add('cwe:mana_pool','botania:creative_pool')
     event.add('cwe:mana_pool','botania:mana_pool')
     event.add('cwe:mana_pool','botania:diluted_pool')
+    event.add('thermal:crafting/dies','kubejs:press_control_circuit_die')
 })
 
 

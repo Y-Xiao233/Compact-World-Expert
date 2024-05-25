@@ -18,6 +18,18 @@ StartupEvents.registry("mekanism:gas", event =>{
         {
             id:'mana_gas',
             color:0x48E9F5
+        },
+        {
+            id:'tainted_matter_gas',
+            color:0xD5B224
+        },
+        {
+            id:'pure_matter_gas',
+            color:0x71CEF1
+        },
+        {
+            id:'base_matter_gas',
+            color:0xFFFFFF
         }]
 
     gases.forEach(gas =>{

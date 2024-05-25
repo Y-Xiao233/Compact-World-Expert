@@ -1,7 +1,7 @@
 {
 	chapter_groups: [
-		{ id: "6BC88FEED10015D3", title: "Chapter 1" }
-		{ id: "1FC04254FBE7C665", title: "Chapter 2" }
-		{ id: "5D8512A6DD22287E", title: "Chapter 3" }
+		{ id: "6BC88FEED10015D3", title: "{ftbquests.chapter_groups.chapter_groups.title0}" }
+		{ id: "1FC04254FBE7C665", title: "{ftbquests.chapter_groups.chapter_groups.title1}" }
+		{ id: "5D8512A6DD22287E", title: "{ftbquests.chapter_groups.chapter_groups.title2}" }
 	]
 }

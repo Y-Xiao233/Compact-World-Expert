@@ -1,0 +1,10 @@
+{
+    "item.modularrouters.energy_upgrade":"能量傳輸升級",
+    "item.modularrouters.energy_output_module":"能量輸出模組",
+    "item.modularrouters.energy_distributor_module":"能量分配模組",
+    "item.modularrouters.creative_module":"創造模組",
+    "item.modularrouters.filter_round_robin_augment":"過濾循環擴展",
+    "modularrouters.itemText.usage.item.energy_upgrade":"將路由器的緩衝容量增加%dFE，並且傳輸速率增加%dFE/tick",
+    "modularrouters.itemText.usage.item.energy_output_module":"將路由器內緩存的能量或任何包含能量的物品的FE導出",
+    "modularrouters.itemText.usage.item.energy_distributor_module":"將路由器內緩存的能量或任何包含能量的物品的FE無線傳輸到路由器附近可接收能量的方塊內"
+}

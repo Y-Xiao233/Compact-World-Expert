@@ -60,8 +60,8 @@ ServerEvents.recipes(event =>{
                 items('botania:rune_earth'),
                 items('botania:rune_mana')
             ],
-            input:items('minecraft:lapis_block',4),
-            output:items('botania:terra_plate'),
+            input:items('minecraft:lapis_block',8),
+            output:items('botania:terra_plate',2),
             spirits:[
                 spirits('arcane',4),
                 spirits('aerial',4),
@@ -162,10 +162,10 @@ ServerEvents.recipes(event =>{
         },
         {
             extra_items:[
-                items('cyclic:apple_bone'),
-                items('cyclic:apple_bone'),
-                items('cyclic:apple_bone'),
-                items('cyclic:apple_bone')
+                items('minecraft:bone_block',8),
+                items('minecraft:bone_block',8),
+                items('minecraft:bone_block',8),
+                items('minecraft:bone_block',8)
             ],
             input:items('spirit:soul_crystal'),
             output:items('spirit:soul_crystal',1,'{StoredEntity:{Souls:64,Type:"mekanismadditions:baby_skeleton"}}'),
@@ -230,6 +230,15 @@ ServerEvents.recipes(event =>{
                 spirits('infernal',4)
             ],
             id:'capacitor_hardened'
+        },
+        {
+            extra_items:[],
+            input:items('quark:purple_rune',4),
+            output:items('malum:eldritch_spirit',16),
+            spirits:[
+               spirits('arcane',16)
+            ],
+            id:'eldritch_spirit'
         }]
 
     reicpes.forEach(reicpe =>{

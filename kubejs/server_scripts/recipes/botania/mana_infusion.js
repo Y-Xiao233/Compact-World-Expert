@@ -135,6 +135,13 @@ ServerEvents.recipes(event =>{
             under_block:'kubejs:token_euphoria_catalyst',
             mana:1000,
             id:`${id_prefix}mana_certus_quartz_crystal`
+        },
+        {
+            input:'malum:eldritch_spirit',
+            output:'malum:aqueous_spirit',
+            under_block:'create:brass_casing',
+            mana:10000,
+            id:`${id_prefix}aqueous_spirit`
         }]
 
     recipes.forEach(recipe =>{
