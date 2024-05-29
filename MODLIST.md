@@ -1,4 +1,4 @@
-﻿[Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
+﻿[Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)\n
 [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
 [Configured (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/configured)
