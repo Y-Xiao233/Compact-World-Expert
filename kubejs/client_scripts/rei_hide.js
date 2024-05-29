@@ -470,7 +470,25 @@ const rei_hide = [
     'minecraft:deepslate_copper_ore',
     'powah:energizing_rod_blazing',
     'powah:capacitor_blazing',
-    'mekanism:basic_control_circuit'
+    'mekanism:basic_control_circuit',
+    'thermal:sulfur_ore',
+    'thermal:deepslate_sulfur_ore',
+    'ironfurnaces:netherite_furnace',
+    'ironfurnaces:rainbow_core',
+    'ironfurnaces:rainbow_plating',
+    'ironfurnaces:augment_fuel',
+    'powah:energizing_rod_spirited',
+    'powah:capacitor_spirited',
+    'powah:crystal_spirited',
+    'powah:spirited_crystal_block',
+    'minecraft:nether_quartz_ore',
+    'mekanism:bio_fuel',
+    'thermalendergy:melodic_range_augment',
+    'thermalendergy:dynamo_consumption_nullifier_augment',
+    'thermalendergy:dynamo_fuel_nullifier_augment',
+    'thermalendergy:energy_nullifier_augment',
+    'thermalendergy:resonant_catalyst_augment',
+    /thermalendergy:melodium_.*/
 ]
 
 REIEvents.hide('item', event => {

@@ -67,6 +67,11 @@
     "item.kubejs.blank_diamond_crystal_niotic":"空白钻石水晶",
     "item.kubejs.incomplete_crystal_blazing":"烈焰水晶(未完成)",
     "item.kubejs.press_control_circuit_die":"控制电路冲压模具",
+    "item.kubejs.quartz_light_oil":"轻油石英",
+    "item.kubejs.ingot_refined_tar":"强化焦油锭",
+    "item.kubejs.rainbow_ingot":"§a彩§5虹§3锭",
+    "item.kubejs.rainbow_pickaxe":"§a彩§5虹§3镐",
+    "item.kubejs.light_ingot":"光明锭",
 
 
 
@@ -92,6 +97,9 @@
     "block.kubejs.liquid_tainted_matter":"液态污染物质",
     "block.kubejs.molten_aqueous_spirit":"熔融碧水精魂",
     "block.kubejs.molten_crystal_blazing":"熔融烈焰水晶",
+    "block.kubejs.end_quartz_ore":"末地石英矿石",
+    "block.kubejs.end_oil_ore":"末地沥青矿石",
+    "block.kubejs.end_osmium_ore":"末地锇矿石",
 
     "block.cwe.fake_mana_pool":"伪造魔力池",
     "block.cwe.fake_fluid_tank":"伪造流体储罐",
@@ -205,6 +213,11 @@
     "tip.compact_world.information_36":"§c已被禁用\n\n§a第三章第二节可使用§e锅炉加热器§a达到§5超级燃烧\n\n§a第三章第三节可使用§e生物燃油§a达到§5超级燃烧",
     "tip.compact_world.information_37":"§c使用德格米的方式获取",
     "tip.compact_world.information_38":"§c请使用§a工厂安装器§c来升级这个机器",
+    "tip.compact_world.information_39":"§c请使用§a工厂安装器§c来升级这个储罐",
+    "tip.compact_world.information_40":"§c请使用§a工厂安装器§c来升级这个储罐",
+    "tip.compact_world.information_41":"主手拿着彩虹锭对着空气右键§a(在压缩空间外才行哦~)",
+    "tip.compact_world.information_42":"可以破坏紧实型压缩空间壁",
+    "tip.compact_world.information_43":"可以被彩虹镐破坏",
     
 
     

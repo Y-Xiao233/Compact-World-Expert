@@ -34,6 +34,54 @@ ServerEvents.recipes(event =>{
             input:['thermal:upgrade_augment_3','3x thermalendergy:prismalium_ingot'],
             energy:8000,
             id:'thermalendergy_endergy_upgrade_1'
+        },
+        {
+            output:'4x mekanism:thermal_evaporation_block',
+            input:['4x minecraft:bricks','4x minecraft:copper_ingot'],
+            energy:8000,
+            id:'thermal_evaporation_block'
+        },
+        {
+            output:'mekanism:thermal_evaporation_controller',
+            input:['mekanism:thermal_evaporation_block','2x thermalendergy:prismalium_ingot','2x mekanism:elite_control_circuit'],
+            energy:8000,
+            id:'thermal_evaporation_controller'
+        },
+        {
+            output:'mekanism:thermal_evaporation_valve',
+            input:['mekanism:thermal_evaporation_block','2x mekanism:elite_control_circuit','minecraft:bucket'],
+            energy:8000,
+            id:'thermal_evaporation_valve'
+        },
+        {
+            output:'4x thermal:enderium_ingot',
+            input:['2x minecraft:echo_shard','thermalendergy:prismalium_ingot','vintageimprovements:vanadium_ingot'],
+            energy:12000,
+            id:'enderium_ingot'
+        },
+        {
+            output:'thermal:machine_centrifuge',
+            input:['industrialforegoing:machine_frame_advanced','minecraft:netherite_block','powah:capacitor_nitro'],
+            energy:40000,
+            id:'machine_centrifuge'
+        },
+        {
+            output:'mekanism:electrolytic_separator',
+            input:['industrialforegoing:machine_frame_advanced','mekanism:electrolytic_core','2x mekanism:ultimate_control_circuit'],
+            energy:40000,
+            id:'electrolytic_separator'
+        },
+        {
+            output:'mekanism:isotopic_centrifuge',
+            input:['industrialforegoing:machine_frame_supreme','mekanism:ingot_refined_obsidian'],
+            energy:40000,
+            id:'isotopic_centrifuge'
+        },
+        {
+            output:'ae2:creative_item_cell',
+            input:['64x compactmachines:solid_wall','kubejs:light_ingot'],
+            energy:400000,
+            id:'creative_item_cell'
         }]
 
     recipes.forEach(recipe =>{

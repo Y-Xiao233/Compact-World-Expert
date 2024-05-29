@@ -76,6 +76,36 @@ ServerEvents.recipes(event =>{
             output_item:'3x mekanismgenerators:fission_reactor_casing',
             time:100,
             id:`${id_prefix}fission_reactor_casing`
+        },
+        {
+            input_item:[
+                'industrialforegoing:plastic','industrialforegoing:machine_frame_simple',
+                'industrialforegoing:plastic','minecraft:netherite_scrap',
+                'minecraft:netherite_scrap','thermalendergy:prismalium_ingot',
+                'powah:capacitor_niotic','thermalendergy:prismalium_ingot'
+            ],
+            input_fluid:'vintageimprovements:sulfuric_acid',
+            input_fluid_amount:500,
+            output_fluid:false,
+            output_fluid_amount:false,
+            output_item:'industrialforegoing:machine_frame_advanced',
+            time:100,
+            id:`${id_prefix}machine_frame_advanced`
+        },
+        {
+            input_item:[
+                'powah:crystal_niotic','powah:crystal_niotic',
+                'powah:crystal_niotic','powah:crystal_niotic',
+                'minecraft:echo_shard','minecraft:nether_star',
+                'minecraft:echo_shard','minecraft:echo_shard'
+            ],
+            input_fluid:'cyclic:xpjuice',
+            input_fluid_amount:500,
+            output_fluid:false,
+            output_fluid_amount:false,
+            output_item:'16x powah:crystal_nitro',
+            time:160,
+            id:`${id_prefix}crystal_nitro`
         }]
 
     recipes.forEach(recipe =>{

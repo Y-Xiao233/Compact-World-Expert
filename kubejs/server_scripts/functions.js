@@ -291,3 +291,15 @@ function spirits(type,count){
 
     return spirit
 }
+
+function slurries(slurry,amount){
+    amount = typeof amount != "undefined"?amount:1
+
+    let mekanism_slurry = {
+        "amount":amount,
+        "chemicalType":"slurry",
+        "slurry":slurry
+    }
+
+    return mekanism_slurry
+}

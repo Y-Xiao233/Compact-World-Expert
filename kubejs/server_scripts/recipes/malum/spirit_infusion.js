@@ -239,6 +239,22 @@ ServerEvents.recipes(event =>{
                spirits('arcane',16)
             ],
             id:'eldritch_spirit'
+        },
+        {
+            extra_items:[
+                items('mekanism:ultimate_control_circuit',64),
+                items('powah:crystal_nitro',64),
+                items('compressium:netherite_2',4),
+                items('mekanism:pellet_antimatter',1)
+            ],
+            input:items('thermalendergy:stellarium_ingot',8),
+            output:items('kubejs:rainbow_ingot'),
+            spirits:[
+               spirits('aqueous',64),spirits('eldritch',64),
+               spirits('arcane',64),spirits('aerial',64),
+               spirits('infernal',64)
+            ],
+            id:'rainbow_ingot'
         }]
 
     reicpes.forEach(reicpe =>{

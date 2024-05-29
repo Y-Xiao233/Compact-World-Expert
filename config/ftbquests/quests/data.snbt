@@ -17,6 +17,5 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&aCompact World: Expert"
 	version: 13
 }

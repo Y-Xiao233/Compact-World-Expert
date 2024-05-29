@@ -99,7 +99,43 @@ ServerEvents.recipes(event =>{
            "whitelist":{}
         }],
         id:'lens_of_blazing_iron_ingot'
-    }]
+    },
+    {
+        catalyst:'powah:lens_of_ender',
+        output:'kubejs:end_osmium_ore',
+        rarity:[{
+            "blacklist":{},
+            "depth_max":255,
+            "depth_min":0,
+            "weight":2,
+            "whitelist":{}
+        }],
+        id:'end_osmium_ore'
+    },
+    {
+        catalyst:'powah:lens_of_ender',
+        output:'kubejs:end_oil_ore',
+        rarity:[{
+            "blacklist":{},
+            "depth_max":255,
+            "depth_min":0,
+            "weight":6,
+            "whitelist":{}
+        }],
+        id:'end_oil_ore'
+    },
+    {
+        catalyst:'powah:lens_of_ender',
+        output:'kubejs:end_quartz_ore',
+        rarity:[{
+            "blacklist":{},
+            "depth_max":255,
+            "depth_min":0,
+            "weight":2,
+            "whitelist":{}
+        }],
+        id:'end_quartz_ore'
+    },]
 
     reicpes.forEach(recipe =>{
         event.recipes.industrialforegoing.laser_drill_ore(recipe.output,recipe.catalyst,recipe.rarity).id(`${id_prefix}${recipe.id}`)

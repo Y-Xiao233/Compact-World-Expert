@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7D014A0FF3B98CC2"
+	group: "1A45CE797CBDCFF1"
+	icon: "compactmachines:solid_wall"
+	id: "7D014A0FF3B98CC2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6FC7A8DB1DCA16C3"]
+			id: "161A9DA222E977C0"
+			rewards: [{
+				id: "0A3562DE5FFAC29E"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				id: "0AD692303AF887C2"
+				item: "thermalendergy:stellarium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["161A9DA222E977C0"]
+			id: "5B5A52F2E9188681"
+			rewards: [{
+				id: "09D5CA5095B30168"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51AE3D9AA9D5183F"
+				item: "kubejs:rainbow_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B5A52F2E9188681"]
+			description: ["{ftbquests.chapter.7D014A0FF3B98CC2.quests2.description}"]
+			id: "15C791BF6151F605"
+			rewards: [{
+				id: "434154C06E381280"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61F9367CC99B1465"
+				item: {
+					Count: 1b
+					id: "kubejs:rainbow_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C791BF6151F605"]
+			description: ["{ftbquests.chapter.7D014A0FF3B98CC2.quests3.description}"]
+			id: "7EF476119E019C12"
+			rewards: [{
+				id: "672EEA512F8511E7"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "62B460C60775D341"
+				item: "compactmachines:solid_wall"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15C791BF6151F605"]
+			description: [
+				"{ftbquests.chapter.7D014A0FF3B98CC2.quests4.description0}"
+				"{ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1}"
+			]
+			id: "22BF550823B584F3"
+			rewards: [{
+				id: "316E130636F13B5A"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56AC1D771E90B155"
+				item: "kubejs:light_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"22BF550823B584F3"
+				"7EF476119E019C12"
+			]
+			id: "122CC9D0A610BAAC"
+			rewards: [{
+				id: "2BC8621EF32F808D"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B789F9DF23B3220"
+				item: "ae2:creative_item_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.7D014A0FF3B98CC2.title}"
+}

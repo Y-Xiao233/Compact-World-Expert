@@ -1,7 +1,8 @@
 {
-    "ftbquests.chapter_groups.chapter_groups.title0": "Chapter 1",
+"ftbquests.chapter_groups.chapter_groups.title0": "Chapter 1",
 "ftbquests.chapter_groups.chapter_groups.title1": "Chapter 2",
 "ftbquests.chapter_groups.chapter_groups.title2": "Chapter 3",
+"ftbquests.chapter_groups.chapter_groups.title3": "Chapter 4",
 "ftbquests.data.data.title": "&aCompact World: Expert",
 "ftbquests.chapter.07595C95B4C1E79A.title": "&cUseful Items you can craft in this chapter",
 "ftbquests.chapter.07595C95B4C1E79A.quests1.tasks0.title": "Going Deeper",
@@ -328,5 +329,25 @@
 "ftbquests.chapter.c.title": "&cUseful Items you can craft in this chapter",
 "ftbquests.chapter.c.quests0.title": "Tech Boom",
 "ftbquests.chapter.c.quests4.tasks0.title": "Nuclear Reaction?",
-"ftbquests.reward_tables.2B7CEA5781A58DE1.title": "Head~"
+"ftbquests.reward_tables.2B7CEA5781A58DE1.title": "Head~",
+
+
+"ftbquests.chapter.0CCB7C52D9D7412E.quests55.subtitle": "&dThe only difference between these two collectors is whether they can filter",
+"ftbquests.chapter.6CF0BD2004C5F9D2.quests46.tasks0.title": "Sulfur Dioxide",
+"ftbquests.chapter.6CF0BD2004C5F9D2.quests48.tasks0.title": "Sulfur Trioxide",
+"ftbquests.chapter.748838CB921A8DC4.title": "Colorful Assembly Line",
+"ftbquests.chapter.748838CB921A8DC4.quests25.tasks0.title": "Impure Refined Osmium Slurry",
+"ftbquests.chapter.748838CB921A8DC4.quests27.tasks0.title": "Pure Refined Osmium Slurry",
+"ftbquests.chapter.748838CB921A8DC4.quests37.tasks0.title": "Fission Fuel",
+"ftbquests.chapter.748838CB921A8DC4.quests40.tasks0.title": "Deuterium",
+"ftbquests.chapter.748838CB921A8DC4.quests41.tasks0.title": "Tritium",
+"ftbquests.chapter.748838CB921A8DC4.quests51.tasks0.title": "Polonium",
+"ftbquests.chapter.748838CB921A8DC4.quests52.tasks0.title": "Fission Fuel",
+"ftbquests.chapter.748838CB921A8DC4.quests53.tasks0.title": "Antimatter",
+"ftbquests.chapter.7D014A0FF3B98CC2.title": "Escape the Compressed Space!",
+"ftbquests.chapter.7D014A0FF3B98CC2.quests2.description": "&aCan break solid walls",
+"ftbquests.chapter.7D014A0FF3B98CC2.quests3.description": "&aCan be destroyed by rainbow pickaxe",
+"ftbquests.chapter.7D014A0FF3B98CC2.quests4.description0": "&aHold the rainbow ingot in your main hand and right-click in the air to obtain",
+"ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&cMust be outside of the compressed space in the &aOverworld",
+"ftbquests.reward_tables.50F7EB59091673D3.title": "Rewards"
 }

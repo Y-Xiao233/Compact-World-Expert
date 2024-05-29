@@ -226,6 +226,31 @@ const tooltips_rei_information = [
         id:[/mekanism:.*_.*_factory/],
         information:[Text.translate('tip.compact_world.information_38')],
         tooltip:true
+    },
+    {
+        id:[/mekanism:.*_fluid_tank/],
+        information:[Text.translate('tip.compact_world.information_39')],
+        tooltip:true
+    },
+    {
+        id:[/mekanism:.*_chemical_tank/],
+        information:[Text.translate('tip.compact_world.information_40')],
+        tooltip:true
+    },
+    {
+        id:['kubejs:light_ingot'],
+        information:[Text.translate('tip.compact_world.information_41')],
+        tooltip:true
+    },
+    {
+        id:['kubejs:rainbow_pickaxe'],
+        information:[Text.translate('tip.compact_world.information_42')],
+        tooltip:true
+    },
+    {
+        id:['compactmachines:solid_wall'],
+        information:[Text.translate('tip.compact_world.information_43')],
+        tooltip:true
     }]
 
 REIEvents.information(event => {

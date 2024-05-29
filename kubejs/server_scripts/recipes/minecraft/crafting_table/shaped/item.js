@@ -715,6 +715,33 @@ ServerEvents.recipes(event => {
         D: 'botania:gaia_ingot'
       },
       id:`${id_prefix}basic_tier_installer`
+     },
+     {
+      output:'ironfurnaces:augment_speed',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'apotheosis:uncommon_material',
+        B: 'minecraft:paper',
+        C: 'minecraft:sugar'
+      },
+      id:`${id_prefix}`
+     },
+     {
+      output:'thermal:item_filter_augment',
+      pattern:['AA ','AA ','   '],
+      key:{
+        A: 'minecraft:paper'
+      },
+      id:`${id_prefix}item_filter_augment`
+     },
+     {
+      output:Item.of('kubejs:rainbow_pickaxe', '{Unbreakable:1b}').weakNBT(),
+      pattern:['AAA',' B ',' B '],
+      key:{
+        A: 'kubejs:rainbow_ingot',
+        B: 'minecraft:stick'
+      },
+      id:`${id_prefix}rainbow_pickaxe`
      }]
   
   recipes.forEach(recipe =>{

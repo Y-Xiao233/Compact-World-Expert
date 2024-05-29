@@ -5,5 +5,16 @@
     "conveyor.upgrade.industrialforegoing.conveyor_bouncing_upgrade":"传送带弹力升级",
     "conveyor.upgrade.industrialforegoing.conveyor_detection_upgrade":"传送带红石升级",
     "conveyor.upgrade.industrialforegoing.conveyor_insertion_upgrade":"传送带输入升级",
-    "conveyor.upgrade.industrialforegoing.conveyor_extraction_upgrade":"传送带输出升级"
+    "conveyor.upgrade.industrialforegoing.conveyor_extraction_upgrade":"传送带输出升级",
+
+    "block.industrialforegoing.essence": "精华液",
+    "block.industrialforegoing.meat": "肉汤",
+    "block.industrialforegoing.sewage": "污水",
+    "block.industrialforegoing.sludge": "污泥",
+    "block.industrialforegoing.biofuel": "生物燃油",
+    "block.industrialforegoing.latex": "胶乳",
+    "block.industrialforegoing.pink_slime": "粉色史莱姆",
+    "block.industrialforegoing.fermented_ore_meat": "发酵矿物肉汤",
+    "block.industrialforegoing.ether_gas": "以太气体",
+    "block.industrialforegoing.raw_ore_meat": "生矿物肉汤"
 }

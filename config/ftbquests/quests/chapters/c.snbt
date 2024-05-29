@@ -76,6 +76,62 @@
 			x: 5.5d
 			y: 0.0d
 		}
+		{
+			dependencies: [
+				"446CE8AFC10DBADE"
+				"76988EA82A6A9C24"
+			]
+			id: "5FE6879E9135D185"
+			tasks: [{
+				id: "542D127F98BCC0DC"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"446CE8AFC10DBADE"
+				"3ED0DC83617FD1A8"
+			]
+			id: "78B5BC237BA5D021"
+			tasks: [{
+				id: "3AB6F65CF246CF24"
+				item: "thermalendergy:endergy_upgrade_1"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2BC1C9FB81FD249A"
+				"1388155919F1C4DE"
+			]
+			id: "2FF52CE0501CF03B"
+			tasks: [{
+				id: "2C8CB5DB0759533F"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2BC1C9FB81FD249A"
+				"141C029A08594F90"
+			]
+			id: "63459A8EDFB2E872"
+			tasks: [{
+				id: "1BC80E191185A151"
+				item: "compactmachines:machine_maximum"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
 	]
 	title: "{ftbquests.chapter.c.title}"
 }

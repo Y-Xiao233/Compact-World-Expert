@@ -25,6 +25,20 @@ ServerEvents.recipes(event =>{
             output:[items('mekanism:enriched_iron')],
             time:10,
             id:'enriched_iron'
+        },
+        {
+            speed_limit:3,
+            input:[items('kubejs:end_quartz_ore')],
+            output:[items('minecraft:quartz',2)],
+            time:10,
+            id:'quartz'
+        },
+        {
+            speed_limit:3,
+            input:[items('mekanism:raw_osmium')],
+            output:[items('mekanism:ingot_osmium')],
+            time:10,
+            id:'ingot_osmium'
         }]
 
     recipes.forEach((recipe) => {

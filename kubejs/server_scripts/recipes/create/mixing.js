@@ -86,6 +86,18 @@ ServerEvents.recipes(event =>{
             input:['powah:capacitor_hardened','powah:crystal_niotic',Fluid.of('kubejs:molten_aqueous_spirit',250)],
             heated:'superheated',
             id:`${id_prefix}capacitor_niotic`
+        },
+        {
+            output:'thermal:machine_pyrolyzer',
+            input:['industrialforegoing:machine_frame_advanced','minecraft:sculk','mekanism:elite_control_circuit',Fluid.of('industrialforegoing:biofuel',1000)],
+            heated:'superheated',
+            id:`${id_prefix}machine_pyrolyzer`
+        },
+        {
+            output:'powah:capacitor_nitro',
+            input:['4x powah:crystal_nitro','powah:capacitor_niotic',Fluid.of('industrialforegoing:biofuel',500)],
+            heated:'superheated',
+            id:`${id_prefix}capacitor_nitro`
         }]
 
     recipes.forEach(recipe =>{

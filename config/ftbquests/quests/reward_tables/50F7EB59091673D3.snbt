@@ -1,0 +1,222 @@
+{
+	icon: "compactmachines:wall"
+	id: "50F7EB59091673D3"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "cookingforblockheads:sink", weight: 5.0f }
+		{ item: "thermal:device_water_gen", weight: 8.0f }
+		{ item: "cyclic:collector", weight: 5.0f }
+		{ item: "functionalstorage:storage_controller", weight: 5.0f }
+		{ item: "functionalstorage:compacting_drawer", weight: 5.0f }
+		{ item: "ae2:speed_card", weight: 5.0f }
+		{
+			item: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
+			weight: 5.0f
+		}
+		{ item: "functionalstorage:gold_upgrade", weight: 5.0f }
+		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
+		{ item: "ironfurnaces:augment_factory", weight: 2.0f }
+		{ item: "create:brass_funnel", weight: 4.0f }
+		{ item: "thermal:upgrade_augment_2", weight: 4.0f }
+		{ item: "compactmachines:machine_giant", weight: 4.0f }
+		{ item: "minecraft:nether_star", weight: 2.0f }
+		{ item: "botania:gaia_spreader", weight: 3.0f }
+		{ item: "thermal:upgrade_augment_1", weight: 3.0f }
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:speed_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Speed: 3.0f
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:processing_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Processing: 3.0f
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "industrialforegoing:efficiency_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Efficiency: 0.8f
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{ item: "mekanism:basic_tier_installer", weight: 3.0f }
+		{ item: "mekanism:upgrade_speed", weight: 3.0f }
+		{ item: "mekanism:upgrade_energy", weight: 3.0f }
+		{ item: "xnet:advanced_connector_yellow", weight: 2.0f }
+		{ count: 8, item: "xnet:connector_yellow", weight: 4.0f }
+		{ item: "xnet:controller", weight: 4.0f }
+		{ item: "modularrouters:modular_router", weight: 4.0f }
+		{ item: "kubejs:spark_upgrade_base", weight: 4.0f }
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:dropper_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:energy_distributor_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:vacuum_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:puller_module_2"
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:placer_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:activator_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:sender_module_2"
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:distributor_module"
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{ item: "mekanism:advanced_tier_installer", weight: 2.0f }
+		{ item: "compactmachines:machine_maximum" }
+		{ item: "thermalendergy:endergy_upgrade_2" }
+		{ item: "powah:energizing_rod_nitro" }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:annihilation_plane"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 3s
+					}]
+				}
+			}
+			weight: 3.0f
+		}
+		{ item: "spirit:soul_steel_ingot", weight: 3.0f }
+		{
+			item: {
+				Count: 1b
+				id: "ironfurnaces:million_furnace"
+				tag: {
+					display: {
+						Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"彩\"},{\"color\":\"blue\",\"text\":\"虹\"},{\"color\":\"aqua\",\"text\":\"熔\"},{\"color\":\"green\",\"text\":\"炉\"}],\"text\":\"\"}"
+					}
+				}
+			}
+		}
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "hexerei:moon_dust", weight: 8.0f }
+		{ item: "minecraft:dirt", weight: 20.0f }
+		{ item: "botania:terrasteel_ingot", weight: 5.0f }
+		{ item: "ae2:certus_quartz_crystal", weight: 5.0f }
+		{ item: "minecraft:stone", weight: 15.0f }
+		{ item: "minecraft:iron_ingot" }
+		{ item: "minecraft:diamond", weight: 5.0f }
+		{ item: "minecraft:oak_log", weight: 10.0f }
+		{ item: "ars_nouveau:source_gem", weight: 10.0f }
+		{ item: "thermal:apatite", weight: 4.0f }
+		{ item: "minecraft:redstone", weight: 3.0f }
+		{ item: "minecraft:string", weight: 15.0f }
+		{ item: "minecraft:gold_ingot", weight: 15.0f }
+		{ item: "minecraft:bone_meal", weight: 15.0f }
+		{ item: "minecraft:clay_ball", weight: 25.0f }
+	]
+	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
+}

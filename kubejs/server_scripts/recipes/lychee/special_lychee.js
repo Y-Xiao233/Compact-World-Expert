@@ -87,4 +87,11 @@ ServerEvents.recipes(event =>{
       "falling_block":"kubejs:swift_alloy_sand",
       "landing_block":'malum:runewood_log'
     }).id(`${id_prefix}block_crushing/flux_dust`)
+
+    event.custom({
+      "type":"lychee:block_interacting",
+      "post":[{"type":"drop_item","item":"naturesaura:aura_bottle",'nbt':'{stored_type:"naturesaura:end"}'}],
+      "item_in":{"type":"forge:nbt","item":"naturesaura:aura_bottle",'nbt':'{stored_type:"naturesaura:other"}'},
+      "block_in":"psi:ebony_psimetal_block"
+    }).id(`${id_prefix}block_interacting/`)
 })

@@ -73,6 +73,11 @@
 		{
 			dependencies: ["66470A3825124332"]
 			id: "728AA02240EBF3B7"
+			rewards: [{
+				id: "5C21D93F629FD519"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -86,6 +91,11 @@
 		{
 			dependencies: ["728AA02240EBF3B7"]
 			id: "70259D176FE131FE"
+			rewards: [{
+				id: "03D2AF0755E27C47"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "30964B1BDFD5D9D1"
 				item: "botania:mana_diamond"
@@ -97,6 +107,11 @@
 		{
 			dependencies: ["70259D176FE131FE"]
 			id: "036AC9796FD2EABC"
+			rewards: [{
+				id: "4B4CE274D79AA362"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "69A35C4025C3A9F8"
 				item: "botania:mana_diamond_block"
@@ -108,6 +123,11 @@
 		{
 			dependencies: ["036AC9796FD2EABC"]
 			id: "221EB1C21D096B06"
+			rewards: [{
+				id: "5EE090561B11B476"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7CAF36A100333286"
 				item: "kubejs:liquid_mana_bucket"
@@ -126,6 +146,11 @@
 				}
 			}
 			id: "75C6DEF9EE7D78B2"
+			rewards: [{
+				id: "1EFBC3C9806AB3F7"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "492A1A9CEC08E813"
@@ -150,6 +175,11 @@
 		{
 			dependencies: ["7929A1C1A494C0D6"]
 			id: "3C5BC760B8D03208"
+			rewards: [{
+				id: "77EDB09D597BF049"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "445BA72088C6DA6F"
 				item: "mekanismgenerators:fission_fuel_assembly"
@@ -161,6 +191,11 @@
 		{
 			dependencies: ["7929A1C1A494C0D6"]
 			id: "4D368E7E17042589"
+			rewards: [{
+				id: "344E992801E88629"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1C8FE3FEA2FC8023"
 				item: "mekanismgenerators:control_rod_assembly"
@@ -176,6 +211,11 @@
 				"694308168E73D6B8"
 			]
 			id: "3BFC0E20874651AC"
+			rewards: [{
+				id: "52E2DA7E96D95A05"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "522D44AA76FE1D60"
 				item: "thermal:apatite"
@@ -198,6 +238,11 @@
 				}
 			}
 			id: "2510ED6B7A52F2D6"
+			rewards: [{
+				id: "4504218AB8E39CE2"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "37F461A05B914860"
 				type: "checkmark"
@@ -222,6 +267,11 @@
 				}
 			}
 			id: "1796D5FC1BCEE9E6"
+			rewards: [{
+				id: "4402E6813B3FCF7C"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6CA5D9E50D209144"
 				title: "{ftbquests.chapter.1.quests9.tasks0.title}"
@@ -238,6 +288,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3006F6F25EEE198C"
+			rewards: [{
+				id: "63F4681B3FB4F906"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7D1BDB465FAC1BA3"
@@ -256,6 +311,11 @@
 		{
 			dependencies: ["728AA02240EBF3B7"]
 			id: "200B67A0E1F260C9"
+			rewards: [{
+				id: "41E02CEBF43142E1"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "13611AB3DF5BAD38"
 				item: "create_new_age:overcharged_diamond"
@@ -267,6 +327,11 @@
 		{
 			dependencies: ["200B67A0E1F260C9"]
 			id: "6C71690E1E05709B"
+			rewards: [{
+				id: "7177F789260B81D5"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0BD1BFCDCBD70EEC"
 				item: "create_new_age:energiser_t2"
@@ -278,6 +343,11 @@
 		{
 			dependencies: ["036AC9796FD2EABC"]
 			id: "063702CE17A0C103"
+			rewards: [{
+				id: "07596683A028762A"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "706B8BDF12189B25"
@@ -299,6 +369,11 @@
 				"194DD821009E632E"
 			]
 			id: "2FFE56110F0BA14C"
+			rewards: [{
+				id: "5B81EA3E526CC877"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4081120E59E15AA2"
@@ -320,6 +395,11 @@
 				"194DD821009E632E"
 			]
 			id: "28BADDE895A1F297"
+			rewards: [{
+				id: "3281661BAA3A9D16"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7C991BF6119ACEF5"
@@ -341,6 +421,11 @@
 				"4F11A3085878547A"
 			]
 			id: "082639A3CAC61F4A"
+			rewards: [{
+				id: "79984A6103967F4C"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "336D3A1A762B8B01"
 				item: "create_new_age:radioactive_thorium"
@@ -355,6 +440,11 @@
 				"221EB1C21D096B06"
 			]
 			id: "3F67098F51FE7E6B"
+			rewards: [{
+				id: "0B95F32FEC273110"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "669D7D3DB4FCAE30"
 				item: "create_new_age:nuclear_fuel"
@@ -366,6 +456,11 @@
 		{
 			dependencies: ["3F67098F51FE7E6B"]
 			id: "7929A1C1A494C0D6"
+			rewards: [{
+				id: "29376E78616D0594"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "68141ED30B2B5E6E"
 				item: "create_new_age:reactor_rod"
@@ -378,6 +473,11 @@
 			dependencies: ["728AA02240EBF3B7"]
 			hide_dependency_lines: true
 			id: "29E010C1F8F901F9"
+			rewards: [{
+				id: "6C08DDEC5B0ADDAD"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "44D9C085E3B5766B"
 				item: "kubejs:soul_steel_casing"
@@ -389,6 +489,11 @@
 		{
 			dependencies: ["3006F6F25EEE198C"]
 			id: "1E8621A935B7B6A4"
+			rewards: [{
+				id: "737BB97226B75AEF"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "62598C7AC669226D"
@@ -410,6 +515,11 @@
 				"11A21E8A7A20BE5E"
 			]
 			id: "493929200591E2C0"
+			rewards: [{
+				id: "664387B42B553F46"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7831EECB70F5B7F3"
@@ -443,6 +553,11 @@
 		{
 			dependencies: ["200B67A0E1F260C9"]
 			id: "194DD821009E632E"
+			rewards: [{
+				id: "2DE25931A6474B24"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5B42050CD6ECD5E0"
 				item: "create:crushing_wheel"
@@ -454,6 +569,11 @@
 		{
 			dependencies: ["200B67A0E1F260C9"]
 			id: "3A4F89473FDAD919"
+			rewards: [{
+				id: "4F7F9B42EF26B6CD"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2C4F77360F69ADC5"
 				item: "create:empty_blaze_burner"
@@ -465,6 +585,11 @@
 		{
 			dependencies: ["3A4F89473FDAD919"]
 			id: "4F11A3085878547A"
+			rewards: [{
+				id: "096D19E48FC94EAB"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "308CEC6C3398A738"
 				item: "create:blaze_burner"
@@ -486,6 +611,11 @@
 				}
 			}
 			id: "5FD4E6B9DC92A573"
+			rewards: [{
+				id: "1C3683AF5DAE8BCB"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5C8A63183CB6B5E7"
 				title: "{ftbquests.chapter.1.quests25.tasks0.title}"
@@ -499,6 +629,11 @@
 			dependencies: ["728AA02240EBF3B7"]
 			hide_dependency_lines: true
 			id: "22B1F8DA49895955"
+			rewards: [{
+				id: "1FCA50C3CF1302B7"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0C82E04C62534B44"
 				item: "industrialforegoing:machine_frame_pity"
@@ -510,6 +645,11 @@
 		{
 			dependencies: ["22B1F8DA49895955"]
 			id: "6E7B50531C965D1D"
+			rewards: [{
+				id: "1FAA23B3751F7244"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E295E3C0DE336CE"
 				item: "mekanism:rotary_condensentrator"
@@ -521,6 +661,11 @@
 		{
 			dependencies: ["29E010C1F8F901F9"]
 			id: "770DAFEF9910BEDC"
+			rewards: [{
+				id: "29633F5EBE29FDFF"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7498F50C04B038E7"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -532,6 +677,11 @@
 		{
 			dependencies: ["1AFF71BC22482363"]
 			id: "11A21E8A7A20BE5E"
+			rewards: [{
+				id: "5CAE3159928F62E0"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "25353D40892251C4"
@@ -561,6 +711,11 @@
 			dependencies: ["728AA02240EBF3B7"]
 			hide_dependency_lines: true
 			id: "1AFF71BC22482363"
+			rewards: [{
+				id: "1B8FD141DE463F9B"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "23DD6E4433A0EEE4"
@@ -589,6 +744,11 @@
 		{
 			dependencies: ["1796D5FC1BCEE9E6"]
 			id: "694308168E73D6B8"
+			rewards: [{
+				id: "6F6EECA77691BD43"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3932F4DC42BA99E0"
 				item: "kubejs:purewater_bucket"
@@ -603,6 +763,11 @@
 				"770DAFEF9910BEDC"
 			]
 			id: "1C9D91A5BF80857D"
+			rewards: [{
+				id: "6E0B14E33A9EAC7D"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F4428814A48769F"
 				item: "minecraft:coal"
@@ -615,6 +780,11 @@
 			dependencies: ["1C9D91A5BF80857D"]
 			description: ["{ftbquests.chapter.1.quests33.description}"]
 			id: "6C37378FC88CE690"
+			rewards: [{
+				id: "0F50F41EC7308149"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2636BC4B032AF2F0"
 				item: "mekanism:enriched_carbon"
@@ -627,6 +797,11 @@
 			dependencies: ["6C37378FC88CE690"]
 			icon: "minecraft:coal_block"
 			id: "5ACE4FC393BEFFC7"
+			rewards: [{
+				id: "2521EAAB415FD92D"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "694964FAF28F036C"
 				title: "{ftbquests.chapter.1.quests34.tasks0.title}"
@@ -639,6 +814,11 @@
 		{
 			dependencies: ["3BFC0E20874651AC"]
 			id: "113D6E716AF617FD"
+			rewards: [{
+				id: "0FCE2E8BE869C2E3"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7D091035DC87AEC2"
@@ -672,6 +852,11 @@
 			]
 			description: ["{ftbquests.chapter.1.quests36.description}"]
 			id: "4FCE777F690A4CCB"
+			rewards: [{
+				id: "1A6624A4ABA879ED"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "24529AF284539C79"
 				item: "starbunclemania:fluid_sourcelink"
@@ -683,6 +868,11 @@
 		{
 			dependencies: ["3BFC0E20874651AC"]
 			id: "029E35B554FA3FBA"
+			rewards: [{
+				id: "3D60C9FDC6A2CB66"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5838A2002D4D60F6"
 				item: "starbunclemania:source_condenser"
@@ -694,6 +884,11 @@
 		{
 			dependencies: ["3BFC0E20874651AC"]
 			id: "477650FDFEE022CD"
+			rewards: [{
+				id: "34A9B18E1C44D350"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5575ACBBD910B245"
 				item: "malum:aerial_spirit"
@@ -705,6 +900,11 @@
 		{
 			dependencies: ["477650FDFEE022CD"]
 			id: "0967ED431EDF1289"
+			rewards: [{
+				id: "56854F6629B53631"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "19EA565F9EB54C99"
 				item: "malum:runewood_sapling"
@@ -716,6 +916,11 @@
 		{
 			dependencies: ["0967ED431EDF1289"]
 			id: "6A1FA55CEF14EDD9"
+			rewards: [{
+				id: "7B1CE2EA3D56159B"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2DAF79AA6394D605"
 				item: "malum:runewood_log"
@@ -727,6 +932,11 @@
 		{
 			dependencies: ["6A1FA55CEF14EDD9"]
 			id: "68DBACBF8C8B33A3"
+			rewards: [{
+				id: "4B25D1256662FAB4"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0965E3ED00D5F79B"
@@ -765,6 +975,24 @@
 				"{ftbquests.chapter.1.quests42.description1}"
 			]
 			id: "34E71A15A9B8F146"
+			rewards: [
+				{
+					id: "5A9F64D8BFF82D7B"
+					item: "compactmachines:machine_maximum"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "209724DD9932C03E"
+					item: "ringsofascension:ring_mining"
+					type: "item"
+				}
+				{
+					id: "7DEDDBA63958EF80"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -778,6 +1006,11 @@
 		{
 			dependencies: ["477650FDFEE022CD"]
 			id: "2516EEF47D5BF9A3"
+			rewards: [{
+				id: "249A734C69A2D990"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "06E9D575B079AE5B"
 				item: "thermal:upgrade_augment_2"
@@ -789,6 +1022,11 @@
 		{
 			dependencies: ["194DD821009E632E"]
 			id: "0792642FD91C34FF"
+			rewards: [{
+				id: "2368B1307090104F"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7B2CD55A96662AE9"
 				item: "createaddition:straw"
@@ -796,6 +1034,67 @@
 			}]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["2516EEF47D5BF9A3"]
+			id: "10DED8F5797DE4C4"
+			rewards: [{
+				id: "21C1391A2C358869"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "719F246EFC4727F7"
+				item: {
+					Count: 1b
+					id: "ironfurnaces:million_furnace"
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"彩\"},{\"color\":\"light_purple\",\"text\":\"虹\"},{\"color\":\"green\",\"text\":\"熔\"},{\"color\":\"aqua\",\"text\":\"炉\"}],\"text\":\"\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["477650FDFEE022CD"]
+			id: "2F3966837D90B259"
+			rewards: [
+				{
+					id: "0C6B4F947C7DD066"
+					item: "mekanism:ultimate_induction_provider"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0AAC22EE2D5C92A8"
+					item: "mekanism:ultimate_induction_cell"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "42C6225FB633E1CA"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "51E082F5C51B5085"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "09C191193D021BF6"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.1.title}"

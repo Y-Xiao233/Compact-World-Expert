@@ -72,12 +72,12 @@ BlockEvents.rightClicked(event =>{
 })
 
 
-BlockEvents.rightClicked(event =>{
-    const {block, player, item} = event
-    if(block.id != 'botania:mana_pool') return
-    if(item.id != 'kubejs:archwood_stick') return
-    player.tell(block.getEntityData()["mana"])
-})
+// BlockEvents.rightClicked(event =>{
+//     const {block, player, item} = event
+//     if(block.id != 'botania:mana_pool') return
+//     if(item.id != 'kubejs:archwood_stick') return
+//     player.tell(block.getEntityData()["mana"])
+// })
 
 ServerEvents.recipes(event =>{
     const {custom_machine} = event.recipes.custommachinery

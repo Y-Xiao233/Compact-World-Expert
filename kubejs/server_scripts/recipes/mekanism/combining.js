@@ -52,6 +52,12 @@ ServerEvents.recipes(event =>{
             output:'psi:ebony_psimetal',
             extra_input:Item.of('psi:ebony_substance',2),
             id:'ebony_psimetal_1'
+        },
+        {
+            input:'compressium:stone_1',
+            output:'3x minecraft:sculk',
+            extra_input:Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:end"}').weakNBT(),
+            id:'sculk'
         }]
 
     recipes.forEach((recipe) => {

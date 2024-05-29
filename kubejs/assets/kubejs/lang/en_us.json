@@ -67,6 +67,11 @@
     "item.kubejs.blank_diamond_crystal_niotic":"Blank Diamond Crystal Niotic",
     "item.kubejs.incomplete_crystal_blazing":"Incomplete Crystal Blazing",
     "item.kubejs.press_control_circuit_die":"Control Circuit Die",
+    "item.kubejs.quartz_light_oil": "Light Oil Quartz",
+    "item.kubejs.ingot_refined_tar":"Refined Tar Ingot",
+    "item.kubejs.rainbow_ingot":"§aRainbow §5Ingot",
+    "item.kubejs.rainbow_pickaxe":"§aRainbow §3Pickaxe",
+    "item.kubejs.light_ingot":"Light Ingot",
 
 
 
@@ -92,6 +97,9 @@
     "block.kubejs.liquid_tainted_matter":"Liquid Tainted Matter",
     "block.kubejs.molten_aqueous_spirit":"Molten Aqueous Spirit",
     "block.kubejs.molten_crystal_blazing":"Molten Crystal Blazing",
+    "block.kubejs.end_quartz_ore": "End Quartz Ore",
+    "block.kubejs.end_oil_ore": "End Oil Ore",
+    "block.kubejs.end_osmium_ore": "End Osmium Ore",
 
     "block.cwe.fake_mana_pool":"Fake Mana Pool",
     "block.cwe.fake_fluid_tank":"Fake Fluid Tank",
@@ -152,7 +160,7 @@
 
     "tip.compact_world.ftbteams_1":"§a[Create Your Team]",
     "tip.compact_world.ftbteams_2":"§a[Join someone else's Team]",
-    "tip.compact_world.ftbteams_3":"§a[Leave the current team",
+    "tip.compact_world.ftbteams_3":"§a[Leave the current team]",
     "tip.compact_world.ftbteams_4":"§c[Do not prompt again after clicking here]",
     "tip.compact_world.ftbteams_5":"§dPlease select the team you want to join",
 
@@ -205,6 +213,11 @@
     "tip.compact_world.information_36":"§cHas been disabled\n\n§a Chapter 3 Section 2 can be used §e Boiler Heater §a achieves §5 Superheated\n\n§a Chapter 3 Section 3 can be used §e Biofuel §a achieves §5 Superheated",
     "tip.compact_world.information_37":"§cObtained through the use of Drygmy",
     "tip.compact_world.information_38":"§cPlease ues§a Tier Installer §cto upgrade this machine",
+    "tip.compact_world.information_39":"§cPlease use the §aFactory Installer§c to upgrade this tank",
+    "tip.compact_world.information_40":"§cPlease use the §aFactory Installer§c to upgrade this tank",
+    "tip.compact_world.information_41": "Hold the rainbow ingot in your main hand and right-click in the air §a(only works outside of compressed space)",
+    "tip.compact_world.information_42": "Can break solid  walls",
+    "tip.compact_world.information_43": "Can be destroyed by rainbow pickaxe",
     
 
     

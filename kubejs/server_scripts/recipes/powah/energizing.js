@@ -104,6 +104,47 @@ ServerEvents.recipes(event =>{
             output:items('thermal:machine_smelter'),
             energy:500000,
             id:'machine_smelter'
+        },
+        {
+            input:[
+               items('industrialforegoing:machine_frame_advanced'),
+               items('thermalendergy:prismalium_block'),
+               items('mekanism:basic_fluid_tank'),
+               items('mekanism:elite_control_circuit')
+            ],
+            output:items('thermal:machine_crystallizer'),
+            energy:500000,
+            id:'machine_crystallizer'
+        },
+        {
+            input:[
+               items('industrialforegoing:machine_frame_advanced'),
+               items('minecraft:sculk'),
+               items('powah:capacitor_nitro')
+            ],
+            output:items('thermal:machine_refinery'),
+            energy:1000000,
+            id:'machine_refinery'
+        },
+        {
+            input:[
+               items('industrialforegoing:machine_frame_advanced'),
+               items('mekanism:basic_chemical_tank'),
+               items('mekanism:basic_fluid_tank'),
+               items('powah:capacitor_nitro')
+            ],
+            output:items('mekanism:chemical_washer'),
+            energy:1000000,
+            id:'chemical_washer'
+        },
+        {
+            input:[
+               items('industrialforegoing:machine_frame_supreme'),
+               items('mekanism:pellet_antimatter')
+            ],
+            output:items('mekanism:antiprotonic_nucleosynthesizer'),
+            energy:10000000,
+            id:'antiprotonic_nucleosynthesizer'
         }]
 
     recipes.forEach(recipe =>{

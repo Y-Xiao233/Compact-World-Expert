@@ -69,6 +69,27 @@ StartupEvents.registry("block", (event) => {
                 requirestool:true,
                 tooltier:`${tooltiers.iron}`,
                 tooltype:`${tooltypes.pickaxe}`
+            },
+            {
+                id:'end_quartz_ore',
+                soundtype:"stone",
+                requirestool:true,
+                tooltier:`${tooltiers.wood}`,
+                tooltype:`${tooltypes.pickaxe}`
+            },
+            {
+                id:'end_oil_ore',
+                soundtype:"stone",
+                requirestool:true,
+                tooltier:`${tooltiers.wood}`,
+                tooltype:`${tooltypes.pickaxe}`
+            },
+            {
+                id:'end_osmium_ore',
+                soundtype:"stone",
+                requirestool:true,
+                tooltier:`${tooltiers.wood}`,
+                tooltype:`${tooltypes.pickaxe}`
             }]
         
         registry_block.forEach(blocks =>{

@@ -110,6 +110,24 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['clickmachine:auto_clicker'],
             id:`${id_prefix}auto_clicker_to_user`
+        },
+        {
+            output:'cyclic:collector',
+            output_amount:1,
+            input:['thermal:device_collector'],
+            id:`${id_prefix}device_collector_to_collector`
+        },
+        {
+            output:'thermal:device_collector',
+            output_amount:1,
+            input:['cyclic:collector'],
+            id:`${id_prefix}collector_to_device_collector`
+        },
+        {
+            output:'mekanism:laser_tractor_beam',
+            output_amount:1,
+            input:['mekanism:laser_amplifier','minecraft:chest'],
+            id:`${id_prefix}laraser_tractor_beam`
         }]
 
     recipes.forEach(recipe =>{

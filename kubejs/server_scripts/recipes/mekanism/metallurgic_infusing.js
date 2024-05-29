@@ -53,6 +53,13 @@ ServerEvents.recipes(event =>{
             infuse_type:'mekanism:carbon',
             amount:10,
             id:`${id_prefix}ingot_steel`
+        },
+        {
+            input:items('kubejs:ingot_refined_tar'),
+            output:items('mekanism:ingot_refined_obsidian'),
+            infuse_type:'mekanism:refined_obsidian',
+            amount:40,
+            id:`${id_prefix}ingot_refined_obsidian`
         }]
 
     recipes.forEach(recipe =>{

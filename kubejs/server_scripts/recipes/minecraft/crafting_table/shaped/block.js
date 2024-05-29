@@ -1275,6 +1275,109 @@ ServerEvents.recipes(event => {
         C: 'botania:fabulous_pool'
       },
       id:`${id_prefix}mana_injector`
+     },
+     {
+      output:'mekanism:resistive_heater',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'thermalendergy:prismalium_ingot',
+        B: 'mekanism:energy_tablet',
+        C: 'mekanism:elite_control_circuit',
+        D: 'create:brass_casing'
+      },
+      id:`${id_prefix}resistive_heater`
+     },
+     {
+      output:'mekanism:chemical_crystallizer',
+      pattern:['ABA','CDE','ABA'],
+      key:{
+        A: 'mekanism:elite_control_circuit',
+        B: 'thermalendergy:prismalium_ingot',
+        C: 'mekanism:basic_chemical_tank',
+        D: 'mekanism:steel_casing',
+        E: 'minecraft:chest'
+      },
+      id:`${id_prefix}chemical_crystallizer`
+     },
+     {
+      output:'thermal:device_rock_gen',
+      pattern:['ABA','CDC','ABA'],
+      key:{
+        A: 'mekanism:elite_control_circuit',
+        B: 'vintageimprovements:vanadium_ingot',
+        C: 'minecraft:bucket',
+        D: 'industrialforegoing:machine_frame_advanced',
+      },
+      id:`${id_prefix}device_rock_gen`
+     },
+     {
+      output:'ironfurnaces:million_furnace',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'malum:aerial_spirit',
+        B: 'thermal:upgrade_augment_2',
+        C: 'ironfurnaces:diamond_furnace'
+      },
+      id:`${id_prefix}million_furnace`
+     },
+     {
+      output:'mekanism:osmium_compressor',
+      pattern:['ABA','CDC','CCC'],
+      key:{
+        A: 'powah:capacitor_nitro',
+        B: 'thermalendergy:endergy_upgrade_2',
+        C: 'mekanism:ingot_osmium',
+        D: 'industrialforegoing:machine_frame_advanced'
+      },
+      id:`${id_prefix}onalium_compressor`
+     },
+     {
+      output:'mekanism:chemical_oxidizer',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'mekanism:ultimate_control_circuit',
+        B: 'mekanism:ingot_refined_obsidian',
+        C: 'industrialforegoing:machine_frame_advanced'
+      },
+      id:`${id_prefix}chemical_oxidizer`
+     },
+     {
+      output:'4x mekanismgenerators:fusion_reactor_frame',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'mekanism:ultimate_control_circuit',
+        B: 'kubejs:quartz_light_oil',
+        C: 'industrialforegoing:machine_frame_advanced'
+      },
+      id:`${id_prefix}fuel_reactor_frame`
+     },
+     {
+      output:'industrialforegoing:machine_frame_supreme',
+      pattern:['ABA','BCB','ABA'],
+      key:{
+        A: 'mekanism:ultimate_control_circuit',
+        B: 'mekanism:hdpe_sheet',
+        C: 'industrialforegoing:machine_frame_advanced'
+      },
+      id:`${id_prefix}machine_frame_supreme`
+     },
+     {
+      output:'4x mekanism:sps_casing',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'mekanism:hdpe_pellet',
+        B: 'industrialforegoing:machine_frame_supreme'
+      },
+      id:`${id_prefix}sps_casing`
+     },
+     {
+      output:'compactmachines:machine_maximum',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'thermal:upgrade_augment_3',
+        B: 'compactmachines:machine_giant'
+      },
+      id:`${id_prefix}machine_maximum`
      }]
   
   recipes.forEach(recipe =>{

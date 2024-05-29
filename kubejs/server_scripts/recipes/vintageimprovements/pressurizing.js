@@ -66,4 +66,7 @@ ServerEvents.recipes(event =>{
 
     pressurizing_recipe(new pressurizing([items('ae2:matter_ball'),fluids('kubejs:purewater',250)],[items('kubejs:pure_matter_ball')]).secondaryFluidInputs(0).heatRequirement('heated'),'pure_matter_ball')
     pressurizing_recipe(new pressurizing([items('hexerei:moon_dust'),fluids('kubejs:purewater',100)],[fluids('hexerei:quicksilver_fluid',50)],50).secondaryFluidInputs(0).heatRequirement('heated'),'quicksilver')
+    pressurizing_recipe(new pressurizing([items('mekanism:salt'),fluids('kubejs:purewater',250)],[items('thermal:sulfur')],50).secondaryFluidInputs(0).heatRequirement('heated'),'sulfur')
+    pressurizing_recipe(new pressurizing([items('mekanism:alloy_reinforced'),items('kubejs:quartz_light_oil'),items('mekanism:ingot_refined_obsidian'),fluids('thermal:refined_fuel',100)],[items('mekanism:ultimate_control_circuit',2)],50).secondaryFluidInputs(0).heatRequirement('superheated'),'ultimate_control_circuit')
+    pressurizing_recipe(new pressurizing([items('mekanism:ingot_refined_obsidian'),items('minecraft:echo_shard'),items('kubejs:quartz_light_oil'),fluids('industrialforegoing:biofuel',100)],[items('mekanism:reprocessed_fissile_fragment',2)],50).secondaryFluidInputs(0).heatRequirement('superheated'),'reprocessed_fissile_fragment')
 })

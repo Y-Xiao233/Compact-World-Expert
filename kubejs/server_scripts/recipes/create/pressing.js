@@ -42,6 +42,11 @@ ServerEvents.recipes(event =>{
             input:'minecraft:netherite_block',
             output:'kubejs:press_control_circuit_die',
             id:`${id_prefix}press_control_circuit_die`
+        },
+        {
+            input:'thermal:enderium_block',
+            output:'powah:lens_of_ender',
+            id:`${id_prefix}lens_of_ender`
         }]
 
     recipes.forEach(recipes =>{

@@ -58,6 +58,12 @@ ServerEvents.recipes(event =>{
             input:'thermal:cured_rubber',
             time:10,
             id:`${id_prefix}straw`
+        },
+        {
+            output:[Item.of('vintageimprovements:vanadium_nugget').withChance(0.45),Item.of('vintageimprovements:vanadium_nugget').withChance(0.2)],
+            input:'minecraft:basalt',
+            time:10,
+            id:`${id_prefix}vanadium_nugget`
         }]
 
     recipes.forEach(recipe => {

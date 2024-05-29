@@ -67,7 +67,11 @@
     "item.kubejs.blank_diamond_crystal_niotic":"空白鑽石水晶", 
     "item.kubejs.incomplete_crystal_blazing":"烈焰水晶(未完成)",
     "item.kubejs.press_control_circuit_die":"控制電路沖壓模具",
-
+    "item.kubejs.quartz_light_oil": "輕油石英",
+    "item.kubejs.ingot_refined_tar":"強化焦油錠",
+    "item.kubejs.rainbow_ingot":"§a彩§5虹§3錠",
+    "item.kubejs.rainbow_pickaxe":"§a彩§5虹§3鎬",
+    "item.kubejs.light_ingot":"光明錠",
 
 
     "block.kubejs.compact_block":"壓縮塊",
@@ -92,6 +96,9 @@
     "block.kubejs.liquid_tainted_matter":"液態污染物質",
     "block.kubejs.molten_aqueous_spirit":"熔融碧水精魂",
     "block.kubejs.molten_crystal_blazing":"熔融烈焰水晶",
+    "block.kubejs.end_quartz_ore":"末地石英礦石",
+    "block.kubejs.end_oil_ore":"末地沥青礦石",
+    "block.kubejs.end_osmium_ore":"末地錇礦石",
 
     "block.cwe.fake_mana_pool":"偽造魔力池",
     "block.cwe.fake_fluid_tank":"偽造流體儲罐",
@@ -203,6 +210,11 @@
     "tip.compact_world.information_36":"§c已被禁用\n\n§a第三章第二節可使用§e鍋爐加熱器§a達到§5超級燃燒\n\n§a第三章第三節可使用§e生物燃油§a達到§5超級燃燒",
     "tip.compact_world.information_37":"§c使用德格米的方式獲取",
     "tip.compact_world.information_38":"§c請使用§a工廠安裝器§c來升級這個機器",
+    "tip.compact_world.information_39":"§c請使用§a工廠安裝器§c來升級這個儲罐",
+    "tip.compact_world.information_40":"§c請使用§a工廠安裝器§c來升級這個儲罐",
+    "tip.compact_world.information_41":"主手拿着彩虹錠對著空氣右鍵§a(在壓縮空間外才行哦~)",
+    "tip.compact_world.information_42":"可以破壞緊實型壓縮空間壁",
+    "tip.compact_world.information_43":"可以被彩虹鎬破壞",
     
 
     

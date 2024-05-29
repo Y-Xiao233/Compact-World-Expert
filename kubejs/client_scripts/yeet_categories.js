@@ -16,7 +16,8 @@ REIEvents.removeCategories(event => {
     'industrialforegoing:machine_produce',
     'vintageimprovements:leaves_vibrating',
     'vintageimprovements:vibrating',
-    'ironfurnaces:generator_smoking'
+    'ironfurnaces:generator_smoking',
+    'cyclic:generator_fluid'
   ]
 
   hide_by_categories.forEach(categories =>{

@@ -122,6 +122,30 @@ ServerEvents.recipes(event =>{
             base_input:'mekanism:advanced_tier_installer',
             addition_input:'mekanism:elite_control_circuit',
             id:`${id_prefix}elite_tier_installer`
+        },
+        {
+            output:'ironfurnaces:augment_factory',
+            base_input:'ironfurnaces:augment_speed',
+            addition_input:'mekanism:advanced_tier_installer',
+            id:`${id_prefix}augment_factory`
+        },
+        {
+            output:'industrialforegoing:bioreactor',
+            base_input:'industrialforegoing:machine_frame_advanced',
+            addition_input:'create_new_age:heater',
+            id:`${id_prefix}bioreactor`
+        },
+        {
+            output:'powah:energizing_rod_nitro',
+            base_input:'powah:energizing_rod_niotic',
+            addition_input:'powah:capacitor_nitro',
+            id:`${id_prefix}energizing_rod_nitro`
+        },
+        {
+            output:'thermalendergy:endergy_upgrade_2',
+            base_input:'thermalendergy:endergy_upgrade_1',
+            addition_input:'thermal:enderium_block',
+            id:`${id_prefix}thermalendergy_endergy_upgrade_2`
         }]
 
     recipes.forEach(recipe =>{

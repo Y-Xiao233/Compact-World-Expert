@@ -1,6 +1,0 @@
-
-#Client Settings for the Sifter
-[sifter]
-	#Show the particles of the block being sifted
-	renderBlockParticles = true
-

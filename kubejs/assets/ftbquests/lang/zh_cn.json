@@ -496,6 +496,7 @@
   "ftbquests.chapter_groups.chapter_groups.title0": "Chapter 1",
   "ftbquests.chapter_groups.chapter_groups.title1": "Chapter 2",
   "ftbquests.chapter_groups.chapter_groups.title2": "Chapter 3",
+  "ftbquests.chapter_groups.chapter_groups.title3": "Chapter 4",
   "ftbquests.data.data.title": "&aCompact World: Expert",
   "ftbquests.chapter.07595C95B4C1E79A.title": "&c本章节可以制作的辅助物品",
   "ftbquests.chapter.07595C95B4C1E79A.quests1.tasks0.title": "更加深入的发展",
@@ -822,5 +823,27 @@
   "ftbquests.chapter.c.title": "&c本章节可以制作的辅助物品",
   "ftbquests.chapter.c.quests0.title": "科技大爆发",
   "ftbquests.chapter.c.quests4.tasks0.title": "核反应?",
-  "ftbquests.reward_tables.2B7CEA5781A58DE1.title": "头~"
+  "ftbquests.reward_tables.2B7CEA5781A58DE1.title": "头~",
+
+
+
+
+  "ftbquests.chapter.0CCB7C52D9D7412E.quests55.subtitle": "&d这两个收集器唯一的区别是能否过滤",
+  "ftbquests.chapter.6CF0BD2004C5F9D2.quests46.tasks0.title": "二氧化硫",
+  "ftbquests.chapter.6CF0BD2004C5F9D2.quests48.tasks0.title": "三氧化硫",
+  "ftbquests.chapter.748838CB921A8DC4.title": "炫彩的流水线",
+  "ftbquests.chapter.748838CB921A8DC4.quests25.tasks0.title": "污浊锇浆液",
+  "ftbquests.chapter.748838CB921A8DC4.quests27.tasks0.title": "纯净锇浆液",
+  "ftbquests.chapter.748838CB921A8DC4.quests37.tasks0.title": "裂变燃料",
+  "ftbquests.chapter.748838CB921A8DC4.quests40.tasks0.title": "氘",
+  "ftbquests.chapter.748838CB921A8DC4.quests41.tasks0.title": "氚",
+  "ftbquests.chapter.748838CB921A8DC4.quests51.tasks0.title": "钋",
+  "ftbquests.chapter.748838CB921A8DC4.quests52.tasks0.title": "裂变燃料",
+  "ftbquests.chapter.748838CB921A8DC4.quests53.tasks0.title": "反物质",
+  "ftbquests.chapter.7D014A0FF3B98CC2.title": "逃脱压缩空间！",
+  "ftbquests.chapter.7D014A0FF3B98CC2.quests2.description": "&a可以破坏紧实型压缩空间壁",
+  "ftbquests.chapter.7D014A0FF3B98CC2.quests3.description": "&a可以被彩虹镐破坏",
+  "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description0": "&a主手拿着彩虹锭对着空气右键即可获得",
+  "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&c必须在&a主世界的&d压缩空间外",
+  "ftbquests.reward_tables.50F7EB59091673D3.title": "奖励"
 }

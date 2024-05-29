@@ -1,0 +1,20 @@
+{
+    "conveyor.upgrade.industrialforegoing.conveyor_splitting_upgrade": "Conveyor Splitting Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_blinking_upgrade": "Conveyor Blinking Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_dropping_upgrade": "Conveyor Dropping Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_bouncing_upgrade": "Conveyor Bouncing Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_detection_upgrade": "Conveyor Detection Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_insertion_upgrade": "Conveyor Insertion Upgrade",
+    "conveyor.upgrade.industrialforegoing.conveyor_extraction_upgrade": "Conveyor Extraction Upgrade",
+
+    "block.industrialforegoing.essence": "Essence",
+    "block.industrialforegoing.meat": "Meat Broth",
+    "block.industrialforegoing.sewage": "Sewage",
+    "block.industrialforegoing.sludge": "Sludge",
+    "block.industrialforegoing.biofuel": "Biofuel",
+    "block.industrialforegoing.latex": "Latex",
+    "block.industrialforegoing.pink_slime": "Pink Slime",
+    "block.industrialforegoing.fermented_ore_meat": "Fermented Ore Meat Broth",
+    "block.industrialforegoing.ether_gas": "Ether Gas",
+    "block.industrialforegoing.raw_ore_meat": "Raw Ore Meat Broth"
+}

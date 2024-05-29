@@ -191,6 +191,11 @@ ServerEvents.recipes(event =>{
             main:lychee('lychee:block_interacting','melter:melter','create:brass_casing',
                  posts('place','thermal:machine_crucible')),
             id:`${id_prefix}machine_crucible`
+        },
+        {
+            main:lychee('lychee:block_interacting','mekanism:ultimate_control_circuit','minecraft:gold_block',
+                 posts('drop_item','mekanismgenerators:hohlraum',1,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace minecraft:gold_block")),
+            id:`${id_prefix}`
         }]
 
     recipes.forEach(recipe =>{

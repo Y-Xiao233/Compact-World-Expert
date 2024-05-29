@@ -47,7 +47,10 @@ StartupEvents.registry("item", (event) => {
         'tin_spring',
         'lens_of_blazing',
         'blank_diamond_crystal_niotic',
-        'press_control_circuit_die'
+        'press_control_circuit_die',
+        'quartz_light_oil',
+        'ingot_refined_tar',
+        'rainbow_ingot'
     ]
     
     const registry_tool = [
@@ -97,4 +100,6 @@ StartupEvents.registry("item", (event) => {
     event.create('magical_stick').unstackable().glow(true)
     event.create('spirit_press').unstackable()
     event.create('tin_source').color(0x476F81).unstackable().texture('kubejs:item/source')
+    event.create('light_ingot').glow(true)
+    event.create('rainbow_pickaxe','pickaxe').tier('diamond').speed(1000)
 })
