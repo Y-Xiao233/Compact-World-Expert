@@ -1,7 +1,7 @@
 ## Compact World: Expert - 0.0.1
 
-*[Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
-*[Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
+* [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
+* [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 *[Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
 *[Configured (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/configured)
 *[REI Plugin Compatibilities (REIPC) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items-hacks)
