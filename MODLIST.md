@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-﻿* [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
+## Compact World: Expert (by Y_Xiao233) - v0.0.2
+* [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
 * [Configured (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/configured)
