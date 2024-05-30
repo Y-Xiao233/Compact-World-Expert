@@ -404,4 +404,3 @@
 * [Ars Nouveau (by baileyholl2)](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau)
 * [Extreme sound muffler (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
 * [Custom Machinery Mekanism (by frinn38)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-mekanism)
->>>>>>> 61ac9a1d1621ced4138ae15af4dc957196319b04
