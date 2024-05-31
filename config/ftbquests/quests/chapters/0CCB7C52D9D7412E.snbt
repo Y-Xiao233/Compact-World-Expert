@@ -652,8 +652,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "36DE4D7626AA83BA"
-				item: "cwe:element_motor"
+				id: "056FAE7000084A1C"
+				item: "create:large_water_wheel"
 				type: "item"
 			}]
 			x: 3.0d

@@ -1378,6 +1378,34 @@ ServerEvents.recipes(event => {
         B: 'compactmachines:machine_giant'
       },
       id:`${id_prefix}machine_maximum`
+     },
+     {
+      output:'create:spout',
+      pattern:[' A ',' B ',' C '],
+      key:{
+        A: 'kubejs:soul_gem',
+        B: 'create:andesite_casing',
+        C: 'minecraft:dried_kelp'
+      },
+      id:`${id_prefix}spout`
+     },
+     {
+      output:'8x mekanism:induction_casing',
+      pattern:[' A ','ABA',' A '],
+      key:{
+        A: 'mekanism:boiler_casing',
+        B: 'malum:aerial_spirit'
+      },
+      id:`${id_prefix}induction_casing`
+     },
+     {
+      output:'2x mekanism:induction_port',
+      pattern:[' A ','ABA',' A '],
+      key:{
+        A: 'mekanism:induction_casing',
+        B: 'thermal:upgrade_augment_2'
+      },
+      id:`${id_prefix}induction_port`
      }]
   
   recipes.forEach(recipe =>{

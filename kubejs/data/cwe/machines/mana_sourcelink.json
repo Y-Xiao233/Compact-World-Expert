@@ -66,7 +66,10 @@
         "mode":"input",
         "id":"input1",
         "type": "custommachinery:mana",
-        "capacity": 1000
+        "capacity": 1000,
+        "config": {
+          "default": "input"
+        }
       },
       {
         "mode": "output",
@@ -75,8 +78,8 @@
         "capacity": 10000
       },
       {
-          "type": "custommachinery:redstone",
-          "poweroutput": 15
+        "type": "custommachinery:redstone",
+        "poweroutput": 15
       }
     ],
     "catalysts": []

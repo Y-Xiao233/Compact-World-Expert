@@ -105,10 +105,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"328CAFBDA905B511"
-				"22118877EFF7B280"
-			]
+			dependencies: ["328CAFBDA905B511"]
 			id: "43FDBF5AB1B4258C"
 			rewards: [{
 				id: "74BE022C5E93A8E9"
@@ -140,22 +137,6 @@
 			}]
 			x: 3.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["6C297AEDFCBC6E50"]
-			id: "22118877EFF7B280"
-			rewards: [{
-				id: "533C43030F1559BD"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1BB27BEE4CD49198"
-				item: "create:spout"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["68248BF75508CCAA"]

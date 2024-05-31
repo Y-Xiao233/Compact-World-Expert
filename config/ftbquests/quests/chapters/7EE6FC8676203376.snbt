@@ -208,6 +208,7 @@
 			dependencies: [
 				"342D277D8309A443"
 				"105D117A4BF0756C"
+				"17D7F64A4D2DA92B"
 			]
 			id: "6FA698F39B3333C0"
 			rewards: [{
@@ -250,11 +251,18 @@
 				"{ftbquests.chapter.7EE6FC8676203376.quests10.description1}"
 			]
 			id: "608BF3A5C2AADBFA"
-			rewards: [{
-				id: "25713F2CFEC5CDAE"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "25713F2CFEC5CDAE"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					id: "70B51330ECCCD82A"
+					item: "ars_nouveau:glyph_dispel"
+					type: "item"
+				}
+			]
 			subtitle: "{ftbquests.chapter.7EE6FC8676203376.quests10.subtitle}"
 			tasks: [{
 				id: "74FEDDA88B4807C3"
@@ -454,6 +462,7 @@
 				{
 					id: "51676485B08B29BF"
 					item: "cwe:fake_fluid_tank"
+					optional_task: true
 					title: "{ftbquests.chapter.7EE6FC8676203376.quests18.tasks1.title}"
 					type: "item"
 				}
@@ -1987,6 +1996,17 @@
 			}]
 			x: 6.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["7FC1A537DBC0443B"]
+			id: "17D7F64A4D2DA92B"
+			tasks: [{
+				id: "187B80D83FED6095"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	title: "{ftbquests.chapter.7EE6FC8676203376.title}"

@@ -693,7 +693,10 @@ ServerEvents.recipes(event => {
     'rftoolsutility:sequencer',
     'rftoolsutility:logic',
     'functionalstorage:iron_downgrade',
-    'naturesaura:eye'
+    'naturesaura:eye',
+    'create:spout',
+    'mekanism:induction_casing',
+    'mekanism:induction_port'
     ]
 
     const remove_by_id = [
@@ -1694,7 +1697,15 @@ ServerEvents.recipes(event => {
         'mekanism:antiprotonic_nucleosynthesizer',
         'thermalendergy:endergy_upgrade_3',
         'thermalendergy:stellarium_ingot_from_dust',
-        'thermalendergy:machine/smelter/stellarium_ingot'
+        'thermalendergy:machine/smelter/stellarium_ingot',
+        'minecraft:gold_nugget_from_smelting',
+        'mekanismtools:gold_nugget_from_smelting',
+        'farmersdelight:gold_nugget_from_smelting_knife',
+        'minecraft:gold_nugget_from_blasting',
+        'mekanismtools:gold_nugget_from_blasting',
+        'farmersdelight:gold_nugget_from_blasting_knife',
+        'create:splashing/red_sand',
+        'thermal:machines/pulverizer/pulverizer_gilded_blackstone'
     ]
 
     const remove_by_type = [

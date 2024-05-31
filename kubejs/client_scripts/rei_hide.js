@@ -66,7 +66,6 @@ const rei_hide = [
     'elementalcraft:vacuumshrine',
     'industrialforegoing:transporter',
     'create:water_wheel',
-    'create:large_water_wheel',
     /botanypots:.*\_terracotta_botany_pot/,
     /botanypots:.*\_terracotta_hopper_botany_pot/,
     /botanypots:.*\_concrete_botany_pot/,
@@ -523,7 +522,10 @@ const rei_hide = [
     'rftoolsutility:invchecker',
     'rftoolsutility:sensor',
     'rftoolsutility:sequencer',
-    'rftoolsutility:logic'
+    'rftoolsutility:logic',
+    'create:windmill_bearing',
+    'create:sail_frame',
+    'create:white_sail'
 ]
 
 REIEvents.hide('item', event => {

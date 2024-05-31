@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
   const recipes = [
     {
       output:'kubejs:cad_assembly_compact',
-      pattern:['AA ','AA ','   '],
+      pattern:['AAA','A  ','   '],
       key:{
         A: 'kubejs:compact_ingot'
       },

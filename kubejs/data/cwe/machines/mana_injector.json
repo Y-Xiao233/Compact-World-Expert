@@ -90,7 +90,10 @@
         "mode":"input",
         "id":"input1",
         "type": "custommachinery:mana",
-        "capacity": 100000
+        "capacity": 100000,
+        "config": {
+          "default": "input"
+        }
       },
       {
         "mode": "input",

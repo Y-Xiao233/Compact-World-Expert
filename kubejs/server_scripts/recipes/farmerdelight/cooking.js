@@ -24,11 +24,11 @@ ServerEvents.recipes(event =>{
             {"item":'naturesaura:gold_fiber'}
             ], //max inputItem:6
             output:'minecraft:gold_nugget',
-            output_amount:12,
+            output_amount:4,
             recipe_book_tab:"misc",
             experience:0.35,
             time:20,
-            id:`${id_prefix}gold_nuggt`
+            id:`${id_prefix}gold_nugget`
         }]
 
     recipes.forEach(recipe =>{

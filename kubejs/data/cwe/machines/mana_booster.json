@@ -84,7 +84,10 @@
         "mode":"output",
         "id":"slot3",
         "type": "custommachinery:mana",
-        "capacity": 1000
+        "capacity": 1000,
+        "config": {
+          "default": "output"
+        }
       },
       {
           "type": "custommachinery:redstone",
