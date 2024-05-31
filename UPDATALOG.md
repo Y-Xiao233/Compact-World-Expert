@@ -47,3 +47,7 @@
 * 14.[Modification] Added RftoolsUtility and hidden all items of the mod except for the crafter
 * 15.[Modification] Added food to ftbq rewards
 * 16.[Modification] Updated versions of McJtyLib and RftoolsBase
+
+## v0.0.35
+* 1.[BUG修复]修复了config打包错误的bug
+* 1. [BUG Fix] Fixed a bug in config packaging error
