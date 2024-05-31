@@ -200,3 +200,4 @@
 * [Extreme sound muffler (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
 * [Custom Machinery Mekanism (by frinn38)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-mekanism)
 * [Night Config Fixes (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/night-config-fixes)
+* [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
