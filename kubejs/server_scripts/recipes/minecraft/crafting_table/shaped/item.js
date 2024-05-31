@@ -742,6 +742,24 @@ ServerEvents.recipes(event => {
         B: 'minecraft:stick'
       },
       id:`${id_prefix}rainbow_pickaxe`
+     },
+     {
+      output:'functionalstorage:iron_downgrade',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'psi:psimetal',
+        B: 'kubejs:functionalstorage_upgrade_base'
+      },
+      id:`${id_prefix}iron_downgrade_1`
+     },
+     {
+      output:'4x functionalstorage:iron_downgrade',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'minecraft:iron_ingot',
+        B: 'kubejs:functionalstorage_upgrade_base'
+      },
+      id:`${id_prefix}iron_downgrade_2`
      }]
   
   recipes.forEach(recipe =>{

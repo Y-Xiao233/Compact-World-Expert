@@ -63,7 +63,20 @@ ServerEvents.recipes(event =>{
             output_amount:2,
             time:10,
             id:`${id_prefix}nature_altar`
-        }]
+        },
+        {
+            inputItem:[
+            items('botania:purple_petal'),
+            items('naturesaura:gold_leaf'),
+            items('minecraft:gold_ingot'),
+            items('minecraft:gold_ingot')
+            ], //max inputItem:8
+            sapling:'minecraft:oak_sapling',
+            ountput:'naturesaura:eye',
+            output_amount:1,
+            time:10,
+            id:`${id_prefix}natureaura_eye`
+           }]
 
     recipes.forEach(recipe =>{
         event.custom({

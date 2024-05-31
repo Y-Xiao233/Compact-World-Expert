@@ -24,7 +24,7 @@
 			dev: false
 			height: 18.0d
 			hover: [ ]
-			image: "botania:block/enchanter"
+			image: "kubejs:textures/ftbquests/enchanter.png"
 			order: -1
 			rotation: 0.0d
 			width: 18.0d
@@ -1516,7 +1516,7 @@
 						Unbreakable: 1b
 					}
 				}
-				match_nbt: false
+				match_nbt: true
 				type: "item"
 			}]
 			x: 3.5d
@@ -1941,6 +1941,17 @@
 			}]
 			x: 7.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["25CC723A3292FE39"]
+			id: "0868771D1B6A45A6"
+			tasks: [{
+				id: "254F85A37639FCF0"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
 		}
 	]
 	title: "{ftbquests.chapter.354FF9E33E408A04.title}"

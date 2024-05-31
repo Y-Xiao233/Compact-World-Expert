@@ -59,7 +59,7 @@
 						stored_type: "naturesaura:other"
 					}
 				}
-				match_nbt: false
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d
@@ -82,7 +82,7 @@
 						stored_type: "naturesaura:end"
 					}
 				}
-				match_nbt: false
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.5d

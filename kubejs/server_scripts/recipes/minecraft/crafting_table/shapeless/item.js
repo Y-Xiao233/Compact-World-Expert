@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         {
             output:'ars_nouveau:apprentice_spell_book',
             output_amount:1,
-            input:['minecraft:book','minecraft:purple_dye'],
+            input:['minecraft:book','botania:purple_petal'],
             id:`${id_prefix}apprentice_spell_book`
         },
         {
@@ -204,7 +204,7 @@ ServerEvents.recipes(event =>{
                 function(inventory, itemStack){
                     let knife_nbt = inventory.find(Item.of('kubejs:psiknife')).nbt;
                     if(knife_nbt.get('Damage') == 0){
-                        event.cancel()
+                        return itemStack
                     }
                     itemStack.setDamageValue(knife_nbt.get('Damage') - 1)
                     return itemStack

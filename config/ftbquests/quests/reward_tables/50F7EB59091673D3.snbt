@@ -208,8 +208,8 @@
 		{ item: "ae2:certus_quartz_crystal", weight: 5.0f }
 		{ item: "minecraft:stone", weight: 15.0f }
 		{ item: "minecraft:iron_ingot" }
-		{ item: "minecraft:diamond", weight: 5.0f }
-		{ item: "minecraft:oak_log", weight: 10.0f }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:oak_log", weight: 25.0f }
 		{ item: "ars_nouveau:source_gem", weight: 10.0f }
 		{ item: "thermal:apatite", weight: 4.0f }
 		{ item: "minecraft:redstone", weight: 3.0f }
@@ -217,6 +217,12 @@
 		{ item: "minecraft:gold_ingot", weight: 15.0f }
 		{ item: "minecraft:bone_meal", weight: 15.0f }
 		{ item: "minecraft:clay_ball", weight: 25.0f }
+		{ item: "create_bic_bit:cooked_herring", weight: 18.0f }
+		{ item: "create_bic_bit:speculaas", weight: 15.0f }
+		{ item: "create_bic_bit:wrapped_mayonnaise_ketchup_topped_fries", weight: 20.0f }
+		{ item: "create_bic_bit:mayonnaise_ketchup_topped_kroket_sandwich", weight: 20.0f }
+		{ item: "create_bic_bit:fries", weight: 20.0f }
+		{ item: "create_bic_bit:frikandel_sandwich", weight: 20.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

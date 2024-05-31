@@ -291,7 +291,7 @@
 			}
 			id: "020495B69A69DB35"
 			rewards: [{
-				id: "5DD8519F3B288D16"
+				id: "4CFA270AAC612F43"
 				item: {
 					Count: 1b
 					id: "akashictome:tome"
@@ -303,6 +303,10 @@
 								tag: {
 									"patchouli:book": "apotheosis:apoth_chronicle"
 								}
+							}
+							ars_nouveau: {
+								Count: 1b
+								id: "ars_nouveau:worn_notebook"
 							}
 							compactmachines: {
 								Count: 1b

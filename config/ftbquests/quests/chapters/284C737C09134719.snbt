@@ -182,7 +182,7 @@
 					type: "item"
 				}
 				{
-					id: "5F250E42989AC780"
+					id: "39F8A32ADD5F5B72"
 					item: {
 						Count: 1b
 						id: "akashictome:tome"
@@ -194,6 +194,10 @@
 									tag: {
 										"patchouli:book": "apotheosis:apoth_chronicle"
 									}
+								}
+								ars_nouveau: {
+									Count: 1b
+									id: "ars_nouveau:worn_notebook"
 								}
 								compactmachines: {
 									Count: 1b

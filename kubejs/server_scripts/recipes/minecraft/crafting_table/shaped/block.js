@@ -1153,14 +1153,14 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}combiner`
      },
      {
-      output:'cyclic:crafter',
+      output:'rftoolsutility:crafter1',
       pattern:['ABA','BCB','ABA'],
       key:{
         A: 'botania:livingrock',
         B: 'botania:manasteel_ingot',
         C: 'psi:psimetal_block'
       },
-      id:`${id_prefix}crafter`
+      id:`${id_prefix}crafter1`
      },
      {
       output:'entangled:block',

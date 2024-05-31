@@ -1027,8 +1027,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "7E63FF896159854F"
-				item: "minecraft:purple_dye"
+				id: "12C5EBE31FC9929B"
+				item: "botania:purple_petal"
 				type: "item"
 			}]
 			x: 8.0d
@@ -2397,6 +2397,17 @@
 				type: "item"
 			}]
 			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31A243DA740F9B31"]
+			id: "4470F076B895C19C"
+			tasks: [{
+				id: "483520BBD0BD2294"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: 8.0d
 			y: 5.0d
 		}
 	]

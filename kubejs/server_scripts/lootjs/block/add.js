@@ -4,4 +4,5 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier('powah:uraninite_ore_dense').addLoot('powah:uraninite_ore_dense')
     event.addBlockLootModifier('create_new_age:thorium_ore').addLoot('create_new_age:thorium_ore')
     event.addBlockLootModifier('minecraft:lapis_ore').addLoot('minecraft:lapis_ore')
+    event.addBlockLootModifier('minecraft:gold_ore').addLoot('minecraft:gold_ore')
 })
