@@ -58,8 +58,8 @@
 * 2.[BUG修复]修复了任务中部分可选物品没有可选属性的bug
 * 3.[BUG修复]修复了点击xnet界面中"Ins"会导致游戏崩溃的bug（更新了xnet）
 * 4.[BUG修复]修复了任务中整合包名称错误的bug
-* 5.[BUG修复]修改了psi小刀没有魔源时的判断条件(\#1 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/1]
-* 6.[BUG修复]任务中可以无限领取的物品不能无限领取(\#2 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/2]
+* 5.[BUG修复]修改了psi小刀没有魔源时的判断条件[\#1 by eciv-oN](https://github.com/Y-Xiao233/Compact-World-Expert/issues/1)
+* 6.[BUG修复]任务中可以无限领取的物品不能无限领取[\#2 by eciv-oN](https://github.com/Y-Xiao233/Compact-World-Expert/issues/2)
 * 7.[改动]任务中增送解除魔法
 * 8.[改动]修改了压缩CAD机体的合成配方
 * 9.[改动]修改了部分物品贴图(由MX_w绘制)
@@ -76,7 +76,6 @@
 * 20.[改动]删除了彩色着色器
 * 21.[改动]为硅添加了tooltip
 * 22.[改动]在硅的任务处赠送了一个进阶元素聚合器
-
 * 23.[改动]把任务中的充能棒改为了或过滤器
 * 24.[改动]修改了凋零玫瑰合成黑色染料的配方
 
@@ -105,5 +104,5 @@
 * 20.[Modification] Removed color shaders
 * 21.[Modification] Added tooltip to silicon
 * 22.[Modification] An advanced element aggregator has been gifted at the silicon task
-* 23. [Modification] Change the charging rod in the task to or filter it
-* 24. [Modification] Modified the formula for synthesizing black dye from withered roses
+* 23.[Modification] Change the charging rod in the task to or filter it
+* 24.[Modification] Modified the formula for synthesizing black dye from withered roses
