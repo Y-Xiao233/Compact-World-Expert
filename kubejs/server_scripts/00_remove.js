@@ -1705,7 +1705,8 @@ ServerEvents.recipes(event => {
         'mekanismtools:gold_nugget_from_blasting',
         'farmersdelight:gold_nugget_from_blasting_knife',
         'create:splashing/red_sand',
-        'thermal:machines/pulverizer/pulverizer_gilded_blackstone'
+        'thermal:machines/pulverizer/pulverizer_gilded_blackstone',
+        'farmersdelight:cutting/wither_rose'
     ]
 
     const remove_by_type = [

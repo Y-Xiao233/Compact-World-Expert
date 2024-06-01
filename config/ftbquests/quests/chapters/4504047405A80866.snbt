@@ -148,6 +148,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b
@@ -447,6 +448,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b
@@ -778,6 +780,7 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["284C737C09134719"]
 			icon: {
 				Count: 1b

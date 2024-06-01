@@ -65,6 +65,13 @@ ServerEvents.recipes(event =>{
             input:'laserio:logic_chip_raw',
             tool:'cwe:tools/knives/psimetal',
             id:`${id_prefix}logic_chip`
+        },
+        {
+            output:'minecraft:black_dye',
+            output_amount:2,
+            input:'minecraft:wither_rose',
+            tool:'cwe:tools/knives/psimetal',
+            id:`${id_prefix}black_dye`
         }]
 
     recipes.forEach(recipe =>{

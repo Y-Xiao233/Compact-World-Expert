@@ -1,5 +1,6 @@
 BlockEvents.rightClicked(event => {
-    const {hand , item, player} = event
+    const {hand , item, player, block} = event
+    if(block.id !== 'farmersdelight:cutting_board') return
 
     if (((hand.name() == "MAIN_HAND") ||
         (hand.name() == "OFF_HAND")) &&

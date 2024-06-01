@@ -251,6 +251,11 @@ const tooltips_rei_information = [
         id:['compactmachines:solid_wall'],
         information:[Text.translate('tip.compact_world.information_43')],
         tooltip:true
+    },
+    {
+        id:['ae2:silicon'],
+        information:[Text.translate('tip.compact_world.information_44')],
+        tooltip:true
     }]
 
 REIEvents.information(event => {

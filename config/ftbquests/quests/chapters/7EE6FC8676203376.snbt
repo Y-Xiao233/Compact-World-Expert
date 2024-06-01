@@ -813,11 +813,18 @@
 		{
 			dependencies: ["52C6B3B1B17B9CC8"]
 			id: "135F57F3E99ADC08"
-			rewards: [{
-				id: "03D332E1D93D4794"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "03D332E1D93D4794"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					id: "6B28DDD7C1F1EFF4"
+					item: "elementalcraft:binder_improved"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2B4BADD64767BB4E"
 				item: "kubejs:gem_water"
@@ -1421,8 +1428,31 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "449CC6AD9C0AAE0E"
-				item: "powah:energizing_rod_basic"
+				id: "5AFAE12ED3849B3D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energizing_rod_nitro"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_hardened"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			x: 9.5d

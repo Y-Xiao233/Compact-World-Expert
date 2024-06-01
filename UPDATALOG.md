@@ -58,18 +58,52 @@
 * 2.[BUG修复]修复了任务中部分可选物品没有可选属性的bug
 * 3.[BUG修复]修复了点击xnet界面中"Ins"会导致游戏崩溃的bug（更新了xnet）
 * 4.[BUG修复]修复了任务中整合包名称错误的bug
-* 5.[改动]任务中增送解除魔法
-* 6.[改动]修改了压缩CAD机体的合成配方
-* 7.[改动]修改了部分物品贴图(由MX_w绘制)
-* 8.[改动]更新了感谢名单
-* 9.[改动]削弱了厨锅造金粒（12个/每次 -> 4个/每次）
-* 10.[改动]删除了Create的风车并让大水车可以制作
-* 11.[改动]添加了xnet的汉化
-* 12.[改动]更改了部分自定义机器的默认配置
-* 13.[改动]更改了魔力增值器和魔力魔源通道的比例和制作时间
-* 14.[改动]删除了元素马达（导致了过多bug）
-* 15.[改动]修改了感应外壳，感应端口的配方
-* 16.[改动]删除了一些无用的配方
-* 17.[改动]提高了星宝石兽跑轮的应力量（最多2048su -> 最多4096su）
-* 18.[改动]删除了彩色着色器
+* 5.[BUG修复]修改了psi小刀没有魔源时的判断条件(\#1 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/1]
+* 6.[BUG修复]任务中可以无限领取的物品不能无限领取(\#2 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/2]
+* 7.[改动]任务中增送解除魔法
+* 8.[改动]修改了压缩CAD机体的合成配方
+* 9.[改动]修改了部分物品贴图(由MX_w绘制)
+* 10.[改动]更新了感谢名单
+* 11.[改动]削弱了厨锅造金粒（12个/每次 -> 4个/每次）
+* 12.[改动]删除了Create的风车并让大水车可以制作
+* 13.[改动]添加了xnet的汉化
+* 14.[改动]更改了部分自定义机器的默认配置
+* 15.[改动]更改了魔力增值器和魔力魔源通道的比例和制作时间
+* 16.[改动]删除了元素马达（导致了过多bug）
+* 17.[改动]修改了感应外壳，感应端口的配方
+* 18.[改动]删除了一些无用的配方
+* 19.[改动]提高了星宝石兽跑轮的应力量（最多2048su -> 最多4096su）
+* 20.[改动]删除了彩色着色器
+* 21.[改动]为硅添加了tooltip
+* 22.[改动]在硅的任务处赠送了一个进阶元素聚合器
 
+* 23.[改动]把任务中的充能棒改为了或过滤器
+* 24.[改动]修改了凋零玫瑰合成黑色染料的配方
+
+
+
+
+* 1.[BUG Fix] Fixed a bug that prevented the production of the injector in the early stages
+* 2.[BUG Fix] Fixed a bug in the task where some optional items did not have optional attributes
+* 3.[Bug fix] Fixed a bug in the Xnet interface where clicking "Ins" would cause the game to crash (updated Xnet)
+* 4.[BUG Fix] Fixed a bug in the integration package name error in the task
+* 5.[BUG Fix] Modified the judgment criteria for psi knife without magic source(\#1 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/1]
+* 6.[BUG Fix] Items that can be claimed infinitely in the task cannot be claimed infinitely(\#1 by eciv-oN)[https://github.com/Y-Xiao233/Compact-World-Expert/issues/2]
+* 7.[Modification] Add dispelling magic in the mission
+* 8.[Modification] Modified the synthetic formula for compressing CAD bodies
+* 9.[Modification] Modified some item textures (drawn by MX_w)
+* 10.[Modification] Updated thank-you list
+* 11.[Modification] Weakened the kitchen pot making gold particles (12/time ->4/time)
+* 12.[Modification] Removed the windmill for Create and allowed the large water mill to be made
+* 13.[Modification] Added sinicization of Xnet
+* 14.[Modification] Changed the default configuration of some custom machines
+* 15.[Modification] Changed the ratio and production time of the magic booster and magic source channel
+* 16.[Modification] Removed element motor (caused too many bugs)
+* 17.[Modification] Modified the formula of the sensing shell and sensing port
+* 18.[Modification] Some useless formulas have been removed
+* 19.[Modification] Improved the stress of the Star Gem Beast running wheel (up to 2048su ->up to 4096su)
+* 20.[Modification] Removed color shaders
+* 21.[Modification] Added tooltip to silicon
+* 22.[Modification] An advanced element aggregator has been gifted at the silicon task
+* 23. [Modification] Change the charging rod in the task to or filter it
+* 24. [Modification] Modified the formula for synthesizing black dye from withered roses

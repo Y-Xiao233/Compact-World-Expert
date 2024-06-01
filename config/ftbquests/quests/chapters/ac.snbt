@@ -613,8 +613,31 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "3BB0F67A6ABDE991"
-				item: "powah:energizing_rod_hardened"
+				id: "2F9EDE9BC3DCEF5C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energizing_rod_nitro"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_hardened"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d

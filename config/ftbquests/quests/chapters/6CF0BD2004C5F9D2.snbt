@@ -450,8 +450,31 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "002DCFF3ACC1980D"
-				item: "powah:energizing_rod_niotic"
+				id: "09419FF6D65602D7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energizing_rod_nitro"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energizing_rod_hardened"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			x: 6.0d
