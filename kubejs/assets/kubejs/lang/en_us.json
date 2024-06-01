@@ -218,6 +218,8 @@
     "tip.compact_world.information_42": "Can break solid  walls",
     "tip.compact_world.information_43": "Can be destroyed by rainbow pickaxe",
     "tip.compact_world.information_44": "Advanced element aggregators must be used to extract silicon during synthesis",
+    "tip.compact_world.information_45":"§cStress can only be transmitted in the same dimension.\n\n§a Note: All compressed spaces are in the same dimension~",
+    "tip.compact_world.information_46":"§aCan mine all the blocks that can be mined",
     
 
     

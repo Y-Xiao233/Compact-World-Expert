@@ -106,3 +106,50 @@
 * 22.[Modification] An advanced element aggregator has been gifted at the silicon task
 * 23.[Modification] Change the charging rod in the task to or filter it
 * 24.[Modification] Modified the formula for synthesizing black dye from withered roses
+
+
+## v0.0.5
+* 1.[BUG修复]修复了星宝石兽跑轮任务描述错误的bug
+* 2.[BUG修复]修复了植物魔法辞典加载错误的bug
+* 3.[BUG修复]修复了物品路由器无法制作的bug
+* 4.[BUG修复]修复了星宝石兽跑轮任务中描述错误的bug
+* 5.[改动]修改了销毁升级的配方
+* 6.[改动]添加了psi粉末的自动化配方
+* 7.[改动]解禁了红石魔力发射器
+* 8.[改动]删除了阿卡什宝典，并加入了怪奇宝典
+* 9.[改动]把植物魔法辞典加入了怪奇宝典
+* 10.[改动]现在配置工具,神奇的木棍在变形工具中也有了
+* 11.[改动]修改了彩虹锭以及创造型ME存储元件的合成配方
+* 12.[改动]为虚空马达添加了一些描述
+* 13.[改动]调高了黄铜漏斗在任务奖励中的概率并加入了（智能）溜槽
+* 14.[改动]完善了神话植物学的汉化
+* 15.[改动]向任务随机奖励中添加了宝箱怪刷怪蛋，并修改了挖掘爪（可以挖掘所有可被挖掘方块）
+* 16.[改动]补全的ExtendedAE的汉化
+* 17.[改动]更新了Entangled，并修改了其配置文件
+* 18.[改动]解禁了黄色网络线缆
+* 19.[改动]更改了星宝石兽跑轮的配方
+* 20.[改动]增强了交流发电机（发电效率0.75 -> 1.0，RF容量 5000 -> 50000）
+* 21.[改动]优化了lockdown存档文件template
+
+
+* 1.[BUG Fix] Fixed a bug where the description of the Star Gem Beast's wheel running task was incorrect
+* 2.[BUG Fix] Fixed a bug that caused loading errors in the Plant Magic Dictionary
+* 3.[BUG Fix] Fixed a bug where the item router could not be created
+* 4.[BUG Fix] Fixed a bug in the description of the Star Gem Beast wheel running mission that was incorrect
+* 5.[Change] Modified the formula for destroying and upgrading
+* 6.[Modification] Added automated formula for psi powder
+* 7.[Change] Unleashed the Redstone Magic Launcher
+* 8.[Change] Removed Akash Encyclopedia and added Strange Encyclopedia
+* 9.[Change] Added the Plant Magic Dictionary to the Strange Treasure Dictionary
+* 10.[Change] Now the configuration tool, the magical wooden stick, is also included in the deformation tool
+* 11.[Modification] Modified the synthesis formula of rainbow ingots and creative ME storage components
+* 12.[Change] Added some descriptions for the Void Motor
+* 13.[Change] Increased the probability of brass funnel in task rewards and added (intelligent) chutes
+* 14.[Modification] Improved the sinicization of mythological botany
+* 15.[Change] Added Treasure Box Monster Brushing Monster Eggs to the random rewards for missions, and modified the Digging Claw (which can mine all the blocks that c an be mined)
+* 16.[Change] Complete the sinicization of ExtendedAE
+* 17.[Change] Updated Entangled and modified its configuration file
+* 18.[Change] Unleashed yellow network cable
+* 19.[Change] Changed the formula of the Star Gem Beast running wheel
+* 20.[Modification] Enhanced AC generator (power generation efficiency 0.75->1.0, RF capacity 5000->50000)
+* 21.[Change] Optimized the lockdown archive file template

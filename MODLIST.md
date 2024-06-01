@@ -51,7 +51,6 @@
 * [Mekanism Additions (by bradyaidanc)](https://www.curseforge.com/minecraft/mc-mods/mekanism-additions)
 * [Spirit (by terrariumearth)](https://www.curseforge.com/minecraft/mc-mods/spirit)
 * [Polymorph (Fabric/Forge/Quilt) (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/polymorph)
-* [Akashic Tome (by Vazkii)](https://www.curseforge.com/minecraft/mc-mods/akashic-tome)
 * [Ponder for KubeJS (by Lytho)](https://www.curseforge.com/minecraft/mc-mods/ponder)
 * [Create: Estrogen (by Mayaqq)](https://www.curseforge.com/minecraft/mc-mods/estrogen)
 * [Sophisticated Storage (by P3pp3rF1y)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage)
@@ -201,3 +200,4 @@
 * [Custom Machinery Mekanism (by frinn38)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-mekanism)
 * [Night Config Fixes (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/night-config-fixes)
 * [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
+* [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)

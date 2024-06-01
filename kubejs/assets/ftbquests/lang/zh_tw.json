@@ -712,7 +712,7 @@
  "ftbquests.chapter.425939884D3DD947.quests33.description9": "&c運算符:矢量追踪&f的&a&l位置&f和&a&l射線&4必須&f如下方第二張圖所示",
  "ftbquests.chapter.425939884D3DD947.quests35.description": "&m&d藏在哪裡了呢？",
  "ftbquests.chapter.4504047405A80866.title": "&d可以無限領取的物品~",
- "ftbquests.chapter.4504047405A80866.quests0.tasks0.title": "阿卡什寶典",
+ "ftbquests.chapter.4504047405A80866.quests0.tasks0.title": "怪奇寶典",
  "ftbquests.chapter.4504047405A80866.quests1.tasks0.title": "變形工具",
  "ftbquests.chapter.4504047405A80866.quests2.tasks0.title": "頭~",
  "ftbquests.chapter.6CF0BD2004C5F9D2.title": "核反應?",
@@ -739,8 +739,8 @@
  "ftbquests.chapter.7EE6FC8676203376.quests23.title": "元素積蓄器",
  "ftbquests.chapter.7EE6FC8676203376.quests23.tasks0.title": "元素積蓄器",
  "ftbquests.chapter.7EE6FC8676203376.quests28.description0": "&a他所產生的應力被魔改了!",
- "ftbquests.chapter.7EE6FC8676203376.quests28.description1": "&d單獨一個可以產生1024的應力",
- "ftbquests.chapter.7EE6FC8676203376.quests28.description2": "&6在前面放置金塊可以產生2048的應力",
+ "ftbquests.chapter.7EE6FC8676203376.quests28.description1": "&d單獨一個可以產生2048的應力",
+ "ftbquests.chapter.7EE6FC8676203376.quests28.description2": "&6在前面放置金塊可以產生4096的應力",
  "ftbquests.chapter.7EE6FC8676203376.quests33.description0": "[第一個奔流至高木原木可以通過把樹苗種植在泥土上，使用骨粉催熟樹苗獲取]",
  "ftbquests.chapter.7EE6FC8676203376.quests33.description2": "&9它可以在植物盆中進行種植",
  "ftbquests.chapter.7EE6FC8676203376.quests33.description4": "&c但是奇怪的是如果你對著植物盆按u，你無法看到合成表",
@@ -839,5 +839,7 @@
 "ftbquests.chapter.7D014A0FF3B98CC2.quests3.description": "&a可以被彩虹鎬破壞",
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description0": "&a主手拿著彩虹錠對著空氣右鍵即可獲得",
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&c必須在&a主世界的&d壓縮空間外",
-"ftbquests.reward_tables.50F7EB59091673D3.title": "獎勵"
+"ftbquests.reward_tables.50F7EB59091673D3.title": "獎勵",
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description0":"&c只能在相同維度傳輸應力",
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有壓縮空間都是在同一個維度中的哦~"
 }

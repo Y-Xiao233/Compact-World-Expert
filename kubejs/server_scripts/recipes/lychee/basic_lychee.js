@@ -119,7 +119,7 @@ ServerEvents.recipes(event =>{
         },
         {
             main:lychee('lychee:block_interacting','botania:rune_earth','spirit:soul_steel_block',
-                 posts('drop_item','modularrouters:modular_router',4,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace create:andesite_casing")),
+                 posts('drop_item','modularrouters:modular_router',4,'execute',"fill ~ ~ ~ ~ ~ ~ minecraft:air replace spirit:soul_steel_block")),
             id:`${id_prefix}modularrouters`
         },
         {

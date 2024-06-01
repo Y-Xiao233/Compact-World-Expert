@@ -128,6 +128,18 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['mekanism:laser_amplifier','minecraft:chest'],
             id:`${id_prefix}laraser_tractor_beam`
+        },
+        {
+            output:'botania:redstone_spreader',
+            output_amount:1,
+            input:['botania:mana_spreader','minecraft:redstone_torch'],
+            id:`${id_prefix}redstone_spreader`
+        },
+        {
+            output:'xnet:netcable_yellow',
+            output_amount:4,
+            input:['xnet:connector_yellow'],
+            id:`${id_prefix}netcable_yellow`
         }]
 
     recipes.forEach(recipe =>{

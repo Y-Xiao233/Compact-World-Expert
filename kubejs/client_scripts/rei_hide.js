@@ -81,7 +81,6 @@ const rei_hide = [
     'ironfurnaces:upgrade_silver2',
     'ironfurnaces:upgrade_gold2',
     'botania:elven_spreader',
-    'botania:redstone_spreader',
     'constructionwand:iron_wand',
     'powah:energizing_rod_starter',
     'industrialforegoing:speed_addon_1',
@@ -268,7 +267,6 @@ const rei_hide = [
     'createutilities:void_tank',
     'createutilities:void_chest',
     'createutilities:void_battery',
-    /xnet:netcable_.*/,
     'xnet:redstone_proxy_upd',
     'xnet:redstone_proxy',
     'xnet:router',
@@ -525,7 +523,11 @@ const rei_hide = [
     'rftoolsutility:logic',
     'create:windmill_bearing',
     'create:sail_frame',
-    'create:white_sail'
+    'create:white_sail',
+    'xnet:netcable_routing',
+    'xnet:netcable_blue',
+    'xnet:netcable_green',
+    'xnet:netcable_red'
 ]
 
 REIEvents.hide('item', event => {

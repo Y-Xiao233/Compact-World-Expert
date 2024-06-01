@@ -445,6 +445,12 @@ ServerEvents.recipes(event =>{
             filter:{output:'create_new_age:heater'},
             original:'minecraft:iron_nugget',
             replace:'create_new_age:copper_circuit'
+        },
+        {
+            type:'input',
+            filter:{output:'functionalstorage:void_upgrade'},
+            original:'#functionalstorage:drawer',
+            replace:'kubejs:functionalstorage_upgrade_base'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

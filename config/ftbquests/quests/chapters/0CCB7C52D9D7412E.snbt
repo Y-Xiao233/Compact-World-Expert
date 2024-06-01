@@ -2312,6 +2312,10 @@
 		}
 		{
 			dependencies: ["2FB3DF89E9D0122A"]
+			description: [
+				"{ftbquests.chapter.332E2E63AD3628C2.quests91.description0}"
+				"{ftbquests.chapter.332E2E63AD3628C2.quests91.description1}"
+			]
 			id: "332E2E63AD3628C2"
 			rewards: [{
 				id: "7860FEFACF715ACF"

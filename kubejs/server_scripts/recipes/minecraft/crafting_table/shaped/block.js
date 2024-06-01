@@ -502,7 +502,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}binder_improved`
      },
      {
-      output:'ars_creo:starbuncle_wheel',
+      output:'2x ars_creo:starbuncle_wheel',
       pattern:[' A ',' B ',' C '],
       key:{
         A: 'create:shaft',

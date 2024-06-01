@@ -184,6 +184,19 @@ ServerEvents.recipes(event =>{
             output_amount:8,
             time:120,
             id:`${id_prefix}ebony_substance_2`
+           },
+           {
+            inputItem:[
+            {"item":'kubejs:compact_dust'},
+            {"item":'kubejs:compact_dust'},
+            {"item":'kubejs:compact_dust'},
+            {"item":'kubejs:compact_dust'},
+            {"item":'kubejs:compact_dust'}
+            ], //inputItem:5
+            output:'psi:psidust',
+            output_amount:5,
+            time:100,
+            id:`${id_prefix}psidust`
            }]
 
     recipes.forEach(recipe =>{

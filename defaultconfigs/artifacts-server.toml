@@ -78,10 +78,10 @@
 		durability = 0
 		#Mining speed bonus applied by digging claws
 		#Range: 0.0 ~ Infinity
-		mining_speed_bonus = 3.2
+		mining_speed_bonus = 8
 		#The tool tier of the digging claws
 		#To modify mineable blocks, use the 'artifacts:mineable/digging_claws' block tag
-		tool_tier = "minecraft:stone"
+		tool_tier = "minecraft:netherite"
 
 	[items.eternal_steak]
 		#Affects how many times this item can be eaten before breaking

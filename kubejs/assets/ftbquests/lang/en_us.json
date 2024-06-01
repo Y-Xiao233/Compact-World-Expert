@@ -222,7 +222,7 @@
 "ftbquests.chapter.425939884D3DD947.quests33.description9": "&cOperator: Vector Trace&f's&a&l Position&f and&a&l Ray&4 must be&f as shown in the second image below",
 "ftbquests.chapter.425939884D3DD947.quests35.description": "&m&dWhere could it be hidden?",
 "ftbquests.chapter.4504047405A80866.title": "&dItems that can be infinitely obtained~",
-"ftbquests.chapter.4504047405A80866.quests0.tasks0.title": "Akashic Tome",
+"ftbquests.chapter.4504047405A80866.quests0.tasks0.title": "Eccentric Tome",
 "ftbquests.chapter.4504047405A80866.quests1.tasks0.title": "Transfiguration Tool",
 "ftbquests.chapter.4504047405A80866.quests2.tasks0.title": "Head~",
 "ftbquests.chapter.6CF0BD2004C5F9D2.title": "Nuclear Reaction?",
@@ -249,8 +249,8 @@
 "ftbquests.chapter.7EE6FC8676203376.quests23.title": "Element Accumulator",
 "ftbquests.chapter.7EE6FC8676203376.quests23.tasks0.title": "Element Accumulator",
 "ftbquests.chapter.7EE6FC8676203376.quests28.description0": "&aIts stress output has been modded!",
-"ftbquests.chapter.7EE6FC8676203376.quests28.description1": "&dA single one can produce 1024 stress",
-"ftbquests.chapter.7EE6FC8676203376.quests28.description2": "&6Placing a gold block in front can produce 2048 stress",
+"ftbquests.chapter.7EE6FC8676203376.quests28.description1": "&dA single one can produce 2048 stress",
+"ftbquests.chapter.7EE6FC8676203376.quests28.description2": "&6Placing a gold block in front can produce 4096 stress",
 "ftbquests.chapter.7EE6FC8676203376.quests33.description0": "[The first Runic Lumber can be obtained by planting a sapling on dirt, then bonemealing it]",
 "ftbquests.chapter.7EE6FC8676203376.quests33.description2": "&9It can be planted in a Planter Pot",
 "ftbquests.chapter.7EE6FC8676203376.quests33.description4": "&cHowever, pressing 'u' on a Planter Pot doesn't show its recipe",
@@ -349,5 +349,7 @@
 "ftbquests.chapter.7D014A0FF3B98CC2.quests3.description": "&aCan be destroyed by rainbow pickaxe",
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description0": "&aHold the rainbow ingot in your main hand and right-click in the air to obtain",
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&cMust be outside of the compressed space in the &aOverworld",
-"ftbquests.reward_tables.50F7EB59091673D3.title": "Rewards"
+"ftbquests.reward_tables.50F7EB59091673D3.title": "Rewards",
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description0":"&c can only transmit stress in the same dimension",
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a Note: All compressed spaces are in the same dimension~"
 }

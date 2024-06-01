@@ -256,6 +256,16 @@ const tooltips_rei_information = [
         id:['ae2:silicon'],
         information:[Text.translate('tip.compact_world.information_44')],
         tooltip:true
+    },
+    {
+        id:['createutilities:void_motor'],
+        information:[Text.translate('tip.compact_world.information_45')],
+        tooltip:true
+    },
+    {
+        id:['artifacts:digging_claws'],
+        information:[Text.translate('tip.compact_world.information_46')],
+        tooltip:true
     }]
 
 REIEvents.information(event => {

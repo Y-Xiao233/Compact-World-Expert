@@ -4,7 +4,7 @@
         "block": "kubejs:machine/mana_sourcelink",
         "light":15,
         "hardness": 1,
-        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/paxel"],
+        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/pickaxe","artifacts:mineable/digging_claws"],
         "mining_level": "minecraft:needs_stone_tool",
         "running": {
             "block": "kubejs:machine/mana_sourcelink"

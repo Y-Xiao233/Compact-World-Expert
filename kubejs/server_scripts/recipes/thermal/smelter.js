@@ -79,7 +79,7 @@ ServerEvents.recipes(event =>{
         },
         {
             output:'ae2:creative_item_cell',
-            input:['64x compactmachines:solid_wall','kubejs:light_ingot'],
+            input:['64x compactmachines:solid_wall','4x kubejs:light_ingot','4x mekanism:pellet_antimatter'],
             energy:400000,
             id:'creative_item_cell'
         }]

@@ -244,8 +244,7 @@ ServerEvents.recipes(event =>{
             extra_items:[
                 items('mekanism:ultimate_control_circuit',64),
                 items('powah:crystal_nitro',64),
-                items('compressium:netherite_2',4),
-                items('mekanism:pellet_antimatter',1)
+                items('compressium:netherite_2')
             ],
             input:items('thermalendergy:stellarium_ingot',8),
             output:items('kubejs:rainbow_ingot'),
