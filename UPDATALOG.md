@@ -184,3 +184,10 @@
 * 11.[Modification] The advanced element aggregator gifted at the Water Crystal section in the task has been removed
 * 12.[Modification] Fixed the issue of incorrect description of plant pots in the task
 * 13.[Modification] Added additional light grey mysterious flowers and formula for light grey dye
+
+
+
+## v0.0.6-hotfix
+* 1.[严重BUG]修复了范围检测坐标错误的bug
+
+* 1.[Serious bug] Fixed a bug with range detection coordinate errors

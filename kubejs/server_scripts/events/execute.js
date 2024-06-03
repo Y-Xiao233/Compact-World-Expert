@@ -16,7 +16,7 @@ PlayerEvents.tick(event =>{
     const baseSpace = level.getEntitiesWithin(AABB.of(-7,0,-7,7,13,7)).contains(player)
     const swiftSpace = level.getEntitiesWithin(AABB.of(-7,0,-10,29,13,11)).contains(player)
     const skySpace = level.getEntitiesWithin(AABB.of(7,0,7,-21,13,-7)).contains(player)
-    const allSpace = level.getEntitiesWithin(AABB.of(-21,0,11,29,13,11)).contains(player)
+    const allSpace = level.getEntitiesWithin(AABB.of(-21,0,-11,29,13,11)).contains(player)
 
 
     function space(space){
