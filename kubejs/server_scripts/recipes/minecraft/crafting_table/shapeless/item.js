@@ -182,6 +182,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['powah:capacitor_basic_tiny','mekanism:nugget_steel','mekanism:nugget_steel','mekanism:nugget_steel'],
             id:`${id_prefix}capactior_basic`
+        },
+        {
+            output:'sophisticatedstorage:packing_tape',
+            output_amount:1,
+            input:['kubejs:gem_earth','minecraft:paper'],
+            id:`${id_prefix}packing_tape`
         }]
 
     recipes.forEach(recipe =>{

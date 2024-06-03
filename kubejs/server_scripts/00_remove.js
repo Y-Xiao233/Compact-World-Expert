@@ -696,7 +696,11 @@ ServerEvents.recipes(event => {
     'naturesaura:eye',
     'create:spout',
     'mekanism:induction_casing',
-    'mekanism:induction_port'
+    'mekanism:induction_port',
+    'sophisticatedstorage:packing_tape',
+    'sophisticatedstorage:storage_tool',
+    'ae2:certus_quartz_cutting_knife',
+    'sophisticatedstorage:storage_link'
     ]
 
     const remove_by_id = [
@@ -1706,7 +1710,8 @@ ServerEvents.recipes(event => {
         'farmersdelight:gold_nugget_from_blasting_knife',
         'create:splashing/red_sand',
         'thermal:machines/pulverizer/pulverizer_gilded_blackstone',
-        'farmersdelight:cutting/wither_rose'
+        'farmersdelight:cutting/wither_rose',
+        'farmersdelight:cutting/wild_carrots'
     ]
 
     const remove_by_type = [

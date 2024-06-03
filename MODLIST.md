@@ -1,9 +1,8 @@
-## Compact World: Expert (by Y_Xiao233) - v0.0.2
+## Compact World: Expert (by Y_Xiao233) - v0.0.6
 * [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
 * [Configured (by MrCrayfish)](https://www.curseforge.com/minecraft/mc-mods/configured)
-* [REI Plugin Compatibilities (REIPC) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items-hacks)
 * [DataPack Anvil (by Sirttas)](https://www.curseforge.com/minecraft/mc-mods/datapack-anvil)
 * [Botany Pots (by DarkhaxDev)](https://www.curseforge.com/minecraft/mc-mods/botany-pots)
 * [Right Click, Get Crops (by TeamCoFH)](https://www.curseforge.com/minecraft/mc-mods/right-click-get-crops)
@@ -140,7 +139,6 @@
 * [Time in a bottle Curio Support (by MangoRage)](https://www.curseforge.com/minecraft/mc-mods/time-in-a-bottle-curio-support)
 * [ExtendedAE (by GlodBlock)](https://www.curseforge.com/minecraft/mc-mods/ex-pattern-provider)
 * [Kotlin for Forge (by thedarkcolour)](https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge)
-* [Roughly Enough Items Fabric/Forge/NeoForge (REI) (by shedaniel)](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items)
 * [Industrial Foregoing (by Buuz135)](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing)
 * [Create Utilities (by duquee___)](https://www.curseforge.com/minecraft/mc-mods/createutilities)
 * [Curios API (by TheIllusiveC4)](https://www.curseforge.com/minecraft/mc-mods/curios)
@@ -201,3 +199,4 @@
 * [Night Config Fixes (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/night-config-fixes)
 * [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
 * [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)
+* [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)

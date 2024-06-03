@@ -136,20 +136,51 @@
 * 2.[BUG Fix] Fixed a bug that caused loading errors in the Plant Magic Dictionary
 * 3.[BUG Fix] Fixed a bug where the item router could not be created
 * 4.[BUG Fix] Fixed a bug in the description of the Star Gem Beast wheel running mission that was incorrect
-* 5.[Change] Modified the formula for destroying and upgrading
+* 5.[Modification] Modified the formula for destroying and upgrading
 * 6.[Modification] Added automated formula for psi powder
-* 7.[Change] Unleashed the Redstone Magic Launcher
-* 8.[Change] Removed Akash Encyclopedia and added Strange Encyclopedia
-* 9.[Change] Added the Plant Magic Dictionary to the Strange Treasure Dictionary
-* 10.[Change] Now the configuration tool, the magical wooden stick, is also included in the deformation tool
+* 7.[Modification] Unleashed the Redstone Magic Launcher
+* 8.[Modification] Removed Akash Encyclopedia and added Strange Encyclopedia
+* 9.[Modification] Added the Plant Magic Dictionary to the Strange Treasure Dictionary
+* 10.[Modification] Now the configuration tool, the magical wooden stick, is also included in the deformation tool
 * 11.[Modification] Modified the synthesis formula of rainbow ingots and creative ME storage components
-* 12.[Change] Added some descriptions for the Void Motor
-* 13.[Change] Increased the probability of brass funnel in task rewards and added (intelligent) chutes
+* 12.[Modification] Added some descriptions for the Void Motor
+* 13.[Modification] Increased the probability of brass funnel in task rewards and added (intelligent) chutes
 * 14.[Modification] Improved the sinicization of mythological botany
-* 15.[Change] Added Treasure Box Monster Brushing Monster Eggs to the random rewards for missions, and modified the Digging Claw (which can mine all the blocks that c an be mined)
-* 16.[Change] Complete the sinicization of ExtendedAE
-* 17.[Change] Updated Entangled and modified its configuration file
-* 18.[Change] Unleashed yellow network cable
-* 19.[Change] Changed the formula of the Star Gem Beast running wheel
+* 15.[Modification] Added Treasure Box Monster Brushing Monster Eggs to the random rewards for missions, and modified the Digging Claw (which can mine all the blocks that c an be mined)
+* 16.[Modification] Complete the sinicization of ExtendedAE
+* 17.[Modification] Updated Entangled and modified its configuration file
+* 18.[Modification] Unleashed yellow network cable
+* 19.[Modification] Changed the formula of the Star Gem Beast running wheel
 * 20.[Modification] Enhanced AC generator (power generation efficiency 0.75->1.0, RF capacity 5000->50000)
-* 21.[Change] Optimized the lockdown archive file template
+* 21.[Modification] Optimized the lockdown archive file template
+
+
+## v0.0.6
+* 1.[BUG修复]修复了自定义机器用法术书破坏没有掉落物的bug
+* 2.[BUG修复]修复了交流发电机配置文件错误的bug
+* 3.[BUG修复]修复了通过樱花联机的玩家出了指定范围后无法移动的bug
+* 4.[BUG修复]修复了钍，铀合成错误的bug
+* 5.[BUG修复]修复了硅可以无限取出的bug
+* 6.[改动]注释掉了登录自动加队伍的文件（樱花联机会出bug）
+* 7.[改动]每次进游戏都会把玩家的重生点设置为0,0,0
+* 8.[改动]修改了包装带，存储工具，存储链接，赛特斯石英切割刀的配方
+* 9.[改动]删除了虞美人在祭祀台任务处的奖励
+* 10.[改动]删除了rei及其附属，添加了jei(由旧版本升级的，请删除version/Compact World: Expert/kubejs/client_scripts下文件名带rei的js文件)
+* 11.[改动]删除了任务中水之结晶处赠送的进阶元素聚合器
+* 12.[改动]修改了任务中植物盆描述错误的问题
+* 13.[改动]添加了额外的淡灰色神秘花，淡灰色染料的配方
+
+
+* 1. [BUG Fix] Fixed a bug in custom machines using spell books to destroy items without dropping them
+* 2. [BUG Fix] Fixed a bug in the configuration file of the AC generator that was incorrect
+* 3. [BUG Fix] Fixed a bug where players who accessed Sakura Online were unable to move outside the specified range
+* 4. [BUG Fix] Fixed a bug in thorium and uranium synthesis errors
+* 5. [BUG Fix] Fixed a bug where silicon can be infinitely removed
+* 6. [Modification] Annotated out the file for automatic team addition during login (Sakura Online will have a bug)
+* 7. [Modification] Each time you enter the game, the player's respawn point will be set to 0,0,0
+* 8. [Modification] Modified the packaging tape, storage tools, storage links, and the formula of the Setes quartz cutting knife
+* 9. [Modification] Removed Yu Meiren's reward at the sacrificial altar mission
+* 10. [Modification] Removed rei and its attachments, added jei (upgraded from old version, please remove the js file with rei in the file name under version/Compact World: Expert/kubejs/client_scripts)
+* 11. [Modification] The advanced element aggregator gifted at the Water Crystal section in the task has been removed
+* 12. [Modification] Fixed the issue of incorrect description of plant pots in the task
+* 13. [Modification] Added additional light grey mysterious flowers and formula for light grey dye

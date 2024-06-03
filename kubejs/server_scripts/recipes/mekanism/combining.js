@@ -58,6 +58,12 @@ ServerEvents.recipes(event =>{
             output:'3x minecraft:sculk',
             extra_input:Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:end"}').weakNBT(),
             id:'sculk'
+        },
+        {
+            input:'botania:light_gray_petal',
+            output:'2x minecraft:light_gray_dye',
+            extra_input:'minecraft:white_dye',
+            id:'light_gray_dye'
         }]
 
     recipes.forEach((recipe) => {

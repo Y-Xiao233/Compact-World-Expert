@@ -72,6 +72,8 @@
     "item.kubejs.rainbow_ingot":"§a彩§5虹§3锭",
     "item.kubejs.rainbow_pickaxe":"§a彩§5虹§3镐",
     "item.kubejs.light_ingot":"光明锭",
+    "item.kubejs.incomplete_uraninite_ore_dense":"未完成的致密晶质铀矿",
+    "item.kubejs.incomplete_thorium_ore":"未完成的钍矿",
 
 
 
@@ -172,7 +174,9 @@
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§a绿色粒子效果处只能是魔源罐",
     "tip.compact_world.world_crafting":"§c注意:若要进行世界合成§a流体罐下方只能是紧实型压缩空间壁",
 
-    "tip.compact_world.rei_hide_message":"§c该物品已被禁用",
+    "tip.compact_world.jei_hide_message":"§c该物品已被禁用",
+
+    "tip.compact_world.out_of_space":"§c你不能离开这个区域，除非你是创造模式/旁观者模式/背包中有彩虹锭",
 
     "tip.compact_world.information_1":"§ashift+神奇的木棍§c右键§f紧实型压缩空间壁/压缩块§c获得",
     "tip.compact_world.information_2":"§a拿着§f压缩粉末§c右键§f压缩空间壁§c获得",

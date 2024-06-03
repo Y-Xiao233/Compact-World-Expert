@@ -4,8 +4,7 @@
         "block": "kubejs:machine/mana_sourcelink",
         "light":15,
         "hardness": 1,
-        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/pickaxe","artifacts:mineable/digging_claws"],
-        "mining_level": "minecraft:needs_stone_tool",
+        "requires_tool": false,
         "running": {
             "block": "kubejs:machine/mana_sourcelink"
         }
@@ -68,14 +67,20 @@
         "type": "custommachinery:mana",
         "capacity": 1000,
         "config": {
-          "default": "input"
+          "default": "output",
+          "input":true,
+          "output":true,
+          "enabled":true
         }
       },
       {
         "mode": "output",
         "id": "output1",
         "type": "custommachinery:source",
-        "capacity": 10000
+        "capacity": 10000,
+        "config": {
+          "default": "output"
+        }
       },
       {
         "type": "custommachinery:redstone",

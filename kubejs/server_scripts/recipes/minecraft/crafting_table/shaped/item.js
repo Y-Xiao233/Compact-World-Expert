@@ -760,6 +760,24 @@ ServerEvents.recipes(event => {
         B: 'kubejs:functionalstorage_upgrade_base'
       },
       id:`${id_prefix}iron_downgrade_2`
+     },
+     {
+      output:'sophisticatedstorage:storage_tool',
+      pattern:['  A',' B ','B  '],
+      key:{
+        A: 'ae2:certus_quartz_crystal',
+        B: 'minecraft:stick'
+      },
+      id:`${id_prefix}storage_tool`
+     },
+     {
+      output:'ae2:certus_quartz_cutting_knife',
+      pattern:['  A',' A ','BB '],
+      key:{
+        A: 'minecraft:stick',
+        B: 'ae2:certus_quartz_crystal'
+      },
+      id:`${id_prefix}certus_quartz_cutting_knife`
      }]
   
   recipes.forEach(recipe =>{

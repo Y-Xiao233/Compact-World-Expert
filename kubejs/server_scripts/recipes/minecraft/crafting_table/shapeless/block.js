@@ -140,6 +140,12 @@ ServerEvents.recipes(event => {
             output_amount:4,
             input:['xnet:connector_yellow'],
             id:`${id_prefix}netcable_yellow`
+        },
+        {
+            output:'sophisticatedstorage:storage_link',
+            output_amount:2,
+            input:['sophisticatedstorage:controller'],
+            id:`${id_prefix}storage_link`
         }]
 
     recipes.forEach(recipe =>{

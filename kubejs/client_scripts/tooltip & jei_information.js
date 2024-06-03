@@ -6,7 +6,7 @@
     }
     */
 
-const tooltips_rei_information = [
+const tooltips_jei_information = [
     {
         id:['kubejs:compact_dust'],
         information:[Text.translate('tip.compact_world.information_1')],
@@ -31,12 +31,13 @@ const tooltips_rei_information = [
         //information:['§ashift+空手§c右键§f草方块§a有2%概率§c获得'],
         tooltip:true
     },
-    {
-        id:['minecraft:water'],
-        information:[Text.translate('tip.compact_world.information_5')],
-        //information:['§a拿着§f水滴§c右键§f泥土§c获取'],
-        tooltip:true
-    },
+    // {
+    //     id:['minecraft:water'],
+    //     information:[Text.translate('tip.compact_world.information_5')],
+    //     //information:['§a拿着§f水滴§c右键§f泥土§c获取'],
+    //     tooltip:true,
+    //     fluid_item:true
+    // },
     {
         id:['psi:psimetal'],
         information:[Text.translate('tip.compact_world.information_6')],
@@ -268,14 +269,18 @@ const tooltips_rei_information = [
         tooltip:true
     }]
 
-REIEvents.information(event => {
-    tooltips_rei_information.forEach(informations => {
-        event.addItem(informations.id,'信息',[informations.information])
+JEIEvents.information(event => {
+    tooltips_jei_information.forEach(informations => {
+        if(informations.fluid_item !== true){
+            event.addItem(informations.id,informations.information)
+        }else{
+            event.addFluid(informations.id,informations.information)
+        }
     })
 })
 
 ItemEvents.tooltip(tooltip =>{
-    tooltips_rei_information.forEach(item_tooltip =>{
+    tooltips_jei_information.forEach(item_tooltip =>{
         if(item_tooltip.tooltip != false){
             tooltip.add(item_tooltip.id,item_tooltip.information)
         }else return

@@ -1194,20 +1194,11 @@
 		{
 			dependencies: ["54FE74611E08BF8B"]
 			id: "1CAA6E76CD01D8D9"
-			rewards: [
-				{
-					count: 64
-					id: "3475DFE61F9EFFF0"
-					item: "minecraft:poppy"
-					team_reward: false
-					type: "item"
-				}
-				{
-					id: "5C3E8D0353B9E830"
-					table_id: 5834390609918850003L
-					type: "random"
-				}
-			]
+			rewards: [{
+				id: "5C3E8D0353B9E830"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
 			tasks: [{
 				id: "73A3955704D1E94C"
 				item: "naturesaura:offering_table"

@@ -118,21 +118,22 @@ ServerEvents.recipes(event =>{
             input:items('minecraft:stone'),
             loops:1,
             output:items('powah:uraninite_ore_dense',4),
+            transitionalItem:items('kubejs:incomplete_uraninite_ore_dense'),
             main:[
                 {
                     "type": "create:deploying",
                     "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
-                    "results": [items('minecraft:stone')]
+                    "results": [items('kubejs:incomplete_uraninite_ore_dense')]
                 },
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('minecraft:stone'),items('minecraft:lime_dye')],
-                    "results": [items('minecraft:stone')]
+                    "ingredients": [items('kubejs:incomplete_uraninite_ore_dense'),items('minecraft:lime_dye')],
+                    "results": [items('kubejs:incomplete_uraninite_ore_dense')]
                 },
                 {
                     "type":"create_new_age:energising",
                     "energy_needed":10000,
-                    "ingredients":[items('minecraft:stone')],
+                    "ingredients":[items('kubejs:incomplete_uraninite_ore_dense')],
                     "results":[items('powah:uraninite_ore_dense',4)]
                 }
             ],
@@ -142,21 +143,22 @@ ServerEvents.recipes(event =>{
             input:items('minecraft:stone'),
             loops:1,
             output:items('create_new_age:thorium_ore',4),
+            transitionalItem:items('kubejs:incomplete_thorium_ore'),
             main:[
                 {
                     "type": "create:deploying",
                     "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
-                    "results": [items('minecraft:stone')]
+                    "results": [items('kubejs:incomplete_thorium_ore')]
                 },
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('minecraft:stone'),items('minecraft:brown_dye')],
-                    "results": [items('minecraft:stone')]
+                    "ingredients": [items('kubejs:incomplete_thorium_ore'),items('minecraft:brown_dye')],
+                    "results": [items('kubejs:incomplete_thorium_ore')]
                 },
                 {
                     "type":"create_new_age:energising",
                     "energy_needed":10000,
-                    "ingredients":[items('minecraft:stone')],
+                    "ingredients":[items('kubejs:incomplete_thorium_ore')],
                     "results":[items('create_new_age:thorium_ore',4)]
                 }
             ],

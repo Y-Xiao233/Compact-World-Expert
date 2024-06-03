@@ -72,6 +72,8 @@
     "item.kubejs.rainbow_ingot":"§aRainbow §5Ingot",
     "item.kubejs.rainbow_pickaxe":"§aRainbow §3Pickaxe",
     "item.kubejs.light_ingot":"Light Ingot",
+    "item.kubejs.incomplete_uraninite_ore_dense":"Incomplete dense crystalline uranium ore",
+    "item.kubejs.incomplete_thorium_ore":"Incomplete thorium ore",
 
 
 
@@ -172,7 +174,9 @@
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§aThe green particle effect can only be a Source Jar",
     "tip.compact_world.world_crafting":"§dNote: To perform world crafting, only Soild Compact Machine Wall can be located below the Fluid Tank",
 
-    "tip.compact_world.rei_hide_message":"§cThe item has been disabled",
+    "tip.compact_world.jei_hide_message":"§cThe item has been disabled",
+
+    "tip.compact_world.out_of_space":"§cYou cannot leave this area unless you are in creative mode/spectator mode/have rainbow ingots in your backpack",
 
     "tip.compact_world.information_1":"§ashift+magical stick §c Right-click §f Soild Compact Machine Wall/Compact Block §c obtain",
     "tip.compact_world.information_2":"§aHold §f Compressed Dust §c Right-click §f Compact Machine Wall §c obtain",

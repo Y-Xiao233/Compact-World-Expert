@@ -1,5 +1,5 @@
-const hide_message = Text.translate('tip.compact_world.rei_hide_message')
-const rei_hide = [
+const hide_message = Text.translate('tip.compact_world.jei_hide_message')
+const jei_hide = [
     'cyclic:crafting_stick',
     'cyclic:crafting_bag',
     'aiotbotania:livingwood_sword',
@@ -530,14 +530,14 @@ const rei_hide = [
     'xnet:netcable_red'
 ]
 
-REIEvents.hide('item', event => {
-    rei_hide.forEach(hides =>{
+JEIEvents.hideItems(event => {
+    jei_hide.forEach(hides =>{
         event.hide(hides)
     })
 })
 
 ItemEvents.tooltip(tooltip =>{
-    rei_hide.forEach(hides =>{
+    jei_hide.forEach(hides =>{
         tooltip.add(hides,hide_message)
     })
 })
@@ -566,7 +566,7 @@ ItemEvents.tooltip(tooltip =>{
     })
 })
 
-REIEvents.hide('item', event => {
+JEIEvents.hideItems(event => {
 
     other_functional_storage_tier.forEach(tier =>{
     other_functional_storage.forEach(storage =>{
@@ -593,7 +593,7 @@ const fluid = [
         'estrogen:molten_amethyst',
 ]
 
-REIEvents.hide('fluid', event =>{
+JEIEvents.hideFluids(event =>{
     fluid.forEach(fluids =>{
         event.hide(fluids)
     })

@@ -4,8 +4,7 @@
         "block": "kubejs:machine/mana_booster_off",
         "light":15,
         "hardness": 1,
-        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/pickaxe","artifacts:mineable/digging_claws"],
-        "mining_level": "minecraft:needs_stone_tool",
+        "requires_tool": false,
         "running": {
             "block": "kubejs:machine/mana_booster_on"
         }
@@ -78,7 +77,10 @@
         "mode":"input",
         "id":"slot2",
         "type": "custommachinery:source",
-        "capacity": 10000
+        "capacity": 10000,
+        "config": {
+          "default": "input"
+        }
       },
       {
         "mode":"output",
@@ -86,7 +88,9 @@
         "type": "custommachinery:mana",
         "capacity": 1000,
         "config": {
-          "default": "output"
+          "default": "output",
+          "input":true,
+          "output":true
         }
       },
       {

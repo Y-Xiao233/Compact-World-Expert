@@ -4,8 +4,7 @@
         "block": "kubejs:machine/dream_portal_core",
         "light":15,
         "hardness": 1,
-        "tool_type": ["minecraft:mineable/pickaxe", "forge:mineable/pickaxe","artifacts:mineable/digging_claws"],
-        "mining_level": "minecraft:needs_stone_tool",
+        "requires_tool": false,
         "running": {
             "block": "kubejs:machine/dream_portal_core_on"
         }

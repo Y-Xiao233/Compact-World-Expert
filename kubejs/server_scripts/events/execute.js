@@ -1,7 +1,8 @@
 PlayerEvents.tick(event =>{
     const {server, player, level} = event
 
-    server.runCommandSilent(`tag ${player.uuid} add ${player.uuid}`)
+    if(level.dimension != 'minecraft:overworld') return
+    if((player.creative)||(player.spectator)||(player.getInventory().contains('kubejs:rainbow_ingot'))) return
 
     if(player.getInventory().contains('kubejs:swift_alloy_key')){
         player.stages.add('swift_space')
@@ -11,26 +12,31 @@ PlayerEvents.tick(event =>{
         player.stages.add('sky_space')
     }
 
-    if(level.dimension != 'minecraft:overworld') return
 
-    if(!(
-        (player.creative)||
-        (player.spectator)||
-        (player.getInventory().contains('kubejs:rainbow_ingot'))
-        )
-    ){
-        if((!player.stages.has('swift_space')) && (!player.stages.has('sky_space'))){
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=6,y=0,z=6,dx=-13,dy=13,dz=-13] run tellraw @a[tag='+player.uuid+'] "\u00a7c你不能离开这片区域，除非你是创造模式/观察者模式/拥有彩虹锭"')
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=6,y=0,z=6,dx=-13,dy=13,dz=-13] run tp @a[tag='+player.uuid+'] 0 0 0')
-        }else if((player.stages.has('swift_space')) && (!player.stages.has('sky_space'))){
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-35,dy=13,dz=-21] run tellraw @a[tag='+player.uuid+'] "\u00a7c你不能离开这片区域，除非你是创造模式/观察者模式/拥有彩虹锭"')
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-35,dy=13,dz=-21] run tp @a[tag='+player.uuid+'] 0 0 0')
-        }else if((!player.stages.has('swift_space')) && (player.stages.has('sky_space'))){
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=-20,y=0,z=-6,dx=27,dy=13,dz=13] run tellraw @a[tag='+player.uuid+'] "\u00a7c你不能离开这片区域，除非你是创造模式/观察者模式/拥有彩虹锭"')
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=-20,y=0,z=-6,dx=27,dy=13,dz=13] run tp @a[tag='+player.uuid+'] 0 0 0')
-        }else if((player.stages.has('swift_space')) && (player.stages.has('sky_space'))){
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-49,dy=13,dz=-21] run tellraw @a[tag='+player.uuid+'] "\u00a7c你不能离开这片区域，除非你是创造模式/观察者模式/拥有彩虹锭"')
-            server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-49,dy=13,dz=-21] run tp @a[tag='+player.uuid+'] 0 0 0')
+    const baseSpace = level.getEntitiesWithin(AABB.of(-7,0,-7,7,13,7)).contains(player)
+    const swiftSpace = level.getEntitiesWithin(AABB.of(-7,0,-10,29,13,11)).contains(player)
+    const skySpace = level.getEntitiesWithin(AABB.of(7,0,7,-21,13,-7)).contains(player)
+    const allSpace = level.getEntitiesWithin(AABB.of(-21,0,11,29,13,11)).contains(player)
+
+
+    function space(space){
+        if(!space){
+            player.tell(Text.translate('tip.compact_world.out_of_space'))
+            player.runCommandSilent('tp 0 0 0')
+            player.runCommandSilent('gamemode creative')
+            server.scheduleInTicks(1,event =>{
+                player.runCommandSilent('gamemode survival')
+            })
         }
+    }
+
+    if((!player.stages.has('swift_space')) && (!player.stages.has('sky_space'))){
+        space(baseSpace)
+    }else if((player.stages.has('swift_space')) && (!player.stages.has('sky_space'))){
+        space(swiftSpace)
+    }else if((!player.stages.has('swift_space')) && (player.stages.has('sky_space'))){
+        space(skySpace)
+    }else if((player.stages.has('swift_space')) && (player.stages.has('sky_space'))){
+        space(allSpace)
     }
 })
