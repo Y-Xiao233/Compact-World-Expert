@@ -98,7 +98,7 @@ ServerEvents.recipes(event =>{
             top:'kubejs:liquid_soul_bucket',
             middle:'kubejs:rune_blank',
             bottom:'kubejs:gaia_nugget',
-            mode:2,
+            mode:1,
             output:'botania:rune_pride',
             output_amount:1,
             id:`${id_prefix}rune_pride`
@@ -107,7 +107,7 @@ ServerEvents.recipes(event =>{
             top:'kubejs:purewater_bucket',
             middle:'kubejs:rune_blank',
             bottom:'malum:aerial_spirit',
-            mode:2,
+            mode:1,
             output:'mythicbotany:niflheim_rune',
             output_amount:1,
             id:`${id_prefix}niflheim_rune`

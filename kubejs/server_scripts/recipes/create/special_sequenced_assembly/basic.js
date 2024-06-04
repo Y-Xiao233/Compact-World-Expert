@@ -122,12 +122,12 @@ ServerEvents.recipes(event =>{
             main:[
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
+                    "ingredients": [items('minecraft:stone'),items('minecraft:lime_dye')],
                     "results": [items('kubejs:incomplete_uraninite_ore_dense')]
                 },
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('kubejs:incomplete_uraninite_ore_dense'),items('minecraft:lime_dye')],
+                    "ingredients": [items('kubejs:incomplete_uraninite_ore_dense'),items('create_new_age:overcharged_diamond')],
                     "results": [items('kubejs:incomplete_uraninite_ore_dense')]
                 },
                 {
@@ -147,12 +147,12 @@ ServerEvents.recipes(event =>{
             main:[
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('minecraft:stone'),items('create_new_age:overcharged_diamond')],
+                    "ingredients": [items('minecraft:stone'),items('minecraft:brown_dye')],
                     "results": [items('kubejs:incomplete_thorium_ore')]
                 },
                 {
                     "type": "create:deploying",
-                    "ingredients": [items('kubejs:incomplete_thorium_ore'),items('minecraft:brown_dye')],
+                    "ingredients": [items('kubejs:incomplete_thorium_ore'),items('create_new_age:overcharged_diamond')],
                     "results": [items('kubejs:incomplete_thorium_ore')]
                 },
                 {

@@ -91,14 +91,6 @@ ServerEvents.recipes(event =>{
             growth_tick:200,
             growth_modifier:1,
             id:`${id_prefix}black_mystical_flower`
-        },
-        {
-            seed:'botania:light_gray_mystical_flower',
-            can_be_planted_on:['botania_mystical_flowers_3'],
-            output:[crops_outputs('botania:light_gray_mystical_flower',0.8,2,4)],
-            growth_tick:200,
-            growth_modifier:1,
-            id:`${id_prefix}light_gray_mystical_flower`
         }]
 
     crops.forEach(crop => {

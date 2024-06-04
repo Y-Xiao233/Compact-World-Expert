@@ -191,3 +191,24 @@
 * 1.[严重BUG]修复了范围检测坐标错误的bug
 
 * 1.[Serious bug] Fixed a bug with range detection coordinate errors
+
+
+## v0.0.7
+* 1.[BUG修复]修复了任务中植物盆描述错误的bug(v0.0.6忘记改了)
+* 2.[BUG修复]修复了jei无法自动删除已被隐藏的物品的相关配方的bug
+* 3.[BUG修复]修改了两种矿石的装配顺序，使其合成不会出错
+* 4.[GUG修复]修复了傲慢符文合成不消耗其他材料的bug
+* 5.[BUG修复]修复了尼福尔海姆符文合成不消耗其他材料的bug
+* 6.[改动]删除了额外的淡灰色神秘花，淡灰色染料的配方
+* 7.[改动]为两种矿石的中间产物添加了物品模型
+* 8.[改动]完善了模块化路由器的汉化
+
+
+* 1.[BUG Fix] Fixed a bug in the task where the description of the plant pot was incorrect (forgot to change v0.0.6)
+* 2.[BUG Fix] Fixed a bug where Jei was unable to automatically delete formulas related to hidden items
+* 3.[BUG Fix] Modified the assembly sequence of two types of ores to ensure that their synthesis does not go wrong
+* 4.[GUG fix] Fixed a bug where Pride Rune synthesis does not consume other materials
+* 5.[BUG Fix] Fixed a bug in the synthesis of Niforheim runes that does not consume other materials
+* 6.[Modification] Removed additional light grey mysterious flowers and the formula for light grey dye
+* 7.[Modification] Added item models for intermediate products of two types of ores
+* 8.[Modification] Improved the localization of modular routers in Chinese
