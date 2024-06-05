@@ -55,7 +55,11 @@ ServerEvents.tick(event =>{
 })
 
 */
+let temp = 0
 
+// PlayerEvents.loggedIn(event =>{
+//     temp = 0
+// })
 
 BlockEvents.rightClicked('botania:mana_pool', (event) => {
     /**
@@ -183,7 +187,7 @@ BlockEvents.rightClicked(event =>{
                     earth_pos_z = e_pos_z
                 }
                 //console.log(`\u00a7bmana:${mana_amount} \u00a76air:${air_amount} \u00a7aearth:${earth_amount} \u00a7cfire:${fire_amount} \u00a73water:${water_amount}`)
-                if((air_amount >= air_amounts) && (fire_amount >= fire_amounts) && (water_amount >= water_amounts) && (earth_amount >= earth_amounts) && (air == 1 && water == 1 && earth == 1 && fire == 1) && (block.offset(0,-1,0).id == 'compactmachines:solid_wall')){
+                if((air_amount >= air_amounts) && (fire_amount >= fire_amounts) && (water_amount >= water_amounts) && (earth_amount >= earth_amounts) && (air == 1 && water == 1 && earth == 1 && fire == 1)/* && (block.offset(0,-1,0).id == 'compactmachines:solid_wall')*/){
                     if(mana_amount >= b_amount_needed){
                         //player.tell(`\u00a7bmana:${mana_amount} \u00a76air:${air_amount} \u00a7aearth:${earth_amount} \u00a7cfire:${fire_amount} \u00a73water:${water_amount}`)
                         //console.log(`\u00a7bmana:${mana_amount} \u00a76air:${air_amount} \u00a7aearth:${earth_amount} \u00a7cfire:${fire_amount} \u00a73water:${water_amount}`)
@@ -228,7 +232,7 @@ BlockEvents.rightClicked(event =>{
                     a4_pos_z = a_pos_z
                 }
             
-                if(((a_amount1 && a_amount2 && a_amount3 && a_amount4) != undefined) && (a_amount1 >= a_amount_needed && a_amount2 >= a_amount_needed && a_amount3 >= a_amount_needed && a_amount4 >= a_amount_needed) && block.offset(0,-1,0).id == 'compactmachines:solid_wall'){
+                if(((a_amount1 && a_amount2 && a_amount3 && a_amount4) != undefined) && (a_amount1 >= a_amount_needed && a_amount2 >= a_amount_needed && a_amount3 >= a_amount_needed && a_amount4 >= a_amount_needed)/* && block.offset(0,-1,0).id == 'compactmachines:solid_wall'*/){
                     //player.tell(`\u00a7damount1:${a_amount1}\u00a7f魔源 \u00a7damount2:${a_amount2}\u00a7f魔源 \u00a7damount3:${a_amount3}\u00a7f魔源 \u00a7damount4:${a_amount4}\u00a7f魔源`)
                     //server.runCommandSilent(`data merge block ${a1_pos_x} ${a1_pos_y} ${a1_pos_z} {source:${a_amount1-a_amount_needed}}`)
                     //server.runCommandSilent(`data merge block ${a2_pos_x} ${a2_pos_y} ${a2_pos_z} {source:${a_amount2-a_amount_needed}}`)
@@ -239,8 +243,9 @@ BlockEvents.rightClicked(event =>{
             }
         })
     
-        if(player.mainHandItem == input && a == 1 && e == 1 && block.offset(0,-1,0).id == 'compactmachines:solid_wall'){
-            block.offset(0,-1,0).set('kubejs:compact_soild_wall')
+        if(player.mainHandItem == input && a == 1 && e == 1 && temp == 0/*block.offset(0,-1,0).id == 'compactmachines:solid_wall'*/){
+            temp = 1
+            // block.offset(0,-1,0).set('kubejs:compact_soild_wall')
             //player.tell(`\u00a7bmana:${mana_amount} \u00a76air:${air_amount} \u00a7aearth:${earth_amount} \u00a7cfire:${fire_amount} \u00a73water:${water_amount}`)
             server.runCommandSilent(`data merge block ${air_pos_x} ${air_pos_y} ${air_pos_z} {element_storage:{element_amount:${air_amount-air_amounts}}}`)
             server.runCommandSilent(`data merge block ${water_pos_x} ${water_pos_y} ${water_pos_z} {element_storage:{element_amount:${water_amount-water_amounts}}}`)
@@ -275,10 +280,11 @@ BlockEvents.rightClicked(event =>{
             itemEntity.z+=0.5
             server.scheduleInTicks(tick,(event) =>{
                 itemEntity.spawn()
-                block.offset(0,-1,0).set('compactmachines:solid_wall')
+                // block.offset(0,-1,0).set('compactmachines:solid_wall')
                 a = 0
-                b = 0
+                // b = 0
                 e = 0
+                temp = 0
             })
         }
     }

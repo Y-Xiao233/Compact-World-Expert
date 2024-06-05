@@ -1,0 +1,211 @@
+{
+    "name":"block.cwe.ore_laser",
+    "appearance": {
+        "block": "kubejs:machine/ore_laser",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/ore_laser"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
+        "id":"input1",
+        "x":50,
+        "y":18,
+        "type":"custommachinery:energy"
+      },
+      {
+        "id": "input2",
+        "x": 70,
+        "y": 18,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id":"upgrade1",
+        "x":95,
+        "y":40,
+        "type":"custommachinery:slot",
+        "ghost":"industrialforegoing:processing_addon_2"
+      },
+      {
+        "id":"upgrade2",
+        "x":115,
+        "y":40,
+        "type":"custommachinery:slot",
+        "ghost":"industrialforegoing:speed_addon_2"
+      },
+      {
+        "id":"upgrade3",
+        "x":95,
+        "y":60,
+        "type":"custommachinery:slot",
+        "ghost":"industrialforegoing:efficiency_addon_2"
+      },
+      {
+        "id":"upgrade4",
+        "x":115,
+        "y":60,
+        "type":"custommachinery:slot",
+        "ghost":"industrialforegoing:ore_laser_base"
+      },
+      {
+        "id": "output1",
+        "x": 145,
+        "y": 18,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output2",
+        "x": 165,
+        "y": 18,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output3",
+        "x": 185,
+        "y": 18,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output4",
+        "x": 145,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output5",
+        "x": 165,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "output6",
+        "x": 185,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 100,
+        "y": 20,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "block.cwe.ore_laser",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode":"input",
+        "id":"input1",
+        "type": "custommachinery:energy",
+        "capacity": 100000
+      },
+      {
+        "mode": "input",
+        "id": "input2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade1",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 1,
+        "filter": ["industrialforegoing:processing_addon_2"],
+        "whitelist": true
+      },
+      {
+        "mode": "input",
+        "id": "upgrade2",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 1,
+        "filter": ["industrialforegoing:speed_addon_2"],
+        "whitelist": true
+      },
+      {
+        "mode": "input",
+        "id": "upgrade3",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 1,
+        "filter": ["industrialforegoing:efficiency_addon_2"],
+        "whitelist": true
+      },
+      {
+        "mode": "input",
+        "id": "upgrade4",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 36,
+        "filter": ["industrialforegoing:ore_laser_base"],
+        "whitelist": true
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output4",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output5",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output6",
+        "type": "custommachinery:item"
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

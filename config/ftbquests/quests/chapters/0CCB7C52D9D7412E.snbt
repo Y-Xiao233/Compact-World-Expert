@@ -546,7 +546,7 @@
 			tasks: [
 				{
 					id: "0352BD54CAAE8A50"
-					item: "cwe:mana_sourcelink"
+					item: "cwe:mana_liquefier"
 					type: "item"
 				}
 				{
@@ -593,6 +593,11 @@
 						}
 					}
 					title: "{ftbquests.chapter.0CCB7C52D9D7412E.quests18.tasks2.title}"
+					type: "item"
+				}
+				{
+					id: "7CCD2E8753D4A0FB"
+					item: "starbunclemania:fluid_sourcelink"
 					type: "item"
 				}
 			]

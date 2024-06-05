@@ -36,19 +36,6 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 10.0d
-			hover: [ ]
-			image: "kubejs:textures/ftbquests/alfheim_portal_swirl.png"
-			order: -1
-			rotation: 0.0d
-			width: 10.0d
-			x: 2.5d
-			y: -1.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "botania:item/corporea_spark"

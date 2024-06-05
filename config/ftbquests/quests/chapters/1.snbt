@@ -288,11 +288,18 @@
 			]
 			hide_dependency_lines: true
 			id: "3006F6F25EEE198C"
-			rewards: [{
-				id: "63F4681B3FB4F906"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "63F4681B3FB4F906"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					id: "36C5ACF257F619C5"
+					item: "mekanism:resistive_heater"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7D1BDB465FAC1BA3"
@@ -843,27 +850,6 @@
 			]
 			x: 11.0d
 			y: 1.0d
-		}
-		{
-			dependencies: [
-				"1C9D91A5BF80857D"
-				"3BFC0E20874651AC"
-				"029E35B554FA3FBA"
-			]
-			description: ["{ftbquests.chapter.1.quests36.description}"]
-			id: "4FCE777F690A4CCB"
-			rewards: [{
-				id: "1A6624A4ABA879ED"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
-			tasks: [{
-				id: "24529AF284539C79"
-				item: "starbunclemania:fluid_sourcelink"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["3BFC0E20874651AC"]

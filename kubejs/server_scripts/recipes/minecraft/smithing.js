@@ -16,12 +16,6 @@ ServerEvents.recipes(event =>{
             id:`${id_prefix}functionalstorage_gold_upgrade`
         },
         {
-            output:'sophisticatedstorage:stack_upgrade_tier_3',
-            base_input:'sophisticatedstorage:upgrade_base',
-            addition_input:'minecraft:gold_block',
-            id:`${id_prefix}sophisticatedstorage_stack_upgrade_tier_3`
-        },
-        {
             output:'sophisticatedstorage:basic_to_gold_tier_upgrade',
             base_input:'sophisticatedstorage:upgrade_base',
             addition_input:'minecraft:gold_block',

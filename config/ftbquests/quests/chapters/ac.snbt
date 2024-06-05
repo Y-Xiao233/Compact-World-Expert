@@ -397,11 +397,6 @@
 			}]
 			tasks: [
 				{
-					id: "436C267B617931C7"
-					item: "industrialforegoing:ore_laser_base"
-					type: "item"
-				}
-				{
 					id: "0FBF87C0A3262BCD"
 					item: "industrialforegoing:laser_drill"
 					type: "item"
@@ -409,6 +404,11 @@
 				{
 					id: "3F2EFD57465A0DED"
 					item: "industrialforegoing:laser_lens12"
+					type: "item"
+				}
+				{
+					id: "53AC51051D6FAA27"
+					item: "cwe:ore_laser"
 					type: "item"
 				}
 			]

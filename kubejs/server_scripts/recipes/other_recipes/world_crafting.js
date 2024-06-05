@@ -28,6 +28,9 @@ BlockEvents.rightClicked('create:fluid_tank', (event) => {
     }
 })
 
+
+let temp_world = 0
+
 BlockEvents.rightClicked(event =>{
     /**
     此部分函数的延时执行效果由Mango is me!提供
@@ -39,7 +42,7 @@ BlockEvents.rightClicked(event =>{
     if (hand.name() != "MAIN_HAND") return
     if(block.offset(1,0,0).id == tank || block.offset(-1,0,0).id == tank || block.offset(0,0,1).id == tank || block.offset(0,0,-1).id == tank ||block.offset(1,0,0).id == tank) return
     function world_crafting(tick,hand_item,item1,item1_count,item2,item2_count,item3,item3_count,item4,item4_count,fluid,fluid_amount,output){
-        if(block.id == tank && item.id == hand_item && !(block.offset(0,-1,0).id == 'kubejs:compact_soild_wall') && block.offset(0,-1,0).id == 'compactmachines:solid_wall'){
+        if(block.id == tank && item.id == hand_item && temp_world == 0/* && block.offset(0,-1,0).id == 'compactmachines:solid_wall'*/){
             let FluidTank = block.entity.getCapability(ForgeCapabilities.FLUID_HANDLER).resolve().get().getFluidInTank(0)
                 if(FluidTank.getFluid().arch$registryName() == fluid && FluidTank.amount >= fluid_amount){
                     block.offset(2,0,0).inventory.allItems.forEach(items1 =>{
@@ -55,8 +58,9 @@ BlockEvents.rightClicked(event =>{
                             let counts3 = items2.getCount()
                             let counts4 = items4.getCount()
                             if(!(counts1 >= item1_count && counts2 >= item2_count && counts3 >= item3_count && counts4 >= item4_count)) return
+                            temp_world = 1
                             let itemEntity = block.createEntity("item")
-                            block.offset(0,-1,0).set('kubejs:compact_soild_wall')
+                            // block.offset(0,-1,0).set('kubejs:compact_soild_wall')
                             itemEntity.item = output
                             itemEntity.x+=0.5
                             itemEntity.y+=1
@@ -77,7 +81,8 @@ BlockEvents.rightClicked(event =>{
                             server.runCommandSilent(`data merge block ${block.x} ${block.y} ${block.z} {TankContent:{Amount:${FluidTank.amount - fluid_amount}}}`)
                             server.scheduleInTicks(tick,(event) =>{
                                 itemEntity.spawn()
-                                block.offset(0,-1,0).set('compactmachines:solid_wall')
+                                temp_world = 0
+                                // block.offset(0,-1,0).set('compactmachines:solid_wall')
                             })
                         }
                     })})})})

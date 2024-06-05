@@ -86,7 +86,7 @@
         "mode":"output",
         "id":"slot3",
         "type": "custommachinery:mana",
-        "capacity": 1000,
+        "capacity": 6000,
         "config": {
           "default": "output",
           "input":true,

@@ -74,6 +74,7 @@
     "item.kubejs.light_ingot":"光明錠",
     "item.kubejs.incomplete_uraninite_ore_dense":"未完成的緻密晶質鈾礦",
     "item.kubejs.incomplete_thorium_ore":"未完成的釷礦",
+    "item.kubejs.liquid_rough_mana_bucket":"粗糙的液態魔力桶",
 
 
     "block.kubejs.compact_block":"壓縮塊",
@@ -101,6 +102,7 @@
     "block.kubejs.end_quartz_ore":"末地石英礦石",
     "block.kubejs.end_oil_ore":"末地沥青礦石",
     "block.kubejs.end_osmium_ore":"末地錇礦石",
+    "block.kubejs.liquid_rough_mana":"粗糙的液態魔力",
 
     "block.cwe.fake_mana_pool":"偽造魔力池",
     "block.cwe.fake_fluid_tank":"偽造流體儲罐",
@@ -109,6 +111,7 @@
     "block.cwe.mana_crush_machine":"魔力粉碎機",
     "block.cwe.dream_portal_core":"夢之精靈門核心",
     "block.cwe.mana_injector":"魔力注入器",
+    "block.cwe.ore_laser":"礦物鐳射鑽",
 
 
 
@@ -120,6 +123,7 @@
     "fluid.kubejs.high_purity_oil":"高純石油",
     "fluid.kubejs.molten_aqueous_spirit":"熔融碧水精魂",
     "fluid.kubejs.molten_crystal_blazing":"熔融烈焰水晶",
+    "fluid.kubejs.liquid_rough_mana":"粗糙的液態魔力",
 
 
 
@@ -166,10 +170,10 @@
     "tip.compact_world.gamerule_false":"§c你不能打開這個遊戲規則",
     "tip.compact_world.gamerule_true":"§c你不能關閉這個遊戲規則",
     
-    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§d注意:若要進行世界合成§b魔力池下方只能是緊實型壓縮空間壁",
+    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§d注意：若要進行世界合成§b魔力池下方可以是任何方塊",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_2":"§4紅色粒子效果處只能是元素容器",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§a綠色粒子效果處只能是魔源罐",
-    "tip.compact_world.world_crafting":"§c注意:若要進行世界合成§a流體罐下方只能是緊實型壓縮空間壁",
+    "tip.compact_world.world_crafting":"§c注意：若要進行世界合成§a中心流體儲罐不得與其他流體儲罐連接",
     
     "tip.compact_world.jei_hide_message":"§c該物品已被禁用",
 

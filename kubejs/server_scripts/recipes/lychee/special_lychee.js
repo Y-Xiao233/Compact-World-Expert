@@ -35,9 +35,9 @@ ServerEvents.recipes(event =>{
     
     event.custom({
       "type":"lychee:lightning_channeling",
-      "post":[{"type":"drop_item","item":"cwe:mana_sourcelink"}],
+      "post":[{"type":"drop_item","item":'cwe:mana_liquefier'}],
       "item_in":[{"item":"botania:mana_pool"},{"item":"spirit:soul_powder_block"},{"item":"ars_nouveau:source_gem_block"},{"item":"ars_nouveau:sourcestone"}]
-    }).id(`${id_prefix}mana_sourcelink`)
+    }).id(`${id_prefix}mana_liquefier`)
 
     event.custom({
       "type":"lychee:lightning_channeling",

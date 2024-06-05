@@ -1062,11 +1062,10 @@ ServerEvents.recipes(event => {
      },
      {
       output:'starbunclemania:fluid_sourcelink',
-      pattern:[' A ','BCB',' A '],
+      pattern:[' A ',' B ','   '],
       key:{
-        A: 'thermal:apatite',
-        B: 'minecraft:coal_block',
-        C: 'starbunclemania:source_fluid_bucket'
+        A: 'cwe:mana_liquefier',
+        B: 'functionalstorage:fluid_1'
       },
       id:`${id_prefix}fluid_sourcelink`
      },
@@ -1406,6 +1405,15 @@ ServerEvents.recipes(event => {
         B: 'thermal:upgrade_augment_2'
       },
       id:`${id_prefix}induction_port`
+     },
+     {
+      output:'8x mekanism:structural_glass',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'create_crystal_clear:andesite_glass_casing',
+        B: 'mekanism:boiler_casing'
+      },
+      id:`${id_prefix}structural_glass`
      }]
   
   recipes.forEach(recipe =>{

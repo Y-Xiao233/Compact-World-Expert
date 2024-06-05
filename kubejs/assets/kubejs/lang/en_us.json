@@ -74,6 +74,7 @@
     "item.kubejs.light_ingot":"Light Ingot",
     "item.kubejs.incomplete_uraninite_ore_dense":"Incomplete dense crystalline uranium ore",
     "item.kubejs.incomplete_thorium_ore":"Incomplete thorium ore",
+    "item.kubejs.liquid_rough_mana_bucket":"Liquid Rough Mana Bucket",
 
 
 
@@ -102,6 +103,7 @@
     "block.kubejs.end_quartz_ore": "End Quartz Ore",
     "block.kubejs.end_oil_ore": "End Oil Ore",
     "block.kubejs.end_osmium_ore": "End Osmium Ore",
+    "block.kubejs.liquid_rough_mana":"Liquid Rough Mana",
 
     "block.cwe.fake_mana_pool":"Fake Mana Pool",
     "block.cwe.fake_fluid_tank":"Fake Fluid Tank",
@@ -110,6 +112,7 @@
     "block.cwe.mana_crush_machine":"Mana Crush Machine",
     "block.cwe.dream_portal_core":"Dream Portal Core",
     "block.cwe.mana_injector":"Mana Injector",
+    "block.cwe.ore_laser":"Ore Laser",
 
 
 
@@ -121,6 +124,7 @@
     "fluid.kubejs.high_purity_oil":"High Purity Oil",
     "fluid.kubejs.molten_aqueous_spirit":"Molten Aqueous Spirit",
     "fluid.kubejs.molten_crystal_blazing":"Molten Crystal Blazing",
+    "fluid.kubejs.liquid_rough_mana":"Liquid Rough Mana",
 
 
 
@@ -169,10 +173,10 @@
     "tip.compact_world.gamerule_false":"§cYou cannot open this gamerule",
     "tip.compact_world.gamerule_true":"§cYou cannot close this gamerule",
 
-    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§dNote: To perform world crafting, only Soild Compact Machine Wall can be located below the Mana Pool",
+    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§dNote: To perform world crafting, any block can be placed below the mana pool",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_2":"§4The red particle effect can only be an Element Container",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§aThe green particle effect can only be a Source Jar",
-    "tip.compact_world.world_crafting":"§dNote: To perform world crafting, only Soild Compact Machine Wall can be located below the Fluid Tank",
+    "tip.compact_world.world_crafting":"§dNote: If you want to perform a world synthesis center, the fluid storage tank must not be connected to other fluid storage tanks",
 
     "tip.compact_world.jei_hide_message":"§cThe item has been disabled",
 

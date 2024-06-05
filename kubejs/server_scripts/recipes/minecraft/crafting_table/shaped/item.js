@@ -778,6 +778,39 @@ ServerEvents.recipes(event => {
         B: 'ae2:certus_quartz_crystal'
       },
       id:`${id_prefix}certus_quartz_cutting_knife`
+     },
+     {
+      output:Item.of('industrialforegoing:efficiency_addon_2', '{TitaniumAugment:{Efficiency:0.8f}}'),
+      pattern:['AB ','CD ','   '],
+      key:{
+        A: 'minecraft:redstone',
+        B: 'create_new_age:blank_circuit',
+        C: 'naturesaura:token_fear',
+        D: 'ae2:logic_processor'
+      },
+      id:`${id_prefix}efficiency_addon_2`
+     },
+     {
+      output:Item.of('industrialforegoing:speed_addon_2', '{TitaniumAugment:{Speed:3.0f}}'),
+      pattern:['AB ','CD ','   '],
+      key:{
+        A: 'minecraft:redstone',
+        B: 'create_new_age:blank_circuit',
+        C: 'naturesaura:token_fear',
+        D: 'ae2:calculation_processor'
+      },
+      id:`${id_prefix}speed_addon_2`
+     },
+     {
+      output:Item.of('industrialforegoing:processing_addon_2', '{TitaniumAugment:{Processing:3.0f}}'),
+      pattern:['AB ','CD ','   '],
+      key:{
+        A: 'minecraft:redstone',
+        B: 'create_new_age:blank_circuit',
+        C: 'naturesaura:token_fear',
+        D: 'ae2:engineering_processor'
+      },
+      id:`${id_prefix}processing_addon_2`
      }]
   
   recipes.forEach(recipe =>{

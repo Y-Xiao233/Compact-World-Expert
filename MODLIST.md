@@ -1,4 +1,4 @@
-## Compact World: Expert (by Y_Xiao233) - v0.0.8
+## Compact World: Expert (by Y_Xiao233) - v0.0.9
 * [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
@@ -36,7 +36,6 @@
 * [EdivadLib (by 3divad99)](https://www.curseforge.com/minecraft/mc-mods/edivadlib)
 * [Placebo (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/placebo)
 * [ME Requester (by Relentless)](https://www.curseforge.com/minecraft/mc-mods/merequester)
-* [Custom Machinery Create (by frinn38)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-create)
 * [Custom Machinery Ars Nouveau (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-ars-nouveau)
 * [FTB XMod Compat (by FTB)](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat)
 * [Mob Despawn Timers (by Shadows_of_Fire)](https://www.curseforge.com/minecraft/mc-mods/mob-despawn-timers)
@@ -195,7 +194,6 @@
 * [Sophisticated Core (by P3pp3rF1y)](https://www.curseforge.com/minecraft/mc-mods/sophisticated-core)
 * [Ars Nouveau (by baileyholl2)](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau)
 * [Extreme sound muffler (by LeoBeliik)](https://www.curseforge.com/minecraft/mc-mods/extreme-sound-muffler)
-* [Custom Machinery Mekanism (by frinn38)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-mekanism)
 * [Night Config Fixes (by Fuzs)](https://www.curseforge.com/minecraft/mc-mods/night-config-fixes)
 * [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
 * [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)

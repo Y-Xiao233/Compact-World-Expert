@@ -1,13 +1,14 @@
 {
     "block.cwe.fake_mana_pool":"Fake Mana Pool",
     "block.cwe.fake_fluid_tank":"Fake Fluid Tank",
-    "block.cwe.mana_sourcelink":"Mana Sourcelink",
+    "block.cwe.mana_liquefier":"Mana Liquefier",
     "block.cwe.mana_booster":"Mana Booster",
     "block.cwe.mana_crush_machine":"Mana Crush Machine",
     "block.cwe.element_motor":"Element Motor",
     "block.cwe.dream_portal_core":"Dream Portal Core",
     "block.cwe.mana_injector":"Mana Injector",
     "block.cwe.source_craftingtable": "Source Crafting Table",
+    "block.cwe.ore_laser":"Ore Laser",
 
 
 

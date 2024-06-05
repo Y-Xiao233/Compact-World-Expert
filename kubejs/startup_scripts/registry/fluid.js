@@ -30,6 +30,10 @@ StartupEvents.registry("fluid",event =>{
         {
             id:'molten_crystal_blazing',
             color:0xF2D72B
+        },
+        {
+            id:'liquid_rough_mana',
+            color:0x29CAD5
         }]
 
     fluids.forEach(fluid =>{

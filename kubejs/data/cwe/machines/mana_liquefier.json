@@ -1,12 +1,12 @@
 {
-    "name": "block.cwe.mana_sourcelink",
+    "name": "block.cwe.mana_liquefier",
     "appearance": {
-        "block": "kubejs:machine/mana_sourcelink",
+        "block": "kubejs:machine/mana_liquefier",
         "light":15,
         "hardness": 1,
         "requires_tool": false,
         "running": {
-            "block": "kubejs:machine/mana_sourcelink"
+            "block": "kubejs:machine/mana_liquefier"
         }
     },
     "gui": [
@@ -41,7 +41,7 @@
         "id": "output1",
         "x": 149,
         "y": 20,
-        "type": "custommachinery:source"
+        "type": "custommachinery:fluid"
       },
       {
         "x": 116,
@@ -54,7 +54,7 @@
         "type": "custommachinery:status"
       },
       {
-        "text": "block.cwe.mana_sourcelink",
+        "text": "block.cwe.mana_liquefier",
         "x": 7,
         "y": 5,
         "type": "custommachinery:text"
@@ -76,7 +76,7 @@
       {
         "mode": "output",
         "id": "output1",
-        "type": "custommachinery:source",
+        "type": "custommachinery:fluid",
         "capacity": 10000,
         "config": {
           "default": "output"

@@ -225,3 +225,39 @@
 * 2.[BUG Fix] Fixed a bug where some disabled recipe types can still be seen in EMI
 * 3.[Modification] Modified the formula of the extended controller
 * 4.[Modification] Modified the texture of two incomplete items (drawn by MX_w)
+
+
+
+## v0.0.9
+* 1.[BUG修复]修复了在进行伪造流体储罐/伪造魔力池相关合成时退出游戏，导致再也无法合成的bug
+* 2.[BUG修复]修复了蒸汽无法获得的bug（在任务中赠送了电阻型加热器）
+* 3.[BUG修复]修复了两种未完成的矿石贴图错误的bug
+* 4.[BUG修复]修复了工业先锋各种升级无法制作的bug
+* 5.[BUG修复]修复了工业先锋镭射钻产出物品错误的bug(新自定义机器材质暂未绘制)
+* 6.[改动]修改了空手shift+右键查看流体储罐和魔力池的信息
+* 7.[改动]删除了魔力魔源通道，前期使用粗糙的液态魔力来产魔源
+* 8.[改动]修改了emi配置，使emi右键清空搜索框的优先级低于其他
+* 9.[改动]修改了前期魔源获取方式（修复了魔力魔源通道每次重新进入都要重新配置的问题）
+* 10.[改动]修改了结构玻璃的合成配方
+* 11.[改动]删除了cm create和cm mekanism
+* 12.[改动]更新了polymorph以及polyeng
+* 13.[改动]修改了堆叠升级T3的配方
+* 14.[改动]删除了精灵门的一些无用配方
+* 15.[改动]删除了任务中第一章第一节的背景
+
+
+* 1.[BUG Fix] Fixed a bug where exiting the game during the synthesis of fake fluid tanks/fake magic pools resulted in the inability to synthesize again
+* 2.[BUG Fix] Fixed a bug where steam cannot be obtained (a resistor type heater was gifted in the task)
+* 3.[BUG Fix] Fixed two bugs related to incomplete ore texture errors
+* 4.[BUG Fix] Fixed bugs that industrial pioneers were unable to create through various upgrades
+* 5.[BUG Fix] Fixed a bug in the production of items by the industrial pioneer laser drill
+* 6.[Modification] Modified empty handed shift+right-click to view information on fluid storage tanks and magic pools
+* 7.[Modification] The magic source channel has been removed, and rough liquid magic was used to generate magic sources in the early stage
+* 8.[Modification] Modified the EMI configuration to prioritize clearing the search box by right-clicking on EMI over others
+* 9.[Modification] Modified the previous method of obtaining magic sources (fixed the issue of reconfiguring the magic source channel every time it re-enters)
+* 10.[Modification] Modified the synthesis formula of structural glass
+* 11.[Modification] Removed cm create and cm mekanism
+* 12.[Modification] Updated polymorph and polyeng
+* 13.[Modification] Modified the recipe for stacking upgrade T3
+* 14.[Modification] Removed some useless formulas from the Elf Gate
+* 15.[Modification] The background of Chapter 1, Section 1 in the task has been removed

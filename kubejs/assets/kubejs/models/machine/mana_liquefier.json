@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/block",
 	"textures": {
-		"1": "kubejs:block/custom_machinery/mana_sourcelink/mana_pool_inside",
-		"2": "kubejs:block/custom_machinery/mana_sourcelink/mana_pool_bottom",
-		"3": "kubejs:block/custom_machinery/mana_sourcelink/mana_pool_top",
-		"4": "kubejs:block/custom_machinery/mana_sourcelink/main_sourcelink",
-		"particle": "kubejs:block/custom_machinery/mana_sourcelink/main_sourcelink"
+		"1": "kubejs:block/custom_machinery/mana_liquefier/mana_pool_inside",
+		"2": "kubejs:block/custom_machinery/mana_liquefier/mana_pool_bottom",
+		"3": "kubejs:block/custom_machinery/mana_liquefier/mana_pool_top",
+		"4": "kubejs:block/custom_machinery/mana_liquefier/main_sourcelink",
+		"particle": "kubejs:block/custom_machinery/mana_liquefier/main_sourcelink"
 	},
 	"elements": [
 		{

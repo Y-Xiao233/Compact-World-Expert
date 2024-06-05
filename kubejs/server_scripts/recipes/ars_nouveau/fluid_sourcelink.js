@@ -14,6 +14,11 @@ ServerEvents.recipes(event =>{
             fluid:'kubejs:liquid_mana',
             ratio:8.0,
             id:`${id_prefix}liquid_mana_to_source`
+        },
+        {
+            fluid:'kubejs:liquid_rough_mana',
+            ratio:3.0,
+            id:`${id_prefix}liquid_rough_mana_to_source`
         }]
 
     recipes.forEach(recipe =>{

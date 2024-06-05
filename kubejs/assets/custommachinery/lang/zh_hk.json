@@ -1,13 +1,14 @@
 {
     "block.cwe.fake_mana_pool":"偽造魔力池",
     "block.cwe.fake_fluid_tank":"偽造流體儲罐",
-    "block.cwe.mana_sourcelink":"魔力魔源通道",
+    "block.cwe.mana_liquefier":"魔力液化器",
     "block.cwe.mana_booster":"魔力增值器",
     "block.cwe.mana_crush_machine":"魔力粉碎機",
     "block.cwe.element_motor":"元素馬達",
     "block.cwe.dream_portal_core":"夢之精靈門核心",
     "block.cwe.mana_injector":"魔力注入器",
     "block.cwe.source_craftingtable":"魔源工作台",
+    "block.cwe.ore_laser":"礦物鐳射鑽",
 
 
     

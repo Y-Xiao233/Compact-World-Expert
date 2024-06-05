@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "kubejs:block/incomplete_uraninite_ore_dense"
+    "all": "kubejs:item/incomplete_uraninite_ore_dense"
   }
 }

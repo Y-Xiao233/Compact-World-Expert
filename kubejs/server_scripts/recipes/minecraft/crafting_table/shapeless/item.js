@@ -111,24 +111,24 @@ ServerEvents.recipes(event => {
             input:['minecraft:black_dye','minecraft:white_dye'],
             id:`${id_prefix}light_gray_dye`
         },
-        {
-            output:'industrialforegoing:processing_addon_2',
-            output_amount:2,
-            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:engineering_processor'],
-            id:`${id_prefix}processing_addon_2`
-        },
-        {
-            output:'industrialforegoing:efficiency_addon_2',
-            output_amount:2,
-            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:logic_processor'],
-            id:`${id_prefix}efficiency_addon_2`
-        },
-        {
-            output:'industrialforegoing:speed_addon_2',
-            output_amount:2,
-            input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:calculation_processor'],
-            id:`${id_prefix}speed_addon_2`
-        },
+        // {
+        //     output:'industrialforegoing:processing_addon_2',
+        //     output_amount:2,
+        //     input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:engineering_processor'],
+        //     id:`${id_prefix}processing_addon_2`
+        // },
+        // {
+        //     output:'industrialforegoing:efficiency_addon_2',
+        //     output_amount:2,
+        //     input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:logic_processor'],
+        //     id:`${id_prefix}efficiency_addon_2`
+        // },
+        // {
+        //     output:'industrialforegoing:speed_addon_2',
+        //     output_amount:2,
+        //     input:['minecraft:redstone','create_new_age:blank_circuit','naturesaura:token_fear','ae2:calculation_processor'],
+        //     id:`${id_prefix}speed_addon_2`
+        // },
         {
             output:'ae2:quantum_entangled_singularity',
             output_amount:2,
@@ -188,6 +188,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['kubejs:gem_earth','minecraft:paper'],
             id:`${id_prefix}packing_tape`
+        },
+        {
+            output:'sophisticatedstorage:stack_upgrade_tier_3',
+            output_amount:1,
+            input:['sophisticatedstorage:upgrade_base','minecraft:gold_block'],
+            id:`${id_prefix}stack_upgrade_tier_3`
         }]
 
     recipes.forEach(recipe =>{

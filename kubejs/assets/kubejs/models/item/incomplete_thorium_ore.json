@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "kubejs:block/incomplete_thorium_ore"
+    "all": "kubejs:item/incomplete_thorium_ore"
   }
 }

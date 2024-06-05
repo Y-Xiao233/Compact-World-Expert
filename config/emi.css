@@ -9,7 +9,7 @@
 	/**
 	 * Whether cheating in items is enabled.
 	 */
-	cheat-mode: false;
+	cheat-mode: true;
 
 	/**
 	 * How much EMI should use tooltips and popups to show controls and information.
@@ -299,7 +299,7 @@
 	/**
 	 * Clears the search bar.
 	 */
-	clear-search: "key.mouse.right";
+	clear-search: "key.keyboard.unknown";
 
 	/**
 	 * Display the recipes for creating a stack.
@@ -409,7 +409,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.mouse.middle";
+	copy-recipe-id: "key.keyboard.unknown";
 
 	/**
 	 * In edit mode, hide the hovered stack
@@ -447,7 +447,7 @@
 	/**
 	 * Whether hovering the output of a recipe should show the recipe's EMI ID.
 	 */
-	show-recipe-ids: false;
+	show-recipe-ids: true;
 
 	/**
 	 * Whether to display additional widgets added to recipes from other mods.

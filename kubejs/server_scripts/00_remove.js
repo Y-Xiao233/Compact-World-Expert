@@ -702,7 +702,8 @@ ServerEvents.recipes(event => {
     'ae2:certus_quartz_cutting_knife',
     'sophisticatedstorage:storage_link',
     'functionalstorage:controller_extension',
-    'estrogen:liquid_estrogen'
+    'estrogen:liquid_estrogen',
+    'mekanism:structural_glass'
     ]
 
     const remove_by_id = [
