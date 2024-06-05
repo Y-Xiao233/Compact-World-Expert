@@ -1,4 +1,4 @@
-REIEvents.removeCategories(event => {
+JEIEvents.removeCategories(event => {
   const hide_by_categories = [
     'jeresources:worldgen',
     'elementalcraft:purification',
@@ -17,7 +17,8 @@ REIEvents.removeCategories(event => {
     'vintageimprovements:leaves_vibrating',
     'vintageimprovements:vibrating',
     'ironfurnaces:generator_smoking',
-    'cyclic:generator_fluid'
+    'cyclic:generator_fluid',
+    'cyclic:packager'
   ]
 
   hide_by_categories.forEach(categories =>{

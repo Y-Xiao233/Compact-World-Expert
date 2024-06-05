@@ -212,3 +212,16 @@
 * 6.[Modification] Removed additional light grey mysterious flowers and the formula for light grey dye
 * 7.[Modification] Added item models for intermediate products of two types of ores
 * 8.[Modification] Improved the localization of modular routers in Chinese
+
+
+## v0.0.8
+
+* 1.[BUG修复]添加了emi，修复了部分物品合成表没了的bug
+* 2.[BUG修复]修复了部分被禁用的配方类型仍能在emi中看见的bug
+* 3.[改动]修改了扩展控制器的配方
+* 4.[改动]修改了两个未完成的物品的贴图（由MX_w绘制）
+
+* 1.[BUG Fix] Added EMI and fixed a bug where some item synthesis tables were missing
+* 2.[BUG Fix] Fixed a bug where some disabled recipe types can still be seen in EMI
+* 3.[Modification] Modified the formula of the extended controller
+* 4.[Modification] Modified the texture of two incomplete items (drawn by MX_w)

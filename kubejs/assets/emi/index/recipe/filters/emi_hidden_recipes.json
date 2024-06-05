@@ -1,0 +1,10 @@
+{
+	"filters": [
+		{
+			"id": "jei:/estrogen/centrifuging/liquid_estrogen"
+		},
+		{
+			"id": "jei:/botania/elven_trade/diamond_block_return"
+		}
+	]
+}

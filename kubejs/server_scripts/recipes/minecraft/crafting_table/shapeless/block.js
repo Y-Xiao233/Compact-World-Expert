@@ -146,6 +146,12 @@ ServerEvents.recipes(event => {
             output_amount:2,
             input:['sophisticatedstorage:controller'],
             id:`${id_prefix}storage_link`
+        },
+        {
+            output:'functionalstorage:controller_extension',
+            output_amount:1,
+            input:['functionalstorage:storage_controller','modularrouters:range_up_augment','modularrouters:range_up_augment'],
+            id:`${id_prefix}controller_extension`
         }]
 
     recipes.forEach(recipe =>{
