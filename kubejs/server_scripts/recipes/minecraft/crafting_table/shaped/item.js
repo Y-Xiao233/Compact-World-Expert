@@ -811,6 +811,15 @@ ServerEvents.recipes(event => {
         D: 'ae2:engineering_processor'
       },
       id:`${id_prefix}processing_addon_2`
+     },
+     {
+      output:'kubejs:rainbow_nugget',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'powah:crystal_nitro',
+        B: 'createcasing:chorium_ingot'
+      },
+      id:`${id_prefix}rainbow_nugget`
      }]
   
   recipes.forEach(recipe =>{

@@ -24,6 +24,7 @@ ServerEvents.recipes(event =>{
     .produceItem('kubejs:end_oil_ore').chance(0.6)
     .produceItem('kubejs:end_osmium_ore').chance(0.25)
     .produceItem('kubejs:end_quartz_ore').chance(0.25)
+    .produceItem('minecraft:chorus_fruit').chance(0.05)
     .requireItem('powah:lens_of_ender').chance(0)
     .requireEnergy(1000)
     .id(`${id_prefix}lens_of_ender`)

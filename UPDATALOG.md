@@ -261,3 +261,19 @@
 * 13.[Modification] Modified the recipe for stacking upgrade T3
 * 14.[Modification] Removed some useless formulas from the Elf Gate
 * 15.[Modification] The background of Chapter 1, Section 1 in the task has been removed
+
+
+## v0.1.0
+* 1.[BUG修复]修复了镭射钻配方丢失的bug
+* 2.[改动]加强了发电机线圈
+* 3.[改动]更新的arseng的版本
+* 4.[改动]修改了锅炉外壳的配方
+* 5.[改动]将流体模块（mk2）添加到奖励表中，并提高了黄铜漏斗，智能溜槽的概率
+* 6.[改动]修改了最终物品的合成配方
+
+* 1.[BUG Fix] Fixed a bug in the missing laser drill formula
+* 2.[Modification] Strengthened generator coils
+* 3.[Modification] The updated version of Arseng
+* 4.[Modification] Modified the formula of the boiler shell
+* 5.[Modification] Added fluid module (mk2) to the reward table and increased the probability of brass funnel and intelligent chute
+* 6.[Modification] Modified the synthesis formula of the final item

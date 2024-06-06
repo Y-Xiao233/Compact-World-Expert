@@ -50,6 +50,12 @@ ServerEvents.recipes(event =>{
             block:'create:andesite_casing',
             output:'vintageimprovements:vibrating_table',
             id:`${id_prefix}vibrating_table`
+        },
+        {
+            hand_item:'createcasing:chorium_ingot',
+            block:'mekanism:sps_casing',
+            output:'createcasing:creative_casing',
+            id:`${id_prefix}creative_casing`
         }]
 
     recipes.forEach(recipe =>{

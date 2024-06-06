@@ -152,6 +152,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['functionalstorage:storage_controller','modularrouters:range_up_augment','modularrouters:range_up_augment'],
             id:`${id_prefix}controller_extension`
+        },
+        {
+            output:'mekanism:boiler_casing',
+            output_amount:4,
+            input:['powah:dielectric_casing'],
+            id:`${id_prefix}boiler_casing`
         }]
 
     recipes.forEach(recipe =>{

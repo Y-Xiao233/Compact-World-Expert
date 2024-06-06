@@ -16,7 +16,7 @@ CustomMachineryEvents.upgrades(event =>{
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 1.5).max(10000))
 
 
-    event.create('industrialforegoing:ore_laser_base',36)
+    event.create('industrialforegoing:laser_drill',36)
     .machine('cwe:ore_laser')
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:speed', 0.8).min(40))
     .modifier(CMRecipeModifierBuilder.expInput('custommachinery:energy', 1.1).max(10000))

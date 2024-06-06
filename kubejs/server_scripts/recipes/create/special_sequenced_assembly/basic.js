@@ -252,6 +252,41 @@ ServerEvents.recipes(event =>{
                 }
             ],
             id:`${id_prefix}redstone_module`
+        },
+        {
+            input:items('create:polished_rose_quartz'),
+            loops:1,
+            output:items('createcasing:chorium_ingot'),
+            main:[
+                {
+                    "type": "create:filling",
+                    "ingredients": [items('create:polished_rose_quartz'),fluids('cyclic:xpjuice',1000)],
+                    "results": [items('create:polished_rose_quartz')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('create:polished_rose_quartz'),items('minecraft:netherite_block')],
+                    "results": [items('create:polished_rose_quartz')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('create:polished_rose_quartz'),items('quark:chorus_fruit_block')],
+                    "results": [items('create:polished_rose_quartz')]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [items('create:polished_rose_quartz'),items('thermalendergy:stellarium_ingot')],
+                    "results": [items('create:polished_rose_quartz')]
+                },
+                {
+                    "type":"create_new_age:energising",
+                    "energy_needed":1000000,
+                    "ingredients":[items('create:polished_rose_quartz')],
+                    "results":[items('createcasing:chorium_ingot')]
+                },
+       
+            ],
+            id:`${id_prefix}chorium_quartz`
         }]
 
     recipes.forEach(recipe =>{

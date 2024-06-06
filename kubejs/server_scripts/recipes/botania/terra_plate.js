@@ -31,9 +31,9 @@ ServerEvents.recipes(event =>{
         },
         {
             input:[items('industrialforegoing:machine_frame_simple'),items('minecraft:diamond_pickaxe')],
-            output:items('cwe:ore_laser'),
+            output:items('industrialforegoing:laser_drill'),
             mana:50000,
-            id:'ore_laser'
+            id:'laser_drill'
         }]
 
     recipes.forEach((recipe) => {

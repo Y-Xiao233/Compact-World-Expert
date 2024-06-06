@@ -79,9 +79,15 @@ ServerEvents.recipes(event =>{
         },
         {
             output:'ae2:creative_item_cell',
-            input:['64x compactmachines:solid_wall','4x kubejs:light_ingot','4x mekanism:pellet_antimatter'],
+            input:['kubejs:creative_cell_housing','4x kubejs:light_ingot','4x mekanism:pellet_antimatter'],
             energy:400000,
             id:'creative_item_cell'
+        },
+        {
+            output:'kubejs:creative_cell_housing',
+            input:['64x compactmachines:solid_wall','4x createcasing:creative_casing','ae2:item_cell_housing'],
+            energy:400000,
+            id:'creative_cell_housing'
         }]
 
     recipes.forEach(recipe =>{

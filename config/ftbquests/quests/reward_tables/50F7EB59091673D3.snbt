@@ -21,7 +21,7 @@
 		{ item: "functionalstorage:gold_upgrade", weight: 5.0f }
 		{ item: "functionalstorage:diamond_upgrade", weight: 3.0f }
 		{ item: "ironfurnaces:augment_factory", weight: 2.0f }
-		{ item: "create:brass_funnel", weight: 15.0f }
+		{ item: "create:brass_funnel", weight: 25.0f }
 		{ item: "thermal:upgrade_augment_2", weight: 4.0f }
 		{ item: "compactmachines:machine_giant", weight: 4.0f }
 		{ item: "minecraft:nether_star", weight: 2.0f }
@@ -224,8 +224,37 @@
 		{ item: "create_bic_bit:fries", weight: 20.0f }
 		{ item: "create_bic_bit:frikandel_sandwich", weight: 20.0f }
 		{ item: "create:chute", weight: 20.0f }
-		{ item: "create:smart_chute", weight: 15.0f }
+		{ item: "create:smart_chute", weight: 25.0f }
 		{ item: "artifacts:mimic_spawn_egg", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:fluid_module_2"
+				tag: {
+					modularrouters: {
+						FluidDir: 0b
+						MaxTransfer: 1000
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 25.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:fluid_module"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						FluidDir: 0b
+						MaxTransfer: 1000
+						ModuleFilter: { }
+					}
+				}
+			}
+			weight: 20.0f
+		}
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

@@ -529,7 +529,8 @@ const jei_hide = [
     "xnet:netcable_green",
     "xnet:netcable_red",
     "botania:orechid",
-    "botania:orechid_ignem"
+    "botania:orechid_ignem",
+    'industrialforegoing:ore_laser_base'
 ]
 
 JEIEvents.hideItems(event => {

@@ -23,11 +23,11 @@
 				item: "thermalendergy:stellarium_ingot"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.75d
 			y: 0.0d
 		}
 		{
-			dependencies: ["161A9DA222E977C0"]
+			dependencies: ["4159EA1A7744A9A5"]
 			id: "5B5A52F2E9188681"
 			rewards: [{
 				id: "09D5CA5095B30168"
@@ -39,8 +39,8 @@
 				item: "kubejs:rainbow_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5B5A52F2E9188681"]
@@ -62,8 +62,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["15C791BF6151F605"]
@@ -79,7 +79,7 @@
 				item: "compactmachines:solid_wall"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -99,13 +99,13 @@
 				item: "kubejs:light_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"22BF550823B584F3"
-				"7EF476119E019C12"
+				"5700F5C77504ACB4"
 			]
 			id: "122CC9D0A610BAAC"
 			rewards: [{
@@ -118,8 +118,55 @@
 				item: "ae2:creative_item_cell"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["161A9DA222E977C0"]
+			id: "7BB0C5AC2FA1E8A0"
+			tasks: [{
+				id: "5273DBE3069FD96D"
+				item: "createcasing:chorium_ingot"
+				type: "item"
+			}]
+			x: -1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7BB0C5AC2FA1E8A0"]
+			id: "4159EA1A7744A9A5"
+			tasks: [{
+				id: "6A59C5BA678A6AE6"
+				item: "kubejs:rainbow_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BB0C5AC2FA1E8A0"]
+			id: "4A17556DBFE0ED0C"
+			tasks: [{
+				id: "50166348CF8F4168"
+				item: "createcasing:creative_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4A17556DBFE0ED0C"
+				"7EF476119E019C12"
+			]
+			id: "5700F5C77504ACB4"
+			tasks: [{
+				id: "35932C7B7EFC5E6E"
+				item: "kubejs:creative_cell_housing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	title: "{ftbquests.chapter.7D014A0FF3B98CC2.title}"

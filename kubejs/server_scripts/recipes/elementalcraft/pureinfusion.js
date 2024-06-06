@@ -24,10 +24,10 @@ ServerEvents.recipes(event =>{
                 items('botania:mana_diamond'), //water
                 items('create_new_age:blank_circuit'), //fire
                 items('mekanismgenerators:fission_reactor_casing'), //earth
-                items('mekanismgenerators:fission_reactor_casing') //air
+                items('botania:gaia_ingot') //air
             ],
-            output:items('mekanism:boiler_casing',4),
-            id:`${id_prefix}boiler_casing`
+            output:items('powah:dielectric_casing'),
+            id:`${id_prefix}dielectric_casing`
         },
         {
             element_amount:5000,

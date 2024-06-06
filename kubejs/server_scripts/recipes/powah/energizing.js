@@ -33,9 +33,9 @@ ServerEvents.recipes(event =>{
                items('naturesaura:token_terror'),
                items('naturesaura:token_terror')
             ],
-            output:items('industrialforegoing:ore_laser_base'),
+            output:items('cwe:ore_laser'),
             energy:40000,
-            id:'ore_laser_base'
+            id:'ore_laser'
         },
         {
             input:[

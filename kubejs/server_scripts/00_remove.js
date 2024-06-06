@@ -703,7 +703,9 @@ ServerEvents.recipes(event => {
     'sophisticatedstorage:storage_link',
     'functionalstorage:controller_extension',
     'estrogen:liquid_estrogen',
-    'mekanism:structural_glass'
+    'mekanism:structural_glass',
+    'powah:dielectric_casing',
+    'createcasing:creative_casing'
     ]
 
     const remove_by_id = [
@@ -1723,6 +1725,9 @@ ServerEvents.recipes(event => {
         'vintageimprovements:vibrating/snow_block',
         'thermal:machines/pulverizer/pulverizer_blizz_rod',
         /botania:\/elven_trade\/.*_return/,
+        'powah:energizing/ender_core',
+        'createcasing:sequenced_assembly/chorium_ingot',
+        'thermal:machines/insolator/insolator_chorus_flower'
     ]
 
     const remove_by_type = [

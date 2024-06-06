@@ -69,7 +69,7 @@
         "x":115,
         "y":60,
         "type":"custommachinery:slot",
-        "ghost":"industrialforegoing:ore_laser_base"
+        "ghost":"industrialforegoing:laser_drill"
       },
       {
         "id": "output1",
@@ -169,7 +169,7 @@
         "type": "custommachinery:item",
         "variant": "custommachinery:upgrade",
         "capacity": 36,
-        "filter": ["industrialforegoing:ore_laser_base"],
+        "filter": ["industrialforegoing:laser_drill"],
         "whitelist": true
       },
       {

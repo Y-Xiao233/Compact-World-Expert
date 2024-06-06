@@ -51,5 +51,6 @@
     "block.createcasing.crimson_shaft":"緋紅菌柄傳動杆",
     "block.createcasing.warped_shaft":"詭異菌柄傳動杆",
     "block.createcasing.glass_shaft":"玻璃傳動杆",
-    "block.createcasing.brass_shaft":"黃銅傳動杆"
+    "block.createcasing.brass_shaft":"黃銅傳動杆",
+    "item.creatscasing.chorium_ingot":"氯錠"
 }

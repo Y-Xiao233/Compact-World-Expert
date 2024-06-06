@@ -242,11 +242,9 @@ ServerEvents.recipes(event =>{
         },
         {
             extra_items:[
-                items('mekanism:ultimate_control_circuit',64),
-                items('powah:crystal_nitro',64),
-                items('compressium:netherite_2')
+                items('mekanism:ultimate_control_circuit',64)
             ],
-            input:items('thermalendergy:stellarium_ingot',8),
+            input:items('kubejs:rainbow_nugget',8),
             output:items('kubejs:rainbow_ingot'),
             spirits:[
                spirits('aqueous',64),spirits('eldritch',64),

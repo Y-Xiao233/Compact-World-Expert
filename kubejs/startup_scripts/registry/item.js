@@ -50,7 +50,9 @@ StartupEvents.registry("item", (event) => {
         'press_control_circuit_die',
         'quartz_light_oil',
         'ingot_refined_tar',
-        'rainbow_ingot'
+        'rainbow_ingot',
+        'rainbow_nugget',
+        'creative_cell_housing'
     ]
     
     const registry_tool = [
