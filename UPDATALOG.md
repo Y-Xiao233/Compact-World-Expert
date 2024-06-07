@@ -277,3 +277,18 @@
 * 4.[Modification] Modified the formula of the boiler shell
 * 5.[Modification] Added fluid module (mk2) to the reward table and increased the probability of brass funnel and intelligent chute
 * 6.[Modification] Modified the synthesis formula of the final item
+
+
+## v0.1.1
+* 1.[BUG修复]修复了制作的量子缠绕态奇点无法使用的bug
+* 2.[改动]添加了矿物镭射钻的材质（由MX_w绘制）
+* 3.[改动]修改梦之精灵门核心为只能在主世界工作
+* 4.[改动]向怪奇宝典内添加了powah的指导书
+* 5.[改动]向任务奖励表中添加了许多Create物品
+
+
+* 1.[BUG Fix] Fixed a bug where quantum entangled state singularities produced cannot be used
+* 2.[Modification] Added material for mineral laser drills (drawn by MX_w)
+* 3.[Modification] Modify the core of the Dream Elf Gate to only work in the main world
+* 4.[Modification] Added a guidebook for powah to the Strange Treasure Classic
+* 5.[Modification] Added many Create items to the task reward table

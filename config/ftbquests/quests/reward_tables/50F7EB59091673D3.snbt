@@ -189,7 +189,7 @@
 			}
 			weight: 3.0f
 		}
-		{ item: "spirit:soul_steel_ingot", weight: 3.0f }
+		{ count: 4, item: "spirit:soul_steel_ingot", weight: 3.0f }
 		{
 			item: {
 				Count: 1b
@@ -202,30 +202,30 @@
 			}
 		}
 		{ item: "ironfurnaces:diamond_furnace" }
-		{ item: "hexerei:moon_dust", weight: 8.0f }
-		{ item: "minecraft:dirt", weight: 20.0f }
+		{ count: 16, item: "hexerei:moon_dust", weight: 8.0f }
+		{ count: 16, item: "minecraft:dirt", weight: 20.0f }
 		{ item: "botania:terrasteel_ingot", weight: 5.0f }
 		{ item: "ae2:certus_quartz_crystal", weight: 5.0f }
-		{ item: "minecraft:stone", weight: 15.0f }
+		{ count: 16, item: "minecraft:stone", weight: 15.0f }
 		{ item: "minecraft:iron_ingot" }
 		{ item: "minecraft:diamond" }
-		{ item: "minecraft:oak_log", weight: 25.0f }
+		{ count: 16, item: "minecraft:oak_log", weight: 25.0f }
 		{ item: "ars_nouveau:source_gem", weight: 10.0f }
 		{ item: "thermal:apatite", weight: 4.0f }
 		{ item: "minecraft:redstone", weight: 3.0f }
 		{ item: "minecraft:string", weight: 15.0f }
 		{ item: "minecraft:gold_ingot", weight: 15.0f }
-		{ item: "minecraft:bone_meal", weight: 15.0f }
-		{ item: "minecraft:clay_ball", weight: 25.0f }
-		{ item: "create_bic_bit:cooked_herring", weight: 18.0f }
-		{ item: "create_bic_bit:speculaas", weight: 15.0f }
-		{ item: "create_bic_bit:wrapped_mayonnaise_ketchup_topped_fries", weight: 20.0f }
-		{ item: "create_bic_bit:mayonnaise_ketchup_topped_kroket_sandwich", weight: 20.0f }
-		{ item: "create_bic_bit:fries", weight: 20.0f }
-		{ item: "create_bic_bit:frikandel_sandwich", weight: 20.0f }
+		{ count: 8, item: "minecraft:bone_meal", weight: 15.0f }
+		{ count: 8, item: "minecraft:clay_ball", weight: 25.0f }
+		{ count: 8, item: "create_bic_bit:cooked_herring", weight: 18.0f }
+		{ count: 8, item: "create_bic_bit:speculaas", weight: 15.0f }
+		{ count: 8, item: "create_bic_bit:wrapped_mayonnaise_ketchup_topped_fries", weight: 20.0f }
+		{ count: 8, item: "create_bic_bit:mayonnaise_ketchup_topped_kroket_sandwich", weight: 20.0f }
+		{ count: 8, item: "create_bic_bit:fries", weight: 20.0f }
+		{ count: 8, item: "create_bic_bit:frikandel_sandwich", weight: 20.0f }
 		{ item: "create:chute", weight: 20.0f }
 		{ item: "create:smart_chute", weight: 25.0f }
-		{ item: "artifacts:mimic_spawn_egg", weight: 10.0f }
+		{ count: 4, item: "artifacts:mimic_spawn_egg", weight: 8.0f }
 		{
 			item: {
 				Count: 1b
@@ -255,6 +255,23 @@
 			}
 			weight: 20.0f
 		}
+		{ item: "createutilities:void_motor", weight: 10.0f }
+		{ item: "create:deployer", weight: 10.0f }
+		{ count: 4, item: "create:linear_chassis", weight: 10.0f }
+		{ item: "create:brass_tunnel", weight: 8.0f }
+		{ item: "create:andesite_tunnel", weight: 10.0f }
+		{ item: "create:polished_rose_quartz", weight: 5.0f }
+		{ item: "createaddition:electric_motor", weight: 2.0f }
+		{ item: "create:item_vault", weight: 10.0f }
+		{ item: "createutilities:gearcube", weight: 15.0f }
+		{ item: "createutilities:lshaped_gearbox", weight: 15.0f }
+		{ item: "create:vertical_gearbox", weight: 15.0f }
+		{ item: "create:gearbox", weight: 15.0f }
+		{ item: "create:clutch", weight: 15.0f }
+		{ item: "create:gearshift", weight: 15.0f }
+		{ count: 8, item: "create:encased_chain_drive", weight: 15.0f }
+		{ item: "create:large_water_wheel", weight: 15.0f }
+		{ item: "create:encased_fan", weight: 15.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

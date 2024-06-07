@@ -85,7 +85,7 @@ ServerEvents.recipes(event =>{
 
 
     function dream_portal_core_recipes(input1,input2,output,output_chance,time,id){
-        custom_machine('cwe:dream_portal_core',time).id(`${id_prefix}${id}`)
+        custom_machine('cwe:dream_portal_core',time).dimensionWhitelist('minecraft:overworld').id(`${id_prefix}${id}`)
         .requireFunctionOnStart(ctx =>{
             const {machine, block} = ctx
             const blockstate = block.getBlockState()

@@ -193,7 +193,7 @@
 					type: "item"
 				}
 				{
-					id: "3050EB6C7FFA78DF"
+					id: "20A5BB124C56A052"
 					item: {
 						Count: 1b
 						id: "eccentrictome:tome"
@@ -326,6 +326,12 @@
 										tag: {
 											"patchouli:book": "naturesaura:book"
 										}
+									}
+								}
+								powah: {
+									0: {
+										Count: 1b
+										id: "powah:book"
 									}
 								}
 								psi: {

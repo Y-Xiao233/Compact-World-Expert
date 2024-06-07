@@ -26,7 +26,7 @@
 			}
 			id: "020495B69A69DB35"
 			rewards: [{
-				id: "1561187595BE7731"
+				id: "015818198AB06964"
 				item: {
 					Count: 1b
 					id: "eccentrictome:tome"
@@ -159,6 +159,12 @@
 									tag: {
 										"patchouli:book": "naturesaura:book"
 									}
+								}
+							}
+							powah: {
+								0: {
+									Count: 1b
+									id: "powah:book"
 								}
 							}
 							psi: {

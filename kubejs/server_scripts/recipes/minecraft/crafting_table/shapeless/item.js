@@ -130,12 +130,6 @@ ServerEvents.recipes(event => {
         //     id:`${id_prefix}speed_addon_2`
         // },
         {
-            output:'ae2:quantum_entangled_singularity',
-            output_amount:2,
-            input:['minecraft:diamond','ae2:singularity'],
-            id:`${id_prefix}quantum_entangled_singularity`
-        },
-        {
             output:'laserio:card_fluid',
             output_amount:1,
             input:['laserio:logic_chip','minecraft:bucket'],
