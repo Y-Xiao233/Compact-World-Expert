@@ -873,6 +873,11 @@
 					item: "mekanism:sps_port"
 					type: "item"
 				}
+				{
+					id: "69C588DFC9575A2B"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
 			]
 			x: 4.5d
 			y: 2.0d

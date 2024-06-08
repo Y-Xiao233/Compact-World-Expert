@@ -140,6 +140,12 @@ ServerEvents.recipes(event =>{
             base_input:'thermalendergy:endergy_upgrade_1',
             addition_input:'thermal:enderium_block',
             id:`${id_prefix}thermalendergy_endergy_upgrade_2`
+        },
+        {
+            output:'mekanism:supercharged_coil',
+            base_input:'mekanism:laser',
+            addition_input:'industrialforegoing:machine_frame_supreme',
+            id:`${id_prefix}supercharged_coil`
         }]
 
     recipes.forEach(recipe =>{

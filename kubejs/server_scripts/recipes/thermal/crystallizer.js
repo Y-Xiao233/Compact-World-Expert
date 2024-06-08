@@ -6,21 +6,21 @@ ServerEvents.recipes(event =>{
             input:'naturesaura:bottle_two_the_rebottling',
             fluid:Fluid.of('kubejs:molten_aqueous_spirit',250),
             output:Item.of('naturesaura:aura_bottle', '{stored_type:"naturesaura:other"}').weakNBT(),
-            energy:4000,
+            energy:1000,
             id:'aura_bottle_other'
         },
         {
             input:'thermal:coal_coke',
             fluid:Fluid.of('thermal:heavy_oil',100),
             output:'thermal:tar',
-            energy:4000,
+            energy:1000,
             id:'tar'
         },
         {
             input:'minecraft:quartz',
             fluid:Fluid.of('thermal:light_oil',100),
             output:'kubejs:quartz_light_oil',
-            energy:4000,
+            energy:1000,
             id:'quartz_light_oil'
         }]
 

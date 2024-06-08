@@ -705,7 +705,10 @@ ServerEvents.recipes(event => {
     'estrogen:liquid_estrogen',
     'mekanism:structural_glass',
     'powah:dielectric_casing',
-    'createcasing:creative_casing'
+    'createcasing:creative_casing',
+    'mekanism:chemical_oxidizer',
+    'create_new_age:fluxuated_magnetite',
+    'mekanism:supercharged_coil'
     ]
 
     const remove_by_id = [
@@ -1745,6 +1748,7 @@ ServerEvents.recipes(event => {
         /mekanism:processing\/.*\/dirty_dust\/from_.*/,
         /mekanism:processing\/.*\/clump\/from_.*/,
         /mekanism:processing\/.*\/shard\/from_.*/,
+        'mekanism:processing/lategame/antimatter/from_pellet'
     ]
 
     const remove_by_type = [

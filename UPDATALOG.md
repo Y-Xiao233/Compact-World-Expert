@@ -304,3 +304,33 @@
 * 6.[改动]添加了橡树树苗的高级植物盆配方
 * 7.[改动]向任务奖励表中添加了（漏式）植物盆栽
 * 8.[改动]修改了各种新生魔艺有关蓝图在任务中赠送的位置
+
+
+* 1.[BUG Fix] Fixed a bug in emi displaying incorrect Create information (removed emi and its configuration file)
+* 2.[Modification] Change the "sulfur dioxide/trioxide" in modernization improvement to liquefied sulfur dioxide/trioxide in Mekanism
+* 3.[Modification] Modified the sequence assembly formula of the redstone module
+* 4.[Modification] Modified the synthetic formula for drip irrigation
+* 5.[Modification] Added plant pot formula for sugarcane
+* 6.[Modification] Added advanced plant pot formula for oak saplings
+* 7.[Modification] Added (omitted) potted plants to the task reward table
+* 8.[Modification] Modified the positions of various new magic art blueprints given as gifts in missions
+
+
+## Beta v1.0.0
+
+* 1.[BUG修复]修复了化学氧化器原配方未删除的bug
+* 2.[BUG修复]修复了增压线圈无法制作的bug
+* 3.[BUG修复]修复了钻石质磁铁原配方未删除的bug
+* 4.[BUG修复]修复了反物质配方错误的bug
+* 5.[改动]修改了整合包图标并添加了存档默认图标
+* 6.[改动]修改了结晶器的耗电量以此降低了运行时间
+* 7.[改动]将紧实型压缩空间壁改为仅主世界的能被彩虹镐挖掘并修改了对应提示
+
+
+* 1.[BUG Fix] Fixed a bug in the original formula of the chemical oxidizer that was not deleted
+* 2.[BUG Fix] Fixed a bug that prevented the production of the boost coil
+* 3.[BUG Fix] Fixed a bug in the original formula of diamond magnets that was not deleted
+* 4.[BUG Fix] Fixed a bug in the antimatter formula error
+* 5.[Modification] Modified the consolidation pack icon and added a default archive icon
+* 6.[Modification] Modified the power consumption of the crystallizer to reduce running time
+* 7.[Modification] The compact compressed space wall has been changed to only the main world that can be mined by the rainbow pickaxe, and the corresponding prompt has been modified
