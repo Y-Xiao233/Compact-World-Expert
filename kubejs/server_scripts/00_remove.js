@@ -1727,7 +1727,24 @@ ServerEvents.recipes(event => {
         /botania:\/elven_trade\/.*_return/,
         'powah:energizing/ender_core',
         'createcasing:sequenced_assembly/chorium_ingot',
-        'thermal:machines/insolator/insolator_chorus_flower'
+        'thermal:machines/insolator/insolator_chorus_flower',
+        /malum:spirit_crucible\/.*/,
+        /malum:impetus_creation_.*/,
+        /malum:spirit_infusion\/.*/,
+        /malum:node_focusing_.*/,
+        /malum:.*_from_node_blasting/,
+        /malum:.*_from_node_smelting/,
+        /malum:create\/washing\/.*_node/,
+        /botania:orechid\/.*/,
+        'botania:petal_apothecary/orechid',
+        'vintageimprovements:pressurizing/sulfur_dioxide',
+        'mekanism:oxidizing/sulfur_dioxide',
+        'mekanism:chemical_infusing/sulfur_trioxide',
+        'vintageimprovements:pressurizing/sulfuric_acid',
+        'create:crushing/raw_osmium_ore',
+        /mekanism:processing\/.*\/dirty_dust\/from_.*/,
+        /mekanism:processing\/.*\/clump\/from_.*/,
+        /mekanism:processing\/.*\/shard\/from_.*/,
     ]
 
     const remove_by_type = [

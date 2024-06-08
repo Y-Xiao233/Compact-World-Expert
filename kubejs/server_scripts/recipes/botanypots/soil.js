@@ -58,6 +58,13 @@ ServerEvents.recipes(event =>{
             growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}netherite_block`
+        },
+        {
+            soil_block:'minecraft:redstone_block',
+            can_be_planted_on:['tier_2'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}redstone_block`
         }]
 
     soils.forEach(soil =>{

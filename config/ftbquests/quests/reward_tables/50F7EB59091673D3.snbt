@@ -272,6 +272,8 @@
 		{ count: 8, item: "create:encased_chain_drive", weight: 15.0f }
 		{ item: "create:large_water_wheel", weight: 15.0f }
 		{ item: "create:encased_fan", weight: 15.0f }
+		{ item: "botanypots:terracotta_botany_pot", weight: 10.0f }
+		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

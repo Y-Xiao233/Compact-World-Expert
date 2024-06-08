@@ -42,7 +42,7 @@ ServerEvents.recipes(event =>{
             output:[crops_outputs('minecraft:oak_log',0.6,4,8),crops_outputs('minecraft:stick',0.2,2,4),crops_outputs('minecraft:oak_sapling',0.2,1,2),crops_outputs('minecraft:apple',0.2,1,2)],
             growth_tick:200,
             growth_modifier:1,
-            id:`${id_prefix}wood`
+            id:`${id_prefix}wood_1`
         },
         {
             seed:'malum:runewood_sapling',
@@ -91,6 +91,22 @@ ServerEvents.recipes(event =>{
             growth_tick:200,
             growth_modifier:1,
             id:`${id_prefix}black_mystical_flower`
+        },
+        {
+            seed:'minecraft:sugar_cane',
+            can_be_planted_on:['tier_2'],
+            output:[crops_outputs('minecraft:sugar_cane',0.8,2,3)],
+            growth_tick:200,
+            growth_modifier:1,
+            id:`${id_prefix}sugar_cane`
+        },
+        {
+            seed:'minecraft:oak_sapling',
+            can_be_planted_on:['tier_2'],
+            output:[crops_outputs('minecraft:oak_log',0.8,8,10),crops_outputs('minecraft:stick',0.2,2,4),crops_outputs('minecraft:oak_sapling',0.2,1,2)],
+            growth_tick:100,
+            growth_modifier:1,
+            id:`${id_prefix}wood_2`
         }]
 
     crops.forEach(crop => {

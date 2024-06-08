@@ -451,6 +451,12 @@ ServerEvents.recipes(event =>{
             filter:{output:'functionalstorage:void_upgrade'},
             original:'#functionalstorage:drawer',
             replace:'kubejs:functionalstorage_upgrade_base'
+        },
+        {
+            type:'input',
+            filter:{output:'mekanism:gauge_dropper'},
+            original:'mekanism:ingot_osmium',
+            replace:'minecraft:copper_ingot'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

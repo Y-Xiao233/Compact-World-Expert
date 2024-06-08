@@ -533,6 +533,8 @@ const jei_hide = [
     'industrialforegoing:ore_laser_base'
 ]
 
+
+
 JEIEvents.hideItems(event => {
     jei_hide.forEach(hides =>{
         event.hide(hides)

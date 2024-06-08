@@ -53,6 +53,10 @@ pressurizing.prototype = {
     heatRequirement : function(heatRequirement){
         this.heatRequirement = heatRequirement
         return this
+    },
+    secondaryFluidResults : function(secondaryFluidResults){
+        this.secondaryFluidResults = secondaryFluidResults
+        return this
     }
 }
 
@@ -69,4 +73,7 @@ ServerEvents.recipes(event =>{
     pressurizing_recipe(new pressurizing([items('mekanism:salt'),fluids('kubejs:purewater',250)],[items('thermal:sulfur')],50).secondaryFluidInputs(0).heatRequirement('heated'),'sulfur')
     pressurizing_recipe(new pressurizing([items('mekanism:alloy_reinforced'),items('kubejs:quartz_light_oil'),items('mekanism:ingot_refined_obsidian'),fluids('thermal:refined_fuel',100)],[items('mekanism:ultimate_control_circuit',2)],50).secondaryFluidInputs(0).heatRequirement('superheated'),'ultimate_control_circuit')
     pressurizing_recipe(new pressurizing([items('mekanism:ingot_refined_obsidian'),items('minecraft:echo_shard'),items('kubejs:quartz_light_oil'),fluids('industrialforegoing:biofuel',100)],[items('mekanism:reprocessed_fissile_fragment',2)],50).secondaryFluidInputs(0).heatRequirement('superheated'),'reprocessed_fissile_fragment')
+    pressurizing_recipe(new pressurizing([items('thermal:sulfur')],[fluids('mekanism:sulfur_dioxide')]).secondaryFluidResults(0).heatRequirement('heated'),'sulfur_dioxide')
+    pressurizing_recipe(new pressurizing([items('vintageimprovements:vanadium_nugget'),fluids('mekanism:sulfur_dioxide',250)],[fluids('mekanism:sulfur_trioxide',250)]).secondaryFluidResults(0).heatRequirement('heated'),'sulfur_trioxide')
+    pressurizing_recipe(new pressurizing([fluids('minecraft:water'),fluids('mekanism:sulfur_trioxide')],[fluids('vintageimprovements:sulfuric_acid')]).secondaryFluidInputs(0).secondaryFluidResults(0).heatRequirement('heated'),'sulfuric_acid')
 })

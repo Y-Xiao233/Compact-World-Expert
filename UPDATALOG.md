@@ -292,3 +292,15 @@
 * 3.[Modification] Modify the core of the Dream Elf Gate to only work in the main world
 * 4.[Modification] Added a guidebook for powah to the Strange Treasure Classic
 * 5.[Modification] Added many Create items to the task reward table
+
+
+
+## v0.1.2
+* 1.[BUG修复]修复了emi显示关于Create信息错误的bug（删除了emi及其配置文件）
+* 2.[改动]将现代化改进中的“二/三氧化硫”改为了Mekanism中的液化二/三氧化硫
+* 3.[改动]修改了红石模块的序列组装配方
+* 4.[改动]修改了滴灌的合成配方
+* 5.[改动]添加了甘蔗的植物盆配方
+* 6.[改动]添加了橡树树苗的高级植物盆配方
+* 7.[改动]向任务奖励表中添加了（漏式）植物盆栽
+* 8.[改动]修改了各种新生魔艺有关蓝图在任务中赠送的位置

@@ -349,11 +349,88 @@
 				"6360945D2308F3CB"
 			]
 			id: "7C711695E360075C"
-			rewards: [{
-				id: "64F97DE506DFAD0C"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "64F97DE506DFAD0C"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					id: "14063167CD9B0519"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								5
+								5
+								5
+							]
+							Deployed: 0b
+							File: "魔源罐.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20970AE164E8282C"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								7
+								7
+								7
+							]
+							Deployed: 0b
+							File: "附魔装置.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "322D0F99E92F923A"
+					item: {
+						Count: 1b
+						id: "create:schematic"
+						tag: {
+							Anchor: {
+								X: 0
+								Y: 0
+								Z: 0
+							}
+							Bounds: [
+								9
+								9
+								9
+							]
+							Deployed: 0b
+							File: "奥数核心.nbt"
+							Mirror: "NONE"
+							Owner: "Y_Xiao233"
+							Rotation: "NONE"
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "08AFEAF6C40FB1C9"
 				item: "compactcrafting:field_projector"
@@ -396,81 +473,6 @@
 			]
 			id: "037EAE7E4CE963B9"
 			rewards: [
-				{
-					id: "1755BEB03F1A324D"
-					item: {
-						Count: 1b
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								5
-								5
-								5
-							]
-							Deployed: 0b
-							File: "魔源罐.nbt"
-							Mirror: "NONE"
-							Owner: "Y_Xiao233"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "526D49E4A08F4855"
-					item: {
-						Count: 1b
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								7
-								7
-								7
-							]
-							Deployed: 0b
-							File: "附魔装置.nbt"
-							Mirror: "NONE"
-							Owner: "Y_Xiao233"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3594EC31D33631F8"
-					item: {
-						Count: 1b
-						id: "create:schematic"
-						tag: {
-							Anchor: {
-								X: 0
-								Y: 0
-								Z: 0
-							}
-							Bounds: [
-								9
-								9
-								9
-							]
-							Deployed: 0b
-							File: "奥数核心.nbt"
-							Mirror: "NONE"
-							Owner: "Y_Xiao233"
-							Rotation: "NONE"
-						}
-					}
-					type: "item"
-				}
 				{
 					id: "39D8651447A6C340"
 					item: "ars_nouveau:source_jar"

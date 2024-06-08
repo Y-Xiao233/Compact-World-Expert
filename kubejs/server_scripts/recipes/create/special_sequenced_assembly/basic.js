@@ -236,11 +236,6 @@ ServerEvents.recipes(event =>{
                     "results":[items('vintageimprovements:incomplete_redstone_module')]
                 },
                 {
-                    "type":"vintageimprovements:vibrating",
-                    "ingredients":[items('vintageimprovements:incomplete_redstone_module')],
-                    "results":[items('vintageimprovements:incomplete_redstone_module')]
-                },
-                {
                     "type": "create:deploying",
                     "ingredients": [items('vintageimprovements:incomplete_redstone_module'),items('minecraft:redstone_block')],
                     "results": [items('vintageimprovements:incomplete_redstone_module')]

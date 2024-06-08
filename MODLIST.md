@@ -1,4 +1,4 @@
-## Compact World: Expert (by Y_Xiao233) - v0.1.0
+## Compact World: Expert (by Y_Xiao233) - v0.1.2
 * [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)
@@ -198,4 +198,3 @@
 * [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
 * [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)
 * [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)
-* [EMI (by EmilyPloszaj)](https://www.curseforge.com/minecraft/mc-mods/emi)
