@@ -508,11 +508,19 @@
 			dependencies: ["3FC73DD0AD0927ED"]
 			description: ["{ftbquests.chapter.0CCB7C52D9D7412E.quests17.description}"]
 			id: "5AA10F217E6C1A0B"
-			rewards: [{
-				id: "2F20D70BAB8740EA"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "2F20D70BAB8740EA"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/kjs stages add @a swift_space"
+					id: "6C99FD6B525BD76D"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "5FF0AAD928C2BF24"
 				item: "kubejs:swift_alloy_key"
@@ -2336,11 +2344,19 @@
 				"{ftbquests.chapter.0CCB7C52D9D7412E.quests103.description2}"
 			]
 			id: "12EF5F133E87A88D"
-			rewards: [{
-				id: "33BB5B47D56E84FF"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "33BB5B47D56E84FF"
+					table_id: 5834390609918850003L
+					type: "random"
+				}
+				{
+					auto: "enabled"
+					command: "/kjs stages add @a sky_space"
+					id: "6043CF9C667863C1"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "46C77B69F0C68FD5"
 				item: "kubejs:sky_key"

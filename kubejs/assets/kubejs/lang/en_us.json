@@ -184,6 +184,8 @@
 
     "tip.compact_world.out_of_space":"§cYou cannot leave this area unless you are in creative mode/spectator mode/have rainbow ingots in your backpack",
 
+    "tip.compact_worldcentrifuge.disabled_place_block":"§cYou cannot place this block here because it will cause the game to crash when the machine is working",
+
     "tip.compact_world.information_1":"§ashift+magical stick §c Right-click §f Soild Compact Machine Wall/Compact Block §c obtain",
     "tip.compact_world.information_2":"§aHold §f Compressed Dust §c Right-click §f Compact Machine Wall §c obtain",
     "tip.compact_world.information_3":"§a Hold §f Compress CAD Body §c Right-click §f Compact Machine Wall § c obtain",

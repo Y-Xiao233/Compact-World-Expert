@@ -457,6 +457,24 @@ ServerEvents.recipes(event =>{
             filter:{output:'mekanism:gauge_dropper'},
             original:'mekanism:ingot_osmium',
             replace:'minecraft:copper_ingot'
+        },
+        {
+            type:'input',
+            filter:{output:'mekanism:ultimate_mechanical_pipe'},
+            original:'mekanism:alloy_atomic',
+            replace:'mekanism:ultimate_control_circuit'
+        },
+        {
+            type:'input',
+            filter:{output:'mekanism:ultimate_pressurized_tube'},
+            original:'mekanism:alloy_atomic',
+            replace:'mekanism:ultimate_control_circuit'
+        },
+        {
+            type:'input',
+            filter:{output:'mekanism:ultimate_logistical_transporter'},
+            original:'mekanism:alloy_atomic',
+            replace:'mekanism:ultimate_control_circuit'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

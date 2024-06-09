@@ -182,6 +182,8 @@
 
     "tip.compact_world.out_of_space":"§c你不能離開這個區域，除非你是創造模式/旁觀者模式/背包中有彩虹錠",
 
+    "tip.compact_worldcentrifuge.disabled_place_block":"§c你不能將這個方塊放置在此處，因為這個機器工作時這個方塊會導致遊戲崩潰",
+
     "tip.compact_world.information_1":"§ashift+神奇的木棍§c右键§f緊實型壓縮空間壁/壓縮塊§c獲得",
     "tip.compact_world.information_2":"§a拿着§f壓縮粉末§c右键§f壓縮空間壁§c獲得",
     "tip.compact_world.information_3":"§a拿着§f壓縮CAD機體§c右键§f緊實型壓縮空間壁§c獲得",

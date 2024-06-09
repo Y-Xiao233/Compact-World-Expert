@@ -40,9 +40,9 @@ ServerEvents.recipes(event =>{
             output:'kubejs:functionalstorage_upgrade_base',
             output_amount:3,
             time:240,
-            id:`${id_prefix}functionalstorage_upgrade_base`
-           },
-           {
+            id:`${id_prefix}functionalstorage_upgrade_base_1`
+        },
+        {
             inputItem:[
             {"item":'psi:psimetal'},
             {"item":'botania:livingwood_log'},
@@ -54,8 +54,8 @@ ServerEvents.recipes(event =>{
             output_amount:1,
             time:300,
             id:`${id_prefix}smithing_table`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'minecraft:cobblestone'},
             {"item":'minecraft:cobblestone'},
@@ -67,8 +67,8 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:40,
             id:`${id_prefix}sand`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'quark:bonded_leather'},
             {"item":'quark:bonded_leather'},
@@ -80,8 +80,8 @@ ServerEvents.recipes(event =>{
             output_amount:2,
             time:160,
             id:`${id_prefix}sophisticatedbackpacks_upgrade_base`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'minecraft:raw_gold'},
             {"item":'minecraft:raw_gold'},
@@ -93,8 +93,8 @@ ServerEvents.recipes(event =>{
             output_amount:8,
             time:80,
             id:`${id_prefix}crushed_raw_gold`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'hexerei:belladonna_flowers'},
             {"item":'hexerei:belladonna_berries'},
@@ -106,8 +106,8 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:80,
             id:`${id_prefix}mindful_trance_blend`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'ars_nouveau:source_gem'},
             {"item":'ars_nouveau:source_gem'},
@@ -119,8 +119,8 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:80,
             id:`${id_prefix}source_dust`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'naturesaura:gold_leaf'},
             {"item":'naturesaura:gold_leaf'},
@@ -132,8 +132,8 @@ ServerEvents.recipes(event =>{
             output_amount:6,
             time:80,
             id:`${id_prefix}yellow_dye`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'minecraft:sand'},
             {"item":'minecraft:sand'},
@@ -145,8 +145,8 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:40,
             id:`${id_prefix}gravel`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'compressium:cobblestone_1'},
             {"item":'compressium:cobblestone_1'},
@@ -158,8 +158,8 @@ ServerEvents.recipes(event =>{
             output_amount:8,
             time:80,
             id:`${id_prefix}andesite`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'botania:black_lotus'},
             {"item":'botania:black_lotus'},
@@ -171,8 +171,8 @@ ServerEvents.recipes(event =>{
             output_amount:2,
             time:80,
             id:`${id_prefix}ebony_substance_1`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'botania:blacker_lotus'},
             {"item":'botania:blacker_lotus'},
@@ -184,8 +184,8 @@ ServerEvents.recipes(event =>{
             output_amount:8,
             time:120,
             id:`${id_prefix}ebony_substance_2`
-           },
-           {
+        },
+        {
             inputItem:[
             {"item":'kubejs:compact_dust'},
             {"item":'kubejs:compact_dust'},
@@ -197,7 +197,20 @@ ServerEvents.recipes(event =>{
             output_amount:5,
             time:100,
             id:`${id_prefix}psidust`
-           }]
+        },
+        {
+            inputItem:[
+            {"item":'create_new_age:overcharged_gold'},
+            {"item":'psi:psimetal'},
+            {"item":'kubejs:source_clay_ball'},
+            {"item":'kubejs:source_clay_ball'},
+            {"item":'kubejs:source_clay_ball'}
+            ], //inputItem:5
+            output:'kubejs:functionalstorage_upgrade_base',
+            output_amount:6,
+            time:240,
+            id:`${id_prefix}functionalstorage_upgrade_base_2`
+        }]
 
     recipes.forEach(recipe =>{
         event.custom({

@@ -21,11 +21,12 @@ PlayerEvents.tick(event =>{
 
     function space(space){
         if(!space){
+            let name = player.displayName.getString()
             player.tell(Text.translate('tip.compact_world.out_of_space'))
-            player.runCommandSilent('tp 0 0 0')
-            player.runCommandSilent('gamemode creative')
+            server.runCommandSilent(`tp ${name} 0 0 0`)
+            server.runCommandSilent(`gamemode creative ${name})}`)
             server.scheduleInTicks(1,event =>{
-                player.runCommandSilent('gamemode survival')
+                server.runCommandSilent(`gamemode survival ${name}`)
             })
         }
     }

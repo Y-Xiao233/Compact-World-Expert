@@ -1748,7 +1748,8 @@ ServerEvents.recipes(event => {
         /mekanism:processing\/.*\/dirty_dust\/from_.*/,
         /mekanism:processing\/.*\/clump\/from_.*/,
         /mekanism:processing\/.*\/shard\/from_.*/,
-        'mekanism:processing/lategame/antimatter/from_pellet'
+        'mekanism:processing/lategame/antimatter/from_pellet',
+        'estrogen:centrifuging/liquid_estrogen'
     ]
 
     const remove_by_type = [

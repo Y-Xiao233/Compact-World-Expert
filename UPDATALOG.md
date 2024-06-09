@@ -334,3 +334,26 @@
 * 5.[Modification] Modified the consolidation pack icon and added a default archive icon
 * 6.[Modification] Modified the power consumption of the crystallizer to reduce running time
 * 7.[Modification] The compact compressed space wall has been changed to only the main world that can be mined by the rainbow pickaxe, and the corresponding prompt has been modified
+
+
+
+
+## Beta v1.1.0
+
+* 1.[改动]添加了精致存储升级基础的中期配方
+* 2.[改动]提高了氘氚燃料的产量
+* 3.[改动]修改了判断出范围的逻辑，现在不需要开允许作弊也可以正常执行了
+* 4.[改动]在某一人制作出对应钥匙后，会给游戏内所有玩家添加该阶段(作为任务奖励)
+* 5.[改动]禁止在以离心机为中心3*3的位置内放置流体抽屉
+* 6.[改动]修改了mek各种终极管道的配方
+* 7.[改动]修改了一键背包整理的配置文件，使创建新世界的时候不再出现红色锁定边框
+
+
+
+* 1.[Modification] Added mid-term formula for refined storage upgrade foundation
+* 2.[Modification] Increased production of deuterium tritium fuel
+* 3.[Modification] The logic for determining the scope has been modified, and now it can be executed normally without the need to enable cheating
+* 4.[Modification] After a person creates a corresponding key, this stage will be added to all players in the game as a task reward
+* 5.[Modification] It is prohibited to place fluid drawers within a 3 * 3 position centered on the centrifuge
+* 6.[Modification] Modified the formulas for various ultimate pipelines in MEK
+* 7.[Modification] Modified the configuration file for one click backpack organization, so that the red lock border no longer appears when creating a new world
