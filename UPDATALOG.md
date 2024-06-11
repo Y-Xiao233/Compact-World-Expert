@@ -362,8 +362,7 @@
 
 
 ## Beta v1.2.0
-
-* 1.[BUG修复]修复了粗金块可以烧制成金块的bug
+* 1.[BUG修复]修复了粗金块可以烧制成金块的bug[\#10 by locomotive488](https://github.com/Y-Xiao233/Compact-World-Expert/issues/10)
 * 2.[改动]修改了符文粉笔，法术炮台的合成配方
 * 3.[改动]修改了热力的磨粉机配方
 * 4.[改动]删除了任务中的一些没用的描述
@@ -372,3 +371,14 @@
 * 7.[改动]修改了无限红石信号终端的配方，并添加至任务随机奖励中
 * 8.[改动]修改了压缩锭的混合釜配方每次产量（4 -> 6）
 * 9.[改动]删除了一些配方
+
+
+* 1.[BUG Fix] Fixed a bug where crude gold blocks can be fired into gold blocks[\#10 by localive488](https://github.com/Y-Xiao233/Compact-World-Expert/issues/10)
+* 2.[Modification] Modified the synthesis formula for rune chalk and spell turrets
+* 3.[Modification] Modified the formula of the thermal milling machine
+* 4.[Modification] Some useless descriptions in the task have been removed
+* 5.[Modification] Added a formula for vulcanized rubber
+* 6.[Modification] Modified the output quantity of rubber each time (4->8)
+* 7.[Modification] Modified the formula of the Infinite Redstone Signal Terminal and added it to the task random reward
+* 8.[Modification] Modified the mixing kettle formula for compression ingots, with each production yield (4->6)
+* 9.[Modification] Some formulas have been deleted
