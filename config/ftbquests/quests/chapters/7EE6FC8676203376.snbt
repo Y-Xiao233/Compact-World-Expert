@@ -1076,6 +1076,11 @@
 					item: "create:powered_toggle_latch"
 					type: "item"
 				}
+				{
+					id: "63A830438837415B"
+					item: "create:redstone_link"
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: -8.0d

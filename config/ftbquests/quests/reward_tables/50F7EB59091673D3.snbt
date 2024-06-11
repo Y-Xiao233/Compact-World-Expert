@@ -274,6 +274,7 @@
 		{ item: "create:encased_fan", weight: 15.0f }
 		{ item: "botanypots:terracotta_botany_pot", weight: 10.0f }
 		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
+		{ count: 2, item: "create:redstone_link", weight: 15.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

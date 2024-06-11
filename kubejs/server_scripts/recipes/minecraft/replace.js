@@ -475,6 +475,12 @@ ServerEvents.recipes(event =>{
             filter:{output:'mekanism:ultimate_logistical_transporter'},
             original:'mekanism:alloy_atomic',
             replace:'mekanism:ultimate_control_circuit'
+        },
+        {
+            type:'input',
+            filter:{output:'ars_nouveau:basic_spell_turret'},
+            original:'minecraft:redstone_block',
+            replace:'naturesaura:sky_ingot_block'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

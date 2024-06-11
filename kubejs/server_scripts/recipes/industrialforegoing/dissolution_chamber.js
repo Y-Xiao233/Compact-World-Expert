@@ -40,10 +40,10 @@ ServerEvents.recipes(event =>{
                 'minecraft:light_gray_dye','ae2:silicon'
             ],
             input_fluid:'kubejs:liquid_soul',
-            input_fluid_amount:250,
+            input_fluid_amount:500,
             output_fluid:false,
             output_fluid_amount:0,
-            output_item:'4x thermal:rubber',
+            output_item:'8x thermal:rubber',
             time:100,
             id:`${id_prefix}rubber`
         },

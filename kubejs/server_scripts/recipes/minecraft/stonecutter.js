@@ -72,6 +72,21 @@ ServerEvents.recipes(event =>{
             input:'ars_nouveau:relay',
             output:'ars_nouveau:relay_splitter',
             id:`${id_prefix}relay_splitter`
+        },
+        {
+            input:'ars_nouveau:basic_spell_turret',
+            output:'ars_nouveau:rotating_spell_turret',
+            id:`${id_prefix}rotating_spell_turret`
+        },
+        {
+            input:'ars_nouveau:basic_spell_turret',
+            output:'ars_nouveau:spell_turret',
+            id:`${id_prefix}spell_turret`
+        },
+        {
+            input:'ars_nouveau:basic_spell_turret',
+            output:'ars_nouveau:timer_spell_turret',
+            id:`${id_prefix}timer_spell_turret`
         }]
 
     recipes.forEach(recipe =>{

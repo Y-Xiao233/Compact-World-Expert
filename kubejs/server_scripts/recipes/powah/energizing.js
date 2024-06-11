@@ -145,6 +145,16 @@ ServerEvents.recipes(event =>{
             output:items('mekanism:antiprotonic_nucleosynthesizer'),
             energy:10000000,
             id:'antiprotonic_nucleosynthesizer'
+        },
+        {
+            input:[
+               items('thermal:machine_frame'),
+               items('ars_nouveau:glyph_crush'),
+               items('quark:purple_rune')
+            ],
+            output:items('thermal:machine_pulverizer'),
+            energy:10000,
+            id:'machine_pulverizer'
         }]
 
     recipes.forEach(recipe =>{

@@ -56,6 +56,12 @@ ServerEvents.recipes(event =>{
             block:'mekanism:sps_casing',
             output:'createcasing:creative_casing',
             id:`${id_prefix}creative_casing`
+        },
+        {
+            hand_item:'minecraft:redstone_block',
+            block:'create:andesite_casing',
+            output:'create:redstone_link',
+            id:`${id_prefix}redstone_link`
         }]
 
     recipes.forEach(recipe =>{

@@ -2428,6 +2428,30 @@
 			x: 8.0d
 			y: 5.0d
 		}
+		{
+			dependencies: ["69AE8E795DE7E41C"]
+			id: "7D0FE5544F9545B4"
+			tasks: [
+				{
+					id: "036596AF952866E5"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:runic_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07EDDFB0077002B1"
+					item: "ars_nouveau:basic_spell_turret"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 4.0d
+		}
 	]
 	title: "{ftbquests.chapter.0CCB7C52D9D7412E.title}"
 }

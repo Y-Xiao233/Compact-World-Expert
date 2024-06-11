@@ -26,6 +26,12 @@ ServerEvents.recipes(event =>{
             fluid:Fluid.of('kubejs:high_purity_oil',400),
             input:'minecraft:raw_iron',
             id:'raw_enriched_iron'
+        },
+        {
+            output:'thermal:cured_rubber',
+            fluid:Fluid.of('industrialforegoing:latex',1000),
+            input:'thermal:rubber',
+            id:'cured_rubber'
         }]
 
     recipes.forEach(recipe =>{

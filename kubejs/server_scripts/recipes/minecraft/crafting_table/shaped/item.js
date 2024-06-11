@@ -820,6 +820,16 @@ ServerEvents.recipes(event => {
         B: 'createcasing:chorium_ingot'
       },
       id:`${id_prefix}rainbow_nugget`
+     },
+     {
+      output:'ars_nouveau:runic_chalk',
+      pattern:['AB ','C  ','   '],
+      key:{
+        A: 'ars_nouveau:blank_glyph',
+        B: 'naturesaura:sky_ingot',
+        C: 'ars_nouveau:source_gem_block'
+      },
+      id:`${id_prefix}runic_chalk`
      }]
   
   recipes.forEach(recipe =>{

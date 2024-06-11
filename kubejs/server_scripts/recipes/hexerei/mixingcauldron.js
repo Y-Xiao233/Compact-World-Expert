@@ -125,7 +125,7 @@ ServerEvents.recipes(event =>{
             liquid_consum:100,
             output_liquid:false,
             output:'kubejs:compact_ingot',
-            output_amount:4,
+            output_amount:6,
             heat:true,
             id:`${id_prefix}compact_ingot`
            }]

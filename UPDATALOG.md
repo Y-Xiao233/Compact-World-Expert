@@ -357,3 +357,18 @@
 * 5.[Modification] It is prohibited to place fluid drawers within a 3 * 3 position centered on the centrifuge
 * 6.[Modification] Modified the formulas for various ultimate pipelines in MEK
 * 7.[Modification] Modified the configuration file for one click backpack organization, so that the red lock border no longer appears when creating a new world
+
+
+
+
+## Beta v1.2.0
+
+* 1.[BUG修复]修复了粗金块可以烧制成金块的bug
+* 2.[改动]修改了符文粉笔，法术炮台的合成配方
+* 3.[改动]修改了热力的磨粉机配方
+* 4.[改动]删除了任务中的一些没用的描述
+* 5.[改动]添加了一个硫化橡胶的配方
+* 6.[改动]修改了橡胶每次的产出数量（4 -> 8）
+* 7.[改动]修改了无限红石信号终端的配方，并添加至任务随机奖励中
+* 8.[改动]修改了压缩锭的混合釜配方每次产量（4 -> 6）
+* 9.[改动]删除了一些配方

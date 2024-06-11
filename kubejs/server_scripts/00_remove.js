@@ -708,7 +708,13 @@ ServerEvents.recipes(event => {
     'createcasing:creative_casing',
     'mekanism:chemical_oxidizer',
     'create_new_age:fluxuated_magnetite',
-    'mekanism:supercharged_coil'
+    'mekanism:supercharged_coil',
+    'thermal:machine_pulverizer',
+    'ars_nouveau:timer_spell_turret',
+    'ars_nouveau:spell_turret',
+    'ars_nouveau:rotating_spell_turret',
+    'ars_nouveau:runic_chalk',
+    'create:redstone_link'
     ]
 
     const remove_by_id = [
@@ -1749,7 +1755,45 @@ ServerEvents.recipes(event => {
         /mekanism:processing\/.*\/clump\/from_.*/,
         /mekanism:processing\/.*\/shard\/from_.*/,
         'mekanism:processing/lategame/antimatter/from_pellet',
-        'estrogen:centrifuging/liquid_estrogen'
+        'estrogen:centrifuging/liquid_estrogen',
+        'quark:tweaks/blasting/raw_gold_bricks_blast',
+        'quark:tweaks/blasting/raw_gold_block_blast',
+        'quark:tweaks/smelting/raw_gold_block_smelt',
+        'quark:tweaks/smelting/raw_gold_bricks_smelt',
+        'ars_nouveau:rotating_turret_to_basic_spell_turret',
+        'elementalcraft:grinding/amethyst_shard',
+        'elementalcraft:grinding/magenta_dye_from_forge_flowers_magenta',
+        'elementalcraft:grinding/inert_crystal',
+        'elementalcraft:grinding/bone_meal',
+        'elementalcraft:pure_ore/elementalcraft/grinding/inert_crystal',
+        'elementalcraft:pure_ore/elementalcraft/grinding/netherite_scrap',
+        'elementalcraft:grinding/blaze_powder',
+        'elementalcraft:grinding/light_blue_dye_from_forge_flowers_light_blue',
+        'elementalcraft:grinding/pink_dye_from_forge_flowers_pink',
+        'elementalcraft:grinding/springaline_shard',
+        'elementalcraft:grinding/white_dye_from_forge_flowers_white',
+        'elementalcraft:grinding/green_dye_from_cactus',
+        'elementalcraft:grinding/string',
+        'elementalcraft:grinding/cobblestone',
+        'elementalcraft:grinding/pointed_dripstone',
+        /mekanism:crushing\/.*/,
+        /mekanism:compat\/ae2\/decorative\/.*\/crushing\/.*/,
+        'elementalcraft:pure_ore/mekanism/processing/netherite/ancient_debris_to_dirty_scrap',
+        'mekanism:processing/uranium/dust/from_ingot',
+        'mekanism:processing/netherite/ancient_debris_to_dirty_scrap',
+        'mekanism:processing/emerald/to_dust',
+        'mekanism:processing/osmium/dust/from_ingot',
+        'mekanism:processing/quartz/to_dust',
+        'mekanism:compat/ae2/sky_stone_to_dust',
+        'mekanism:processing/tin/dust/from_ingot',
+        'mekanism:processing/fluorite/to_dust',
+        'mekanism:processing/lapis_lazuli/to_dust',
+        'mekanism:processing/diamond/to_dust',
+        'mekanism:processing/lead/dust/from_ingot',
+        'mekanism:processing/coal/to_dust',
+        'mekanism:processing/steel/ingot_to_dust',
+        'mekanism:processing/netherite/ingot_to_dust',
+        'mekanism:processing/bronze/dust/from_ingot'
     ]
 
     const remove_by_type = [
