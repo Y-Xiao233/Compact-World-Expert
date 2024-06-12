@@ -842,5 +842,8 @@
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&c必須在&a主世界的&d壓縮空間外",
 "ftbquests.reward_tables.50F7EB59091673D3.title": "獎勵",
 "ftbquests.chapter.332E2E63AD3628C2.quests91.description0":"&c只能在相同維度傳輸應力",
-"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有壓縮空間都是在同一個維度中的哦~"
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有壓縮空間都是在同一個維度中的哦~",
+
+
+"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把這個結構放在主世界&a（前面的配方不消耗靈氣，所以在壓縮空間也能工作，然而後面的配方需要靈氣，在壓縮空間就會導致無法工作~）"
 }

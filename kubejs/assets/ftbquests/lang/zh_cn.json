@@ -849,5 +849,8 @@
   "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&c必须在&a主世界的&d压缩空间外",
   "ftbquests.reward_tables.50F7EB59091673D3.title": "奖励",
   "ftbquests.chapter.332E2E63AD3628C2.quests91.description0":"&c只能在相同维度传输应力",
-  "ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有压缩空间都是在同一个维度中的哦~"
+  "ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有压缩空间都是在同一个维度中的哦~",
+
+
+  "ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把这个结构放在主世界&a（前面的配方不消耗灵气，所以在压缩空间也能工作，然而后面的配方需要灵气，在压缩空间就会导致无法工作~）"
 }

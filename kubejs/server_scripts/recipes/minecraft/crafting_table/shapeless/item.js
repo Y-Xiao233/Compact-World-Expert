@@ -188,6 +188,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['sophisticatedstorage:upgrade_base','minecraft:gold_block'],
             id:`${id_prefix}stack_upgrade_tier_3`
+        },
+        {
+            output:'ars_nouveau:blank_parchment',
+            output_amount:1,
+            input:['ars_nouveau:blank_glyph','minecraft:book'],
+            id:`${id_prefix}blank_parchment`
         }]
 
     recipes.forEach(recipe =>{

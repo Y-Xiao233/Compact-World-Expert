@@ -352,5 +352,9 @@
 "ftbquests.chapter.7D014A0FF3B98CC2.quests4.description1": "&cMust be outside of the compressed space in the &aOverworld",
 "ftbquests.reward_tables.50F7EB59091673D3.title": "Rewards",
 "ftbquests.chapter.332E2E63AD3628C2.quests91.description0":"&c can only transmit stress in the same dimension",
-"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a Note: All compressed spaces are in the same dimension~"
+"ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a Note: All compressed spaces are in the same dimension~",
+
+
+
+"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&cIt is best to place this structure in the overworld &a(the previous formula does not consume spiritual energy, so it can work in compressed space, but the later formula requires spiritual energy, which will cause it to not work in compressed space~)"
 }

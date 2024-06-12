@@ -1782,7 +1782,6 @@ ServerEvents.recipes(event => {
         'mekanism:processing/uranium/dust/from_ingot',
         'mekanism:processing/netherite/ancient_debris_to_dirty_scrap',
         'mekanism:processing/emerald/to_dust',
-        'mekanism:processing/osmium/dust/from_ingot',
         'mekanism:processing/quartz/to_dust',
         'mekanism:compat/ae2/sky_stone_to_dust',
         'mekanism:processing/tin/dust/from_ingot',
@@ -1793,7 +1792,9 @@ ServerEvents.recipes(event => {
         'mekanism:processing/coal/to_dust',
         'mekanism:processing/steel/ingot_to_dust',
         'mekanism:processing/netherite/ingot_to_dust',
-        'mekanism:processing/bronze/dust/from_ingot'
+        'mekanism:processing/bronze/dust/from_ingot',
+        'ars_nouveau:blank_parchment',
+        'botanypots:botanypots/crafting/terracotta_hopper_botany_pot'
     ]
 
     const remove_by_type = [

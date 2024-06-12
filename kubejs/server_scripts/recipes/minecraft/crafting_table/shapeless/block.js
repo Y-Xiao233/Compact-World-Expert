@@ -158,6 +158,12 @@ ServerEvents.recipes(event => {
             output_amount:4,
             input:['powah:dielectric_casing'],
             id:`${id_prefix}boiler_casing`
+        },
+        {
+            output:'botanypots:terracotta_hopper_botany_pot',
+            output_amount:1,
+            input:['botanypots:terracotta_botany_pot','minecraft:hopper','kubejs:gem_water'],
+            id:`${id_prefix}terracotta_hopper_botany_pot`
         }]
 
     recipes.forEach(recipe =>{

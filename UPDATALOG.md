@@ -382,3 +382,17 @@
 * 7.[Modification] Modified the formula of the Infinite Redstone Signal Terminal and added it to the task random reward
 * 8.[Modification] Modified the mixing kettle formula for compression ingots, with each production yield (4->6)
 * 9.[Modification] Some formulas have been deleted
+
+
+## Beta v1.3.0
+
+* 1.[BUG修复]修复了漏式植物盆配方错误的bug
+* 2.[BUG修复]修复了空白羊皮纸无法制作的bug[\#12 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/12)
+* 3.[BUG修复]修复了锇粉没有配方的bug[\#13 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/13)
+* 4.[改动]向自然祭坛添加了任务描述
+
+
+* 1.[BUG Fix] Fixed a bug in the formula error of the leaky plant pot
+* 2.[BUG Fix] Fixed a bug where blank parchment cannot be made [\#12 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/12)
+* 3.[BUG Fix] Fixed a bug in osmium powder without a formula [\#13 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/13)
+* 4.[Modification] Added task description to the natural altar
