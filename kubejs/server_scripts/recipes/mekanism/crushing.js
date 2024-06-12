@@ -24,7 +24,13 @@ ServerEvents.recipes(event =>{
             output:'4x thermalendergy:stellarium_ingot',
             input:'thermalendergy:endergy_upgrade_3',
             id:'stellarium_ingot'
-        }]
+        },
+        {
+            output:'mekanism:dust_osmium',
+            input:'mekanism:ingot_osmium',
+            id:'dust_osmium'
+        }
+]
 
     recipes.forEach(recipe =>{
         event.recipes.mekanism.crushing(recipe.output,recipe.input).id(`${id_prefix}${recipe.id}`)
