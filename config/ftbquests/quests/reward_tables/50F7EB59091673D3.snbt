@@ -275,6 +275,141 @@
 		{ item: "botanypots:terracotta_botany_pot", weight: 10.0f }
 		{ item: "botanypots:terracotta_hopper_botany_pot", weight: 5.0f }
 		{ count: 2, item: "create:redstone_link", weight: 15.0f }
+		{ count: 2, item: "laserio:laser_node", weight: 15.0f }
+		{ item: "laserio:card_item", weight: 10.0f }
+		{ item: "laserio:card_fluid", weight: 10.0f }
+		{ item: "laserio:card_energy", weight: 10.0f }
+		{ item: "laserio:card_redstone", weight: 10.0f }
+		{
+			item: {
+				Count: 1b
+				id: "laserio:filter_basic"
+				tag: {
+					inv: {
+						Items: [ ]
+						Size: 15
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "laserio:filter_count"
+				tag: {
+					counts: [
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 0
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 1
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 2
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 3
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 4
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 5
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 6
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 7
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 8
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 9
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 10
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 11
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 12
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 13
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 14
+						}
+					]
+					inv: {
+						Items: [ ]
+						Size: 15
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "laserio:filter_tag"
+				tag: {
+					tags: [ ]
+				}
+			}
+		}
+		{ item: "laserio:overclocker_card", weight: 10.0f }
+		{ item: "laserio:overclocker_node", weight: 10.0f }
+		{ count: 2, item: "laserio:laser_connector", weight: 10.0f }
+		{ item: "expatternprovider:wireless_connect", weight: 5.0f }
+		{ item: "aeinfinitybooster:dimension_card" }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:wireless_crafting_terminal"
+				tag: { }
+			}
+			weight: 5.0f
+		}
+		{ item: "ae2:interface", weight: 10.0f }
+		{ count: 16, item: "ae2:fluix_glass_cable", weight: 10.0f }
+		{ item: "ae2:pattern_provider", weight: 10.0f }
+		{ item: "ae2:me_p2p_tunnel" }
+		{ item: "thermal:item_filter_augment", weight: 15.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

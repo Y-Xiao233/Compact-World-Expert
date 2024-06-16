@@ -960,8 +960,10 @@
 			id: "76988EA82A6A9C24"
 			rewards: [
 				{
+					exclude_from_claim_all: true
 					id: "79D2BBD02545FDD1"
 					item: "compactmachines:machine_maximum"
+					only_one: true
 					type: "item"
 				}
 				{

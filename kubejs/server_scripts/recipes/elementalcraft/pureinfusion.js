@@ -35,10 +35,10 @@ ServerEvents.recipes(event =>{
                 items('elementalcraft:firecrystal'), //center
                 items('botania:mana_diamond'), //water
                 items('create_new_age:blank_circuit'), //fire
-                items('mekanismgenerators:fission_reactor_port'), //earth
+                items('elementalcraft:swift_alloy_block'), //earth
                 items('mekanismgenerators:fission_reactor_port') //air
             ],
-            output:items('mekanism:boiler_valve',2),
+            output:items('mekanism:boiler_valve'),
             id:`${id_prefix}boiler_valve`
         },
         {

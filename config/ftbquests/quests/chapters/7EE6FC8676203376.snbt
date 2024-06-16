@@ -1707,7 +1707,8 @@
 				{
 					id: "43A73ED2249EB60D"
 					item: "compactmachines:machine_maximum"
-					team_reward: false
+					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{

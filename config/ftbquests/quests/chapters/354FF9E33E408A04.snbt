@@ -1454,7 +1454,8 @@
 				{
 					id: "1610D8D68D90C17F"
 					item: "compactmachines:machine_maximum"
-					team_reward: false
+					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{

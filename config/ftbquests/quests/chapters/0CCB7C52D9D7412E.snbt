@@ -102,7 +102,8 @@
 					count: 160
 					id: "4971A599D762892B"
 					item: "ars_nouveau:sourcestone"
-					team_reward: false
+					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2092,7 +2093,8 @@
 				{
 					id: "05CCC782734D492A"
 					item: "compactmachines:machine_maximum"
-					team_reward: false
+					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{

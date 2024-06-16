@@ -237,7 +237,7 @@
     "kubejs.ponder.fluid_tank.text_1": "空手+shift對著流體罐(並非偽造流體罐)右鍵",
     "kubejs.ponder.fluid_tank.text_2": "在這些冒紅色粒子效果的地方放置物台",
     "kubejs.ponder.fluid_tank.text_3": "拿著對應物品右鍵置物台把物品放上去",
-    "kubejs.ponder.fluid_tank.text_4": "然後在中間的流體儲罐內倒入對應流體",
+    "kubejs.ponder.fluid_tank.text_4": "然後在中間的流體儲罐內倒入對應流體（生存模式直接拿桶右鍵即可，僅該綜合包可以實現哦~）",
     "kubejs.ponder.fluid_tank.text_5": "最後拿著對應的物品右鍵流體儲罐",
     "kubejs.ponder.fluid_tank.text_6": "開始合成後會有粒子效果出現，等待粒子效果結束就合成完畢了",
     

@@ -258,19 +258,23 @@ BlockEvents.rightClicked(event =>{
             server.runCommandSilent(`data merge block ${a2_pos_x} ${a2_pos_y} ${a2_pos_z} {source:${a_amount2-a_amount_needed}}`)
             server.runCommandSilent(`data merge block ${a3_pos_x} ${a3_pos_y} ${a3_pos_z} {source:${a_amount3-a_amount_needed}}`)
             server.runCommandSilent(`data merge block ${a4_pos_x} ${a4_pos_y} ${a4_pos_z} {source:${a_amount4-a_amount_needed}}`)
-    
-            for(let i = 0;i < tick-9;i ++){
-                server.scheduleInTicks(i,(event) =>{
-                    server.runCommandSilent(`particle minecraft:ambient_entity_effect ${block.x} ${block.y + 0.2} ${block.z} 0 0 0 0.5 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:item elementalcraft:firecrystal ${fire_pos_x} ${fire_pos_y} ${fire_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:item elementalcraft:watercrystal ${water_pos_x} ${water_pos_y} ${water_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:item elementalcraft:earthcrystal ${earth_pos_x} ${earth_pos_y} ${earth_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:item elementalcraft:aircrystal ${air_pos_x} ${air_pos_y} ${air_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a1_pos_x} ${a1_pos_y + 1} ${a1_pos_z} 0 0 0 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a2_pos_x} ${a2_pos_y + 1} ${a2_pos_z} 0 0 0 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a3_pos_x} ${a3_pos_y + 1} ${a3_pos_z} 0 0 0 0.05 10 force @a`)
-                    server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a4_pos_x} ${a4_pos_y + 1} ${a4_pos_z} 0 0 0 0.05 10 force @a`)
-                })
+
+            if(!player.stages.has("particle_disable")){
+                if(!player.isFake()){
+                    for(let i = 0;i < tick-9;i ++){
+                        server.scheduleInTicks(i,(event) =>{
+                            server.runCommandSilent(`particle minecraft:ambient_entity_effect ${block.x} ${block.y + 0.2} ${block.z} 0 0 0 0.5 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:item elementalcraft:firecrystal ${fire_pos_x} ${fire_pos_y} ${fire_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:item elementalcraft:watercrystal ${water_pos_x} ${water_pos_y} ${water_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:item elementalcraft:earthcrystal ${earth_pos_x} ${earth_pos_y} ${earth_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:item elementalcraft:aircrystal ${air_pos_x} ${air_pos_y} ${air_pos_z} 0.4 0.4 0.4 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a1_pos_x} ${a1_pos_y + 1} ${a1_pos_z} 0 0 0 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a2_pos_x} ${a2_pos_y + 1} ${a2_pos_z} 0 0 0 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a3_pos_x} ${a3_pos_y + 1} ${a3_pos_z} 0 0 0 0.05 10 force @a`)
+                            server.runCommandSilent(`particle minecraft:block ars_nouveau:source_gem_block ${a4_pos_x} ${a4_pos_y + 1} ${a4_pos_z} 0 0 0 0.05 10 force @a`)
+                        })
+                    }
+                }
             }
     
             let itemEntity = block.createEntity("item")

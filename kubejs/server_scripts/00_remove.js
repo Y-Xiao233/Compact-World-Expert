@@ -1794,7 +1794,8 @@ ServerEvents.recipes(event => {
         'mekanism:processing/netherite/ingot_to_dust',
         'mekanism:processing/bronze/dust/from_ingot',
         'ars_nouveau:blank_parchment',
-        'botanypots:botanypots/crafting/terracotta_hopper_botany_pot'
+        'botanypots:botanypots/crafting/terracotta_hopper_botany_pot',
+        'farmersdelight:paper_from_tree_bark'
     ]
 
     const remove_by_type = [

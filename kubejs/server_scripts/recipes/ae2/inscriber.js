@@ -89,7 +89,7 @@ ServerEvents.recipes(event =>{
             top:'ae2:logic_processor_press',
             middle:'kubejs:gaia_nugget',
             bottom:false,
-            mode:1,
+            mode:2,
             output:'ae2:logic_processor_press',
             output_amount:1,
             id:`${id_prefix}logic_processor_press`

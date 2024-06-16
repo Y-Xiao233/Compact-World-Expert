@@ -239,7 +239,7 @@
     "kubejs.ponder.fluid_tank.text_1": "Right-click with empty hand + shift on the Fluid Tank (not Fake Fluid Tank)",
     "kubejs.ponder.fluid_tank.text_2": "Place Depot in these areas with red particle effects",
     "kubejs.ponder.fluid_tank.text_3": "Right-click on the corresponding item and place it on the Depot",
-    "kubejs.ponder.fluid_tank.text_4": "Then pour the corresponding fluid into the middle Fluid Tank",
+    "kubejs.ponder.fluid_tank.text_4": "Then pour the corresponding fluid into the middle Fluid Tank(Right click on the bucket directly for survival mode, only this integration package can be implemented~)",
     "kubejs.ponder.fluid_tank.text_5": "Finally, hold the corresponding item and Right-click on the Fluid Tank",
     "kubejs.ponder.fluid_tank.text_6": "After starting the crafting, particle effects will appear. Wait for the particle effects to finish before the crafting is complete",
 

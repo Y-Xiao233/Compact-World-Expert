@@ -682,7 +682,8 @@
 				{
 					id: "1FD9E98E773A5500"
 					item: "compactmachines:machine_maximum"
-					team_reward: false
+					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{

@@ -396,3 +396,33 @@
 * 2.[BUG Fix] Fixed a bug where blank parchment cannot be made [\#12 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/12)
 * 3.[BUG Fix] Fixed a bug in osmium powder without a formula [\#13 by YocyCraft](https://github.com/Y-Xiao233/Compact-World-Expert/issues/13)
 * 4.[Modification] Added task description to the natural altar
+
+
+## Beta v1.4.0
+
+* 1.[BUG修复]修复了锅炉阀门可以无限刷取的bug
+* 2.[BUG修复]修复了逻辑压印模板无法复制的bug[\#18 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/18)
+* 3.[BUG修复]修复了许多重要任务的奖励不是团队奖励的bug
+* 4.[BUG修复]修复了任务中蒸汽描述错误的bug
+* 5.[改动]删除了树皮合成纸的配方
+* 6.[改动]向任务奖励表中添加了Laserio的部分物品
+* 7.[改动]向任务奖励表中添加了AE2及ExtendedAE的少量物品
+* 8.[改动]向任务奖励表中添加了热力的物品过滤器
+* 9.[改动]降低了矿物镭射钻中部分副产物的概率,并提高了主产物的概率
+* 10.[改动]降低了矿物镭射钻中的升级可达到的最高效率(40tick -> 80tick)
+* 11.[改动]新增隐藏两个伪造合成的粒子效果,并且修改模拟玩家运行时不显示粒子效果(游戏内输入/kjs stages add @a particle_disable即可隐藏,如果想再次看见吧add改成remove再运行一次就行了)
+* 12.[改动]新增生存模式可以直接用对应的流体桶右键向流体储罐中添加对应流体(使用空桶右键流体储罐也可以取出哦)
+
+
+* 1.[BUG Fix] Fixed a bug where boiler valves can be flushed indefinitely
+* 2.[BUG Fix] Fixed a bug where logical imprinting templates cannot be copied[\#18 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/18)
+* 3.[BUG Fix] Fixed many bugs where rewards for important tasks were not team rewards
+* 4.[BUG Fix] Fixed a bug in the steam description error in the task
+* 5.[Modification] The formula for bark synthetic paper has been removed
+* 6.[Modification] Added some items from Laserio to the task reward table
+* 7.[Modification] Added a small number of items for AE2 and ExtendedAE to the task reward table
+* 8.[Modification] Added a hot item filter to the task reward table
+* 9.[Modification] Reduced the probability of some by-products in mineral laser drills and increased the probability of main products
+* 10.[Modification] Reduced the maximum efficiency achievable by upgrading in mineral laser drills (40tick ->80tick)
+* 11.[Modification] Add and hide two fake synthesized particle effects, and modify the simulation player to not display particle effects when running (enter/kjs stages add @ a particle_disable in the game to hide it, if you want to see it again, change "add" to "remove" and run it again)
+* 12.[Modification] New Survival Mode: You can directly add the corresponding fluid to the fluid storage tank by right clicking on the corresponding fluid bucket (you can also remove the fluid storage tank by right clicking on the empty bucket)
