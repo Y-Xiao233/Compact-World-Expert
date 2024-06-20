@@ -444,7 +444,7 @@
 
 
 
-* 1.[BUG Fix] Fixed a bug where no dropped objects were found when compressed soul dust blocks were destroyed [\ # 21 by BoxZen]（ https://github.com/Y-Xiao233/Compact-World-Expert/issues/21 )
+* 1.[BUG Fix] Fixed a bug where no dropped objects were found when compressed soul dust blocks were destroyed [\#21 by BoxZen](https://github.com/Y-Xiao233/Compact-World-Expert/issues/21)
 * 2.[BUG Fix] Removed the original formula of the charging rod (lower bound)
 * 3.[Modification] Added a feather synthesis method
 * 4.[Modification] Removed the formula of the grinding wheel for obsidian powder
