@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
         {
             output:'botanypots:terracotta_hopper_botany_pot',
             output_amount:1,
-            input:['botanypots:terracotta_botany_pot','minecraft:hopper','kubejs:gem_water'],
+            input:['botanypots:terracotta_botany_pot','minecraft:hopper'],
             id:`${id_prefix}terracotta_hopper_botany_pot`
         }]
 

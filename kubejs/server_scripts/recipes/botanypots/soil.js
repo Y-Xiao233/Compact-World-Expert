@@ -65,6 +65,13 @@ ServerEvents.recipes(event =>{
             growth_ticks:200,
             growth_modifier:1,
             id:`${id_prefix}redstone_block`
+        },
+        {
+            soil_block:'elementalcraft:swift_alloy_block',
+            can_be_planted_on:['oak_plank'],
+            growth_ticks:200,
+            growth_modifier:1,
+            id:`${id_prefix}swift_alloy_block`
         }]
 
     soils.forEach(soil =>{

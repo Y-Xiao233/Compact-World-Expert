@@ -1,4 +1,4 @@
-## Compact World: Expert (by Y_Xiao233) - v0.1.2
+## Compact World: Expert (by Y_Xiao233) - Beta v1.5.0
 * [Custom Machinery Botania (by alec_016)](https://www.curseforge.com/minecraft/mc-mods/custom-machinery-botania)
 * [Malum (by sammysemicolon)](https://www.curseforge.com/minecraft/mc-mods/malum)
 * [Default Options (by BlayTheNinth)](https://www.curseforge.com/minecraft/mc-mods/default-options)

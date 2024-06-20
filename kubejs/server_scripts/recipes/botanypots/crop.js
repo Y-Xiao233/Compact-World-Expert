@@ -107,6 +107,14 @@ ServerEvents.recipes(event =>{
             growth_tick:100,
             growth_modifier:1,
             id:`${id_prefix}wood_2`
+        },
+        {
+            seed:'minecraft:oak_sapling',
+            can_be_planted_on:['oak_plank'],
+            output:[crops_outputs('minecraft:oak_planks',0.9,15,40)],
+            growth_tick:100,
+            growth_modifier:1,
+            id:`${id_prefix}oak_plank`
         }]
 
     crops.forEach(crop => {

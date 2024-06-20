@@ -1795,7 +1795,22 @@ ServerEvents.recipes(event => {
         'mekanism:processing/bronze/dust/from_ingot',
         'ars_nouveau:blank_parchment',
         'botanypots:botanypots/crafting/terracotta_hopper_botany_pot',
-        'farmersdelight:paper_from_tree_bark'
+        'farmersdelight:paper_from_tree_bark',
+        'create:crushing/obsidian',
+        'thermal:ice_charge/obsidian_from_lava_bucket',
+        'ars_nouveau:water_essence_to_obsidian',
+        'ae2:entropy/cool/lava_obsidian',
+        'botania:pure_daisy/obsidian',
+        'create:splashing/magma_block',
+        'industrialforegoing:stonework_generate/obsidian',
+        'mekanism:combining/obsidian',
+        'hexerei:ender_satchel_from_mixing_cauldron',
+        'elementalcraft:pureinfusion/purerock',
+        'apotheosis:fletching/obsidian_arrow',
+        'powah:crafting/energizing_rod_nitro',
+        'malum:sticky_piston_from_sapballs',
+        'malum:spirit_altar',
+        'malum:runewood_item_pedestal'
     ]
 
     const remove_by_type = [

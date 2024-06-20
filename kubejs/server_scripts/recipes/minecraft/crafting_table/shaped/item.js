@@ -830,6 +830,15 @@ ServerEvents.recipes(event => {
         C: 'ars_nouveau:source_gem_block'
       },
       id:`${id_prefix}runic_chalk`
+     },
+     {
+      output:'minecraft:feather',
+      pattern:['A  ','B  ','A  '],
+      key:{
+        A: 'farmersdelight:canvas',
+        B: 'kubejs:bottle_water'
+      },
+      id:`${id_prefix}feather`
      }]
   
   recipes.forEach(recipe =>{

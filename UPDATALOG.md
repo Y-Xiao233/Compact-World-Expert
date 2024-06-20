@@ -426,3 +426,18 @@
 * 10.[Modification] Reduced the maximum efficiency achievable by upgrading in mineral laser drills (40tick ->80tick)
 * 11.[Modification] Add and hide two fake synthesized particle effects, and modify the simulation player to not display particle effects when running (enter/kjs stages add @ a particle_disable in the game to hide it, if you want to see it again, change "add" to "remove" and run it again)
 * 12.[Modification] New Survival Mode: You can directly add the corresponding fluid to the fluid storage tank by right clicking on the corresponding fluid bucket (you can also remove the fluid storage tank by right clicking on the empty bucket)
+
+
+
+## Beta v1.5.0
+
+* 1.[BUG修复]修复了压缩灵魂尘块破坏时没有掉落物的bug[\#21 by BoxZen](https://github.com/Y-Xiao233/Compact-World-Expert/issues/21)
+* 2.[BUG修复]删除了充能棒(下界)的原配方
+* 3.[改动]添加了羽毛的合成方式
+* 4.[改动]删除了黑曜石粉末的粉碎轮配方
+* 5.[改动]删除了许多原版黑曜石的合成配方
+* 6.[改动]提高了人造石油的产出(400 -> 500)
+* 7.[改动]提高了裂变燃料组件的产出(1 -> 4)
+* 8.[改动]添加了植物盆栽直接种橡木木板的配方
+* 9.[改动]修改了漏式植物盆栽的合成表其中一个合成表
+* 10.[改动]向任务随机奖励表种添加了许多FluxNetworks的物品

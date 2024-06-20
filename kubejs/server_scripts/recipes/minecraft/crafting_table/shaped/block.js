@@ -959,7 +959,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}control_rod_assembly`
      },
      {
-      output:'mekanismgenerators:fission_fuel_assembly',
+      output:'4x mekanismgenerators:fission_fuel_assembly',
       pattern:['ABA','BCB','ABA'],
       key:{
         A: 'minecraft:redstone_block',

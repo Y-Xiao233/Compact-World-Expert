@@ -25,7 +25,7 @@ ServerEvents.recipes(event =>{
         },
         {
             input:items('mekanism:enriched_carbon'),
-            output_fluid:fluids('kubejs:artificial_oil',400),
+            output_fluid:fluids('kubejs:artificial_oil',500),
             time:300,
             id:'artificial_oil_from_enriched_carbon'
         },
