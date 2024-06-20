@@ -441,3 +441,16 @@
 * 8.[改动]添加了植物盆栽直接种橡木木板的配方
 * 9.[改动]修改了漏式植物盆栽的合成表其中一个合成表
 * 10.[改动]向任务随机奖励表种添加了许多FluxNetworks的物品
+
+
+
+* 1.[BUG Fix] Fixed a bug where no dropped objects were found when compressed soul dust blocks were destroyed [\ # 21 by BoxZen]（ https://github.com/Y-Xiao233/Compact-World-Expert/issues/21 )
+* 2.[BUG Fix] Removed the original formula of the charging rod (lower bound)
+* 3.[Modification] Added a feather synthesis method
+* 4.[Modification] Removed the formula of the grinding wheel for obsidian powder
+* 5.[Modification] Many original synthetic formulas for obsidian have been removed
+* 6.[Modification] Increased the output of artificial oil (400->500)
+* 7.[Modification] Increased production of fission fuel assemblies (1->4)
+* 8.[Modification] Added formula for directly planting oak wood boards with potted plants
+* 9.[Modification] Modified one of the synthesis tables for the leaky potted plant plant
+* 10.[Modification] Added many FluxNetworks items to the task random reward table
