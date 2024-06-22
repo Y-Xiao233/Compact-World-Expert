@@ -472,3 +472,9 @@
 * 5.[Modification] Some useless files under kubejs/sets/xxx have been deleted[\#26 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/26)
 * 6.[Modification] Added a new mod and modified the corresponding language file[\#25 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/25)
 * 7.[Modification]Updata aecapfix
+
+## Beta v1.6.0-hotfix
+
+* 1.[BUG修复]修复了zh_tw.json错误的问题[\#29 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/29)
+
+* 1.[BUG Fix] Fixed the issue of zh_tw.json error[\#29 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/29)
