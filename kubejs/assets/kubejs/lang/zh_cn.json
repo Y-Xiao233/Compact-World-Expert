@@ -69,13 +69,13 @@
     "item.kubejs.press_control_circuit_die":"控制电路冲压模具",
     "item.kubejs.quartz_light_oil":"轻油石英",
     "item.kubejs.ingot_refined_tar":"强化焦油锭",
-    "item.kubejs.rainbow_ingot":"§a彩§5虹§3锭",
-    "item.kubejs.rainbow_pickaxe":"§a彩§5虹§3镐",
+    "item.kubejs.rainbow_ingot":"<rainb>彩虹锭</rainb>",
+    "item.kubejs.rainbow_pickaxe":"<rainb>彩虹稿</rainb>",
     "item.kubejs.light_ingot":"光明锭",
     "item.kubejs.incomplete_uraninite_ore_dense":"未完成的致密晶质铀矿",
     "item.kubejs.incomplete_thorium_ore":"未完成的钍矿",
     "item.kubejs.liquid_rough_mana_bucket":"粗糙的液态魔力桶",
-    "item.kubejs.rainbow_nugget":"§a彩§5虹§3粒",
+    "item.kubejs.rainbow_nugget":"<rainb>彩虹粒</rainb>",
     "item.kubejs.creative_cell_housing":"§d创造型ME存储元件外壳",
 
 
@@ -175,10 +175,10 @@
     "tip.compact_world.gamerule_false":"§c你不能打开这个游戏规则",
     "tip.compact_world.gamerule_true":"§c你不能关闭这个游戏规则",
 
-    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§d注意:若要进行世界合成§b魔力池下方可以是任何方块",
+    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§d注意:若要进行世界合成§b必須是在主世界",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_2":"§4红色粒子效果处只能是元素容器",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§a绿色粒子效果处只能是魔源罐",
-    "tip.compact_world.world_crafting":"§c注意:若要进行世界合成§a中心流体储罐不得与其他流体储罐连接",
+    "tip.compact_world.world_crafting":"§c注意:若要进行世界合成§a中心流体储罐不得与其他流体储罐连接,且必須是在主世界",
 
     "tip.compact_world.jei_hide_message":"§c该物品已被禁用",
 
@@ -207,9 +207,9 @@
     "tip.compact_world.information_19":"§a如果附近有足够魔力,§c(浮空)符文矮牵牛花可以自动激活仪式",
     "tip.compact_world.information_20":"§a仅用于合成,§c无法§a作为下界传送门方块",
     "tip.compact_world.information_21":"§c把§a沙子/魔源粉§c丢入水中有概率获得",
-    "tip.compact_world.information_22":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看",
+    "tip.compact_world.information_22":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看,ta的所有相关配方只能在主世界进行",
     "tip.compact_world.information_23":"§a放在地上挖掉它会掉落四种压印模板",
-    "tip.compact_world.information_24":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看",
+    "tip.compact_world.information_24":"§c这是一个用来展示合成配方gui的机器，具体方法请对着该物品长按w查看,ta的所有相关配方只能在主世界进行",
     "tip.compact_world.information_25":"§a在升级背包时，背包内物品§c不§a会被清空",
     "tip.compact_world.information_26":"§a在升级背包时，背包内物品§c不§a会被清空",
     "tip.compact_world.information_27":"§a或许可以拿来右键某个钥匙孔",

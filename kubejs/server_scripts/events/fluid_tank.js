@@ -1,6 +1,7 @@
 BlockEvents.rightClicked(event =>{
     const {block, player, item, hand, server} = event
     var bucket = /.*:.*bucket/
+    if(player.level.dimension !== "minecraft:overworld") return
     if(player.isCreative() || player.isSpectator()) return
     if(player.isFake()) return
     if(hand.name() != "MAIN_HAND") return
@@ -22,6 +23,7 @@ BlockEvents.rightClicked(event =>{
 
 BlockEvents.rightClicked(event =>{
     const {block, player, item, hand, server} = event
+    if(player.level.dimension !== "minecraft:overworld") return
     if(player.isCreative() || player.isSpectator()) return
     if(item.id != "minecraft:bucket") return
     if(player.isFake()) return
@@ -33,5 +35,6 @@ BlockEvents.rightClicked(event =>{
         player.mainHandItem.setCount(player.mainHandItem.getCount() - 1)
         server.runCommandSilent(`data merge block ${block.x} ${block.y} ${block.z} {TankContent:{FluidName:"${fluidId}",Amount:${fluidAmount - 1000}}}`)
         player.give(fluidId + "_bucket")
+        event.cancel()
     }
 })

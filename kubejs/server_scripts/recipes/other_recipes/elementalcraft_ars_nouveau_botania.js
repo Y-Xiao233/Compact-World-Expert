@@ -114,9 +114,10 @@ BlockEvents.rightClicked('botania:mana_pool', (event) => {
 
 
 BlockEvents.rightClicked(event =>{
-    const {block, player, server, hand} = event
+    const {block, player, server, hand, level} = event
     if(hand !== "MAIN_HAND") return
     if(block.id !== "botania:mana_pool") return
+    if(level.dimension !== "minecraft:overworld") return
 
 
     function elementalcraft_ars_nouveau_botania(output_item,hand_item,fire_amounts,water_amounts,earth_amounts,air_amounts,source,mana,tick){
