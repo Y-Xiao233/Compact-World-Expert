@@ -458,7 +458,14 @@
 ## Beta v1.6.0
 * 1.[BUG修复]修复了ftb任务部分所需物品未匹配nbt的bug[\#24 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/issues/24)
 * 2.[BUG修复]修复了伪造流体储罐相关配方粒子效果隐藏错误的问题
-* 2.[改动]删除了ME魔源接收器[\#22 by Me-lac](https://github.com/Y-Xiao233/Compact-World-Expert/issues/22)
-* 3.[改动]修改两种伪造合成以及生存模式可以直接用桶右键流体罐为仅主世界生效,并添加了相关提示[\#23 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/23)
-* 4.[改动]删除了一些kubejs/assets/xxx下的无用文件[\#26 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/26)
-* 5.[改动]添加了一个新的mod,并修改了对应语言文件[\#25 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/25)
+* 3.[改动]删除了ME魔源接收器[\#22 by Me-lac](https://github.com/Y-Xiao233/Compact-World-Expert/issues/22)
+* 4.[改动]修改两种伪造合成以及生存模式可以直接用桶右键流体罐为仅主世界生效,并添加了相关提示[\#23 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/23)
+* 5.[改动]删除了一些kubejs/assets/xxx下的无用文件[\#26 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/26)
+* 6.[改动]添加了一个新的mod,并修改了对应语言文件[\#25 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/25)
+
+* 1.[BUG Fix] Fixed a bug where the items required for the ftb task did not match nbt[\#24 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/issues/24)
+* 2.[BUG Fix] Fixed the issue of particle effect concealment errors in forged fluid storage tank related formulas
+* 3.[Modification] Removed ME Magic Source Receiver[\#22 by Me-lac](https://github.com/Y-Xiao233/Compact-World-Expert/issues/22)
+* 4.[Modification] Two types of forgery synthesis and survival modes can be modified, and the fluid tank can be directly used by right clicking on the bucket to only take effect in the main world, and relevant prompts have been added[\#23 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/23)
+* 5.[Modification] Some useless files under kubejs/sets/xxx have been deleted[\#26 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/26)
+* 6.[Modification] Added a new mod and modified the corresponding language file[\#25 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/25)
