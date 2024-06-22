@@ -1,5 +1,0 @@
-{
-    "block.ars_creo.starbuncle_wheel": "星寶石獸跑輪",
-    "ars_creo.page.starbuncle_wheel": "產生機械動力的旋轉力。在其前方放置金塊以增加轉速。",
-    "ars_creo.page.behaviors": "Ars Creo也使得新生魔藝方塊在動態結構上有了特殊功能，包括法術炮塔和魔源罐。基礎法術炮塔：在與其交互時施法。定時法術炮塔：每段施法間隔進行一次施法。附魔法術炮塔：每經過一格進行一次施法。魔源罐：其中魔源可被法術炮塔抽取。"
-}

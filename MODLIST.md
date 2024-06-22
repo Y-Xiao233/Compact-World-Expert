@@ -198,3 +198,5 @@
 * [RFTools Utility (by McJty)](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
 * [Eccentric Tome (by EccentricVamp)](https://www.curseforge.com/minecraft/mc-mods/eccentric-tome)
 * [Just Enough Items (JEI) (by mezz)](https://www.curseforge.com/minecraft/mc-mods/jei)
+
+* [Text Animator (by Snownee)](https://www.curseforge.com/minecraft/mc-mods/text-animator)

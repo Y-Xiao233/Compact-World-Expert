@@ -714,7 +714,9 @@ ServerEvents.recipes(event => {
     'ars_nouveau:spell_turret',
     'ars_nouveau:rotating_spell_turret',
     'ars_nouveau:runic_chalk',
-    'create:redstone_link'
+    'create:redstone_link',
+    'arseng:source_acceptor',
+    'arseng:cable_source_acceptor'
     ]
 
     const remove_by_id = [

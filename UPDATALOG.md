@@ -454,3 +454,11 @@
 * 8.[Modification] Added formula for directly planting oak wood boards with potted plants
 * 9.[Modification] Modified one of the synthesis tables for the leaky potted plant plant
 * 10.[Modification] Added many FluxNetworks items to the task random reward table
+
+## Beta v1.6.0
+* 1.[BUG修复]修复了ftb任务部分所需物品未匹配nbt的bug[\#24 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/issues/24)
+* 2.[BUG修复]修复了伪造流体储罐相关配方粒子效果隐藏错误的问题
+* 2.[改动]删除了ME魔源接收器[\#22 by Me-lac](https://github.com/Y-Xiao233/Compact-World-Expert/issues/22)
+* 3.[改动]修改两种伪造合成以及生存模式可以直接用桶右键流体罐为仅主世界生效,并添加了相关提示[\#23 by whaterrow](https://github.com/Y-Xiao233/Compact-World-Expert/issues/23)
+* 4.[改动]删除了一些kubejs/assets/xxx下的无用文件[\#26 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/26)
+* 5.[改动]添加了一个新的mod,并修改了对应语言文件[\#25 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/25)

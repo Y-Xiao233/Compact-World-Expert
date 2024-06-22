@@ -69,13 +69,13 @@
     "item.kubejs.press_control_circuit_die":"Control Circuit Die",
     "item.kubejs.quartz_light_oil": "Light Oil Quartz",
     "item.kubejs.ingot_refined_tar":"Refined Tar Ingot",
-    "item.kubejs.rainbow_ingot":"§aRainbow §5Ingot",
-    "item.kubejs.rainbow_pickaxe":"§aRainbow §3Pickaxe",
+    "item.kubejs.rainbow_ingot":"<rainb>Rainbow Ingot</rainb>",
+    "item.kubejs.rainbow_pickaxe":"<rainb>Rainbow Pickaxe</rainb>",
     "item.kubejs.light_ingot":"Light Ingot",
     "item.kubejs.incomplete_uraninite_ore_dense":"Incomplete dense crystalline uranium ore",
     "item.kubejs.incomplete_thorium_ore":"Incomplete thorium ore",
     "item.kubejs.liquid_rough_mana_bucket":"Liquid Rough Mana Bucket",
-    "item.kubejs.rainbow_nugget":"§aRainbow §5Ingot",
+    "item.kubejs.rainbow_nugget":"<rainb>Rainbow Nugget</rainb>",
     "item.kubejs.creative_cell_housing":"§dCreative Cell Housing",
 
 
@@ -175,10 +175,10 @@
     "tip.compact_world.gamerule_false":"§cYou cannot open this gamerule",
     "tip.compact_world.gamerule_true":"§cYou cannot close this gamerule",
 
-    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§dNote: To perform world crafting, any block can be placed below the mana pool",
+    "tip.compact_world.elementalcraft_ars_nouveau_botania_1":"§dNote: To perform world crafting, any must be in the overworld",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_2":"§4The red particle effect can only be an Element Container",
     "tip.compact_world.elementalcraft_ars_nouveau_botania_3":"§aThe green particle effect can only be a Source Jar",
-    "tip.compact_world.world_crafting":"§dNote: If you want to perform a world synthesis center, the fluid storage tank must not be connected to other fluid storage tanks",
+    "tip.compact_world.world_crafting":"§dNote: If you want to perform a world synthesis center, the fluid storage tank must not be connected to other fluid storage tanks, and must be in the overworld",
 
     "tip.compact_world.jei_hide_message":"§cThe item has been disabled",
 
@@ -207,9 +207,9 @@
     "tip.compact_world.information_19":"§aIf there is enough mana nearby §c (Floating)Petrunia can automatically activate the ritual",
     "tip.compact_world.information_20":"§aOnly used for crafting. §cCannot be used as Nether portal block",
     "tip.compact_world.information_21":"§cThrowing §a Sand/Source Dust into water has a probability of obtaining",
-    "tip.compact_world.information_22":"§cThis is a machine used to display the crafting formula GUI. For specific methods, please long press w on the item to view it",
+    "tip.compact_world.information_22":"§cThis is a machine used to display the crafting formula GUI. For specific methods, please long press w on the item to view it, all related formulas of this can only be made in the overworld",
     "tip.compact_world.information_23":"§aPlaced this block on the ground and dug out,it will drop four types of Press",
-    "tip.compact_world.information_24":"§cThis is a machine used to display the crafting formula GUI. For specific methods, please long press w on the item to view it",
+    "tip.compact_world.information_24":"§cThis is a machine used to display the crafting formula GUI. For specific methods, please long press w on the item to view it, all related formulas of this can only be made in the overworld",
     "tip.compact_world.information_25":"§aWhen upgrading the backpack, items in the backpack will §cnot be §aemptied",
     "tip.compact_world.information_26":"§aWhen upgrading the backpack, items in the backpack will §cnot be §aemptied",
     "tip.compact_world.information_27":"§aPerhaps it can be used to right-click on a Keywall",

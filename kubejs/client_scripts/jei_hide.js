@@ -530,7 +530,9 @@ const jei_hide = [
     "xnet:netcable_red",
     "botania:orechid",
     "botania:orechid_ignem",
-    'industrialforegoing:ore_laser_base'
+    'industrialforegoing:ore_laser_base',
+    'arseng:source_acceptor',
+    'arseng:cable_source_acceptor'
 ]
 
 

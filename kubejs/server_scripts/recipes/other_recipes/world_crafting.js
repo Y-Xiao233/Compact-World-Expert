@@ -36,10 +36,11 @@ BlockEvents.rightClicked(event =>{
     此部分函数的延时执行效果由Mango is me!提供
     此部分函数的方块内流体获取由FalAut提供
     */
-    const {block, hand, item, server, player} = event
+    const {block, hand, item, server, player, level} = event
     const tank = 'create:fluid_tank'
     const depot = 'create:depot'
     if (hand.name() != "MAIN_HAND") return
+    if(level.dimension !== "minecraft:overworld") return
     if(block.offset(1,0,0).id == tank || block.offset(-1,0,0).id == tank || block.offset(0,0,1).id == tank || block.offset(0,0,-1).id == tank ||block.offset(1,0,0).id == tank) return
     function world_crafting(tick,hand_item,item1,item1_count,item2,item2_count,item3,item3_count,item4,item4_count,fluid,fluid_amount,output){
         if(block.id == tank && item.id == hand_item && temp_world == 0/* && block.offset(0,-1,0).id == 'compactmachines:solid_wall'*/){
@@ -66,7 +67,7 @@ BlockEvents.rightClicked(event =>{
                             itemEntity.y+=1
                             itemEntity.z+=0.5
                             if(!player.stages.has("particle_disable")){
-                                if(player.isFake()){
+                                if(!player.isFake()){
                                     for(let i = 0;i < tick-9;i ++){
                                         server.scheduleInTicks(i,(event) =>{
                                             server.runCommandSilent(`particle minecraft:ambient_entity_effect ${block.x} ${block.y + 1} ${block.z} 0 0 0 0.5 10 force @a`)
