@@ -1786,21 +1786,86 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["45F5C47ED6231F36"]
-			id: "7B77055F1B84F5D0"
+			dependencies: ["4586578D6CA31C45"]
+			id: "759148D9E719DCE7"
 			rewards: [{
-				id: "780CF1694C37507E"
+				id: "257C2FE4583FA80C"
 				table_id: 5834390609918850003L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0EEFADEB2DB468F7"
+				id: "38668B63AD9EFBD4"
+				item: "bettermuffling:muffling_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["555A01BA82D7D9B7"]
+			id: "781EDD8C03A166DB"
+			rewards: [{
+				id: "6286B12B8D3593E5"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "43980E349DAE7737"
+					item: "bettermuffling:muffling_block_advanced"
+					type: "item"
+				}
+				{
+					id: "133F6DC2D6919D07"
+					item: "bettermuffling:upgrade"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11D5B91D049E75C2"]
+			id: "73CE3FE1D759EC27"
+			rewards: [{
+				id: "78200C217D3B26CF"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "59DD3547FCD30937"
+				item: "ironfurnaces:augment_generator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["25CC723A3292FE39"]
+			id: "0868771D1B6A45A6"
+			tasks: [{
+				id: "254F85A37639FCF0"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["555A01BA82D7D9B7"]
+			id: "294DBF15B46A08A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D196A72A2F1AEA8"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0074C0D02CB85752"
 				item: {
 					Count: 1b
 					id: "laserio:filter_count"
 					tag: {
-						allowList: 1b
-						compareNBT: 0b
 						counts: [
 							{
 								Count: 0
@@ -1886,74 +1951,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4586578D6CA31C45"]
-			id: "759148D9E719DCE7"
-			rewards: [{
-				id: "257C2FE4583FA80C"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
-			tasks: [{
-				id: "38668B63AD9EFBD4"
-				item: "bettermuffling:muffling_block"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["555A01BA82D7D9B7"]
-			id: "781EDD8C03A166DB"
-			rewards: [{
-				id: "6286B12B8D3593E5"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
-			tasks: [
-				{
-					id: "43980E349DAE7737"
-					item: "bettermuffling:muffling_block_advanced"
-					type: "item"
-				}
-				{
-					id: "133F6DC2D6919D07"
-					item: "bettermuffling:upgrade"
-					type: "item"
-				}
-			]
 			x: 4.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["11D5B91D049E75C2"]
-			id: "73CE3FE1D759EC27"
-			rewards: [{
-				id: "78200C217D3B26CF"
-				table_id: 5834390609918850003L
-				type: "random"
-			}]
-			tasks: [{
-				id: "59DD3547FCD30937"
-				item: "ironfurnaces:augment_generator"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["25CC723A3292FE39"]
-			id: "0868771D1B6A45A6"
-			tasks: [{
-				id: "254F85A37639FCF0"
-				item: "rftoolsutility:crafter1"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -1.0d
+			y: -9.0d
 		}
 	]
 	title: "{ftbquests.chapter.354FF9E33E408A04.title}"

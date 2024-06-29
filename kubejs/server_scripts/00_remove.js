@@ -716,7 +716,8 @@ ServerEvents.recipes(event => {
     'ars_nouveau:runic_chalk',
     'create:redstone_link',
     'arseng:source_acceptor',
-    'arseng:cable_source_acceptor'
+    'arseng:cable_source_acceptor',
+    'naturesaura:animal_spawner'
     ]
 
     const remove_by_id = [
@@ -1821,7 +1822,6 @@ ServerEvents.recipes(event => {
         'apotheosis:salvaging',
         'botanypots:crop',
         'jeresources:villager',
-        'naturesaura:animal_spawner',
         'industrialforegoing:ore_washer',
         'industrialforegoing:fermenter',
         'industrialforegoing:ore_sieve',

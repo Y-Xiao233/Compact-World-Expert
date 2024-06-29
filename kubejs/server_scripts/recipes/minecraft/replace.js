@@ -336,7 +336,7 @@ ServerEvents.recipes(event =>{
             type:'input',
             filter:{output:'laserio:filter_count'},
             original:'minecraft:observer',
-            replace:'cyclic:user'
+            replace:'minecraft:gold_ingot'
         },
         {
             type:'input',

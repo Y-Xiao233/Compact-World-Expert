@@ -1294,7 +1294,7 @@
 					id: "7AF0BC2D9FA72580"
 					item: "compactmachines:machine_maximum"
 					only_one: true
-					team_reward: false
+					team_reward: true
 					type: "item"
 				}
 				{

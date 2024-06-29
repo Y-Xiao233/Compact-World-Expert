@@ -478,3 +478,24 @@
 * 1.[BUG修复]修复了zh_tw.json错误的问题[\#29 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/29)
 
 * 1.[BUG Fix] Fixed the issue of zh_tw.json error[\#29 by EvanHsieh0415](https://github.com/Y-Xiao233/Compact-World-Expert/pull/29)
+
+
+
+
+
+## Beta V1.7.0
+
+* 1.[BUG修复]修复了打开自然灵气的书时翻到降生祭坛时会发生错误的bug[\#20 by tyreforhyred](https://github.com/Y-Xiao233/Compact-World-Expert/issues/20)
+
+* 2.[BUG修复]修复了自定义主界面背景图片有偏差的问题
+* 3.[改动]将通量粉尘加入了任务随机奖励表中,并提高了通量网络接入/出点的概率
+* 4.[改动]更新了感谢名单
+* 5.[改动]修改了laserio的计数过滤器的配方并修改了其在任务中的引导
+
+
+
+* 1.[BUG Fix] Fixed a bug that caused errors when flipping over to the Birth Altar while opening the book of Natural Spiritual Energy [\# 20 by typorehired](https://github.com/Y-Xiao233/Compact-World-Expert/issues/20)
+* 2.[BUG Fix] Fixed the issue of deviation in the custom main interface background image
+* 3.[Modification] Added flux dust to the task random reward table and increased the probability of flux network access/exit points
+* 4.[Modification] Updated Thanks List
+* 5.[Modification] Modified the formula of laserio's count filter and modified its guidance in tasks

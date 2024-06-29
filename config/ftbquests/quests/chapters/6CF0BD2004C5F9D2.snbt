@@ -964,6 +964,7 @@
 					id: "79D2BBD02545FDD1"
 					item: "compactmachines:machine_maximum"
 					only_one: true
+					team_reward: true
 					type: "item"
 				}
 				{
