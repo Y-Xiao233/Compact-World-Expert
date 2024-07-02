@@ -1414,6 +1414,15 @@ ServerEvents.recipes(event => {
         B: 'mekanism:boiler_casing'
       },
       id:`${id_prefix}structural_glass`
+     },
+     {
+      output:'8x create:cogwheel',
+      pattern:['BBB','BAB','BBB'],
+      key:{
+        A: 'create:andesite_casing',
+        B: 'create:shaft'
+      },
+      id:`${id_prefix}cogwheel`
      }]
   
   recipes.forEach(recipe =>{

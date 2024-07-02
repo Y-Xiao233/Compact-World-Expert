@@ -1813,7 +1813,8 @@ ServerEvents.recipes(event => {
         'powah:crafting/energizing_rod_nitro',
         'malum:sticky_piston_from_sapballs',
         'malum:spirit_altar',
-        'malum:runewood_item_pedestal'
+        'malum:runewood_item_pedestal',
+        /create:cutting\/compat\/ars_nouveau\/stripped.*/
     ]
 
     const remove_by_type = [

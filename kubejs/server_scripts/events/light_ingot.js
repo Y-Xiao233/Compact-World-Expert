@@ -1,11 +1,33 @@
-ItemEvents.rightClicked(event =>{
-    const {level, item, player, server} = event
-    let count = player.mainHandItem.count
-    if(item.id !== 'kubejs:rainbow_ingot') return
+//此段代码来自FalAut在discord的latvian.dev频道中的示例魔改
+//链接:https://discord.com/channels/303440391124942858/1247948683002249298/1247948683002249298
+
+LevelEvents.tick(event =>{
+    const { level } = event
     if(level.dimension != 'minecraft:overworld') return
 
-    if(count >= 1){
-        server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-49,dy=13,dz=-21] run give @a[tag='+player.uuid+'] kubejs:light_ingot')
-        server.runCommandSilent('execute if entity @a[tag='+player.uuid+'] in minecraft:overworld unless entity @a[tag='+player.uuid+',x=28,y=0,z=10,dx=-49,dy=13,dz=-21] run clear @a[tag='+player.uuid+'] kubejs:rainbow_ingot 1')
+    level.entities.filterSelector('@e[type=item]').forEach((entity) => {
+        if (
+            entity.item.id == "kubejs:rainbow_ingot" &&
+            entity.y < level.getMinBuildHeight() &&
+            entity.y - entity.getDeltaMovement().y() < -10 + level.getMinBuildHeight()
+        ) {
+            let itemEntity = entity.block.createEntity('item')
+            itemEntity.item = 'kubejs:light_ingot'
+            itemEntity.item.count = entity.item.count
+            itemEntity.fallDistance = entity.fallDistance
+            itemEntity.addTag('void_convert')
+            itemEntity.spawn()
+            entity.discard()
+        }
+    })
+})
+
+EntityEvents.spawned('item', (event) => {
+    const { entity } = event
+
+    if (entity.item == 'kubejs:light_ingot' && entity.tags.contains('void_convert')) {
+        entity.setDeltaMovement(Vec3d(0, (entity.fallDistance + 3) / 50, 0))
+        entity.setNoGravity(true)
+        entity.setGlowing(true)
     }
 })

@@ -11,6 +11,10 @@ ServerEvents.tags('item', event => {
     event.add('cwe:mana_pool','botania:mana_pool')
     event.add('cwe:mana_pool','botania:diluted_pool')
     event.add('thermal:crafting/dies','kubejs:press_control_circuit_die')
+    event.add('forge:logs/archwood/blue','ars_nouveau:blue_archwood_log')
+    event.add('forge:logs/archwood/blue','ars_nouveau:blue_archwood_wood')
+    event.add('forge:logs/archwood/blue','ars_nouveau:stripped_blue_archwood_log')
+    event.add('forge:logs/archwood/blue','ars_nouveau:stripped_blue_archwood_wood')
 })
 
 

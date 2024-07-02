@@ -155,7 +155,7 @@
     "tip.compact_world.dream_portal_core.not_enough_mana":"§cThere is not enough magic in the magic pool. §a(Opening the Dream Portal requires 10000 mana§c[Will not be consumed]§a.)",
     "tip.compact_world.dream_portal_core.not_mana_pool":"§cThe magic pool is not in the correct position/there is no magic pool",
 
-    "tip.compact_world.clicker_1":"In the main world of §c, you can use the §a player user (which occupies half of the resources of the clicker machine), and §c recommends using the §a player simulator more~",
+    "tip.compact_world.clicker_1":"In the overworld of §c, you can use the §a player user (which occupies half of the resources of the clicker machine), and §c recommends using the §a player simulator more~",
     "tip.compact_world.clicker_2":"§aI'm going to use the clicker machine! §cClick here to disable this reminder",
     "tip.compact_world.user":"§cUnable to use player user in compressed space. §cPlease use §aclicker machine §afor player user",
 
@@ -226,10 +226,10 @@
     "tip.compact_world.information_38":"§cPlease ues§a Tier Installer §cto upgrade this machine",
     "tip.compact_world.information_39":"§cPlease use the §aFactory Installer§c to upgrade this tank",
     "tip.compact_world.information_40":"§cPlease use the §aFactory Installer§c to upgrade this tank",
-    "tip.compact_world.information_41": "Hold the rainbow ingot in your main hand and right-click in the air §a(only works outside of compressed space)",
-    "tip.compact_world.information_42": "§aCan destroy the compact compressed space wall in the §coverworld",
-    "tip.compact_world.information_43": "§aCan be destroyed by Rainbow Pickaxe §c(only effective in the overworld)",
-    "tip.compact_world.information_44": "Advanced element aggregators must be used to extract silicon during synthesis",
+    "tip.compact_world.information_41":"&aThrow the <rainb>Rainbow Ingot</rainb> into the void of the overworld and transform it into this item",
+    "tip.compact_world.information_42":"§aCan destroy the compact compressed space wall in the §coverworld",
+    "tip.compact_world.information_43":"§aCan be destroyed by Rainbow Pickaxe §c(only effective in the overworld)",
+    "tip.compact_world.information_44":"Advanced element aggregators must be used to extract silicon during synthesis",
     "tip.compact_world.information_45":"§cStress can only be transmitted in the same dimension.\n\n§a Note: All compressed spaces are in the same dimension~",
     "tip.compact_world.information_46":"§aCan mine all the blocks that can be mined",
     

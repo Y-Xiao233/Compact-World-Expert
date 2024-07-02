@@ -618,8 +618,8 @@
 				item: "psi:ebony_substance"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7CECB4AE32123671"]
@@ -634,8 +634,8 @@
 				item: "psi:ebony_psimetal"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -653,8 +653,8 @@
 				item: "thermal:machine_smelter"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 4.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -673,8 +673,8 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2F8FD7B4A0BE2DDB"]
@@ -696,8 +696,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: 4.0d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["59FDAD335E14FE6B"]
@@ -712,8 +712,8 @@
 				item: "minecraft:sea_lantern"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 13.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["612C1E5E76E86080"]
@@ -738,8 +738,8 @@
 				match_nbt: false
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.0d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3ED0DC83617FD1A8"]
@@ -754,8 +754,8 @@
 				item: "thermalendergy:endergy_upgrade_1"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 6.0d
+			x: 11.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["612C1E5E76E86080"]
@@ -770,8 +770,8 @@
 				item: "thermalendergy:prismalium_ingot"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.0d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -817,8 +817,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 1.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["51026B07C22F2AB4"]
@@ -833,8 +833,8 @@
 				item: "mekanism:brine_bucket"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 4.0d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3ED0DC83617FD1A8"]
@@ -849,8 +849,8 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -868,8 +868,8 @@
 				item: "mekanism:salt"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2CF65A1FFC4D13DC"]
@@ -884,8 +884,8 @@
 				item: "thermal:sulfur"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 5.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["289D4A92E419B15E"]
@@ -900,8 +900,8 @@
 				title: "{ftbquests.chapter.6CF0BD2004C5F9D2.quests46.tasks0.title}"
 				type: "checkmark"
 			}]
-			x: 17.0d
-			y: 5.0d
+			x: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0F0B661A8D72F708"]
@@ -917,8 +917,8 @@
 				item: "vintageimprovements:vanadium_nugget"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -936,8 +936,8 @@
 				title: "{ftbquests.chapter.6CF0BD2004C5F9D2.quests48.tasks0.title}"
 				type: "checkmark"
 			}]
-			x: 17.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["349D26C6C84BEEA8"]
@@ -952,11 +952,15 @@
 				item: "vintageimprovements:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 3.0d
+			x: 5.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["01ABA91BBFE13FBC"]
+			description: [
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description1}"
+			]
 			id: "76988EA82A6A9C24"
 			rewards: [
 				{
@@ -985,8 +989,8 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -0.5d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["76988EA82A6A9C24"]
@@ -1001,8 +1005,8 @@
 				item: "thermal:device_rock_gen"
 				type: "item"
 			}]
-			x: 17.0d
-			y: -2.5d
+			x: 2.5d
+			y: 3.0d
 		}
 	]
 	title: "{ftbquests.chapter.6CF0BD2004C5F9D2.title}"

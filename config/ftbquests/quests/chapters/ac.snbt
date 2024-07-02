@@ -499,8 +499,8 @@
 				item: "mekanism:enriched_iron"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.0d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -518,8 +518,8 @@
 				item: "kubejs:raw_enriched_iron"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3066E5FB68242B8A"]
@@ -1224,7 +1224,7 @@
 		}
 		{
 			dependencies: ["33081F74577A0540"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "7E001B1018BB5ADA"
 			rewards: [{
 				id: "46F3388E53907FED"
@@ -1286,6 +1286,10 @@
 			dependencies: [
 				"3D308174A8C49BDD"
 				"7A74C43B877B19EA"
+			]
+			description: [
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description0}"
+				"{ftbquests.chapter.7EE6FC8676203376.quests73.description1}"
 			]
 			id: "1388155919F1C4DE"
 			rewards: [
@@ -1368,6 +1372,7 @@
 		}
 		{
 			dependencies: ["2DFFA07325AA0AC7"]
+			hide_dependency_lines: true
 			id: "7D6F66C19DD79B15"
 			rewards: [{
 				id: "3A0237B2DD8516F2"

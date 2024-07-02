@@ -22,12 +22,6 @@ ServerEvents.recipes(event => {
             id:`${id_prefix}swift_alloy_sand`
         },
         {
-            output:'create:cogwheel',
-            output_amount:4,
-            input:['create:shaft','create:andesite_casing'],
-            id:`${id_prefix}cogwheel`
-        },
-        {
             output:'ae2:crafting_terminal',
             output_amount:1,
             input:['ae2:semi_dark_monitor','minecraft:crafting_table','ae2:fluix_glass_cable'],

@@ -499,3 +499,21 @@
 * 3.[Modification] Added flux dust to the task random reward table and increased the probability of flux network access/exit points
 * 4.[Modification] Updated Thanks List
 * 5.[Modification] Modified the formula of laserio's count filter and modified its guidance in tasks
+
+
+
+## Release v2.0.0
+
+* 1.[改动]将光明锭的合成方式改为虚空转化,并修改了对应的物品提示和任务描述
+* 2.[改动]修改了至高木板的动力锯配方
+* 3.[改动]修改了小齿轮的合成配方
+* 4.[改动]修改了第三章中部分任务视图
+* 5.[改动]删除了任务随机奖励中大部分食物,并为第一章第一节任务单独添加了食物奖励
+
+
+
+* 1.[Modification] The crafting method of the Light Ingot has been changed to Void Transformation, and the corresponding item prompts and task descriptions have been modified
+* 2.[Modification] Modified the Mechanical Saw formula for the archwood plank
+* 3.[Modification] Modified the crafting formula of the cogwheel
+* 4.[Modification] Modified some task views in Chapter 3
+* 5.[Modification] Most of the food in the random rewards for tasks has been removed, and food rewards have been added separately for the first section of Chapter 1 tasks
