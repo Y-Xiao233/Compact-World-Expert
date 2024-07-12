@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}cad_battery_basic`
      },
      {
-      output:Item.of('kubejs:psiknife').withNBT('{Damage:31}'),
+      output:Item.of('kubejs:psiknife','{Damage:63}').weakNBT(),
       pattern:[' A ','B  ','   '],
       key:{
         A: 'psi:psimetal',
@@ -240,7 +240,7 @@ ServerEvents.recipes(event => {
       pattern:['CCC','ABA','AAA'],
       key:{
         A: 'minecraft:bone_block',
-        B: Item.of('minecraft:wooden_hoe'),
+        B: Item.of('minecraft:wooden_hoe','{Damage:0}').weakNBT(),
         C: 'hexerei:mindful_trance_blend'
       },
       id:`${id_prefix}natures_blessing_wooden_hoe`
@@ -663,7 +663,7 @@ ServerEvents.recipes(event => {
       key:{
         A: 'minecraft:gold_block',
         B: 'laserio:logic_chip',
-        C: Item.of('kubejs:psiknife'),
+        C: Item.of('kubejs:psiknife','{Damage:0}').weakNBT(),
         D: 'elementalcraft:swift_alloy_ingot'
       },
       id:`${id_prefix}unbreakable_psiknife`
@@ -701,7 +701,7 @@ ServerEvents.recipes(event => {
       pattern:['AAA','ABA','AAA'],
       key:{
         A: 'elementalcraft:swift_alloy_block',
-        B: Item.of('kubejs:swift_alloy_shovel'),
+        B: Item.of('kubejs:swift_alloy_shovel','{Damage:0}').weakNBT(),
       },
       id:`${id_prefix}unbreakable_swift_alloy_shovel`
      },

@@ -435,7 +435,7 @@ ServerEvents.recipes(event => {
       output:'mythicbotany:petrunia_floating',
       pattern:[' A ',' B ',' C '],
       key:{
-        A: '#cwe:twig_wand',
+        A: 'botania:mana_ring',
         B: 'mythicbotany:gjallar_horn_full',
         C: 'minecraft:grass_block'
       },
@@ -675,7 +675,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}runic_altar`
      },
      {
-      output:'4x entangled:block',
+      output:'6x entangled:block',
       pattern:['ABA','CDE','AFA'],
       key:{
         A: 'botania:gaia_ingot',
@@ -777,7 +777,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}crafting_unit`
      },
      {
-      output:'ae2:import_bus',
+      output:'2x ae2:import_bus',
       pattern:[' A ','BCB','   '],
       key:{
         A: 'ae2:annihilation_core',
@@ -787,7 +787,7 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}import_bus`
      },
      {
-      output:'ae2:export_bus',
+      output:'2x ae2:export_bus',
       pattern:['BAB',' C ','   '],
       key:{
         A: 'ae2:annihilation_core',

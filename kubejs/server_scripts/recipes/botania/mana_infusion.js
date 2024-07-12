@@ -56,7 +56,7 @@ ServerEvents.recipes(event =>{
             input:'ae2:quartz_block',
             output:'ae2:flawless_budding_quartz',
             under_block:false,
-            mana:1000,
+            mana:100000,
             id:`${id_prefix}flawless_budding_quartz`
         },
         {

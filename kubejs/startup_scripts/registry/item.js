@@ -97,7 +97,7 @@ StartupEvents.registry("item", (event) => {
 
     event.create('cad_assembly_compact').unstackable()
     event.create('source_psicoal').burnTime(800)
-    event.create('psiknife').unstackable().maxDamage(32)
+    event.create('psiknife').unstackable().maxDamage(64)
     event.create('swift_alloy_key').unstackable()
     event.create('magical_stick').unstackable().glow(true)
     event.create('spirit_press').unstackable()

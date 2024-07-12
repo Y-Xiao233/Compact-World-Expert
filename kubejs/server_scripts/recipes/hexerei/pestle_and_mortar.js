@@ -77,7 +77,7 @@ ServerEvents.recipes(event =>{
             {"item":'minecraft:string'}
             ], //inputItem:5
             output:'sophisticatedbackpacks:upgrade_base',
-            output_amount:2,
+            output_amount:4,
             time:160,
             id:`${id_prefix}sophisticatedbackpacks_upgrade_base`
         },

@@ -517,3 +517,38 @@
 * 3.[Modification] Modified the crafting formula of the cogwheel
 * 4.[Modification] Modified some task views in Chapter 3
 * 5.[Modification] Most of the food in the random rewards for tasks has been removed, and food rewards have been added separately for the first section of Chapter 1 tasks
+
+
+
+## Release v2.1.0
+
+* 1.[改动]修改了发送模块mk3的合成配方并将其添加至任务随机奖励表
+* 2.[改动]将精致存储(Sophisticated Storage)和精妙背包(Sophisticated Backpacks)的堆叠升级加入了任务随机奖励表中
+* 3.[改动]修改了空白升级产出数量(2 -> 4)
+* 4.[改动]删除了燧石除砧板和燧石块以外的所有配方
+* 5.[改动]提高了psi金属小刀的耐久(32 -> 64),并等比例提高了魔源宝石每次可修复的耐久值,并新增了魔源宝石块的修复方式
+* 6.[改动]修改了浮空符文矮牵牛的合成配方
+* 7.[改动]为不完美的安山合金新添了机械手配方
+* 8.[改动]将赛特斯石英簇的掉落物由赛特斯石英水晶改为了赛特斯石英粉
+* 9.[改动]提高了合成无暇的赛特斯石英母岩所需要消耗的魔力
+* 10.[改动]提高了me输入/输出总线每次合成产出的数量(1 -> 2)
+* 11.[改动]提高了纠缠方块其中一种配方每次合成产出的数量(4 -> 6)
+* 12.[改动]合成无法破坏的工具的配方均需要对应满耐久度的物品
+
+
+
+
+
+
+* 1.[Modification] Modified the recipe of the sending module mk3 and added it to the task random reward table
+* 2.[Modification] Add Stack Upgrade of Sophisticated Storage and Sophisticated Backpacks to the task random reward table
+* 3.[Modification] Modified the output quantity of blank upgrade (2 -> 4)
+* 4.[Modification] Deleted all recipes for flint except for cutting boards and flint block
+* 5.[Modification] Improved the durability of the PSI knife (32 -> 64), proportionally increased the repairable durability value of the magic source gem each time, and added a repair method for magic source gem block
+* 6.[Modification] Modified the recipe for the Floating Petrunia
+* 7.[Modification] Added a deploy recipe to the imperfect andesite alloy
+* 8.[Modification] Change the drops of the  Quartz Cluster from Certus Quartz Crystal to Certus Quartz Dust
+* 9.[Modification] Increased the magic required to crafting Flawless Budding Quartzite
+* 10.[Modification] Increased the number of outputs per crafting of the me import/export bus (1 -> 2)
+* 11.[Modification] Increased the number of entangled blocks produced per crafting for one of the recipes(4 -> 6)
+* 12.[Modification] The recipe unbreakable tools must correspond to items with full durability

@@ -194,6 +194,12 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['ars_nouveau:blank_glyph','minecraft:book'],
             id:`${id_prefix}blank_parchment`
+        },
+        {
+            output:'modularrouters:sender_module_3',
+            output_amount:2,
+            input:['modularrouters:sender_module_2','entangled:block'],
+            id:`${id_prefix}sender_module_3`
         }]
 
     recipes.forEach(recipe =>{
@@ -208,6 +214,7 @@ ServerEvents.recipes(event => {
 
 //以下代码由美式红茶x提供
 ServerEvents.recipes(event =>{
+    const id_prefix = 'compact_world:recipes/minecraft/crafting_table/shapeless/item/fix/'
     event.shapeless(Item.of('kubejs:psiknife'),[Ingredient.of('kubejs:psiknife'),Ingredient.of('ars_nouveau:source_gem')])
             .modifyResult(
                 /**
@@ -218,7 +225,22 @@ ServerEvents.recipes(event =>{
                     if(knife_nbt.get('Damage') == 0){
                         return itemStack
                     }
-                    itemStack.setDamageValue(knife_nbt.get('Damage') - 1)
+                    itemStack.setDamageValue(knife_nbt.get('Damage') - 2)
                     return itemStack
-                })
+                }).id(`${id_prefix}psiknife_1`)
+
+
+    event.shapeless(Item.of('kubejs:psiknife'),[Ingredient.of('kubejs:psiknife'),Ingredient.of('ars_nouveau:source_gem_block')])
+            .modifyResult(
+                /**
+                 * @param {Internal.ModifyRecipeCraftingGrid} inventory
+                 */
+                function(inventory, itemStack){
+                    let knife_nbt = inventory.find(Item.of('kubejs:psiknife')).nbt;
+                    if(knife_nbt.get('Damage') == 0){
+                        return itemStack
+                    }
+                    itemStack.setDamageValue(knife_nbt.get('Damage') - 18)
+                    return itemStack
+                }).id(`${id_prefix}psiknife_2`)
 })

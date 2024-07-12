@@ -1814,7 +1814,10 @@ ServerEvents.recipes(event => {
         'malum:sticky_piston_from_sapballs',
         'malum:spirit_altar',
         'malum:runewood_item_pedestal',
-        /create:cutting\/compat\/ars_nouveau\/stripped.*/
+        /create:cutting\/compat\/ars_nouveau\/stripped.*/,
+        'modularrouters:sender_module_3',
+        'create:milling/gravel',
+        'mekanism:enriching/conversion/gravel_to_flint'
     ]
 
     const remove_by_type = [

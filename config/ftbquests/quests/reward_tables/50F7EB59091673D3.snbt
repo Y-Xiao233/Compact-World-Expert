@@ -412,6 +412,22 @@
 		{ item: "fluxnetworks:herculean_flux_storage", weight: 10.0f }
 		{ item: "fluxnetworks:gargantuan_flux_storage", weight: 5.0f }
 		{ count: 16, item: "fluxnetworks:flux_dust", weight: 15.0f }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_3", weight: 8.0f }
+		{ item: "sophisticatedstorage:stack_upgrade_tier_4", weight: 3.0f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_2", weight: 8.0f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_3", weight: 3.0f }
+		{ item: "sophisticatedbackpacks:stack_upgrade_tier_4" }
+		{
+			item: {
+				Count: 1b
+				id: "modularrouters:sender_module_3"
+				tag: {
+					modularrouters: {
+						ModuleFilter: { }
+					}
+				}
+			}
+		}
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

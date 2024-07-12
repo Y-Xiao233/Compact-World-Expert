@@ -61,14 +61,15 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "0EFC61A5E0C16C18"
+				id: "6DC5FD6179ECEEBD"
 				item: {
 					Count: 1b
 					id: "kubejs:psiknife"
 					tag: {
-						Damage: 31
+						Damage: 63
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d
