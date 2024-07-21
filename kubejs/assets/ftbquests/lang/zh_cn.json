@@ -857,5 +857,8 @@
   "ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有压缩空间都是在同一个维度中的哦~",
 
 
-  "ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把这个结构放在主世界&a（前面的配方不消耗灵气，所以在压缩空间也能工作，然而后面的配方需要灵气，在压缩空间就会导致无法工作~）"
+  "ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把这个结构放在主世界&a（前面的配方不消耗灵气，所以在压缩空间也能工作，然而后面的配方需要灵气，在压缩空间就会导致无法工作~）",
+  "ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description0":"&d物品槽位中必须要有2个及以上大水车才能进行发电",
+  "ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description1":"&a每增加一个大水车,发电量增加30FE",
+  "ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description2":"&c最多放置16个大水车,也就是480FE"
 }

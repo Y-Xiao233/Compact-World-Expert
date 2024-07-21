@@ -155,6 +155,8 @@
     "tip.compact_world.dream_portal_core.not_enough_mana":"§c魔力池中没有足够的魔力§a(打开梦之精灵门需要10000魔力§c[不会被消耗]§a)",
     "tip.compact_world.dream_portal_core.not_mana_pool":"§c魔力池没有在正确的位置/没有魔力池",
 
+    "tip.compact_world.water_wheel_generator.no_wheel":"§c物品槽位中必须有两个以上大水车才能进行发电",
+
     "tip.compact_world.clicker_1":"§c主世界中可以使用§a玩家模拟器（资源占用为自动点击器的一半），§c更加推荐使用§a玩家模拟器哦~",
     "tip.compact_world.clicker_2":"§a我就要用自动点击器!§c点此禁用该提醒",
     "tip.compact_world.user":"§c压缩空间内无法使用§a玩家模拟器，§c请使用§a自动点击器",
@@ -232,6 +234,13 @@
     "tip.compact_world.information_44":"§a合成时必须使用§c进阶元素聚合器§a才可取出",
     "tip.compact_world.information_45":"§c只能在相同维度传输应力\n\n§a注：所有压缩空间都是在同一个维度中的哦~",
     "tip.compact_world.information_46":"§a可以挖掘所有可以挖掘的方块",
+    "tip.compact_world.information_47":"§a在放置这个物品时副手拿着对应物品可以100%放置对应元素源点:\n\n§d水桶:§b水元素源点\n§d精神恍惚混合物:§c火元素源点\n§d草:§2地元素源点\n§d惰性水晶:§7气元素源点",
+    "tip.compact_world.information_48":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§2地元素源点",
+    "tip.compact_world.information_49":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§c火元素源点",
+    "tip.compact_world.information_50":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§b水元素源点",
+    "tip.compact_world.information_51":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§7气元素源点",
+    "tip.compact_world.information_52":"§a物品槽位中必须要有§c2个及以上大水车§a才能进行发电\n\n§d每增加一个大水车,发电量增加30FE\n§d最多放置16个大水车,也就是480FE",
+
     
 
     

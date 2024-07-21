@@ -362,5 +362,8 @@
 
 
 
-"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&cIt is best to place this structure in the overworld &a(the previous formula does not consume spiritual energy, so it can work in compressed space, but the later formula requires spiritual energy, which will cause it to not work in compressed space~)"
+"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&cIt is best to place this structure in the overworld &a(the previous formula does not consume spiritual energy, so it can work in compressed space, but the later formula requires spiritual energy, which will cause it to not work in compressed space~)",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description0": "&dThere must be 2 or more large water wheels in the item slot to generate electricity",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description1": "&aFor each additional large water wheel, the power generation increases by 30FE",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description2": "&cUp to 16 large water wheels can be placed, which is equivalent to 480FE"
 }

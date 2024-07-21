@@ -12,7 +12,7 @@ ServerEvents.recipes(event =>{
     const recipes = [
         {
             input:'ars_nouveau:sourcestone',
-            output:'create:large_water_wheel',
+            output:'2x create:large_water_wheel',
             pedstalitems:['elementalcraft:swift_alloy_block','spirit:soul_powder_block','create:shaft','elementalcraft:firecrystal_block'],
             source_cost:2000,
             id:`${id_prefix}large_water_wheel`

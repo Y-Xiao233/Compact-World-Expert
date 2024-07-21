@@ -1286,6 +1286,11 @@
 		}
 		{
 			dependencies: ["69AE8E795DE7E41C"]
+			description: [
+				"{ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description0}"
+				"{ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description1}"
+				"{ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description2}"
+			]
 			id: "3AE88605CB1F265B"
 			rewards: [{
 				id: "6C277E72632ED6EC"
@@ -1293,8 +1298,8 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "3F3DF38B7B699990"
-				item: "createaddition:alternator"
+				id: "7C10A9070B8255CB"
+				item: "cwe:water_wheel_generator"
 				type: "item"
 			}]
 			x: 15.0d

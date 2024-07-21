@@ -532,7 +532,8 @@ const jei_hide = [
     "botania:orechid_ignem",
     'industrialforegoing:ore_laser_base',
     'arseng:source_acceptor',
-    'arseng:cable_source_acceptor'
+    'arseng:cable_source_acceptor',
+    'createaddition:alternator'
 ]
 
 

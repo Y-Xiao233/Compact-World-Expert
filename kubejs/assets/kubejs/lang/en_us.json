@@ -154,6 +154,7 @@
     "tip.compact_world.dream_portal_core.error.not_mana_pool":"§cThe magic pool is not in the correct position/there is no magic pool",
     "tip.compact_world.dream_portal_core.not_enough_mana":"§cThere is not enough magic in the magic pool. §a(Opening the Dream Portal requires 10000 mana§c[Will not be consumed]§a.)",
     "tip.compact_world.dream_portal_core.not_mana_pool":"§cThe magic pool is not in the correct position/there is no magic pool",
+    "tip.compact_world.water_wheel_generator.no_wheel": "§cThere must be two or more large water wheels in the item slot to generate FE",
 
     "tip.compact_world.clicker_1":"In the overworld of §c, you can use the §a player user (which occupies half of the resources of the clicker machine), and §c recommends using the §a player simulator more~",
     "tip.compact_world.clicker_2":"§aI'm going to use the clicker machine! §cClick here to disable this reminder",
@@ -226,13 +227,19 @@
     "tip.compact_world.information_38":"§cPlease ues§a Tier Installer §cto upgrade this machine",
     "tip.compact_world.information_39":"§cPlease use the §aFactory Installer§c to upgrade this tank",
     "tip.compact_world.information_40":"§cPlease use the §aFactory Installer§c to upgrade this tank",
-    "tip.compact_world.information_41":"&aThrow the <rainb>Rainbow Ingot</rainb> into the void of the overworld and transform it into this item",
+    "tip.compact_world.information_41":"§aThrow the <rainb>Rainbow Ingot</rainb> into the void of the overworld and transform it into this item",
     "tip.compact_world.information_42":"§aCan destroy the compact compressed space wall in the §coverworld",
     "tip.compact_world.information_43":"§aCan be destroyed by Rainbow Pickaxe §c(only effective in the overworld)",
     "tip.compact_world.information_44":"Advanced element aggregators must be used to extract silicon during synthesis",
     "tip.compact_world.information_45":"§cStress can only be transmitted in the same dimension.\n\n§a Note: All compressed spaces are in the same dimension~",
     "tip.compact_world.information_46":"§aCan mine all the blocks that can be mined",
-    
+    "tip.compact_world.information_47": "§aWhen placing this item, holding the corresponding item in the off-hand can 100% place the corresponding elemental source:\n\n§fWater Bucket: §bWater elemental source\n§fEthereal Mist Mixture: §cFire elemental source\n§fGrass: §2Earth elemental source\n§fInert Crystal: §7Air elemental source",
+    "tip.compact_world.information_48": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §2Earth elemental source",
+    "tip.compact_world.information_49": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §cFire elemental source",
+    "tip.compact_world.information_50": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §bWater elemental source",
+    "tip.compact_world.information_51": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §7Air elemental source",
+    "tip.compact_world.information_52":"§aThere must be §c2 or more large water wheels§a in the item slot to generate electricity.\n\n§dFor each additional large water wheel added, the power generation increases by 30FE.\n§dA maximum of 16 large water wheels can be placed, which is equivalent to 480FE.",
+
 
     
     "kubejs.ponder.fluid_tank.header": "World Crafting",

@@ -267,6 +267,36 @@ const tooltips_jei_information = [
         id:['artifacts:digging_claws'],
         information:[Text.translate('tip.compact_world.information_46')],
         tooltip:true
+    },
+    {
+        id:['elementalcraft:source'],
+        information:[Text.translate('tip.compact_world.information_47')],
+        tooltip:false
+    },
+    {
+        id:['minecraft:grass'],
+        information:[Text.translate('tip.compact_world.information_48')],
+        tooltip:true
+    },
+    {
+        id:['hexerei:mindful_trance_blend'],
+        information:[Text.translate('tip.compact_world.information_49')],
+        tooltip:true
+    },
+    {
+        id:['minecraft:water_bucket'],
+        information:[Text.translate('tip.compact_world.information_50')],
+        tooltip:true
+    },
+    {
+        id:['elementalcraft:inert_crystal'],
+        information:[Text.translate('tip.compact_world.information_51')],
+        tooltip:true
+    },
+    {
+        id:['cwe:water_wheel_generator'],
+        information:[Text.translate('tip.compact_world.information_52')],
+        tooltip:false
     }]
 
 JEIEvents.information(event => {

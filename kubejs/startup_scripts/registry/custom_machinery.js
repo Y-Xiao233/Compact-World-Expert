@@ -10,7 +10,8 @@ StartupEvents.registry("block", (event) => {
         'cwe:fake_mana_pool',
         'cwe:dream_portal_core',
         'cwe:mana_injector',
-        'cwe:ore_laser'
+        'cwe:ore_laser',
+        'cwe:water_wheel_generator'
     ]
 
     custom_machinerys.forEach(custom_machinery =>{

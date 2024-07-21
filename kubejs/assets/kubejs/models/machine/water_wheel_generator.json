@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"0": "kubejs:block/custom_machinery/water_wheel_generator/generator",
+		"particle": "kubejs:block/custom_machinery/water_wheel_generator/generator"
+	},
+	"elements": [
+		{
+			"name": "coil",
+			"from": [0, 0, 3],
+			"to": [16, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"east": {"uv": [1.5, 0, 6.5, 8], "rotation": 180, "texture": "#0", "cullface": "east"},
+				"south": {"uv": [8, 8, 16, 16], "texture": "#0"},
+				"west": {"uv": [1.5, 0, 6.5, 8], "texture": "#0"},
+				"up": {"uv": [1.5, 0, 6.5, 8], "rotation": 90, "texture": "#0", "cullface": "up"},
+				"down": {"uv": [1.5, 0, 6.5, 8], "rotation": 270, "texture": "#0", "cullface": "down"}
+			}
+		},
+		{
+			"name": "housing",
+			"from": [2, 2, 0],
+			"to": [14, 14, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 7]},
+			"faces": {
+				"north": {"uv": [9, 1, 15, 7], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [9, 1, 16, 7], "texture": "#0"},
+				"south": {"uv": [1, 9, 7, 15], "texture": "#0"},
+				"west": {"uv": [8, 1, 15, 7], "texture": "#0"},
+				"up": {"uv": [9, 0, 15, 7], "texture": "#0"},
+				"down": {"uv": [9, 1, 15, 8], "texture": "#0"}
+			}
+		}
+	]
+}

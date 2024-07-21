@@ -552,3 +552,23 @@
 * 10.[Modification] Increased the number of outputs per crafting of the me import/export bus (1 -> 2)
 * 11.[Modification] Increased the number of entangled blocks produced per crafting for one of the recipes(4 -> 6)
 * 12.[Modification] The recipe unbreakable tools must correspond to items with full durability
+
+
+
+
+
+## Release v2.2.0
+
+* 1.[BUG修复]修复了psi金属小刀耐久判断错误的bug
+* 2.[改动]在放置元素源点时,副手拿着对应物品可以直接放出对应类型的元素源点(详情见jei中)
+* 3.[改动]新添了魔源中继器,抽屉功能升级的反向合成配方
+* 4.[改动]禁用交流发电机并添加了水车发电机
+* 5.[改动]修改了大型水车的产出数量(1 -> 2)
+
+
+
+* 1.[BUG Fix] Fixed the bug of durability judgment error of PSI knife
+* 2.[Modification] When placing element source points, the assistant holding the corresponding item can directly release the corresponding type of element source point (see JEI for more details)
+* 3.[Modification] Added reserve recipes for Source Relay and Drawer Function Upgrade
+* 4.[Modification] Disable AC generator and add waterwheel generator
+* 5.[Modification] Modified the output quantity of large water trucks (1->2)

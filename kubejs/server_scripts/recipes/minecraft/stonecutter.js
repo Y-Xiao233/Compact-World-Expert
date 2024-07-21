@@ -87,6 +87,41 @@ ServerEvents.recipes(event =>{
             input:'ars_nouveau:basic_spell_turret',
             output:'ars_nouveau:timer_spell_turret',
             id:`${id_prefix}timer_spell_turret`
+        },
+        {
+            input:'ars_nouveau:relay_splitter',
+            output:'ars_nouveau:relay',
+            id:`${id_prefix}restore/relay_splitter`
+        },
+        {
+            input:'ars_nouveau:relay_warp',
+            output:'ars_nouveau:relay',
+            id:`${id_prefix}restore/relay_warp`
+        },
+        {
+            input:'ars_nouveau:relay_deposit',
+            output:'ars_nouveau:relay',
+            id:`${id_prefix}restore/relay_deposit`
+        },
+        {
+            input:'ars_nouveau:relay_collector',
+            output:'ars_nouveau:relay',
+            id:`${id_prefix}restore/relay_collector`
+        },
+        {
+            input:'functionalstorage:collector_upgrade',
+            output:'kubejs:functionalstorage_upgrade_base',
+            id:`${id_prefix}restore/collector_upgrade`
+        },
+        {
+            input:'functionalstorage:puller_upgrade',
+            output:'kubejs:functionalstorage_upgrade_base',
+            id:`${id_prefix}restore/puller_upgrade`
+        },
+        {
+            input:'functionalstorage:pusher_upgrade',
+            output:'kubejs:functionalstorage_upgrade_base',
+            id:`${id_prefix}restore/pusher_upgrade`
         }]
 
     recipes.forEach(recipe =>{

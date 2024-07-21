@@ -1,0 +1,100 @@
+{
+    "name": "block.cwe.water_wheel_generator",
+    "appearance": {
+        "block": "kubejs:machine/water_wheel_generator",
+        "light":15,
+        "hardness": 1,
+        "requires_tool": false,
+        "running": {
+            "block": "kubejs:machine/water_wheel_generator"
+        }
+    },
+    "gui": [
+      {
+        "texture": "custommachinery:textures/gui/base_background.png",
+        "x": 0,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 80,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "type": "custommachinery:reset",
+        "x": 220,
+        "y": 25
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 255,
+        "y": 0
+      },
+      {
+        "id":"input",
+        "x":67,
+        "y":20,
+        "type":"custommachinery:fluid"
+      },
+      {
+        "id":"input1",
+        "x":87,
+        "y":35,
+        "type":"custommachinery:slot",
+        "ghost":"create:large_water_wheel"
+      },
+      {
+        "id": "output",
+        "x": 149,
+        "y": 20,
+        "type": "custommachinery:energy"
+      },
+      {
+        "x": 116,
+        "y": 35,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 236,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "block.cwe.water_wheel_generator",
+        "x": 7,
+        "y": 5,
+        "type": "custommachinery:text"
+      }
+    ],
+    "components": [
+      {
+        "mode":"input",
+        "id":"input",
+        "type": "custommachinery:fluid",
+        "capacity": 10000
+      },
+      {
+        "mode":"input",
+        "id":"input1",
+        "type": "custommachinery:item",
+        "capacity": 16,
+        "filter": ["create:large_water_wheel"],
+        "whitelist": true
+      },
+      {
+        "mode": "output",
+        "id": "output",
+        "type": "custommachinery:energy",
+        "capacity": 50000,
+        "config": {
+          "default": "output"
+        }
+      },
+      {
+        "type": "custommachinery:redstone",
+        "poweroutput": 15
+      }
+    ],
+    "catalysts": []
+  }

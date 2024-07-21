@@ -851,5 +851,8 @@
 "ftbquests.chapter.332E2E63AD3628C2.quests91.description1":"&a注：所有壓縮空間都是在同一個維度中的哦~",
 
 
-"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把這個結構放在主世界&a（前面的配方不消耗靈氣，所以在壓縮空間也能工作，然而後面的配方需要靈氣，在壓縮空間就會導致無法工作~）"
+"ftbquests.chapter.782A5D42E978EAB6.quests53.description0":"&c最好把這個結構放在主世界&a（前面的配方不消耗靈氣，所以在壓縮空間也能工作，然而後面的配方需要靈氣，在壓縮空間就會導致無法工作~）",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description0": "&d物品槽位中必須要有2個及以上大水車才能進行發電",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description1": "&a每增加一個大水車,發電量增加30FE",
+"ftbquests.chapter.0CCB7C52D9D7412.water_wheel_generator.description2": "&c最多放置16個大水車,也就是480FE"
 }

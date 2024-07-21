@@ -327,14 +327,14 @@ ServerEvents.recipes(event => {
       id:`${id_prefix}offering_table`
      },
      {
-      output:'createaddition:alternator',
+      output:'cwe:water_wheel_generator',
       pattern:['AAA','ABA','ACA'],
       key:{
         A: 'create:limestone',
         B: 'naturesaura:sky_ingot_block',
         C: 'create:shaft'
       },
-      id:`${id_prefix}alternator`
+      id:`${id_prefix}water_wheel_generator`
      },
      {
       output:'cyclic:collector',

@@ -4,7 +4,7 @@ BlockEvents.rightClicked(event => {
 
     if (((hand.name() == "MAIN_HAND") ||
         (hand.name() == "OFF_HAND")) &&
-        (item == Item.of('kubejs:psiknife', '{Damage:31}'))) {
+        (item == Item.of('kubejs:psiknife', '{Damage:63}'))) {
         player.tell(Text.translate('tip.compact_world.psiknife'))
         event.cancel()
     }
