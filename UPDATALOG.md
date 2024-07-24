@@ -590,14 +590,16 @@
 * 11.[改动]添加了一种黏土块的获取方式
 
 
-* 1. [BUG fix] Rewritten the recipe code for fake fluid tank, fixed the issues of incorrect quantity of items on the storage platform and incorrect texture rendering
-* 2. [BUG Fix] Fixed the issue of texture rendering errors during the production of Arcane Spirit
-* 3. [BUG Fix] Fixed the issue of rendering errors in two mana pools in the world during the recipes of the Dream Portal Core
-* 4. [Modification] Unlocked the Alternator and made their composite meters interchangeable with water wheel generators
-* 5. [Modification] Modified the recipe of the basic pressurized tube
-* 6. [Modification] Added a block tag of 'create: winch_pickup' to all custom machines, allowing them to be easily disassembled using the Create wrench
-* 7. [Modification] Modified the recipe of the content observer and attribute filter, and added them to the task random reward table
-* 8. [Modification] Modified the recipe of the observer
-* 9. [Modification] Hidden some exquisite backpack/storage upgrades that cannot be made in JEI
-* 10. [Modification] Modified the recipe for  (advanced) magnets upgrade
-* 11. [Modification] Added a way to obtain clay block
+
+
+* 1.[BUG fix] Rewritten the recipe code for fake fluid tank, fixed the issues of incorrect quantity of items on the storage platform and incorrect texture rendering
+* 2.[BUG Fix] Fixed the issue of texture rendering errors during the production of Arcane Spirit
+* 3.[BUG Fix] Fixed the issue of rendering errors in two mana pools in the world during the recipes of the Dream Portal Core
+* 4.[Modification] Unlocked the Alternator and made their composite meters interchangeable with water wheel generators
+* 5.[Modification] Modified the recipe of the basic pressurized tube
+* 6.[Modification] Added a block tag of 'create: winch_pickup' to all custom machines, allowing them to be easily disassembled using the Create wrench
+* 7.[Modification] Modified the recipe of the content observer and attribute filter, and added them to the task random reward table
+* 8.[Modification] Modified the recipe of the observer
+* 9.[Modification] Hidden some exquisite backpack/storage upgrades that cannot be made in JEI
+* 10.[Modification] Modified the recipe for  (advanced) magnets upgrade
+* 11.[Modification] Added a way to obtain clay block
