@@ -61,7 +61,8 @@ CreateEvents.spoutHandler(event =>{
 
                 if(heldItem == held_item){
                     if(!simulate){
-                        block.mergeEntityData(`{HeldItem:{Item:{id:'${heldItem}',Count:${heldItem_count}b}},OutputBuffer:{Size:8,Items:[{Slot:0,id:'${output}',Count:${output_amount+1}b}]}}`)
+                        // block.mergeEntityData(`{HeldItem:{Item:{id:'${heldItem}',Count:${heldItem_count}b}},OutputBuffer:{Size:8,Items:[{Slot:0,id:'${output}',Count:${output_amount+1}b}]}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x} ${block.y} ${block.z} {HeldItem:{Item:{id:'${heldItem}',Count:${heldItem_count}b}},OutputBuffer:{Size:8,Items:[{Slot:0,id:'${output}',Count:${output_amount+1}b}]}}`)
                     }return 1000;
                 }else return 0;
             }else return 0;

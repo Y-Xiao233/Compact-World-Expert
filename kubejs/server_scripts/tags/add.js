@@ -25,4 +25,5 @@ ServerEvents.tags('block', event => {
     event.add('cwe:mana_pool','botania:creative_pool')
     event.add('cwe:mana_pool','botania:mana_pool')
     event.add('cwe:mana_pool','botania:diluted_pool')
+    event.add('create:wrench_pickup',/cwe:.*/)
 })

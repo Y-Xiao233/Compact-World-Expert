@@ -1083,6 +1083,23 @@
 			x: 12.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["70259D176FE131FE"]
+			id: "2FE5B9EC323A9208"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "119C293127A5E8C2"
+				table_id: 5834390609918850003L
+				type: "random"
+			}]
+			tasks: [{
+				id: "16DCC4661BAE4943"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
 	]
 	title: "{ftbquests.chapter.1.title}"
 }

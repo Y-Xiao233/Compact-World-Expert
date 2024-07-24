@@ -717,7 +717,27 @@ ServerEvents.recipes(event => {
     'create:redstone_link',
     'arseng:source_acceptor',
     'arseng:cable_source_acceptor',
-    'naturesaura:animal_spawner'
+    'naturesaura:animal_spawner',
+    'sophisticatedbackpacks:feeding_upgrade',
+    'sophisticatedbackpacks:void_upgrade',
+    'sophisticatedbackpacks:advanced_void_upgrade',
+    'sophisticatedbackpacks:refill_upgrade',
+    'sophisticatedbackpacks:advanced_refill_upgrade',
+    'sophisticatedbackpacks:inception_upgrade',
+    'sophisticatedbackpacks:everlasting_upgrade',
+    'sophisticatedbackpacks:xp_pump_upgrade',
+    'sophisticatedstorage:advanced_feeding_upgrade',
+    'sophisticatedstorage:feeding_upgrade',
+    'sophisticatedstorage:void_upgrade',
+    'sophisticatedstorage:advanced_void_upgrade',
+    'sophisticatedstorage:pump_upgrade',
+    'sophisticatedstorage:advanced_pump_upgrade',
+    'sophisticatedstorage:xp_pump_upgrade',
+    'sophisticatedbackpacks:magnet_upgrade',
+    'sophisticatedbackpacks:advanced_magnet_upgrade',
+    'sophisticatedstorage:advanced_magnet_upgrade',
+    'sophisticatedstorage:magnet_upgrade',
+    'sophisticatedbackpacks:advanced_feeding_upgrade'
     ]
 
     const remove_by_id = [
@@ -1817,7 +1837,8 @@ ServerEvents.recipes(event => {
         /create:cutting\/compat\/ars_nouveau\/stripped.*/,
         'modularrouters:sender_module_3',
         'create:milling/gravel',
-        'mekanism:enriching/conversion/gravel_to_flint'
+        'mekanism:enriching/conversion/gravel_to_flint',
+        'mekanism:transmitter/pressurized_tube/basic'
     ]
 
     const remove_by_type = [
@@ -1834,7 +1855,10 @@ ServerEvents.recipes(event => {
         'fluxnetworks:creating_flux',
         'mekanism:combiner',
         'ironfurnaces:generator_smoking',
-        'cyclic:generator_fluid'
+        'cyclic:generator_fluid',
+        'create:crafting/logistics/content_observer',
+        'ironfurnaces:furnaces/gold_furnace2',
+        'ironfurnaces:furnaces/gold_furnace'
     ]
 
     remove_by_output.forEach(outputs =>{

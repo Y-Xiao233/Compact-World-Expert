@@ -839,6 +839,35 @@ ServerEvents.recipes(event => {
         B: 'kubejs:bottle_water'
       },
       id:`${id_prefix}feather`
+     },
+     {
+      output:'sophisticatedbackpacks:advanced_magnet_upgrade',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'kubejs:soul_steel_sheet',
+        B: 'sophisticatedbackpacks:magnet_upgrade'
+      },
+      id:`${id_prefix}backpacks_advanced_magnet_upgrade`
+     },
+     {
+      output:'sophisticatedstorage:advanced_magnet_upgrade',
+      pattern:['AAA','ABA','AAA'],
+      key:{
+        A: 'kubejs:soul_steel_sheet',
+        B: 'sophisticatedstorage:magnet_upgrade'
+      },
+      id:`${id_prefix}storage_advanced_magnet_upgrade`
+     },
+     {
+      output:'sophisticatedbackpacks:advanced_feeding_upgrade',
+      pattern:[' D ','BCB','AAA'],
+      key:{
+        A: 'minecraft:hay_block',
+        B: 'minecraft:gold_ingot',
+        C: 'sophisticatedbackpacks:upgrade_base',
+        D: 'naturesaura:gold_leaf'
+      },
+      id:`${id_prefix}advanced_feeding_upgrade`
      }]
   
   recipes.forEach(recipe =>{

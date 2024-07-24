@@ -85,7 +85,7 @@ ServerEvents.recipes(event =>{
 
 
     function dream_portal_core_recipes(input1,input2,output,output_chance,time,id){
-        custom_machine('cwe:dream_portal_core',time).dimensionWhitelist('minecraft:overworld').id(`${id_prefix}${id}`)
+        custom_machine('cwe:dream_portal_core',time)
         .requireFunctionOnStart(ctx =>{
             const {machine, block} = ctx
             const blockstate = block.getBlockState()
@@ -96,8 +96,10 @@ ServerEvents.recipes(event =>{
                     let mana_pool_1_count = mana_pool_1.getEntityData()["mana"]
                     let mana_pool_2_count = mana_pool_2.getEntityData()["mana"]
                     if(mana_pool_1_count >= 1000 && mana_pool_2_count >= 1000){
-                        mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
-                        mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x + 2} ${block.y} ${block.z - 1} {mana:${mana_pool_1_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x - 2} ${block.y} ${block.z - 1} {mana:${mana_pool_2_count - 1000}}`)
+                        // mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
+                        // mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
                         return ctx.success()
                     }else{
                         return ctx.error(Text.translate("tip.compact_world.dream_portal_core.error.not_enough_mana"))
@@ -112,8 +114,10 @@ ServerEvents.recipes(event =>{
                     let mana_pool_1_count = mana_pool_1.getEntityData()["mana"]
                     let mana_pool_2_count = mana_pool_2.getEntityData()["mana"]
                     if(mana_pool_1_count >= 1000 && mana_pool_2_count >= 1000){
-                        mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
-                        mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x + 2} ${block.y} ${block.z + 1} {mana:${mana_pool_1_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x - 2} ${block.y} ${block.z + 1} {mana:${mana_pool_2_count - 1000}}`)
+                        // mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
+                        // mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
                         return ctx.success()
                     }else{
                         return ctx.error(Text.translate("tip.compact_world.dream_portal_core.error.not_enough_mana"))
@@ -128,8 +132,10 @@ ServerEvents.recipes(event =>{
                     let mana_pool_1_count = mana_pool_1.getEntityData()["mana"]
                     let mana_pool_2_count = mana_pool_2.getEntityData()["mana"]
                     if(mana_pool_1_count >= 1000 && mana_pool_2_count >= 1000){
-                        mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
-                        mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x - 1} ${block.y} ${block.z - 2} {mana:${mana_pool_1_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x - 1} ${block.y} ${block.z + 2} {mana:${mana_pool_2_count - 1000}}`)
+                        // mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
+                        // mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
                         return ctx.success()
                     }else{
                         return ctx.error(Text.translate("tip.compact_world.dream_portal_core.error.not_enough_mana"))
@@ -144,8 +150,10 @@ ServerEvents.recipes(event =>{
                     let mana_pool_1_count = mana_pool_1.getEntityData()["mana"]
                     let mana_pool_2_count = mana_pool_2.getEntityData()["mana"]
                     if(mana_pool_1_count >= 1000 && mana_pool_2_count >= 1000){
-                        mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
-                        mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x + 1} ${block.y} ${block.z - 2} {mana:${mana_pool_1_count - 1000}}`)
+                        block.getLevel().server.runCommandSilent(`data merge block ${block.x + 1} ${block.y} ${block.z + 2} {mana:${mana_pool_2_count - 1000}}`)
+                        // mana_pool_1.mergeEntityData(`{mana:${mana_pool_1_count - 1000}}`)
+                        // mana_pool_2.mergeEntityData(`{mana:${mana_pool_2_count - 1000}}`)
                         return ctx.success()
                     }else{
                         return ctx.error(Text.translate("tip.compact_world.dream_portal_core.error.not_enough_mana"))
@@ -178,6 +186,8 @@ ServerEvents.recipes(event =>{
         .produceItem(output).chance(output_chance)
         .requireItem(input1)
         .requireItem(input2)
+        .dimensionWhitelist('minecraft:overworld')
+        .id(`${id_prefix}${id}`)
     }
 
     dream_portal_core_recipes('powah:steel_energized','minecraft:orange_dye','4x minecraft:copper_ingot',1,20,'copper_ingot')

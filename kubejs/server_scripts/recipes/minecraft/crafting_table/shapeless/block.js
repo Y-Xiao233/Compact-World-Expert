@@ -158,6 +158,18 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['botanypots:terracotta_botany_pot','minecraft:hopper'],
             id:`${id_prefix}terracotta_hopper_botany_pot`
+        },
+        {
+            output:'cwe:water_wheel_generator',
+            output_amount:1,
+            input:['createaddition:alternator'],
+            id:`${id_prefix}water_wheel_generator_from_alternator`
+        },
+        {
+            output:'createaddition:alternator',
+            output_amount:1,
+            input:['cwe:water_wheel_generator'],
+            id:`${id_prefix}alternator_from_water_wheel_generator`
         }]
 
     recipes.forEach(recipe =>{

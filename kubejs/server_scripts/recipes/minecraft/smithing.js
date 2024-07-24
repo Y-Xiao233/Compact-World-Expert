@@ -146,6 +146,18 @@ ServerEvents.recipes(event =>{
             base_input:'mekanism:laser',
             addition_input:'industrialforegoing:machine_frame_supreme',
             id:`${id_prefix}supercharged_coil`
+        },
+        {
+            output:'sophisticatedbackpacks:magnet_upgrade',
+            base_input:'sophisticatedbackpacks:upgrade_base',
+            addition_input:'cyclic:collector',
+            id:`${id_prefix}backpacks_magnet_upgrade`
+        },
+        {
+            output:'sophisticatedstorage:magnet_upgrade',
+            base_input:'sophisticatedstorage:upgrade_base',
+            addition_input:'cyclic:collector',
+            id:`${id_prefix}storage_magnet_upgrade`
         }]
 
     recipes.forEach(recipe =>{

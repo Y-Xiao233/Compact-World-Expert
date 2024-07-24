@@ -533,7 +533,21 @@ const jei_hide = [
     'industrialforegoing:ore_laser_base',
     'arseng:source_acceptor',
     'arseng:cable_source_acceptor',
-    'createaddition:alternator'
+    'sophisticatedbackpacks:feeding_upgrade',
+    'sophisticatedbackpacks:void_upgrade',
+    'sophisticatedbackpacks:advanced_void_upgrade',
+    'sophisticatedbackpacks:refill_upgrade',
+    'sophisticatedbackpacks:advanced_refill_upgrade',
+    'sophisticatedbackpacks:inception_upgrade',
+    'sophisticatedbackpacks:everlasting_upgrade',
+    'sophisticatedbackpacks:xp_pump_upgrade',
+    'sophisticatedstorage:advanced_feeding_upgrade',
+    'sophisticatedstorage:feeding_upgrade',
+    'sophisticatedstorage:void_upgrade',
+    'sophisticatedstorage:advanced_void_upgrade',
+    'sophisticatedstorage:pump_upgrade',
+    'sophisticatedstorage:advanced_pump_upgrade',
+    'sophisticatedstorage:xp_pump_upgrade'
 ]
 
 

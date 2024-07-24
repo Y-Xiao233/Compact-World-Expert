@@ -1423,6 +1423,25 @@ ServerEvents.recipes(event => {
         B: 'create:shaft'
       },
       id:`${id_prefix}cogwheel`
+     },
+     {
+      output:'8x mekanism:basic_pressurized_tube',
+      pattern:['   ','ABA','   '],
+      key:{
+        A: 'botania:mana_diamond',
+        B: 'elementalcraft:elementpipe_improved'
+      },
+      id:`${id_prefix}basic_pressurized_tube`
+     },
+     {
+      output:'create:content_observer',
+      pattern:[' A ',' B ',' C '],
+      key:{
+        A: 'minecraft:redstone_block',
+        B: 'create:andesite_casing',
+        C: 'minecraft:observer'
+      },
+      id:`${id_prefix}content_observer`
      }]
   
   recipes.forEach(recipe =>{

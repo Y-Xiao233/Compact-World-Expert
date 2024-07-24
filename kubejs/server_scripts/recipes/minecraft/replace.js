@@ -481,6 +481,18 @@ ServerEvents.recipes(event =>{
             filter:{output:'ars_nouveau:basic_spell_turret'},
             original:'minecraft:redstone_block',
             replace:'naturesaura:sky_ingot_block'
+        },
+        {
+            type:'input',
+            filter:{output:'create:attribute_filter'},
+            original:'create:brass_nugget',
+            replace:'elementalcraft:swift_alloy_nugget'
+        },
+        {
+            type:'input',
+            filter:{output:'minecraft:observer'},
+            original:'minecraft:quartz',
+            replace:'kubejs:gem_water'
         }]
 
     replace_recipes.forEach(replace_recipe =>{

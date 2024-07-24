@@ -142,6 +142,13 @@ ServerEvents.recipes(event =>{
             under_block:'create:brass_casing',
             mana:10000,
             id:`${id_prefix}aqueous_spirit`
+        },
+        {
+            input:'ars_nouveau:source_gem_block',
+            output:'minecraft:clay',
+            under_block:'spirit:soul_steel_block',
+            mana:1000,
+            id:`${id_prefix}clay`
         }]
 
     recipes.forEach(recipe =>{

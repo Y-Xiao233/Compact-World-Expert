@@ -572,3 +572,32 @@
 * 3.[Modification] Added reserve recipes for Source Relay and Drawer Function Upgrade
 * 4.[Modification] Disable AC generator and add waterwheel generator
 * 5.[Modification] Modified the output quantity of large water trucks (1->2)
+
+
+
+## Release v2.3.0
+
+* 1.[BUG修复]重写了伪造流体储罐的合成代码,修复了置物台上物品数量错误以及贴图渲染错误的问题
+* 2.[BUG修复]修复了制作奥术精魂时贴图渲染错误的问题
+* 3.[BUG修复]修复了梦之精灵门合成时世界中的两个魔力池渲染错误的问题
+* 4.[改动]解禁了交流发电机,并使其合成表能与水车发电机互换
+* 5.[改动]修改了基础加压管道的配方
+* 6.[改动]为所有自定义机器添加了'create:wrench_pickup'的方块标签,使其能直接用Create的扳手拆卸
+* 7.[改动]修改了智能侦测器,属性过滤器的合成配方,并将其加入任务随机奖励表中
+* 8.[改动]修改了侦测器的合成配方
+* 9.[改动]在jei中隐藏了一些无法制作的精妙背包/箱子升级
+* 10.[改动]修改了(高级)磁铁升级的配方
+* 11.[改动]添加了一种黏土块的获取方式
+
+
+* 1. [BUG fix] Rewritten the recipe code for fake fluid tank, fixed the issues of incorrect quantity of items on the storage platform and incorrect texture rendering
+* 2. [BUG Fix] Fixed the issue of texture rendering errors during the production of Arcane Spirit
+* 3. [BUG Fix] Fixed the issue of rendering errors in two mana pools in the world during the recipes of the Dream Portal Core
+* 4. [Modification] Unlocked the Alternator and made their composite meters interchangeable with water wheel generators
+* 5. [Modification] Modified the recipe of the basic pressurized tube
+* 6. [Modification] Added a block tag of 'create: winch_pickup' to all custom machines, allowing them to be easily disassembled using the Create wrench
+* 7. [Modification] Modified the recipe of the content observer and attribute filter, and added them to the task random reward table
+* 8. [Modification] Modified the recipe of the observer
+* 9. [Modification] Hidden some exquisite backpack/storage upgrades that cannot be made in JEI
+* 10. [Modification] Modified the recipe for  (advanced) magnets upgrade
+* 11. [Modification] Added a way to obtain clay block
