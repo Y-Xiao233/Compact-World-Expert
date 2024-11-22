@@ -225,6 +225,7 @@
     "tip.compact_world.information_50":"主手拿著§d元素源點§f時,§c副手拿著這個物品可以100%放置出§b水元素源點",
     "tip.compact_world.information_51":"主手拿著§d元素源點§f時,§c副手拿著這個物品可以100%放置出§7氣元素源點",
     "tip.compact_world.information_52":"§a物品槽位中必須要有§c2個及以上大水車§a才能進行發電\n\n§d每增加一個大水車,發電量增加30FE\n§d最多放置16個大水車,也就是480FE",
+    "tip.compact_world.information_53":"§a若無法合成請使用紅石比較器查看其輸出信號是否為15格（若不是15格就是容器沒滿）",
     "tip.compact_world.jei_hide_message": "§c該物品已被禁用",
     "tip.compact_world.out_of_space": "§c你不能離開這個區域，除非你是創造模式 / 旁觀者模式或背包中有彩虹錠",
     "tip.compact_world.psiknife": "§c你的工具快沒有魔源的支持了",

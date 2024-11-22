@@ -297,6 +297,11 @@ const tooltips_jei_information = [
         id:['cwe:water_wheel_generator'],
         information:[Text.translate('tip.compact_world.information_52')],
         tooltip:false
+    },
+    {
+        id:['elementalcraft:elementpipe_creative'],
+        information:[Text.translate('tip.compact_world.information_53')],
+        tooltip:false
     }]
 
 JEIEvents.information(event => {

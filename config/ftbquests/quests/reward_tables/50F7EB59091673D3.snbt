@@ -430,6 +430,8 @@
 		}
 		{ item: "create:content_observer", weight: 10.0f }
 		{ item: "create:attribute_filter", weight: 10.0f }
+		{ count: 3, item: "thermal:machine_speed_augment", weight: 20.0f }
+		{ count: 2, item: "thermalendergy:efficiency_nullifier_augment", weight: 4.0f }
 	]
 	title: "{ftbquests.reward_tables.50F7EB59091673D3.title}"
 }

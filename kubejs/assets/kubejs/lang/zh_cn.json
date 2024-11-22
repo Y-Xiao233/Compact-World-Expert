@@ -240,6 +240,7 @@
     "tip.compact_world.information_50":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§b水元素源点",
     "tip.compact_world.information_51":"主手拿着§d元素源点§f时,§c副手拿着这个物品可以100%放置出§7气元素源点",
     "tip.compact_world.information_52":"§a物品槽位中必须要有§c2个及以上大水车§a才能进行发电\n\n§d每增加一个大水车,发电量增加30FE\n§d最多放置16个大水车,也就是480FE",
+    "tip.compact_world.information_53":"§a若无法合成请使用红石比较器查看其输出信号是否为15格(若不是15格就是容器没满)",
 
     
 

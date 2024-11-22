@@ -8,7 +8,7 @@ ServerEvents.recipes(event =>{
             id:'osmium'
         },
         {
-            input:gases('mekanism:antimatter',50),
+            input:gases('mekanism:antimatter',25),
             output:'mekanism:pellet_antimatter',
             id:'pellet_antimatter'
         }]

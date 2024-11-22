@@ -90,8 +90,8 @@ ServerEvents.recipes(event =>{
             {"item":'minecraft:raw_gold'}
             ], //inputItem:5
             output:'create:crushed_raw_gold',
-            output_amount:8,
-            time:80,
+            output_amount:5,
+            time:50,
             id:`${id_prefix}crushed_raw_gold`
         },
         {

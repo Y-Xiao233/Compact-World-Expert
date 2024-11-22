@@ -239,6 +239,7 @@
     "tip.compact_world.information_50": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §bWater elemental source",
     "tip.compact_world.information_51": "When holding §dElemental Source§f in the main hand, holding this item in the off-hand can 100% place §7Air elemental source",
     "tip.compact_world.information_52":"§aThere must be §c2 or more large water wheels§a in the item slot to generate electricity.\n\n§dFor each additional large water wheel added, the power generation increases by 30FE.\n§dA maximum of 16 large water wheels can be placed, which is equivalent to 480FE.",
+    "tip.compact_world.information_53":"§aIf a cannot be crafted, please use a redstone comparator to check if its output signal is 15 grids (if it is not 15 grids, it means the container is not full)",
 
 
     

@@ -17,7 +17,7 @@ ServerEvents.recipes(event =>{
         },
         {
             input:'minecraft:raw_gold',
-            output:'3x create:crushed_raw_gold',
+            output:'2x create:crushed_raw_gold',
             id:`${id_prefix}crushed_raw_gold`
         },
         {

@@ -14,7 +14,7 @@ ServerEvents.recipes(event =>{
         {
             input:[items('spirit:soul_glass'),items('spirit:compressed_soul_powder_block'),items('spirit:soul_steel_block'),items('minecraft:lapis_block')],
             output:items('vitalize:soul_revitalizer'),
-            mana:1000000,
+            mana:200000,
             id:'soul_revitalizer'
         },
         {

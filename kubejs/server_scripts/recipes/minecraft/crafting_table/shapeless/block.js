@@ -170,7 +170,13 @@ ServerEvents.recipes(event => {
             output_amount:1,
             input:['cwe:water_wheel_generator'],
             id:`${id_prefix}alternator_from_water_wheel_generator`
-        }]
+        },
+        {
+            output:'minecraft:andesite',
+            output_amount:9,
+            input:['compressium:andesite_1'],
+            id:`${id_prefix}andesite_1_uncraft`
+           }]
 
     recipes.forEach(recipe =>{
         event.shapeless(Item.of(recipe.output,recipe.output_amount),recipe.input).id(recipe.id)

@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>{
         },
         {
             input:'create:crushed_raw_gold',
-            output:'kubejs:shining_gold_mix',
+            output:'2x kubejs:shining_gold_mix',
             pedstalitems:[],
             source_cost:50,
             id:`${id_prefix}shining_gold_mix`

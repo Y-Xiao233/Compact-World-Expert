@@ -603,3 +603,27 @@
 * 9.[Modification] Hidden some exquisite backpack/storage upgrades that cannot be made in JEI
 * 10.[Modification] Modified the recipe for  (advanced) magnets upgrade
 * 11.[Modification] Added a way to obtain clay block
+
+
+
+## Release v2.4.0
+
+* 1.[BUG修复]修复了强化激发器无法拆除的bug(现在奇异饰品的挖掘爪以及机械动力的扳手都可以拆了)
+* 2.[改动]为一重压缩安山岩添加了拆解配方[\#38 by TimeBender](https://github.com/Y-Xiao233/Compact-World-Expert/issues/38)
+* 3.[改动]降低合成灵魂模拟器所需要的魔力(1000000->20000)
+* 4.[改动]降低合成反物质球所需的反物质(50->25)
+* 5.[改动]将热力及其附属的效率增幅器加入任务奖励品表(仍无法合成)
+* 6.[改动]修改了粉碎金矿石合成闪耀金混合物的数量(1->2)
+* 7.[改动]修改了部分合成方式合成粉碎的金矿石的数量(带杵的臼:8->5;富集仓3->2)
+* 8.[改动]为创造元素导管添加合成信息
+
+
+
+* 1.[BUG Fix] Fixed the bug where the enhanced exciter could not be removed (now the digging claw and mechanical power wrench of the strange accessory can be removed)
+* 2.[Modification] Added disassembly recipe for compressed andesite[\#38 by TimeBender](https://github.com/Y-Xiao233/Compact-World-Expert/issues/38)
+* 3.[Modification] Reduce the magic required for synthesizing soul simulators (1000000->20000)
+* 4.[Modification] Reduce the amount of antimatter required for synthesizing antimatter spheres (50->25)
+* 5.[Modification] Add the heat and its associated efficiency amplifier to the task reward list (still unable to synthesize)
+* 6.[Modification] Modified the quantity of synthesized sparkling gold mixture from crushed gold ore (1->2)
+* 7.[Modification] Modified the quantity of gold ore synthesized and crushed in some synthesis methods (mortar with pestle: 8->5; enrichment bin 3->2)
+* 8.[Modification] Add synthetic information to create element conduits
