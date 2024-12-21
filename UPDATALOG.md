@@ -627,3 +627,15 @@
 * 6.[Modification] Modified the quantity of synthesized sparkling gold mixture from crushed gold ore (1->2)
 * 7.[Modification] Modified the quantity of gold ore synthesized and crushed in some synthesis methods (mortar with pestle: 8->5; enrichment bin 3->2)
 * 8.[Modification] Add synthetic information to create element conduits
+
+
+
+
+
+# Release v2.4.0-hotfix
+
+* [BUG修复]更新了JEI(修复了因版本问题而导致的mod不兼容)
+
+
+
+* [BUG fix] Updated JEI (fixed mod incompatibility caused by version issues)
