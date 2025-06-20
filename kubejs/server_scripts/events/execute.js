@@ -1,5 +1,8 @@
 PlayerEvents.tick(event =>{
     const {server, player, level} = event
+    if(player.tags.contains("without_space_limit")){
+        return
+    }
 
     if(level.dimension != 'minecraft:overworld') return
     if((player.creative)||(player.spectator)||(player.getInventory().contains('kubejs:rainbow_ingot'))) return

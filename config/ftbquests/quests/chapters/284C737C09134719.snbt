@@ -691,9 +691,6 @@
 		{
 			dependencies: ["1FDCB826EB03CF3C"]
 			description: [
-				"{ftbquests.chapter.284C737C09134719.quests8.description0}"
-				""
-				""
 				"{ftbquests.chapter.284C737C09134719.quests8.description4}"
 				"{ftbquests.chapter.284C737C09134719.quests8.description5}"
 				"{ftbquests.chapter.284C737C09134719.quests8.description6}"
@@ -722,6 +719,43 @@
 			title: "{ftbquests.chapter.284C737C09134719.quests9.title}"
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			id: "0FA64176EC481EE9"
+			rewards: [{
+				command: "/tag @a remove without_space_limit"
+				id: "410DE98E9A6BECDB"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0C37A4DA2693540D"
+				title: "{ftbquests.chapter.284C737C09134719.quests10.title}"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1FDCB826EB03CF3C"]
+			description: [
+				"{ftbquests.chapter.284C737C09134719.quests11.description}"
+				"{image:kubejs:textures/ftbquests/flash.png width:100 height:100 align:1}"
+			]
+			id: "6577A451DE6E84FB"
+			rewards: [{
+				command: "/tag @a add without_space_limit"
+				id: "3D53BAFAFAE4F274"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "67871335A7E92BE1"
+				title: "{ftbquests.chapter.284C737C09134719.quests11.title}"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.5d
 		}
 	]
 	title: "{ftbquests.chapter.284C737C09134719.title}"

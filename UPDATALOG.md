@@ -639,3 +639,17 @@
 
 
 * [BUG fix] Updated JEI (fixed mod incompatibility caused by version issues)
+
+
+
+# Release v2.5.0
+* [BUG修复]将JEI版本降至11.6.0.1019以此修复一些配方显示bug
+* [BUG修复]将almostunified版本降至0.8.0以此修复与jei的兼容
+* [改动]更新了jecharacters的版本
+* [改动]添加了一个任务,可以让玩家不受空间限制
+
+
+* [BUG fix]Reduce the JEI version to 11.6.0.1019 to fix some recipe display bugs
+* [BUG fix]Reduce the almostunified version to 0.8.0 to fix compatibility with JEI
+* [Modification]Updated the version of jecharacters
+* [Modification Added a quest that allows players to operate without space limitations
